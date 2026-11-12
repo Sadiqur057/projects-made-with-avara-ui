@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored Avara UI registry code (copied in by the shadcn CLI).
+    "components/custom/**",
+    "lib/animate.ts",
+    "lib/accent.ts",
   ]),
 ]);
 

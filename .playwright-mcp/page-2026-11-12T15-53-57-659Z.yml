@@ -1,0 +1,754 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "IRONPULSE" [ref=e6] [cursor=pointer]:
+            - /url: /
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "Classes" [ref=e17] [cursor=pointer]:
+                - /url: /classes
+            - listitem [ref=e18]:
+              - link "Schedule" [ref=e19] [cursor=pointer]:
+                - /url: /schedule
+            - listitem [ref=e20]:
+              - link "Trainers" [ref=e21] [cursor=pointer]:
+                - /url: /trainers
+            - listitem [ref=e22]:
+              - link "Membership" [ref=e23] [cursor=pointer]:
+                - /url: /membership
+            - listitem [ref=e24]:
+              - link "Contact" [ref=e25] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e27]:
+          - link "My Dashboard" [ref=e28] [cursor=pointer]:
+            - /url: /dashboard
+          - link "Join now" [ref=e29] [cursor=pointer]:
+            - /url: /membership
+  - main [ref=e30]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - paragraph [ref=e67]: Train harder. Recover smarter.
+        - heading "IRONPULSE" [level=1] [ref=e70]:
+          - text: IRONPULSE
+          - generic [aria-hidden] [ref=e71]: IRONPULSE
+        - paragraph [ref=e72]: 40+ coached classes a week, a serious strength floor and a recovery zone that actually gets used. Come try it free for 7 days.
+      - group "Photographs" [ref=e73]:
+        - img "Athlete setting up under a loaded barbell" [ref=e76]
+        - link "Start free trial" [ref=e103] [cursor=pointer]:
+          - /url: "#free-trial"
+        - generic [ref=e111]: Athlete setting up under a loaded barbell
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - button "Previous photograph" [ref=e114]
+          - button "Next photograph" [ref=e117]
+        - navigation "Social" [ref=e120]:
+          - link "Instagram" [ref=e121] [cursor=pointer]:
+            - /url: https://instagram.com
+          - link "YouTube" [ref=e122] [cursor=pointer]:
+            - /url: https://youtube.com
+          - link "TikTok" [ref=e123] [cursor=pointer]:
+            - /url: https://tiktok.com
+    - region "What we train" [ref=e124]:
+      - generic [aria-hidden] [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e127]: Strength
+          - generic [ref=e129]: HIIT
+          - generic [ref=e131]: Boxing
+          - generic [ref=e133]: Cycling
+          - generic [ref=e135]: Yoga
+          - generic [ref=e137]: Mobility
+          - generic [ref=e139]: Conditioning
+          - generic [ref=e141]: Recovery
+        - generic [aria-hidden] [ref=e143]:
+          - generic [ref=e144]: Strength
+          - generic [ref=e146]: HIIT
+          - generic [ref=e148]: Boxing
+          - generic [ref=e150]: Cycling
+          - generic [ref=e152]: Yoga
+          - generic [ref=e154]: Mobility
+          - generic [ref=e156]: Conditioning
+          - generic [ref=e158]: Recovery
+        - generic [aria-hidden] [ref=e160]:
+          - generic [ref=e161]: Strength
+          - generic [ref=e163]: HIIT
+          - generic [ref=e165]: Boxing
+          - generic [ref=e167]: Cycling
+          - generic [ref=e169]: Yoga
+          - generic [ref=e171]: Mobility
+          - generic [ref=e173]: Conditioning
+          - generic [ref=e175]: Recovery
+        - generic [aria-hidden] [ref=e177]:
+          - generic [ref=e178]: Strength
+          - generic [ref=e180]: HIIT
+          - generic [ref=e182]: Boxing
+          - generic [ref=e184]: Cycling
+          - generic [ref=e186]: Yoga
+          - generic [ref=e188]: Mobility
+          - generic [ref=e190]: Conditioning
+          - generic [ref=e192]: Recovery
+    - generic [ref=e195]:
+      - generic [ref=e197]:
+        - paragraph [ref=e198]: The facility
+        - heading "12,000 sq ft built for training" [level=2] [ref=e199]: 12,000 sq ft builtfor training
+        - paragraph [ref=e200]: "Every zone has one job: help you work harder and recover better. Calibrated plates, power-metered bikes and a recovery area that is open when you are."
+      - generic [ref=e202]:
+        - figure "Strength Lab 12 racks, 2 platforms, calibrated plates" [ref=e204]:
+          - img "Strength Lab" [ref=e205]
+          - generic [ref=e207]:
+            - paragraph [ref=e208]: Strength Lab
+            - paragraph [ref=e209]: 12 racks, 2 platforms, calibrated plates
+        - figure "Cardio Deck Treadmills, rowers, ski-ergs" [ref=e211]:
+          - img "Cardio Deck" [ref=e212]
+          - generic [ref=e214]:
+            - paragraph [ref=e215]: Cardio Deck
+            - paragraph [ref=e216]: Treadmills, rowers, ski-ergs
+        - figure "Free-weight Zone Dumbbells up to 60 kg" [ref=e218]:
+          - img "Free-weight Zone" [ref=e219]
+          - generic [ref=e221]:
+            - paragraph [ref=e222]: Free-weight Zone
+            - paragraph [ref=e223]: Dumbbells up to 60 kg
+        - figure "Cycle Studio Power-metered bikes, club lighting" [ref=e225]:
+          - img "Cycle Studio" [ref=e226]
+          - generic [ref=e228]:
+            - paragraph [ref=e229]: Cycle Studio
+            - paragraph [ref=e230]: Power-metered bikes, club lighting
+        - figure "Combat Studio Heavy bags, pads and sprung floor" [ref=e232]:
+          - img "Combat Studio" [ref=e233]
+          - generic [ref=e235]:
+            - paragraph [ref=e236]: Combat Studio
+            - paragraph [ref=e237]: Heavy bags, pads and sprung floor
+        - figure "Yoga Studio Heated floor, mats and props provided" [ref=e239]:
+          - img "Yoga Studio" [ref=e240]
+          - generic [ref=e242]:
+            - paragraph [ref=e243]: Yoga Studio
+            - paragraph [ref=e244]: Heated floor, mats and props provided
+        - figure "Conditioning Rig Ropes, sleds, kettlebells" [ref=e246]:
+          - img "Conditioning Rig" [ref=e247]
+          - generic [ref=e249]:
+            - paragraph [ref=e250]: Conditioning Rig
+            - paragraph [ref=e251]: Ropes, sleds, kettlebells
+        - figure "Recovery Zone Sauna, cold plunge, stretch area" [ref=e253]:
+          - img "Recovery Zone" [ref=e254]
+          - generic [ref=e256]:
+            - paragraph [ref=e257]: Recovery Zone
+            - paragraph [ref=e258]: Sauna, cold plunge, stretch area
+    - generic [ref=e260]:
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - paragraph [ref=e263]: Classes
+          - heading "Find your class" [level=2] [ref=e264]
+          - paragraph [ref=e265]: Five categories, every level. Pick a style and see what is on the timetable.
+        - link "All classes" [ref=e266] [cursor=pointer]:
+          - /url: /classes
+      - tablist "Class categories" [ref=e269]:
+        - tab "Strength" [selected] [ref=e270]
+        - tab "HIIT & Cardio" [ref=e277]
+        - tab "Yoga & Mobility" [ref=e280]
+        - tab "Combat" [ref=e286]
+        - tab "Cycling" [ref=e296]
+      - tabpanel "Strength" [ref=e302]:
+        - paragraph [ref=e303]: Build raw power with coached barbell and dumbbell work.
+        - list [ref=e304]:
+          - listitem [ref=e305]:
+            - link "Barbell Foundations class Strength 60 min 300–400 kcal Barbell Foundations Beginner Learn squat, bench, deadlift and press with a coach at your side. Marcus Reid Intensity 3 of 5" [ref=e306] [cursor=pointer]:
+              - /url: /classes/barbell-foundations
+              - generic [ref=e307]:
+                - img "Barbell Foundations class" [ref=e308]
+                - generic [ref=e310]: Strength
+                - generic [ref=e312]:
+                  - generic [ref=e313]: 60 min
+                  - generic [ref=e317]: 300–400 kcal
+              - generic [ref=e320]:
+                - generic [ref=e321]:
+                  - heading "Barbell Foundations" [level=3] [ref=e322]
+                  - generic [ref=e323]: Beginner
+                - paragraph [ref=e324]: Learn squat, bench, deadlift and press with a coach at your side.
+                - generic [ref=e325]:
+                  - generic [ref=e326]: Marcus Reid
+                  - img "Intensity 3 of 5" [ref=e330]
+          - listitem [ref=e336]:
+            - link "Power Hour class Strength 60 min 400–550 kcal Power Hour Intermediate Heavy compound lifts and accessory supersets for serious strength. Marcus Reid Intensity 4 of 5" [ref=e337] [cursor=pointer]:
+              - /url: /classes/power-hour
+              - generic [ref=e338]:
+                - img "Power Hour class" [ref=e339]
+                - generic [ref=e341]: Strength
+                - generic [ref=e343]:
+                  - generic [ref=e344]: 60 min
+                  - generic [ref=e348]: 400–550 kcal
+              - generic [ref=e351]:
+                - generic [ref=e352]:
+                  - heading "Power Hour" [level=3] [ref=e353]
+                  - generic [ref=e354]: Intermediate
+                - paragraph [ref=e355]: Heavy compound lifts and accessory supersets for serious strength.
+                - generic [ref=e356]:
+                  - generic [ref=e357]: Marcus Reid
+                  - img "Intensity 4 of 5" [ref=e361]
+          - listitem [ref=e367]:
+            - link "Recomp Lab class Strength 50 min 350–450 kcal Recomp Lab All levels Strength circuits designed to lose fat and keep muscle. Naomi Brooks Intensity 3 of 5" [ref=e368] [cursor=pointer]:
+              - /url: /classes/recomp-lab
+              - generic [ref=e369]:
+                - img "Recomp Lab class" [ref=e370]
+                - generic [ref=e372]: Strength
+                - generic [ref=e374]:
+                  - generic [ref=e375]: 50 min
+                  - generic [ref=e379]: 350–450 kcal
+              - generic [ref=e382]:
+                - generic [ref=e383]:
+                  - heading "Recomp Lab" [level=3] [ref=e384]
+                  - generic [ref=e385]: All levels
+                - paragraph [ref=e386]: Strength circuits designed to lose fat and keep muscle.
+                - generic [ref=e387]:
+                  - generic [ref=e388]: Naomi Brooks
+                  - img "Intensity 3 of 5" [ref=e392]
+    - generic [ref=e399]:
+      - generic [ref=e400]:
+        - generic [ref=e401]:
+          - paragraph [ref=e402]: Coaches
+          - heading "Meet your coaches" [level=2] [ref=e403]
+          - paragraph [ref=e404]: Certified, experienced and obsessed with helping you progress. Every coach knows your name by week two.
+        - link "All trainers" [ref=e405] [cursor=pointer]:
+          - /url: /trainers
+      - list [ref=e408]:
+        - listitem [ref=e409]:
+          - generic [ref=e413] [cursor=pointer]:
+            - generic [ref=e414]:
+              - img "Portrait of Marcus Reid" [ref=e415]
+              - generic [ref=e417]:
+                - paragraph [ref=e418]: Head of Strength
+                - heading "Marcus Reid" [level=3] [ref=e419]
+            - generic [ref=e420]:
+              - generic [ref=e421]: 4.9 · 412 reviews
+              - list [ref=e450]:
+                - listitem [ref=e451]: Powerlifting
+                - listitem [ref=e452]: Hypertrophy
+                - listitem [ref=e453]: Programming
+              - paragraph [ref=e454]: 12 years coaching
+        - listitem [ref=e458]:
+          - generic [ref=e462] [cursor=pointer]:
+            - generic [ref=e463]:
+              - img "Portrait of Sofia Alvarez" [ref=e464]
+              - generic [ref=e466]:
+                - paragraph [ref=e467]: Yoga & Mobility Lead
+                - heading "Sofia Alvarez" [level=3] [ref=e468]
+            - generic [ref=e469]:
+              - generic [ref=e470]: 4.9 · 366 reviews
+              - list [ref=e499]:
+                - listitem [ref=e500]: Vinyasa
+                - listitem [ref=e501]: Mobility
+                - listitem [ref=e502]: Breathwork
+              - paragraph [ref=e503]: 9 years coaching
+        - listitem [ref=e507]:
+          - generic [ref=e511] [cursor=pointer]:
+            - generic [ref=e512]:
+              - img "Portrait of Jordan Park" [ref=e513]
+              - generic [ref=e515]:
+                - paragraph [ref=e516]: HIIT Coach
+                - heading "Jordan Park" [level=3] [ref=e517]
+            - generic [ref=e518]:
+              - generic [ref=e519]: 4.8 · 289 reviews
+              - list [ref=e548]:
+                - listitem [ref=e549]: HIIT
+                - listitem [ref=e550]: Conditioning
+                - listitem [ref=e551]: Fat loss
+              - paragraph [ref=e552]: 7 years coaching
+        - listitem [ref=e556]:
+          - generic [ref=e560] [cursor=pointer]:
+            - generic [ref=e561]:
+              - img "Portrait of Amara Okafor" [ref=e562]
+              - generic [ref=e564]:
+                - paragraph [ref=e565]: Boxing Conditioning Coach
+                - heading "Amara Okafor" [level=3] [ref=e566]
+            - generic [ref=e567]:
+              - generic [ref=e568]: 5.0 · 241 reviews
+              - list [ref=e597]:
+                - listitem [ref=e598]: Boxing
+                - listitem [ref=e599]: Kickboxing
+                - listitem [ref=e600]: Footwork
+              - paragraph [ref=e601]: 10 years coaching
+    - generic [ref=e606]:
+      - generic [ref=e608]:
+        - paragraph [ref=e609]: Membership
+        - heading "Simple plans. No joining fee." [level=2] [ref=e610]
+        - paragraph [ref=e611]: Pause, upgrade or cancel whenever you need. Every plan includes full access to the floor and our app.
+      - generic [ref=e613]:
+        - generic [ref=e614]:
+          - generic [ref=e615]: Curated Editions
+          - heading "Refined pricing for modern teams" [level=2] [ref=e621]
+          - paragraph [ref=e622]: Thoughtfully structured tiers with priority support and zero hidden platform fees.
+        - group "Billing period" [ref=e624]:
+          - radio "Monthly" [checked] [ref=e625]
+          - radio "Annual · save 20%" [ref=e626]
+        - generic [ref=e627]:
+          - generic [ref=e628]:
+            - generic [ref=e629]:
+              - heading "Starter" [level=3] [ref=e634]
+              - paragraph [ref=e635]: Everything you need to build the habit.
+              - generic [ref=e636]:
+                - generic [ref=e637]: "29"
+                - generic [ref=e638]: /mo
+              - list [ref=e639]:
+                - listitem [ref=e640]:
+                  - generic [ref=e643]: Full gym floor access (5am–11pm)
+                - listitem [ref=e644]:
+                  - generic [ref=e647]: 8 group classes per month
+                - listitem [ref=e648]:
+                  - generic [ref=e651]: Locker room & showers
+                - listitem [ref=e652]:
+                  - generic [ref=e655]: IRONPULSE app tracking
+            - link [ref=e656] [cursor=pointer]:
+              - /url: /membership/checkout?plan=starter&cycle=monthly
+              - button "Choose Starter" [ref=e657]
+          - generic [ref=e659]:
+            - generic [ref=e660]: Most Popular
+            - generic [ref=e661]:
+              - heading "Pro" [level=3] [ref=e669]
+              - paragraph [ref=e670]: Unlimited classes for people who show up.
+              - generic [ref=e671]:
+                - generic [ref=e672]: "59"
+                - generic [ref=e673]: /mo
+              - list [ref=e674]:
+                - listitem [ref=e675]:
+                  - generic [ref=e678]: 24/7 gym floor access
+                - listitem [ref=e679]:
+                  - generic [ref=e682]: Unlimited group classes
+                - listitem [ref=e683]:
+                  - generic [ref=e686]: 1 personal training session / month
+                - listitem [ref=e687]:
+                  - generic [ref=e690]: Sauna & recovery zone
+                - listitem [ref=e691]:
+                  - generic [ref=e694]: 2 guest passes / month
+            - link [ref=e695] [cursor=pointer]:
+              - /url: /membership/checkout?plan=pro&cycle=monthly
+              - button "Choose Pro" [ref=e696]
+          - generic [ref=e698]:
+            - generic [ref=e699]:
+              - heading "Elite" [level=3] [ref=e705]
+              - paragraph [ref=e706]: Coaching, recovery and nutrition in one membership.
+              - generic [ref=e707]:
+                - generic [ref=e708]: "99"
+                - generic [ref=e709]: /mo
+              - list [ref=e710]:
+                - listitem [ref=e711]:
+                  - generic [ref=e714]: Everything in Pro
+                - listitem [ref=e715]:
+                  - generic [ref=e718]: 4 personal training sessions / month
+                - listitem [ref=e719]:
+                  - generic [ref=e722]: Monthly nutrition consult
+                - listitem [ref=e723]:
+                  - generic [ref=e726]: Towel service & premium locker
+                - listitem [ref=e727]:
+                  - generic [ref=e730]: Priority booking (14 days ahead)
+                - listitem [ref=e731]:
+                  - generic [ref=e734]: Unlimited guest passes
+            - link [ref=e735] [cursor=pointer]:
+              - /url: /membership/checkout?plan=elite&cycle=monthly
+              - button "Choose Elite" [ref=e736]
+      - link "Compare every feature" [ref=e739] [cursor=pointer]:
+        - /url: /membership#compare
+    - generic [ref=e742]:
+      - generic [ref=e743]:
+        - paragraph [ref=e744]: Limited offer
+        - heading "Try IRONPULSE free for 7 days" [level=2] [ref=e749]: Try IRONPULSEfree for 7 days
+        - paragraph [ref=e750]: Unlimited floor access and up to 3 coached classes. No card needed, no pressure.
+        - list [ref=e751]:
+          - listitem [ref=e752]: Full gym floor and locker access
+          - listitem [ref=e756]: Book 3 classes of your choice
+          - listitem [ref=e760]: Meet a coach for a free movement check
+        - generic [ref=e764]:
+          - paragraph [ref=e765]: Offer ends in
+          - timer "Time left on this offer" [ref=e769]:
+            - generic [ref=e770]:
+              - generic [ref=e771]: "01"
+              - generic [ref=e772]: Days
+            - generic [ref=e773]:
+              - generic [ref=e774]: "23"
+              - generic [ref=e775]: Hours
+            - generic [ref=e776]:
+              - generic [ref=e777]: "59"
+              - generic [ref=e778]: Minutes
+            - generic [ref=e779]:
+              - generic [ref=e780]: "59"
+              - generic [ref=e781]: Seconds
+      - generic [ref=e783]:
+        - generic [ref=e784]:
+          - heading "Claim your free week" [level=3] [ref=e785]
+          - paragraph [ref=e786]: Takes 20 seconds. We will email your pass.
+        - generic [ref=e787]:
+          - generic [ref=e788]: Full name
+          - textbox "Full name" [ref=e789]:
+            - /placeholder: Alex Morgan
+        - generic [ref=e790]:
+          - generic [ref=e791]: Email
+          - textbox "Email" [ref=e792]:
+            - /placeholder: you@example.com
+        - button "Start my free trial" [ref=e793]
+        - paragraph [ref=e794]:
+          - text: By continuing you agree to our
+          - link "terms" [ref=e795] [cursor=pointer]:
+            - /url: /contact
+          - text: . One trial per person.
+    - generic [ref=e797]:
+      - generic [ref=e799]:
+        - paragraph [ref=e800]: Transformations
+        - heading "Real members. Real numbers." [level=2] [ref=e801]
+        - paragraph [ref=e802]: Results from members who stuck with a program. Individual results vary, but consistency never hurts.
+      - list [ref=e803]:
+        - listitem [ref=e804]:
+          - generic [ref=e805]:
+            - img "Daniel M., gym member" [ref=e806]
+            - generic [ref=e807]:
+              - paragraph [ref=e808]: Daniel M.
+              - paragraph [ref=e809]: Barbell Foundations → Power Hour
+            - generic [ref=e810]: 20 wks
+          - generic [ref=e811]:
+            - generic [ref=e812]:
+              - definition [ref=e813]: −9%
+              - term [ref=e814]: Body fat
+            - generic [ref=e815]:
+              - definition [ref=e816]: +55 kg
+              - term [ref=e817]: Squat
+            - generic [ref=e818]:
+              - definition [ref=e819]: −8 cm
+              - term [ref=e820]: Waist
+          - blockquote [ref=e821]: “I walked in not knowing how to hold a barbell. Marcus rebuilt my whole approach.”
+        - listitem [ref=e822]:
+          - generic [ref=e823]:
+            - img "Priya S., gym member" [ref=e824]
+            - generic [ref=e825]:
+              - paragraph [ref=e826]: Priya S.
+              - paragraph [ref=e827]: Inferno HIIT + Recomp Lab
+            - generic [ref=e828]: 16 wks
+          - generic [ref=e829]:
+            - generic [ref=e830]:
+              - definition [ref=e831]: −11 kg
+              - term [ref=e832]: Weight
+            - generic [ref=e833]:
+              - definition [ref=e834]: −7 min
+              - term [ref=e835]: 5K time
+            - generic [ref=e836]:
+              - definition [ref=e837]: 2×
+              - term [ref=e838]: Energy
+          - blockquote [ref=e839]: “Three classes a week and a nutrition tweak. That is all it took.”
+        - listitem [ref=e840]:
+          - generic [ref=e841]:
+            - img "Tom H., gym member" [ref=e842]
+            - generic [ref=e843]:
+              - paragraph [ref=e844]: Tom H.
+              - paragraph [ref=e845]: Boxing + Mobility Reset
+            - generic [ref=e846]: 12 wks
+          - generic [ref=e847]:
+            - generic [ref=e848]:
+              - definition [ref=e849]: −12 bpm
+              - term [ref=e850]: Resting HR
+            - generic [ref=e851]:
+              - definition [ref=e852]: Gone
+              - term [ref=e853]: Back pain
+            - generic [ref=e854]:
+              - definition [ref=e855]: −40%
+              - term [ref=e856]: Stress
+          - blockquote [ref=e857]: “Boxing gave me my evenings back. Sofia fixed my posture.”
+    - generic [ref=e860]:
+      - generic [ref=e861]:
+        - generic [ref=e862]: Member stories
+        - heading "Loved by people who train here" [level=2] [ref=e865]
+        - paragraph [ref=e866]: Hundreds of members, five programs and one very loud group chat. Here is what they say.
+      - generic [ref=e868]:
+        - generic [ref=e869]: Strength
+        - generic [ref=e878]: HIIT
+        - generic [ref=e883]: Combat
+        - generic [ref=e895]: Yoga
+        - generic [ref=e903]: Cycling
+        - generic [ref=e911]: Strength
+        - generic [ref=e920]: HIIT
+        - generic [ref=e925]: Combat
+        - generic [ref=e937]: Yoga
+        - generic [ref=e945]: Cycling
+        - generic [ref=e953]: Strength
+        - generic [ref=e962]: HIIT
+        - generic [ref=e967]: Combat
+        - generic [ref=e979]: Yoga
+        - generic [ref=e987]: Cycling
+        - generic [ref=e995]: Strength
+        - generic [ref=e1004]: HIIT
+        - generic [ref=e1009]: Combat
+        - generic [ref=e1021]: Yoga
+        - generic [ref=e1029]: Cycling
+      - generic [ref=e1037]:
+        - button "Go to slide 1" [ref=e1038] [cursor=pointer]
+        - button "Go to slide 2" [ref=e1039] [cursor=pointer]
+        - button "Go to slide 3" [ref=e1040] [cursor=pointer]
+        - button "Go to slide 4" [ref=e1041] [cursor=pointer]
+        - button "Go to slide 5" [ref=e1042] [cursor=pointer]
+      - generic [ref=e1043]:
+        - generic [ref=e1045]:
+          - paragraph [ref=e1046]:
+            - generic [ref=e1047]:
+              - generic [ref=e1048]:
+                - generic [ref=e1049]: "\""
+                - generic [ref=e1050]: T
+                - generic [ref=e1051]: h
+                - generic [ref=e1052]: e
+              - generic [ref=e1053]:
+                - generic [ref=e1054]: c
+                - generic [ref=e1055]: o
+                - generic [ref=e1056]: a
+                - generic [ref=e1057]: c
+                - generic [ref=e1058]: h
+                - generic [ref=e1059]: i
+                - generic [ref=e1060]: "n"
+                - generic [ref=e1061]: g
+              - generic [ref=e1062]:
+                - generic [ref=e1063]: i
+                - generic [ref=e1064]: s
+              - generic [ref=e1065]:
+                - generic [ref=e1066]: t
+                - generic [ref=e1067]: h
+                - generic [ref=e1068]: e
+              - generic [ref=e1069]:
+                - generic [ref=e1070]: d
+                - generic [ref=e1071]: i
+                - generic [ref=e1072]: f
+                - generic [ref=e1073]: f
+                - generic [ref=e1074]: e
+                - generic [ref=e1075]: r
+                - generic [ref=e1076]: e
+                - generic [ref=e1077]: "n"
+                - generic [ref=e1078]: c
+                - generic [ref=e1079]: e
+                - generic [ref=e1080]: .
+              - generic [ref=e1081]: I
+              - generic [ref=e1083]:
+                - generic [ref=e1084]: h
+                - generic [ref=e1085]: a
+                - generic [ref=e1086]: v
+                - generic [ref=e1087]: e
+              - generic [ref=e1088]:
+                - generic [ref=e1089]: t
+                - generic [ref=e1090]: r
+                - generic [ref=e1091]: i
+                - generic [ref=e1092]: e
+                - generic [ref=e1093]: d
+              - generic [ref=e1094]:
+                - generic [ref=e1095]: f
+                - generic [ref=e1096]: i
+                - generic [ref=e1097]: v
+                - generic [ref=e1098]: e
+              - generic [ref=e1099]:
+                - generic [ref=e1100]: g
+                - generic [ref=e1101]: "y"
+                - generic [ref=e1102]: m
+                - generic [ref=e1103]: s
+              - generic [ref=e1104]:
+                - generic [ref=e1105]: a
+                - generic [ref=e1106]: "n"
+                - generic [ref=e1107]: d
+              - generic [ref=e1108]:
+                - generic [ref=e1109]: t
+                - generic [ref=e1110]: h
+                - generic [ref=e1111]: i
+                - generic [ref=e1112]: s
+              - generic [ref=e1113]:
+                - generic [ref=e1114]: i
+                - generic [ref=e1115]: s
+              - generic [ref=e1116]:
+                - generic [ref=e1117]: t
+                - generic [ref=e1118]: h
+                - generic [ref=e1119]: e
+              - generic [ref=e1120]:
+                - generic [ref=e1121]: f
+                - generic [ref=e1122]: i
+                - generic [ref=e1123]: r
+                - generic [ref=e1124]: s
+                - generic [ref=e1125]: t
+              - generic [ref=e1126]:
+                - generic [ref=e1127]: o
+                - generic [ref=e1128]: "n"
+                - generic [ref=e1129]: e
+              - generic [ref=e1130]:
+                - generic [ref=e1131]: w
+                - generic [ref=e1132]: h
+                - generic [ref=e1133]: e
+                - generic [ref=e1134]: r
+                - generic [ref=e1135]: e
+              - generic [ref=e1136]:
+                - generic [ref=e1137]: s
+                - generic [ref=e1138]: o
+                - generic [ref=e1139]: m
+                - generic [ref=e1140]: e
+                - generic [ref=e1141]: b
+                - generic [ref=e1142]: o
+                - generic [ref=e1143]: d
+                - generic [ref=e1144]: "y"
+              - generic [ref=e1145]:
+                - generic [ref=e1146]: a
+                - generic [ref=e1147]: c
+                - generic [ref=e1148]: t
+                - generic [ref=e1149]: u
+                - generic [ref=e1150]: a
+                - generic [ref=e1151]: l
+                - generic [ref=e1152]: l
+                - generic [ref=e1153]: "y"
+              - generic [ref=e1154]:
+                - generic [ref=e1155]: w
+                - generic [ref=e1156]: a
+                - generic [ref=e1157]: t
+                - generic [ref=e1158]: c
+                - generic [ref=e1159]: h
+                - generic [ref=e1160]: e
+                - generic [ref=e1161]: s
+              - generic [ref=e1162]:
+                - generic [ref=e1163]: m
+                - generic [ref=e1164]: "y"
+              - generic [ref=e1165]:
+                - generic [ref=e1166]: l
+                - generic [ref=e1167]: i
+                - generic [ref=e1168]: f
+                - generic [ref=e1169]: t
+                - generic [ref=e1170]: s
+              - generic [ref=e1171]:
+                - generic [ref=e1172]: a
+                - generic [ref=e1173]: "n"
+                - generic [ref=e1174]: d
+              - generic [ref=e1175]:
+                - generic [ref=e1176]: f
+                - generic [ref=e1177]: i
+                - generic [ref=e1178]: x
+                - generic [ref=e1179]: e
+                - generic [ref=e1180]: s
+              - generic [ref=e1181]:
+                - generic [ref=e1182]: t
+                - generic [ref=e1183]: h
+                - generic [ref=e1184]: e
+                - generic [ref=e1185]: m
+                - generic [ref=e1186]: .
+                - generic [ref=e1187]: "\""
+          - generic [ref=e1188]:
+            - heading "Daniel Mercer" [level=3] [ref=e1189]
+            - paragraph [ref=e1190]: Member for 14 months, Strength
+        - img "Daniel Mercer" [ref=e1193]
+      - generic [ref=e1194]:
+        - button "Previous review" [ref=e1195] [cursor=pointer]
+        - button "Next review" [ref=e1198] [cursor=pointer]
+    - generic [ref=e1294]:
+      - generic [ref=e1295]:
+        - generic [ref=e1296]: Join this month
+        - heading "Your first month starts at $29" [level=2] [ref=e1299]
+        - paragraph [ref=e1300]: No joining fee, no lock-in. Full floor access, coached classes and a coach who knows your name.
+      - generic [ref=e1301]:
+        - generic [ref=e1302]:
+          - generic [ref=e1303]: $
+          - generic [ref=e1304]: "29"
+          - generic [ref=e1305]: first month
+        - generic [ref=e1306]:
+          - generic [ref=e1307]: $49
+          - generic [ref=e1308]: Save 40%
+        - link "Join IRONPULSE" [ref=e1309] [cursor=pointer]:
+          - /url: /membership
+        - paragraph [ref=e1313]: Cancel anytime · 14-day money-back
+  - contentinfo [ref=e1314]:
+    - contentinfo [ref=e1315]:
+      - generic [ref=e1316]:
+        - generic [ref=e1317]:
+          - generic [ref=e1318]:
+            - generic [ref=e1319]: OUR MISSION
+            - heading "TRAIN HARDER. RECOVER SMARTER." [level=2] [ref=e1320]
+          - generic [ref=e1321]:
+            - generic [ref=e1322]: "[+]"
+            - generic [ref=e1323]: 01_ROOT
+            - generic [ref=e1324]: "--"
+            - generic [ref=e1325]: EST. 2016
+        - generic [ref=e1326]:
+          - generic [ref=e1327]: Train
+          - list [ref=e1328]:
+            - listitem [ref=e1329]:
+              - link "Classes" [ref=e1330] [cursor=pointer]:
+                - /url: /classes
+            - listitem [ref=e1331]:
+              - link "Schedule" [ref=e1332] [cursor=pointer]:
+                - /url: /schedule
+            - listitem [ref=e1333]:
+              - link "Trainers" [ref=e1334] [cursor=pointer]:
+                - /url: /trainers
+        - generic [ref=e1335]:
+          - generic [ref=e1336]: Join
+          - list [ref=e1337]:
+            - listitem [ref=e1338]:
+              - link "Membership" [ref=e1339] [cursor=pointer]:
+                - /url: /membership
+            - listitem [ref=e1340]:
+              - link "Checkout" [ref=e1341] [cursor=pointer]:
+                - /url: /membership/checkout
+            - listitem [ref=e1342]:
+              - link "Free trial" [ref=e1343] [cursor=pointer]:
+                - /url: /#free-trial
+        - generic [ref=e1344]:
+          - generic [ref=e1345]: Member
+          - list [ref=e1346]:
+            - listitem [ref=e1347]:
+              - link "Dashboard" [ref=e1348] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=e1349]:
+              - link "My bookings" [ref=e1350] [cursor=pointer]:
+                - /url: /dashboard#bookings
+            - listitem [ref=e1351]:
+              - link "Contact" [ref=e1352] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e1353]:
+          - generic [ref=e1354] [cursor=pointer]
+          - generic [ref=e1362]: "[+] STRONGER TOGETHER"
+      - generic [ref=e1363]:
+        - generic [ref=e1364]:
+          - generic [ref=e1365]:
+            - generic [ref=e1366]: SUBSCRIBE
+            - paragraph [ref=e1367]: Get weekly training tips and new class drops in your inbox.
+          - generic [ref=e1368]:
+            - textbox "Enter your email" [ref=e1369]
+            - button "→" [ref=e1370] [cursor=pointer]
+        - generic [ref=e1371]:
+          - generic [ref=e1372]: ADDRESS
+          - generic [ref=e1373]:
+            - generic [ref=e1374]: 214 Foundry Street
+            - generic [ref=e1375]: Brooklyn, NY 11201
+          - link "Direction" [ref=e1377] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e1378]:
+          - generic [ref=e1379]:
+            - generic [ref=e1380]: MEMBERSHIPS
+            - link "hello@ironpulse.fit" [ref=e1381] [cursor=pointer]:
+              - /url: mailto:hello@ironpulse.fit
+          - generic [ref=e1382]:
+            - generic [ref=e1383]: QUESTIONS
+            - link "hello@ironpulse.fit" [ref=e1384] [cursor=pointer]:
+              - /url: mailto:hello@ironpulse.fit
+        - generic [ref=e1385]:
+          - generic [ref=e1386]: SOCIAL
+          - generic [ref=e1387]:
+            - link "Instagram" [ref=e1388] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "YouTube" [ref=e1389] [cursor=pointer]:
+              - /url: https://youtube.com
+            - link "TikTok" [ref=e1390] [cursor=pointer]:
+              - /url: https://tiktok.com
+      - generic [ref=e1391]:
+        - generic [ref=e1392]:
+          - generic [ref=e1393]: +
+          - generic [ref=e1475]: +
+        - img [ref=e1477]:
+          - generic: IRONPULSE
+          - generic: IRONPULSE
+        - generic [ref=e1478]:
+          - generic [ref=e1479]: +
+          - generic [ref=e1561]: +
+      - generic [ref=e1562]:
+        - generic [ref=e1563]: © IRONPULSE GYM. ALL RIGHTS RESERVED.
+        - generic [ref=e1565]:
+          - link "Privacy" [ref=e1566] [cursor=pointer]:
+            - /url: /contact
+          - link "Terms" [ref=e1567] [cursor=pointer]:
+            - /url: /contact
+  - button "Open Next.js Dev Tools" [ref=e1573] [cursor=pointer]
+  - alert [ref=e1577]
