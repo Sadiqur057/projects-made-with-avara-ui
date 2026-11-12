@@ -1,0 +1,660 @@
+- generic [active] [ref=f4e1]:
+  - link "Skip to content" [ref=f4e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - generic [ref=f4e5]: Free shipping over $50 · Samples with every order
+      - generic [ref=f4e13]:
+        - link "Aurelle home" [ref=f4e15] [cursor=pointer]:
+          - /url: /
+          - text: Aurelle
+        - button "Search serums, cleansers, dry skin…" [ref=f4e17]
+        - generic [ref=f4e19]:
+          - link "Track order" [ref=f4e20] [cursor=pointer]:
+            - /url: /track
+          - link "Favourites (0)" [ref=f4e24] [cursor=pointer]:
+            - /url: /shop?saved=1
+          - button "Bag (0 items)" [ref=f4e28]
+      - navigation "Shop categories" [ref=f4e32]:
+        - list [ref=f4e33]:
+          - listitem [ref=f4e34]:
+            - link "Flash sale" [ref=f4e35] [cursor=pointer]:
+              - /url: /#flash-sale
+          - listitem [ref=f4e39]:
+            - button "Cleanse & tone" [ref=f4e40]
+          - listitem [ref=f4e43]:
+            - button "Treat" [ref=f4e44]
+          - listitem [ref=f4e47]:
+            - button "Moisturize & protect" [ref=f4e48]
+          - listitem [ref=f4e51]:
+            - button "By concern" [ref=f4e52]
+          - listitem [ref=f4e55]:
+            - link "Skin quiz" [ref=f4e56] [cursor=pointer]:
+              - /url: /quiz
+          - listitem [ref=f4e57]:
+            - link "Track order" [ref=f4e58] [cursor=pointer]:
+              - /url: /track
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=3]: Cleanse & tone
+                  - paragraph: "The first step: gentle, never stripping"
+                - link:
+                  - /url: /shop?step=cleanser
+                  - text: View all products
+              - generic:
+                - link:
+                  - /url: /shop/cloud-cleanse-gel-cleanser
+                  - generic:
+                    - generic: Cloud Cleanse Gel Cleanser
+                    - generic: 150 ml · Cleansers
+                    - generic:
+                      - generic: $24
+                      - generic: "4.5"
+                - link:
+                  - /url: /shop/clear-slate-salicylic-cleanser
+                  - generic:
+                    - generic: Clear Slate Salicylic Cleanser
+                    - generic: 150 ml · Cleansers
+                    - generic:
+                      - generic: $22
+                      - generic: "4.5"
+                - link:
+                  - /url: /shop/milk-bath-cream-cleanser
+                  - generic:
+                    - generic: Milk Bath Cream Cleanser
+                    - generic: 150 ml · Cleansers
+                    - generic:
+                      - generic: $26
+                      - generic: "5.0"
+                - link:
+                  - /url: /shop/rosewater-barrier-mist
+                  - generic:
+                    - generic: Rosewater Barrier Mist
+                    - generic: 100 ml · Toners & mists
+                    - generic:
+                      - generic: $20
+                      - generic: "4.0"
+              - generic:
+                - generic:
+                  - generic: Shop by step
+                  - generic:
+                    - link:
+                      - /url: /shop?step=cleanser
+                      - text: Cleansers
+                    - link:
+                      - /url: /shop?step=toner
+                      - text: Toners & mists
+                - generic:
+                  - generic: Shop by skin type
+                  - generic:
+                    - link:
+                      - /url: /shop?type=oily
+                      - text: Oily
+                    - link:
+                      - /url: /shop?type=dry
+                      - text: Dry
+                    - link:
+                      - /url: /shop?type=combination
+                      - text: Combination
+                    - link:
+                      - /url: /shop?type=sensitive
+                      - text: Sensitive
+            - link:
+              - /url: /quiz
+              - generic: 2-minute quiz
+              - generic:
+                - heading [level=4]: Not sure where to start?
+                - paragraph: Answer five questions and get a routine built for your skin.
+              - generic: Take the skin quiz
+  - main [ref=f4e59]:
+    - generic [ref=f4e60]:
+      - generic [ref=f4e61]:
+        - paragraph [ref=f4e62]: Shop
+        - heading "All skincare" [level=1] [ref=f4e63]
+        - paragraph [ref=f4e64]:
+          - text: Filter by what your skin needs, or
+          - link "take the two-minute quiz" [ref=f4e65] [cursor=pointer]:
+            - /url: /quiz
+          - text: and we'll do it for you.
+      - generic [ref=f4e66]:
+        - searchbox "Search products" [ref=f4e68]
+        - generic [ref=f4e70]:
+          - generic [ref=f4e71]: Sort by
+          - combobox "Sort by" [ref=f4e72]:
+            - option "Featured" [selected]
+            - option "Bestselling"
+            - option "Top rated"
+            - 'option "Price: low to high"'
+            - 'option "Price: high to low"'
+      - generic [ref=f4e73]:
+        - complementary "Filters" [ref=f4e74]:
+          - generic [ref=f4e76]:
+            - group "Product type" [ref=f4e77]:
+              - generic [ref=f4e79]:
+                - generic [ref=f4e80] [cursor=pointer]:
+                  - checkbox "Cleansers 3" [ref=f4e81]
+                  - generic [ref=f4e82]: Cleansers
+                  - generic [ref=f4e83]: "3"
+                - generic [ref=f4e84] [cursor=pointer]:
+                  - checkbox "Toners & mists 2" [ref=f4e85]
+                  - generic [ref=f4e86]: Toners & mists
+                  - generic [ref=f4e87]: "2"
+                - generic [ref=f4e88] [cursor=pointer]:
+                  - checkbox "Serums 5" [ref=f4e89]
+                  - generic [ref=f4e90]: Serums
+                  - generic [ref=f4e91]: "5"
+                - generic [ref=f4e92] [cursor=pointer]:
+                  - checkbox "Moisturizers 3" [ref=f4e93]
+                  - generic [ref=f4e94]: Moisturizers
+                  - generic [ref=f4e95]: "3"
+                - generic [ref=f4e96] [cursor=pointer]:
+                  - checkbox "Sun care 2" [ref=f4e97]
+                  - generic [ref=f4e98]: Sun care
+                  - generic [ref=f4e99]: "2"
+                - generic [ref=f4e100] [cursor=pointer]:
+                  - checkbox "Masks 1" [ref=f4e101]
+                  - generic [ref=f4e102]: Masks
+                  - generic [ref=f4e103]: "1"
+                - generic [ref=f4e104] [cursor=pointer]:
+                  - checkbox "Eye care 1" [ref=f4e105]
+                  - generic [ref=f4e106]: Eye care
+                  - generic [ref=f4e107]: "1"
+                - generic [ref=f4e108] [cursor=pointer]:
+                  - checkbox "Face oils 1" [ref=f4e109]
+                  - generic [ref=f4e110]: Face oils
+                  - generic [ref=f4e111]: "1"
+            - group "Skin type" [ref=f4e112]:
+              - generic [ref=f4e114]:
+                - generic [ref=f4e115] [cursor=pointer]:
+                  - checkbox "Oily 8" [ref=f4e116]
+                  - generic [ref=f4e117]: Oily
+                  - generic [ref=f4e118]: "8"
+                - generic [ref=f4e119] [cursor=pointer]:
+                  - checkbox "Dry 14" [ref=f4e120]
+                  - generic [ref=f4e121]: Dry
+                  - generic [ref=f4e122]: "14"
+                - generic [ref=f4e123] [cursor=pointer]:
+                  - checkbox "Combination 15" [ref=f4e124]
+                  - generic [ref=f4e125]: Combination
+                  - generic [ref=f4e126]: "15"
+                - generic [ref=f4e127] [cursor=pointer]:
+                  - checkbox "Normal 17" [ref=f4e128]
+                  - generic [ref=f4e129]: Normal
+                  - generic [ref=f4e130]: "17"
+                - generic [ref=f4e131] [cursor=pointer]:
+                  - checkbox "Sensitive 8" [ref=f4e132]
+                  - generic [ref=f4e133]: Sensitive
+                  - generic [ref=f4e134]: "8"
+            - group "Concern" [ref=f4e135]:
+              - generic [ref=f4e137]:
+                - generic [ref=f4e138] [cursor=pointer]:
+                  - checkbox "Breakouts 4" [ref=f4e139]
+                  - generic [ref=f4e140]: Breakouts
+                  - generic [ref=f4e141]: "4"
+                - generic [ref=f4e142] [cursor=pointer]:
+                  - checkbox "Dullness 7" [ref=f4e143]
+                  - generic [ref=f4e144]: Dullness
+                  - generic [ref=f4e145]: "7"
+                - generic [ref=f4e146] [cursor=pointer]:
+                  - checkbox "Dark spots 4" [ref=f4e147]
+                  - generic [ref=f4e148]: Dark spots
+                  - generic [ref=f4e149]: "4"
+                - generic [ref=f4e150] [cursor=pointer]:
+                  - checkbox "Fine lines 6" [ref=f4e151]
+                  - generic [ref=f4e152]: Fine lines
+                  - generic [ref=f4e153]: "6"
+                - generic [ref=f4e154] [cursor=pointer]:
+                  - checkbox "Redness 7" [ref=f4e155]
+                  - generic [ref=f4e156]: Redness
+                  - generic [ref=f4e157]: "7"
+                - generic [ref=f4e158] [cursor=pointer]:
+                  - checkbox "Dryness 10" [ref=f4e159]
+                  - generic [ref=f4e160]: Dryness
+                  - generic [ref=f4e161]: "10"
+                - generic [ref=f4e162] [cursor=pointer]:
+                  - checkbox "Visible pores 4" [ref=f4e163]
+                  - generic [ref=f4e164]: Visible pores
+                  - generic [ref=f4e165]: "4"
+            - group "More" [ref=f4e166]:
+              - generic [ref=f4e168]:
+                - generic [ref=f4e169] [cursor=pointer]:
+                  - checkbox "Fragrance-free" [ref=f4e170]
+                  - generic [ref=f4e171]: Fragrance-free
+                - generic [ref=f4e172] [cursor=pointer]:
+                  - checkbox "On sale" [ref=f4e173]
+                  - generic [ref=f4e174]: On sale
+                - generic [ref=f4e175] [cursor=pointer]:
+                  - checkbox "My favourites" [ref=f4e176]
+                  - generic [ref=f4e177]: My favourites
+        - region "Products" [ref=f4e178]:
+          - status [ref=f4e180]: 18 products
+          - list [ref=f4e181]:
+            - listitem [ref=f4e182]:
+              - article [ref=f4e183]:
+                - generic [ref=f4e184]:
+                  - button "Save Cloud Cleanse Gel Cleanser to favourites" [ref=f4e185]
+                  - button "Add Cloud Cleanse Gel Cleanser, 150 ml, to bag" [ref=f4e188]: Quick add
+                - generic [ref=f4e190]:
+                  - paragraph [ref=f4e191]: Cleansers
+                  - heading [level=3] [ref=f4e192]:
+                    - link "Cloud Cleanse Gel Cleanser" [ref=f4e193] [cursor=pointer]:
+                      - /url: /shop/cloud-cleanse-gel-cleanser
+                  - paragraph [ref=f4e194]: A soft-foam cleanser that never squeaks
+                  - generic [ref=f4e195]:
+                    - generic [ref=f4e196]:
+                      - img "Rated 4.5 out of 5" [ref=f4e197]
+                      - generic [ref=f4e224]: "4.5"
+                      - generic [ref=f4e225]: (2)
+                    - generic [ref=f4e226]:
+                      - generic [ref=f4e227]: From
+                      - generic [ref=f4e228]: $24
+            - listitem [ref=f4e229]:
+              - article [ref=f4e230]:
+                - generic [ref=f4e231]:
+                  - button "Save Clear Slate Salicylic Cleanser to favourites" [ref=f4e232]
+                  - button "Add Clear Slate Salicylic Cleanser, 150 ml, to bag" [ref=f4e235]: Quick add
+                - generic [ref=f4e237]:
+                  - paragraph [ref=f4e238]: Cleansers
+                  - heading [level=3] [ref=f4e239]:
+                    - link "Clear Slate Salicylic Cleanser" [ref=f4e240] [cursor=pointer]:
+                      - /url: /shop/clear-slate-salicylic-cleanser
+                  - paragraph [ref=f4e241]: A daily reset for congested skin
+                  - generic [ref=f4e242]:
+                    - generic [ref=f4e243]:
+                      - img "Rated 4.5 out of 5" [ref=f4e244]
+                      - generic [ref=f4e271]: "4.5"
+                      - generic [ref=f4e272]: (2)
+                    - generic [ref=f4e273]:
+                      - generic [ref=f4e274]: From
+                      - generic [ref=f4e275]: $22
+            - listitem [ref=f4e276]:
+              - article [ref=f4e277]:
+                - generic [ref=f4e278]:
+                  - button "Save Milk Bath Cream Cleanser to favourites" [ref=f4e279]
+                  - button "Add Milk Bath Cream Cleanser, 150 ml, to bag" [ref=f4e282]: Quick add
+                - generic [ref=f4e284]:
+                  - paragraph [ref=f4e285]: Cleansers
+                  - heading [level=3] [ref=f4e286]:
+                    - link "Milk Bath Cream Cleanser" [ref=f4e287] [cursor=pointer]:
+                      - /url: /shop/milk-bath-cream-cleanser
+                  - paragraph [ref=f4e288]: Cleansing that feels like a moisturizer
+                  - generic [ref=f4e289]:
+                    - generic [ref=f4e290]:
+                      - img "Rated 5.0 out of 5" [ref=f4e291]
+                      - generic [ref=f4e318]: "5.0"
+                      - generic [ref=f4e319]: (2)
+                    - generic [ref=f4e320]: $26
+            - listitem [ref=f4e322]:
+              - article [ref=f4e323]:
+                - generic [ref=f4e324]:
+                  - button "Save Rosewater Barrier Mist to favourites" [ref=f4e325]
+                  - button "Add Rosewater Barrier Mist, 100 ml, to bag" [ref=f4e328]: Quick add
+                - generic [ref=f4e330]:
+                  - paragraph [ref=f4e331]: Toners & mists
+                  - heading [level=3] [ref=f4e332]:
+                    - link "Rosewater Barrier Mist" [ref=f4e333] [cursor=pointer]:
+                      - /url: /shop/rosewater-barrier-mist
+                  - paragraph [ref=f4e334]: A cooling mist for skin that runs warm
+                  - generic [ref=f4e335]:
+                    - generic [ref=f4e336]:
+                      - img "Rated 4.0 out of 5" [ref=f4e337]
+                      - generic [ref=f4e364]: "4.0"
+                      - generic [ref=f4e365]: (2)
+                    - generic [ref=f4e366]: $20
+            - listitem [ref=f4e368]:
+              - article [ref=f4e369]:
+                - generic [ref=f4e370]:
+                  - button "Save Glow Reset AHA/BHA Toner to favourites" [ref=f4e371]
+                  - button "Add Glow Reset AHA/BHA Toner, 150 ml, to bag" [ref=f4e374]: Quick add
+                - generic [ref=f4e376]:
+                  - paragraph [ref=f4e377]: Toners & mists
+                  - heading [level=3] [ref=f4e378]:
+                    - link "Glow Reset AHA/BHA Toner" [ref=f4e379] [cursor=pointer]:
+                      - /url: /shop/glow-reset-aha-bha-toner
+                  - paragraph [ref=f4e380]: Gentle exfoliation in a swipe
+                  - generic [ref=f4e381]:
+                    - generic [ref=f4e382]:
+                      - img "Rated 4.5 out of 5" [ref=f4e383]
+                      - generic [ref=f4e410]: "4.5"
+                      - generic [ref=f4e411]: (2)
+                    - generic [ref=f4e412]: $28
+            - listitem [ref=f4e414]:
+              - article [ref=f4e415]:
+                - generic [ref=f4e416]:
+                  - generic: 25% off
+                  - button "Save Dew Drop Hyaluronic Serum to favourites" [ref=f4e417]
+                  - button "Add Dew Drop Hyaluronic Serum, 15 ml, to bag" [ref=f4e420]: Quick add
+                - generic [ref=f4e422]:
+                  - paragraph [ref=f4e423]: Serums
+                  - heading [level=3] [ref=f4e424]:
+                    - link "Dew Drop Hyaluronic Serum" [ref=f4e425] [cursor=pointer]:
+                      - /url: /shop/dew-drop-hyaluronic-serum
+                  - paragraph [ref=f4e426]: Three weights of hydration, one drop
+                  - generic [ref=f4e427]:
+                    - generic [ref=f4e428]:
+                      - img "Rated 4.8 out of 5" [ref=f4e429]
+                      - generic [ref=f4e456]: "4.8"
+                      - generic [ref=f4e457]: (4)
+                    - generic [ref=f4e458]:
+                      - generic [ref=f4e459]: From
+                      - generic [ref=f4e460]: $28.50
+                      - generic [ref=f4e461]:
+                        - generic [ref=f4e462]: Was
+                        - text: $38
+            - listitem [ref=f4e463]:
+              - article [ref=f4e464]:
+                - generic [ref=f4e465]:
+                  - generic: Bestseller
+                  - button "Save Bright Side Vitamin C Serum to favourites" [ref=f4e466]
+                  - button "Add Bright Side Vitamin C Serum, 15 ml, to bag" [ref=f4e469]: Quick add
+                - generic [ref=f4e471]:
+                  - paragraph [ref=f4e472]: Serums
+                  - heading [level=3] [ref=f4e473]:
+                    - link "Bright Side Vitamin C Serum" [ref=f4e474] [cursor=pointer]:
+                      - /url: /shop/bright-side-vitamin-c-serum
+                  - paragraph [ref=f4e475]: 15% vitamin C for a lit-from-within look
+                  - generic [ref=f4e476]:
+                    - generic [ref=f4e477]:
+                      - img "Rated 4.8 out of 5" [ref=f4e478]
+                      - generic [ref=f4e505]: "4.8"
+                      - generic [ref=f4e506]: (4)
+                    - generic [ref=f4e507]:
+                      - generic [ref=f4e508]: From
+                      - generic [ref=f4e509]: $44
+            - listitem [ref=f4e510]:
+              - article [ref=f4e511]:
+                - generic [ref=f4e512]:
+                  - generic: Bestseller
+                  - button "Save Clear Skin Niacinamide + Zinc to favourites" [ref=f4e513]
+                  - button "Add Clear Skin Niacinamide + Zinc, 30 ml, to bag" [ref=f4e516]: Quick add
+                - generic [ref=f4e518]:
+                  - paragraph [ref=f4e519]: Serums
+                  - heading [level=3] [ref=f4e520]:
+                    - link "Clear Skin Niacinamide + Zinc" [ref=f4e521] [cursor=pointer]:
+                      - /url: /shop/clear-skin-niacinamide-zinc
+                  - paragraph [ref=f4e522]: 10% niacinamide for balanced, refined skin
+                  - generic [ref=f4e523]:
+                    - generic [ref=f4e524]:
+                      - img "Rated 4.7 out of 5" [ref=f4e525]
+                      - generic [ref=f4e552]: "4.7"
+                      - generic [ref=f4e553]: (3)
+                    - generic [ref=f4e554]: $32
+            - listitem [ref=f4e556]:
+              - article [ref=f4e557]:
+                - generic [ref=f4e558]:
+                  - button "Save Night Renew Retinol 0.3% to favourites" [ref=f4e559]
+                  - button "Add Night Renew Retinol 0.3%, 30 ml, to bag" [ref=f4e562]: Quick add
+                - generic [ref=f4e564]:
+                  - paragraph [ref=f4e565]: Serums
+                  - heading [level=3] [ref=f4e566]:
+                    - link "Night Renew Retinol 0.3%" [ref=f4e567] [cursor=pointer]:
+                      - /url: /shop/night-renew-retinol
+                  - paragraph [ref=f4e568]: Retinol that respects your barrier
+                  - generic [ref=f4e569]:
+                    - generic [ref=f4e570]:
+                      - img "Rated 4.7 out of 5" [ref=f4e571]
+                      - generic [ref=f4e598]: "4.7"
+                      - generic [ref=f4e599]: (3)
+                    - generic [ref=f4e600]: $48
+            - listitem [ref=f4e602]:
+              - article [ref=f4e603]:
+                - generic [ref=f4e604]:
+                  - button "Save Calm Down Centella Serum to favourites" [ref=f4e605]
+                  - button "Add Calm Down Centella Serum, 30 ml, to bag" [ref=f4e608]: Quick add
+                - generic [ref=f4e610]:
+                  - paragraph [ref=f4e611]: Serums
+                  - heading [level=3] [ref=f4e612]:
+                    - link "Calm Down Centella Serum" [ref=f4e613] [cursor=pointer]:
+                      - /url: /shop/calm-down-centella-serum
+                  - paragraph [ref=f4e614]: Instant comfort for stressed skin
+                  - generic [ref=f4e615]:
+                    - generic [ref=f4e616]:
+                      - img "Rated 4.5 out of 5" [ref=f4e617]
+                      - generic [ref=f4e644]: "4.5"
+                      - generic [ref=f4e645]: (2)
+                    - generic [ref=f4e646]: $36
+            - listitem [ref=f4e648]:
+              - article [ref=f4e649]:
+                - generic [ref=f4e650]:
+                  - button "Save Weightless Water Gel to favourites" [ref=f4e651]
+                  - button "Add Weightless Water Gel, 50 ml, to bag" [ref=f4e654]: Quick add
+                - generic [ref=f4e656]:
+                  - paragraph [ref=f4e657]: Moisturizers
+                  - heading [level=3] [ref=f4e658]:
+                    - link "Weightless Water Gel" [ref=f4e659] [cursor=pointer]:
+                      - /url: /shop/weightless-water-gel
+                  - paragraph [ref=f4e660]: Moisture that feels like nothing
+                  - generic [ref=f4e661]:
+                    - generic [ref=f4e662]:
+                      - img "Rated 4.5 out of 5" [ref=f4e663]
+                      - generic [ref=f4e690]: "4.5"
+                      - generic [ref=f4e691]: (2)
+                    - generic [ref=f4e692]:
+                      - generic [ref=f4e693]: From
+                      - generic [ref=f4e694]: $34
+            - listitem [ref=f4e695]:
+              - article [ref=f4e696]:
+                - generic [ref=f4e697]:
+                  - generic: Bestseller
+                  - button "Save Barrier Butter Ceramide Cream to favourites" [ref=f4e698]
+                  - button "Add Barrier Butter Ceramide Cream, 50 ml, to bag" [ref=f4e701]: Quick add
+                - generic [ref=f4e703]:
+                  - paragraph [ref=f4e704]: Moisturizers
+                  - heading [level=3] [ref=f4e705]:
+                    - link "Barrier Butter Ceramide Cream" [ref=f4e706] [cursor=pointer]:
+                      - /url: /shop/barrier-butter-ceramide-cream
+                  - paragraph [ref=f4e707]: A rich cushion for a compromised barrier
+                  - generic [ref=f4e708]:
+                    - generic [ref=f4e709]:
+                      - img "Rated 4.7 out of 5" [ref=f4e710]
+                      - generic [ref=f4e737]: "4.7"
+                      - generic [ref=f4e738]: (3)
+                    - generic [ref=f4e739]:
+                      - generic [ref=f4e740]: From
+                      - generic [ref=f4e741]: $42
+            - listitem [ref=f4e742]:
+              - article [ref=f4e743]:
+                - generic [ref=f4e744]:
+                  - generic: 25% off
+                  - button "Save Everyday Peptide Cream to favourites" [ref=f4e745]
+                  - button "Add Everyday Peptide Cream, 50 ml, to bag" [ref=f4e748]: Quick add
+                - generic [ref=f4e750]:
+                  - paragraph [ref=f4e751]: Moisturizers
+                  - heading [level=3] [ref=f4e752]:
+                    - link "Everyday Peptide Cream" [ref=f4e753] [cursor=pointer]:
+                      - /url: /shop/everyday-peptide-cream
+                  - paragraph [ref=f4e754]: A smoothing day cream with staying power
+                  - generic [ref=f4e755]:
+                    - generic [ref=f4e756]:
+                      - img "Rated 4.5 out of 5" [ref=f4e757]
+                      - generic [ref=f4e784]: "4.5"
+                      - generic [ref=f4e785]: (2)
+                    - generic [ref=f4e786]:
+                      - generic [ref=f4e787]: $34.50
+                      - generic [ref=f4e788]:
+                        - generic [ref=f4e789]: Was
+                        - text: $46
+            - listitem [ref=f4e790]:
+              - article [ref=f4e791]:
+                - generic [ref=f4e792]:
+                  - generic: Bestseller
+                  - button "Save Invisible Shield SPF 50 to favourites" [ref=f4e793]
+                  - button "Add Invisible Shield SPF 50, 50 ml, to bag" [ref=f4e796]: Quick add
+                - generic [ref=f4e798]:
+                  - paragraph [ref=f4e799]: Sun care
+                  - heading [level=3] [ref=f4e800]:
+                    - link "Invisible Shield SPF 50" [ref=f4e801] [cursor=pointer]:
+                      - /url: /shop/invisible-shield-spf-50
+                  - paragraph [ref=f4e802]: Broad-spectrum protection with no white cast
+                  - generic [ref=f4e803]:
+                    - generic [ref=f4e804]:
+                      - img "Rated 4.8 out of 5" [ref=f4e805]
+                      - generic [ref=f4e832]: "4.8"
+                      - generic [ref=f4e833]: (4)
+                    - generic [ref=f4e834]: $30
+            - listitem [ref=f4e836]:
+              - article [ref=f4e837]:
+                - generic [ref=f4e838]:
+                  - button "Save Mineral Veil SPF 40 to favourites" [ref=f4e839]
+                  - button "Add Mineral Veil SPF 40, 50 ml, to bag" [ref=f4e842]: Quick add
+                - generic [ref=f4e844]:
+                  - paragraph [ref=f4e845]: Sun care
+                  - heading [level=3] [ref=f4e846]:
+                    - link "Mineral Veil SPF 40" [ref=f4e847] [cursor=pointer]:
+                      - /url: /shop/mineral-veil-spf-40
+                  - paragraph [ref=f4e848]: Gentle zinc sunscreen with a sheer tint
+                  - generic [ref=f4e849]:
+                    - generic [ref=f4e850]:
+                      - img "Rated 4.5 out of 5" [ref=f4e851]
+                      - generic [ref=f4e878]: "4.5"
+                      - generic [ref=f4e879]: (2)
+                    - generic [ref=f4e880]: $34
+            - listitem [ref=f4e882]:
+              - article [ref=f4e883]:
+                - generic [ref=f4e884]:
+                  - generic: 25% off
+                  - button "Save Glow Reset Enzyme Mask to favourites" [ref=f4e885]
+                  - button "Add Glow Reset Enzyme Mask, 75 ml, to bag" [ref=f4e888]: Quick add
+                - generic [ref=f4e890]:
+                  - paragraph [ref=f4e891]: Masks
+                  - heading [level=3] [ref=f4e892]:
+                    - link "Glow Reset Enzyme Mask" [ref=f4e893] [cursor=pointer]:
+                      - /url: /shop/glow-reset-enzyme-mask
+                  - paragraph [ref=f4e894]: A ten-minute facial in a jar
+                  - generic [ref=f4e895]:
+                    - generic [ref=f4e896]:
+                      - img "Rated 4.5 out of 5" [ref=f4e897]
+                      - generic [ref=f4e924]: "4.5"
+                      - generic [ref=f4e925]: (2)
+                    - generic [ref=f4e926]:
+                      - generic [ref=f4e927]: $27
+                      - generic [ref=f4e928]:
+                        - generic [ref=f4e929]: Was
+                        - text: $36
+            - listitem [ref=f4e930]:
+              - article [ref=f4e931]:
+                - generic [ref=f4e932]:
+                  - button "Save Midnight Squalane Face Oil to favourites" [ref=f4e933]
+                  - button "Add Midnight Squalane Face Oil, 30 ml, to bag" [ref=f4e936]: Quick add
+                - generic [ref=f4e938]:
+                  - paragraph [ref=f4e939]: Face oils
+                  - heading [level=3] [ref=f4e940]:
+                    - link "Midnight Squalane Face Oil" [ref=f4e941] [cursor=pointer]:
+                      - /url: /shop/midnight-squalane-oil
+                  - paragraph [ref=f4e942]: A final seal for dry nights
+                  - generic [ref=f4e943]:
+                    - generic [ref=f4e944]:
+                      - img "Rated 4.5 out of 5" [ref=f4e945]
+                      - generic [ref=f4e972]: "4.5"
+                      - generic [ref=f4e973]: (2)
+                    - generic [ref=f4e974]: $40
+            - listitem [ref=f4e976]:
+              - article [ref=f4e977]:
+                - generic [ref=f4e978]:
+                  - generic: 25% off
+                  - button "Save Bright Eyes Caffeine Eye Cream to favourites" [ref=f4e979]
+                  - button "Add Bright Eyes Caffeine Eye Cream, 15 ml, to bag" [ref=f4e982]: Quick add
+                - generic [ref=f4e984]:
+                  - paragraph [ref=f4e985]: Eye care
+                  - heading [level=3] [ref=f4e986]:
+                    - link "Bright Eyes Caffeine Eye Cream" [ref=f4e987] [cursor=pointer]:
+                      - /url: /shop/bright-eyes-caffeine-eye-cream
+                  - paragraph [ref=f4e988]: Rested-looking eyes, even on early mornings
+                  - generic [ref=f4e989]:
+                    - generic [ref=f4e990]:
+                      - img "Rated 4.5 out of 5" [ref=f4e991]
+                      - generic [ref=f4e1018]: "4.5"
+                      - generic [ref=f4e1019]: (2)
+                    - generic [ref=f4e1020]:
+                      - generic [ref=f4e1021]: $25.50
+                      - generic [ref=f4e1022]:
+                        - generic [ref=f4e1023]: Was
+                        - text: $34
+  - generic [ref=f4e1024]:
+    - contentinfo [ref=f4e1025]:
+      - generic [ref=f4e1026]:
+        - generic [ref=f4e1027]:
+          - generic [ref=f4e1028]:
+            - link "Aurelle" [ref=f4e1029] [cursor=pointer]:
+              - /url: /
+            - paragraph [ref=f4e1031]: Skincare that listens to your skin. Honest formulas, fair prices and a routine that fits real life.
+          - generic [ref=f4e1032]:
+            - navigation "Shop" [ref=f4e1033]:
+              - paragraph [ref=f4e1034]: Shop
+              - list [ref=f4e1035]:
+                - listitem [ref=f4e1036]:
+                  - link "All products" [ref=f4e1037] [cursor=pointer]:
+                    - /url: /shop
+                - listitem [ref=f4e1038]:
+                  - link "Bestsellers" [ref=f4e1039] [cursor=pointer]:
+                    - /url: /shop?sort=best
+                - listitem [ref=f4e1040]:
+                  - link "Serums" [ref=f4e1041] [cursor=pointer]:
+                    - /url: /shop?step=serum
+                - listitem [ref=f4e1042]:
+                  - link "Sun care" [ref=f4e1043] [cursor=pointer]:
+                    - /url: /shop?step=sunscreen
+                - listitem [ref=f4e1044]:
+                  - link "Flash sale" [ref=f4e1045] [cursor=pointer]:
+                    - /url: /#flash-sale
+            - navigation "Help" [ref=f4e1046]:
+              - paragraph [ref=f4e1047]: Help
+              - list [ref=f4e1048]:
+                - listitem [ref=f4e1049]:
+                  - link "Skin-type quiz" [ref=f4e1050] [cursor=pointer]:
+                    - /url: /quiz
+                - listitem [ref=f4e1051]:
+                  - link "Track your order" [ref=f4e1052] [cursor=pointer]:
+                    - /url: /track
+                - listitem [ref=f4e1053]:
+                  - link "Your bag" [ref=f4e1054] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f4e1055]:
+                  - link "Favourites" [ref=f4e1056] [cursor=pointer]:
+                    - /url: /shop?saved=1
+          - generic [ref=f4e1057]:
+            - paragraph [ref=f4e1058]: Say hello
+            - link "hello@aurelle.test" [ref=f4e1059] [cursor=pointer]:
+              - /url: mailto:hello@aurelle.test
+            - paragraph [ref=f4e1060]: Our studio
+            - paragraph [ref=f4e1061]: Studio 4, 22 Alder Lane, Portland, OR
+            - paragraph [ref=f4e1062]: Follow
+            - list [ref=f4e1063]:
+              - listitem [ref=f4e1064]:
+                - link "Instagram" [ref=f4e1065] [cursor=pointer]:
+                  - /url: https://instagram.com
+              - listitem [ref=f4e1066]:
+                - link "TikTok" [ref=f4e1067] [cursor=pointer]:
+                  - /url: https://tiktok.com
+              - listitem [ref=f4e1068]:
+                - link "YouTube" [ref=f4e1069] [cursor=pointer]:
+                  - /url: https://youtube.com
+        - generic [ref=f4e1070]:
+          - paragraph [ref=f4e1071]: © 2026 Aurelle Skin Co.
+          - list [ref=f4e1072]:
+            - listitem [ref=f4e1073]:
+              - link "Privacy" [ref=f4e1074] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f4e1075]:
+              - link "Terms" [ref=f4e1076] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f4e1077]:
+              - link "Shipping & returns" [ref=f4e1078] [cursor=pointer]:
+                - /url: /
+          - paragraph [ref=f4e1079]: Demo store — no payments are taken.
+      - generic [ref=f4e1080]:
+        - paragraph [aria-hidden]:
+          - generic: A
+          - generic: U
+          - generic: R
+          - generic: E
+          - generic: L
+          - generic: L
+          - generic: E
+    - button "Toggle dark mode" [ref=f4e1083]:
+      - generic [ref=f4e1090]: Light
+  - button "Open Next.js Dev Tools" [ref=f4e1096] [cursor=pointer]
+  - alert [ref=f4e1100]

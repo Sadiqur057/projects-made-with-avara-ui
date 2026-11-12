@@ -1,0 +1,2992 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - generic [ref=f2e5]: Free shipping over $50 · Samples with every order
+      - generic [ref=f2e13]:
+        - link "Aurelle home" [ref=f2e15] [cursor=pointer]:
+          - /url: /
+          - text: Aurelle
+        - button "Search serums, cleansers, dry skin…" [ref=f2e17]
+        - generic [ref=f2e19]:
+          - link "Track order" [ref=f2e20] [cursor=pointer]:
+            - /url: /track
+          - link "Favourites (0)" [ref=f2e24] [cursor=pointer]:
+            - /url: /shop?saved=1
+          - button "Bag (0 items)" [ref=f2e28]
+      - navigation "Shop categories" [ref=f2e32]:
+        - list [ref=f2e33]:
+          - listitem [ref=f2e34]:
+            - link "Flash sale" [ref=f2e35] [cursor=pointer]:
+              - /url: /#flash-sale
+          - listitem [ref=f2e39]:
+            - button "Cleanse & tone" [ref=f2e40]
+          - listitem [ref=f2e43]:
+            - button "Treat" [ref=f2e44]
+          - listitem [ref=f2e47]:
+            - button "Moisturize & protect" [ref=f2e48]
+          - listitem [ref=f2e51]:
+            - button "By concern" [ref=f2e52]
+          - listitem [ref=f2e55]:
+            - link "Skin quiz" [ref=f2e56] [cursor=pointer]:
+              - /url: /quiz
+          - listitem [ref=f2e57]:
+            - link "Track order" [ref=f2e58] [cursor=pointer]:
+              - /url: /track
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=3]: Cleanse & tone
+                  - paragraph: "The first step: gentle, never stripping"
+                - link:
+                  - /url: /shop?step=cleanser
+                  - text: View all products
+              - generic:
+                - link:
+                  - /url: /shop/cloud-cleanse-gel-cleanser
+                  - generic:
+                    - generic: Cloud Cleanse Gel Cleanser
+                    - generic: 150 ml · Cleansers
+                    - generic:
+                      - generic: $24
+                      - generic: "4.5"
+                - link:
+                  - /url: /shop/clear-slate-salicylic-cleanser
+                  - generic:
+                    - generic: Clear Slate Salicylic Cleanser
+                    - generic: 150 ml · Cleansers
+                    - generic:
+                      - generic: $22
+                      - generic: "4.5"
+                - link:
+                  - /url: /shop/milk-bath-cream-cleanser
+                  - generic:
+                    - generic: Milk Bath Cream Cleanser
+                    - generic: 150 ml · Cleansers
+                    - generic:
+                      - generic: $26
+                      - generic: "5.0"
+                - link:
+                  - /url: /shop/rosewater-barrier-mist
+                  - generic:
+                    - generic: Rosewater Barrier Mist
+                    - generic: 100 ml · Toners & mists
+                    - generic:
+                      - generic: $20
+                      - generic: "4.0"
+              - generic:
+                - generic:
+                  - generic: Shop by step
+                  - generic:
+                    - link:
+                      - /url: /shop?step=cleanser
+                      - text: Cleansers
+                    - link:
+                      - /url: /shop?step=toner
+                      - text: Toners & mists
+                - generic:
+                  - generic: Shop by skin type
+                  - generic:
+                    - link:
+                      - /url: /shop?type=oily
+                      - text: Oily
+                    - link:
+                      - /url: /shop?type=dry
+                      - text: Dry
+                    - link:
+                      - /url: /shop?type=combination
+                      - text: Combination
+                    - link:
+                      - /url: /shop?type=sensitive
+                      - text: Sensitive
+            - link:
+              - /url: /quiz
+              - generic: 2-minute quiz
+              - generic:
+                - heading [level=4]: Not sure where to start?
+                - paragraph: Answer five questions and get a routine built for your skin.
+              - generic: Take the skin quiz
+  - main [ref=f2e59]:
+    - generic [ref=f2e62]:
+      - link "Just landed New · Glow Reset Enzyme Mask is here" [ref=f2e64] [cursor=pointer]:
+        - /url: /shop/glow-reset-enzyme-mask
+        - generic [ref=f2e68]: Just landed
+        - generic [ref=f2e70]: New · Glow Reset Enzyme Mask is here
+      - heading "Skincare that listens to your skin." [level=1] [ref=f2e74]:
+        - generic [ref=f2e75]: Skincare that listens
+        - generic [ref=f2e76]: to your skin.
+      - paragraph [ref=f2e80]: Honest formulas, fair prices and a routine built around your skin type. Start with our two-minute quiz and we'll point you to what actually works.
+      - generic [ref=f2e81]:
+        - link [ref=f2e82] [cursor=pointer]:
+          - /url: /quiz
+          - button "Take the skin quiz" [ref=f2e83]
+        - link [ref=f2e88] [cursor=pointer]:
+          - /url: /shop?sort=best
+          - button "Shop bestsellers" [ref=f2e89]
+      - generic [ref=f2e94]:
+        - generic [ref=f2e95]: Fragrance-free options
+        - generic [ref=f2e99]: Vegan formulas
+        - generic [ref=f2e103]: Free shipping over $50
+      - generic [ref=f2e107]:
+        - link "Milk Bath Cream Cleanser — Cleansing that feels like a moisturizer Milk Bath Cream Cleanser" [ref=f2e109] [cursor=pointer]:
+          - /url: /shop/milk-bath-cream-cleanser
+          - generic [ref=f2e110]:
+            - img "Milk Bath Cream Cleanser — Cleansing that feels like a moisturizer" [ref=f2e111]
+            - generic [ref=f2e112]: Milk Bath Cream Cleanser
+        - link "Dew Drop Hyaluronic Serum — Three weights of hydration, one drop Dew Drop Hyaluronic Serum" [ref=f2e114] [cursor=pointer]:
+          - /url: /shop/dew-drop-hyaluronic-serum
+          - generic [ref=f2e115]:
+            - img "Dew Drop Hyaluronic Serum — Three weights of hydration, one drop" [ref=f2e116]
+            - generic [ref=f2e117]: Dew Drop Hyaluronic Serum
+        - link "Bright Side Vitamin C Serum — 15% vitamin C for a lit-from-within look Bright Side Vitamin C Serum" [ref=f2e119] [cursor=pointer]:
+          - /url: /shop/bright-side-vitamin-c-serum
+          - generic [ref=f2e120]:
+            - img "Bright Side Vitamin C Serum — 15% vitamin C for a lit-from-within look" [ref=f2e121]
+            - generic [ref=f2e122]: Bright Side Vitamin C Serum
+        - link "Barrier Butter Ceramide Cream — A rich cushion for a compromised barrier Barrier Butter Ceramide Cream" [ref=f2e124] [cursor=pointer]:
+          - /url: /shop/barrier-butter-ceramide-cream
+          - generic [ref=f2e125]:
+            - img "Barrier Butter Ceramide Cream — A rich cushion for a compromised barrier" [ref=f2e126]
+            - generic [ref=f2e127]: Barrier Butter Ceramide Cream
+        - link "Invisible Shield SPF 50 — Broad-spectrum protection with no white cast Invisible Shield SPF 50" [ref=f2e129] [cursor=pointer]:
+          - /url: /shop/invisible-shield-spf-50
+          - generic [ref=f2e130]:
+            - img "Invisible Shield SPF 50 — Broad-spectrum protection with no white cast" [ref=f2e131]
+            - generic [ref=f2e132]: Invisible Shield SPF 50
+    - region "The ones everyone comes back for" [ref=f2e133]:
+      - generic [ref=f2e134]:
+        - generic [ref=f2e135]:
+          - paragraph [ref=f2e136]: Bestsellers
+          - heading "The ones everyone comes back for" [level=2] [ref=f2e137]
+          - paragraph [ref=f2e138]: Our most-loved formulas, rated by people with skin like yours.
+        - link "Shop all bestsellers" [ref=f2e139] [cursor=pointer]:
+          - /url: /shop?sort=best
+      - group "Filter bestsellers" [ref=f2e142]:
+        - button "All" [pressed] [ref=f2e143]
+        - button "Serums" [ref=f2e144]
+        - button "Moisturizers" [ref=f2e145]
+        - button "Sun care" [ref=f2e146]
+      - list [ref=f2e147]:
+        - listitem [ref=f2e148]:
+          - generic [aria-hidden]: "01"
+          - article [ref=f2e149]:
+            - generic [ref=f2e150]:
+              - generic: 25% off
+              - button "Save Dew Drop Hyaluronic Serum to favourites" [ref=f2e151]
+              - button "Add Dew Drop Hyaluronic Serum, 15 ml, to bag" [ref=f2e154]: Quick add
+            - generic [ref=f2e156]:
+              - paragraph [ref=f2e157]: Serums
+              - heading [level=3] [ref=f2e158]:
+                - link "Dew Drop Hyaluronic Serum" [ref=f2e159] [cursor=pointer]:
+                  - /url: /shop/dew-drop-hyaluronic-serum
+              - paragraph [ref=f2e160]: Three weights of hydration, one drop
+              - generic [ref=f2e161]:
+                - generic [ref=f2e162]:
+                  - generic [ref=f2e163]: From
+                  - generic [ref=f2e164]: $28.50
+                  - generic [ref=f2e165]:
+                    - generic [ref=f2e166]: Was
+                    - text: $38
+                - generic [ref=f2e167]:
+                  - img "Rated 4.8 out of 5" [ref=f2e168]
+                  - generic [ref=f2e195]: "4.8"
+                  - generic [ref=f2e196]: (4)
+        - listitem [ref=f2e197]:
+          - generic [aria-hidden]: "02"
+          - article [ref=f2e198]:
+            - generic [ref=f2e199]:
+              - generic: Bestseller
+              - button "Save Bright Side Vitamin C Serum to favourites" [ref=f2e200]
+              - button "Add Bright Side Vitamin C Serum, 15 ml, to bag" [ref=f2e203]: Quick add
+            - generic [ref=f2e205]:
+              - paragraph [ref=f2e206]: Serums
+              - heading [level=3] [ref=f2e207]:
+                - link "Bright Side Vitamin C Serum" [ref=f2e208] [cursor=pointer]:
+                  - /url: /shop/bright-side-vitamin-c-serum
+              - paragraph [ref=f2e209]: 15% vitamin C for a lit-from-within look
+              - generic [ref=f2e210]:
+                - generic [ref=f2e211]:
+                  - generic [ref=f2e212]: From
+                  - generic [ref=f2e213]: $44
+                - generic [ref=f2e214]:
+                  - img "Rated 4.8 out of 5" [ref=f2e215]
+                  - generic [ref=f2e242]: "4.8"
+                  - generic [ref=f2e243]: (4)
+        - listitem [ref=f2e244]:
+          - generic [aria-hidden]: "03"
+          - article [ref=f2e245]:
+            - generic [ref=f2e246]:
+              - generic: Bestseller
+              - button "Save Clear Skin Niacinamide + Zinc to favourites" [ref=f2e247]
+              - button "Add Clear Skin Niacinamide + Zinc, 30 ml, to bag" [ref=f2e250]: Quick add
+            - generic [ref=f2e252]:
+              - paragraph [ref=f2e253]: Serums
+              - heading [level=3] [ref=f2e254]:
+                - link "Clear Skin Niacinamide + Zinc" [ref=f2e255] [cursor=pointer]:
+                  - /url: /shop/clear-skin-niacinamide-zinc
+              - paragraph [ref=f2e256]: 10% niacinamide for balanced, refined skin
+              - generic [ref=f2e257]:
+                - generic [ref=f2e258]: $32
+                - generic [ref=f2e260]:
+                  - img "Rated 4.7 out of 5" [ref=f2e261]
+                  - generic [ref=f2e288]: "4.7"
+                  - generic [ref=f2e289]: (3)
+        - listitem [ref=f2e290]:
+          - generic [aria-hidden]: "04"
+          - article [ref=f2e291]:
+            - generic [ref=f2e292]:
+              - generic: Bestseller
+              - button "Save Barrier Butter Ceramide Cream to favourites" [ref=f2e293]
+              - button "Add Barrier Butter Ceramide Cream, 50 ml, to bag" [ref=f2e296]: Quick add
+            - generic [ref=f2e298]:
+              - paragraph [ref=f2e299]: Moisturizers
+              - heading [level=3] [ref=f2e300]:
+                - link "Barrier Butter Ceramide Cream" [ref=f2e301] [cursor=pointer]:
+                  - /url: /shop/barrier-butter-ceramide-cream
+              - paragraph [ref=f2e302]: A rich cushion for a compromised barrier
+              - generic [ref=f2e303]:
+                - generic [ref=f2e304]:
+                  - generic [ref=f2e305]: From
+                  - generic [ref=f2e306]: $42
+                - generic [ref=f2e307]:
+                  - img "Rated 4.7 out of 5" [ref=f2e308]
+                  - generic [ref=f2e335]: "4.7"
+                  - generic [ref=f2e336]: (3)
+        - listitem [ref=f2e337]:
+          - generic [aria-hidden]: "05"
+          - article [ref=f2e338]:
+            - generic [ref=f2e339]:
+              - generic: Bestseller
+              - button "Save Invisible Shield SPF 50 to favourites" [ref=f2e340]
+              - button "Add Invisible Shield SPF 50, 50 ml, to bag" [ref=f2e343]: Quick add
+            - generic [ref=f2e345]:
+              - paragraph [ref=f2e346]: Sun care
+              - heading [level=3] [ref=f2e347]:
+                - link "Invisible Shield SPF 50" [ref=f2e348] [cursor=pointer]:
+                  - /url: /shop/invisible-shield-spf-50
+              - paragraph [ref=f2e349]: Broad-spectrum protection with no white cast
+              - generic [ref=f2e350]:
+                - generic [ref=f2e351]: $30
+                - generic [ref=f2e353]:
+                  - img "Rated 4.8 out of 5" [ref=f2e354]
+                  - generic [ref=f2e381]: "4.8"
+                  - generic [ref=f2e382]: (4)
+    - region "Start with what you'd like to change" [ref=f2e383]:
+      - generic [ref=f2e384]:
+        - generic [ref=f2e385]:
+          - generic [ref=f2e386]:
+            - paragraph [ref=f2e387]: Shop by concern
+            - heading "Start with what you'd like to change" [level=2] [ref=f2e388]
+            - paragraph [ref=f2e389]: Pick the thing on your mind and we'll show the formulas that help.
+          - link "Or take the quiz" [ref=f2e390] [cursor=pointer]:
+            - /url: /quiz
+        - generic [ref=f2e393]:
+          - link "Breakouts Clearer-looking skin, fewer shiny patches 4 products" [ref=f2e394] [cursor=pointer]:
+            - /url: /shop?concern=acne
+            - generic [ref=f2e396]:
+              - heading "Breakouts" [level=3] [ref=f2e397]
+              - paragraph [ref=f2e398]: Clearer-looking skin, fewer shiny patches
+            - generic [ref=f2e403]: 4 products
+          - link "Dullness Bring back the lit-from-within look 7 products" [ref=f2e410] [cursor=pointer]:
+            - /url: /shop?concern=dullness
+            - generic [ref=f2e412]:
+              - heading "Dullness" [level=3] [ref=f2e413]
+              - paragraph [ref=f2e414]: Bring back the lit-from-within look
+            - generic [ref=f2e419]: 7 products
+          - link "Dark spots Even out tone and fade the look of marks 4 products" [ref=f2e425] [cursor=pointer]:
+            - /url: /shop?concern=dark-spots
+            - generic [ref=f2e427]:
+              - heading "Dark spots" [level=3] [ref=f2e428]
+              - paragraph [ref=f2e429]: Even out tone and fade the look of marks
+            - generic [ref=f2e434]: 4 products
+          - link "Fine lines Smoother, bouncier-looking skin 6 products" [ref=f2e440] [cursor=pointer]:
+            - /url: /shop?concern=fine-lines
+            - generic [ref=f2e442]:
+              - heading "Fine lines" [level=3] [ref=f2e443]
+              - paragraph [ref=f2e444]: Smoother, bouncier-looking skin
+            - generic [ref=f2e449]: 6 products
+          - link "Redness Calm, comfortable, less reactive 7 products" [ref=f2e455] [cursor=pointer]:
+            - /url: /shop?concern=redness
+            - generic [ref=f2e457]:
+              - heading "Redness" [level=3] [ref=f2e458]
+              - paragraph [ref=f2e459]: Calm, comfortable, less reactive
+            - generic [ref=f2e464]: 7 products
+          - link "Dryness Deep, lasting hydration 10 products" [ref=f2e470] [cursor=pointer]:
+            - /url: /shop?concern=dryness
+            - generic [ref=f2e472]:
+              - heading "Dryness" [level=3] [ref=f2e473]
+              - paragraph [ref=f2e474]: Deep, lasting hydration
+            - generic [ref=f2e479]: 10 products
+          - link "Visible pores A refined, matte-but-not-flat finish 4 products" [ref=f2e485] [cursor=pointer]:
+            - /url: /shop?concern=pores
+            - generic [ref=f2e487]:
+              - heading "Visible pores" [level=3] [ref=f2e488]
+              - paragraph [ref=f2e489]: A refined, matte-but-not-flat finish
+            - generic [ref=f2e494]: 4 products
+    - region "Bright Side Vitamin C Serum" [ref=f2e500]:
+      - generic [ref=f2e501]:
+        - img "Bright Side Vitamin C Serum on a stone podium" [ref=f2e504]
+        - generic [ref=f2e507]:
+          - paragraph [ref=f2e508]: Featured · Bestseller
+          - heading "Bright Side Vitamin C Serum" [level=2] [ref=f2e509]
+          - paragraph [ref=f2e510]: 15% vitamin C for a lit-from-within look
+          - generic [ref=f2e511]:
+            - img "Rated 4.8 out of 5" [ref=f2e512]
+            - generic [ref=f2e539]: "4.8"
+            - generic [ref=f2e540]: (4)
+          - paragraph [ref=f2e541]: A stable 15% ascorbic acid blend with vitamin E and ferulic acid. Used daily, skin looks brighter, more even and better protected against everyday environmental stress.
+          - list [ref=f2e542]:
+            - listitem [ref=f2e543]: 15% L-ascorbic acid
+            - listitem [ref=f2e547]: With vitamin E + ferulic acid
+            - listitem [ref=f2e551]: Airless pump keeps it fresh
+          - generic [ref=f2e555]: Vitamin C
+          - generic [ref=f2e557]:
+            - group "Size" [ref=f2e558]:
+              - generic [ref=f2e560] [cursor=pointer]:
+                - radio "15 ml" [checked] [ref=f2e561]
+                - generic [ref=f2e562]: 15 ml
+              - generic [ref=f2e563] [cursor=pointer]:
+                - radio "30 ml" [ref=f2e564]
+                - generic [ref=f2e565]: 30 ml
+            - generic [ref=f2e566]: $44.00
+          - generic [ref=f2e568]:
+            - button "Add to bag" [ref=f2e569]
+            - button "Save Bright Side Vitamin C Serum to favourites" [ref=f2e570]
+            - link "Full details" [ref=f2e573] [cursor=pointer]:
+              - /url: /shop/bright-side-vitamin-c-serum
+    - region "Seven ingredients, explained plainly" [ref=f2e576]:
+      - generic [ref=f2e577]:
+        - generic [ref=f2e579]:
+          - paragraph [ref=f2e580]: Ingredients spotlight
+          - heading "Seven ingredients, explained plainly" [level=2] [ref=f2e581]
+          - paragraph [ref=f2e582]: No mystery lists. Here's what each hero ingredient does, who it's for, and what it plays nicely with.
+        - generic [ref=f2e583]:
+          - tablist "Ingredients" [ref=f2e584]:
+            - tab "Hyaluronic acid The hydration magnet" [selected] [ref=f2e585]:
+              - generic [ref=f2e586]: Hyaluronic acid
+              - generic [ref=f2e587]: The hydration magnet
+            - tab "Niacinamide The great balancer" [ref=f2e588]:
+              - generic [ref=f2e589]: Niacinamide
+              - generic [ref=f2e590]: The great balancer
+            - tab "Vitamin C The brightener" [ref=f2e591]:
+              - generic [ref=f2e592]: Vitamin C
+              - generic [ref=f2e593]: The brightener
+            - tab "Retinol The renewer" [ref=f2e594]:
+              - generic [ref=f2e595]: Retinol
+              - generic [ref=f2e596]: The renewer
+            - tab "Ceramides The barrier builders" [ref=f2e597]:
+              - generic [ref=f2e598]: Ceramides
+              - generic [ref=f2e599]: The barrier builders
+            - tab "Centella asiatica The calm-down" [ref=f2e600]:
+              - generic [ref=f2e601]: Centella asiatica
+              - generic [ref=f2e602]: The calm-down
+            - tab "Salicylic acid The pore clearer" [ref=f2e603]:
+              - generic [ref=f2e604]: Salicylic acid
+              - generic [ref=f2e605]: The pore clearer
+          - tabpanel "Hyaluronic acid The hydration magnet" [ref=f2e606]:
+            - generic [ref=f2e607]:
+              - paragraph [ref=f2e608]: The hydration magnet
+              - heading "Hyaluronic acid" [level=3] [ref=f2e609]
+              - paragraph [ref=f2e610]: Holds up to 1,000 times its weight in water. We use three molecular weights so hydration sits on the surface and just beneath it.
+              - generic [ref=f2e611]:
+                - generic [ref=f2e612]:
+                  - term [ref=f2e613]: Best for
+                  - definition [ref=f2e614]:
+                    - generic [ref=f2e615]: Dryness
+                    - generic [ref=f2e616]: Dehydrated oily skin
+                    - generic [ref=f2e617]: Fine lines
+                - generic [ref=f2e618]:
+                  - term [ref=f2e619]: Strength
+                  - definition [ref=f2e620]:
+                    - generic [ref=f2e625]: Gentle · every day
+                - generic [ref=f2e626]:
+                  - term [ref=f2e627]: Pairs with
+                  - definition [ref=f2e628]: Everything. It is the friendliest ingredient in the routine.
+                - generic [ref=f2e629]:
+                  - term [ref=f2e630]: Good to know
+                  - definition [ref=f2e631]: Apply to damp skin and seal with moisturizer so it has water to hold.
+            - generic [ref=f2e632]:
+              - paragraph [ref=f2e633]: Find it in
+              - list [ref=f2e634]:
+                - listitem [ref=f2e635]:
+                  - link "Rosewater Barrier Mist A cooling mist for skin that runs warm" [ref=f2e636] [cursor=pointer]:
+                    - /url: /shop/rosewater-barrier-mist
+                    - generic [ref=f2e638]:
+                      - generic [ref=f2e639]: Rosewater Barrier Mist
+                      - generic [ref=f2e640]: A cooling mist for skin that runs warm
+                - listitem [ref=f2e641]:
+                  - link "Dew Drop Hyaluronic Serum Three weights of hydration, one drop" [ref=f2e642] [cursor=pointer]:
+                    - /url: /shop/dew-drop-hyaluronic-serum
+                    - generic [ref=f2e644]:
+                      - generic [ref=f2e645]: Dew Drop Hyaluronic Serum
+                      - generic [ref=f2e646]: Three weights of hydration, one drop
+                - listitem [ref=f2e647]:
+                  - link "Weightless Water Gel Moisture that feels like nothing" [ref=f2e648] [cursor=pointer]:
+                    - /url: /shop/weightless-water-gel
+                    - generic [ref=f2e650]:
+                      - generic [ref=f2e651]: Weightless Water Gel
+                      - generic [ref=f2e652]: Moisture that feels like nothing
+                - listitem [ref=f2e653]:
+                  - link "Everyday Peptide Cream A smoothing day cream with staying power" [ref=f2e654] [cursor=pointer]:
+                    - /url: /shop/everyday-peptide-cream
+                    - generic [ref=f2e656]:
+                      - generic [ref=f2e657]: Everyday Peptide Cream
+                      - generic [ref=f2e658]: A smoothing day cream with staying power
+                - listitem [ref=f2e659]:
+                  - link "Glow Reset Enzyme Mask A ten-minute facial in a jar" [ref=f2e660] [cursor=pointer]:
+                    - /url: /shop/glow-reset-enzyme-mask
+                    - generic [ref=f2e662]:
+                      - generic [ref=f2e663]: Glow Reset Enzyme Mask
+                      - generic [ref=f2e664]: A ten-minute facial in a jar
+                - listitem [ref=f2e665]:
+                  - link "Bright Eyes Caffeine Eye Cream Rested-looking eyes, even on early mornings" [ref=f2e666] [cursor=pointer]:
+                    - /url: /shop/bright-eyes-caffeine-eye-cream
+                    - generic [ref=f2e668]:
+                      - generic [ref=f2e669]: Bright Eyes Caffeine Eye Cream
+                      - generic [ref=f2e670]: Rested-looking eyes, even on early mornings
+    - region "25% off four favourites. Today only." [ref=f2e671]:
+      - generic [ref=f2e672]:
+        - generic [ref=f2e673]:
+          - generic [ref=f2e674]:
+            - paragraph [ref=f2e675]: Flash sale
+            - heading "25% off four favourites. Today only." [level=2] [ref=f2e678]:
+              - text: 25% off four favourites.
+              - generic [ref=f2e679]: Today only.
+            - paragraph [ref=f2e680]: Prices drop automatically in your bag. The sale resets at midnight, and once a batch is gone it's gone.
+          - timer "Time left in the sale" [ref=f2e681]:
+            - generic [ref=f2e682]:
+              - generic [ref=f2e683]:
+                - generic [ref=f2e684]: ––
+                - generic [ref=f2e685]: Hours
+              - generic [aria-hidden] [ref=f2e686]: ":"
+            - generic [ref=f2e687]:
+              - generic [ref=f2e688]:
+                - generic [ref=f2e689]: ––
+                - generic [ref=f2e690]: Minutes
+              - generic [aria-hidden] [ref=f2e691]: ":"
+            - generic [ref=f2e693]:
+              - generic [ref=f2e694]: ––
+              - generic [ref=f2e695]: Seconds
+        - list [ref=f2e696]:
+          - listitem [ref=f2e697]:
+            - article [ref=f2e698]:
+              - generic [ref=f2e699]:
+                - generic: 25% off
+                - button "Save Dew Drop Hyaluronic Serum to favourites" [ref=f2e700]
+                - button "Add Dew Drop Hyaluronic Serum, 15 ml, to bag" [ref=f2e703]: Quick add
+              - generic [ref=f2e705]:
+                - paragraph [ref=f2e706]: Serums
+                - heading [level=3] [ref=f2e707]:
+                  - link "Dew Drop Hyaluronic Serum" [ref=f2e708] [cursor=pointer]:
+                    - /url: /shop/dew-drop-hyaluronic-serum
+                - paragraph [ref=f2e709]: Three weights of hydration, one drop
+                - generic [ref=f2e710]:
+                  - generic [ref=f2e711]:
+                    - generic [ref=f2e712]: From
+                    - generic [ref=f2e713]: $28.50
+                    - generic [ref=f2e714]:
+                      - generic [ref=f2e715]: Was
+                      - text: $38
+                  - generic [ref=f2e716]:
+                    - img "Rated 4.8 out of 5" [ref=f2e717]
+                    - generic [ref=f2e744]: "4.8"
+                    - generic [ref=f2e745]: (4)
+            - generic [ref=f2e746]:
+              - generic [ref=f2e747]:
+                - generic [ref=f2e748]: 72% claimed
+                - generic [ref=f2e749]: Selling fast
+              - 'progressbar "Dew Drop Hyaluronic Serum: 72% of the sale batch claimed" [ref=f2e750]'
+          - listitem [ref=f2e752]:
+            - article [ref=f2e753]:
+              - generic [ref=f2e754]:
+                - generic: 25% off
+                - button "Save Glow Reset Enzyme Mask to favourites" [ref=f2e755]
+                - button "Add Glow Reset Enzyme Mask, 75 ml, to bag" [ref=f2e758]: Quick add
+              - generic [ref=f2e760]:
+                - paragraph [ref=f2e761]: Masks
+                - heading [level=3] [ref=f2e762]:
+                  - link "Glow Reset Enzyme Mask" [ref=f2e763] [cursor=pointer]:
+                    - /url: /shop/glow-reset-enzyme-mask
+                - paragraph [ref=f2e764]: A ten-minute facial in a jar
+                - generic [ref=f2e765]:
+                  - generic [ref=f2e766]:
+                    - generic [ref=f2e767]: $27
+                    - generic [ref=f2e768]:
+                      - generic [ref=f2e769]: Was
+                      - text: $36
+                  - generic [ref=f2e770]:
+                    - img "Rated 4.5 out of 5" [ref=f2e771]
+                    - generic [ref=f2e798]: "4.5"
+                    - generic [ref=f2e799]: (2)
+            - generic [ref=f2e800]:
+              - generic [ref=f2e801]:
+                - generic [ref=f2e802]: 58% claimed
+                - generic [ref=f2e803]: Selling fast
+              - 'progressbar "Glow Reset Enzyme Mask: 58% of the sale batch claimed" [ref=f2e804]'
+          - listitem [ref=f2e806]:
+            - article [ref=f2e807]:
+              - generic [ref=f2e808]:
+                - generic: 25% off
+                - button "Save Everyday Peptide Cream to favourites" [ref=f2e809]
+                - button "Add Everyday Peptide Cream, 50 ml, to bag" [ref=f2e812]: Quick add
+              - generic [ref=f2e814]:
+                - paragraph [ref=f2e815]: Moisturizers
+                - heading [level=3] [ref=f2e816]:
+                  - link "Everyday Peptide Cream" [ref=f2e817] [cursor=pointer]:
+                    - /url: /shop/everyday-peptide-cream
+                - paragraph [ref=f2e818]: A smoothing day cream with staying power
+                - generic [ref=f2e819]:
+                  - generic [ref=f2e820]:
+                    - generic [ref=f2e821]: $34.50
+                    - generic [ref=f2e822]:
+                      - generic [ref=f2e823]: Was
+                      - text: $46
+                  - generic [ref=f2e824]:
+                    - img "Rated 4.5 out of 5" [ref=f2e825]
+                    - generic [ref=f2e852]: "4.5"
+                    - generic [ref=f2e853]: (2)
+            - generic [ref=f2e854]:
+              - generic [ref=f2e855]:
+                - generic [ref=f2e856]: 41% claimed
+                - generic [ref=f2e857]: Selling fast
+              - 'progressbar "Everyday Peptide Cream: 41% of the sale batch claimed" [ref=f2e858]'
+          - listitem [ref=f2e860]:
+            - article [ref=f2e861]:
+              - generic [ref=f2e862]:
+                - generic: 25% off
+                - button "Save Bright Eyes Caffeine Eye Cream to favourites" [ref=f2e863]
+                - button "Add Bright Eyes Caffeine Eye Cream, 15 ml, to bag" [ref=f2e866]: Quick add
+              - generic [ref=f2e868]:
+                - paragraph [ref=f2e869]: Eye care
+                - heading [level=3] [ref=f2e870]:
+                  - link "Bright Eyes Caffeine Eye Cream" [ref=f2e871] [cursor=pointer]:
+                    - /url: /shop/bright-eyes-caffeine-eye-cream
+                - paragraph [ref=f2e872]: Rested-looking eyes, even on early mornings
+                - generic [ref=f2e873]:
+                  - generic [ref=f2e874]:
+                    - generic [ref=f2e875]: $25.50
+                    - generic [ref=f2e876]:
+                      - generic [ref=f2e877]: Was
+                      - text: $34
+                  - generic [ref=f2e878]:
+                    - img "Rated 4.5 out of 5" [ref=f2e879]
+                    - generic [ref=f2e906]: "4.5"
+                    - generic [ref=f2e907]: (2)
+            - generic [ref=f2e908]:
+              - generic [ref=f2e909]:
+                - generic [ref=f2e910]: 83% claimed
+                - generic [ref=f2e911]: Almost gone
+              - 'progressbar "Bright Eyes Caffeine Eye Cream: 83% of the sale batch claimed" [ref=f2e912]'
+    - generic [ref=f2e914]:
+      - generic [ref=f2e915]:
+        - generic [ref=f2e916]: Client Testimonials
+        - heading "Loved by real skin" [level=2] [ref=f2e919]
+        - paragraph [ref=f2e920]: Honest words from people with oily, dry, sensitive and everything-in-between skin.
+      - generic [ref=f2e923]:
+        - generic [ref=f2e925]:
+          - generic [ref=f2e926] [cursor=pointer]:
+            - generic [ref=f2e927]:
+              - generic [ref=f2e928]:
+                - img "Rated 5.0 out of 5" [ref=f2e929]
+                - generic [ref=f2e956]: "5.0"
+              - generic [ref=f2e957]: Invisible Shield
+            - paragraph [ref=f2e959]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e961]:
+              - generic [ref=f2e962]: E
+              - generic [ref=f2e965]:
+                - heading "Emi J." [level=4] [ref=f2e966]
+                - paragraph [ref=f2e967]: Dry skin
+          - generic [ref=f2e968] [cursor=pointer]:
+            - generic [ref=f2e969]:
+              - generic [ref=f2e970]:
+                - img "Rated 5.0 out of 5" [ref=f2e971]
+                - generic [ref=f2e998]: "5.0"
+              - generic [ref=f2e999]: Bright Eyes
+            - paragraph [ref=f2e1001]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e1003]:
+              - generic [ref=f2e1004]: A
+              - generic [ref=f2e1007]:
+                - heading "Alma N." [level=4] [ref=f2e1008]
+                - paragraph [ref=f2e1009]: Normal skin
+          - generic [ref=f2e1010] [cursor=pointer]:
+            - generic [ref=f2e1011]:
+              - generic [ref=f2e1012]:
+                - img "Rated 5.0 out of 5" [ref=f2e1013]
+                - generic [ref=f2e1040]: "5.0"
+              - generic [ref=f2e1041]: Night Renew
+            - paragraph [ref=f2e1043]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e1045]:
+              - generic [ref=f2e1046]: S
+              - generic [ref=f2e1049]:
+                - heading "Sofia L." [level=4] [ref=f2e1050]
+                - paragraph [ref=f2e1051]: Dry skin
+          - generic [ref=f2e1052] [cursor=pointer]:
+            - generic [ref=f2e1053]:
+              - generic [ref=f2e1054]:
+                - img "Rated 5.0 out of 5" [ref=f2e1055]
+                - generic [ref=f2e1082]: "5.0"
+              - generic [ref=f2e1083]: Bright Side
+            - paragraph [ref=f2e1085]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e1087]:
+              - generic [ref=f2e1088]: "N"
+              - generic [ref=f2e1091]:
+                - heading "Noor H." [level=4] [ref=f2e1092]
+                - paragraph [ref=f2e1093]: Dry skin
+          - generic [ref=f2e1094] [cursor=pointer]:
+            - generic [ref=f2e1095]:
+              - generic [ref=f2e1096]:
+                - img "Rated 5.0 out of 5" [ref=f2e1097]
+                - generic [ref=f2e1124]: "5.0"
+              - generic [ref=f2e1125]: Glow Reset
+            - paragraph [ref=f2e1127]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e1129]:
+              - generic [ref=f2e1130]: B
+              - generic [ref=f2e1133]:
+                - heading "Bianca T." [level=4] [ref=f2e1134]
+                - paragraph [ref=f2e1135]: Combination skin
+          - generic [ref=f2e1136] [cursor=pointer]:
+            - generic [ref=f2e1137]:
+              - generic [ref=f2e1138]:
+                - img "Rated 5.0 out of 5" [ref=f2e1139]
+                - generic [ref=f2e1166]: "5.0"
+              - generic [ref=f2e1167]: Barrier Butter
+            - paragraph [ref=f2e1169]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e1171]:
+              - generic [ref=f2e1172]: H
+              - generic [ref=f2e1175]:
+                - heading "Hana O." [level=4] [ref=f2e1176]
+                - paragraph [ref=f2e1177]: Dry skin
+          - generic [ref=f2e1178] [cursor=pointer]:
+            - generic [ref=f2e1179]:
+              - generic [ref=f2e1180]:
+                - img "Rated 5.0 out of 5" [ref=f2e1181]
+                - generic [ref=f2e1208]: "5.0"
+              - generic [ref=f2e1209]: Night Renew
+            - paragraph [ref=f2e1211]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e1213]:
+              - generic [ref=f2e1214]: A
+              - generic [ref=f2e1217]:
+                - heading "Anika B." [level=4] [ref=f2e1218]
+                - paragraph [ref=f2e1219]: Normal skin
+          - generic [ref=f2e1220] [cursor=pointer]:
+            - generic [ref=f2e1221]:
+              - generic [ref=f2e1222]:
+                - img "Rated 5.0 out of 5" [ref=f2e1223]
+                - generic [ref=f2e1250]: "5.0"
+              - generic [ref=f2e1251]: Clear Skin
+            - paragraph [ref=f2e1253]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e1255]:
+              - generic [ref=f2e1256]: L
+              - generic [ref=f2e1259]:
+                - heading "Lena B." [level=4] [ref=f2e1260]
+                - paragraph [ref=f2e1261]: Normal skin
+          - generic [ref=f2e1262] [cursor=pointer]:
+            - generic [ref=f2e1263]:
+              - generic [ref=f2e1264]:
+                - img "Rated 5.0 out of 5" [ref=f2e1265]
+                - generic [ref=f2e1292]: "5.0"
+              - generic [ref=f2e1293]: Everyday Peptide
+            - paragraph [ref=f2e1295]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e1297]:
+              - generic [ref=f2e1298]: J
+              - generic [ref=f2e1301]:
+                - heading "Julia M." [level=4] [ref=f2e1302]
+                - paragraph [ref=f2e1303]: Normal skin
+          - generic [ref=f2e1304] [cursor=pointer]:
+            - generic [ref=f2e1305]:
+              - generic [ref=f2e1306]:
+                - img "Rated 5.0 out of 5" [ref=f2e1307]
+                - generic [ref=f2e1334]: "5.0"
+              - generic [ref=f2e1335]: Dew Drop
+            - paragraph [ref=f2e1337]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e1339]:
+              - generic [ref=f2e1340]: E
+              - generic [ref=f2e1343]:
+                - heading "Elena V." [level=4] [ref=f2e1344]
+                - paragraph [ref=f2e1345]: Oily skin
+          - generic [ref=f2e1346] [cursor=pointer]:
+            - generic [ref=f2e1347]:
+              - generic [ref=f2e1348]:
+                - img "Rated 5.0 out of 5" [ref=f2e1349]
+                - generic [ref=f2e1376]: "5.0"
+              - generic [ref=f2e1377]: Clear Slate
+            - paragraph [ref=f2e1379]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e1381]:
+              - generic [ref=f2e1382]: K
+              - generic [ref=f2e1385]:
+                - heading "Kofi A." [level=4] [ref=f2e1386]
+                - paragraph [ref=f2e1387]: Combination skin
+          - generic [ref=f2e1388] [cursor=pointer]:
+            - generic [ref=f2e1389]:
+              - generic [ref=f2e1390]:
+                - img "Rated 5.0 out of 5" [ref=f2e1391]
+                - generic [ref=f2e1418]: "5.0"
+              - generic [ref=f2e1419]: Invisible Shield
+            - paragraph [ref=f2e1421]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e1423]:
+              - generic [ref=f2e1424]: D
+              - generic [ref=f2e1427]:
+                - heading "Dee A." [level=4] [ref=f2e1428]
+                - paragraph [ref=f2e1429]: Combination skin
+          - generic [ref=f2e1430] [cursor=pointer]:
+            - generic [ref=f2e1431]:
+              - generic [ref=f2e1432]:
+                - img "Rated 5.0 out of 5" [ref=f2e1433]
+                - generic [ref=f2e1460]: "5.0"
+              - generic [ref=f2e1461]: Invisible Shield
+            - paragraph [ref=f2e1463]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e1465]:
+              - generic [ref=f2e1466]: E
+              - generic [ref=f2e1469]:
+                - heading "Emi J." [level=4] [ref=f2e1470]
+                - paragraph [ref=f2e1471]: Dry skin
+          - generic [ref=f2e1472] [cursor=pointer]:
+            - generic [ref=f2e1473]:
+              - generic [ref=f2e1474]:
+                - img "Rated 5.0 out of 5" [ref=f2e1475]
+                - generic [ref=f2e1502]: "5.0"
+              - generic [ref=f2e1503]: Bright Eyes
+            - paragraph [ref=f2e1505]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e1507]:
+              - generic [ref=f2e1508]: A
+              - generic [ref=f2e1511]:
+                - heading "Alma N." [level=4] [ref=f2e1512]
+                - paragraph [ref=f2e1513]: Normal skin
+          - generic [ref=f2e1514] [cursor=pointer]:
+            - generic [ref=f2e1515]:
+              - generic [ref=f2e1516]:
+                - img "Rated 5.0 out of 5" [ref=f2e1517]
+                - generic [ref=f2e1544]: "5.0"
+              - generic [ref=f2e1545]: Night Renew
+            - paragraph [ref=f2e1547]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e1549]:
+              - generic [ref=f2e1550]: S
+              - generic [ref=f2e1553]:
+                - heading "Sofia L." [level=4] [ref=f2e1554]
+                - paragraph [ref=f2e1555]: Dry skin
+          - generic [ref=f2e1556] [cursor=pointer]:
+            - generic [ref=f2e1557]:
+              - generic [ref=f2e1558]:
+                - img "Rated 5.0 out of 5" [ref=f2e1559]
+                - generic [ref=f2e1586]: "5.0"
+              - generic [ref=f2e1587]: Bright Side
+            - paragraph [ref=f2e1589]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e1591]:
+              - generic [ref=f2e1592]: "N"
+              - generic [ref=f2e1595]:
+                - heading "Noor H." [level=4] [ref=f2e1596]
+                - paragraph [ref=f2e1597]: Dry skin
+          - generic [ref=f2e1598] [cursor=pointer]:
+            - generic [ref=f2e1599]:
+              - generic [ref=f2e1600]:
+                - img "Rated 5.0 out of 5" [ref=f2e1601]
+                - generic [ref=f2e1628]: "5.0"
+              - generic [ref=f2e1629]: Glow Reset
+            - paragraph [ref=f2e1631]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e1633]:
+              - generic [ref=f2e1634]: B
+              - generic [ref=f2e1637]:
+                - heading "Bianca T." [level=4] [ref=f2e1638]
+                - paragraph [ref=f2e1639]: Combination skin
+          - generic [ref=f2e1640] [cursor=pointer]:
+            - generic [ref=f2e1641]:
+              - generic [ref=f2e1642]:
+                - img "Rated 5.0 out of 5" [ref=f2e1643]
+                - generic [ref=f2e1670]: "5.0"
+              - generic [ref=f2e1671]: Barrier Butter
+            - paragraph [ref=f2e1673]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e1675]:
+              - generic [ref=f2e1676]: H
+              - generic [ref=f2e1679]:
+                - heading "Hana O." [level=4] [ref=f2e1680]
+                - paragraph [ref=f2e1681]: Dry skin
+          - generic [ref=f2e1682] [cursor=pointer]:
+            - generic [ref=f2e1683]:
+              - generic [ref=f2e1684]:
+                - img "Rated 5.0 out of 5" [ref=f2e1685]
+                - generic [ref=f2e1712]: "5.0"
+              - generic [ref=f2e1713]: Night Renew
+            - paragraph [ref=f2e1715]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e1717]:
+              - generic [ref=f2e1718]: A
+              - generic [ref=f2e1721]:
+                - heading "Anika B." [level=4] [ref=f2e1722]
+                - paragraph [ref=f2e1723]: Normal skin
+          - generic [ref=f2e1724] [cursor=pointer]:
+            - generic [ref=f2e1725]:
+              - generic [ref=f2e1726]:
+                - img "Rated 5.0 out of 5" [ref=f2e1727]
+                - generic [ref=f2e1754]: "5.0"
+              - generic [ref=f2e1755]: Clear Skin
+            - paragraph [ref=f2e1757]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e1759]:
+              - generic [ref=f2e1760]: L
+              - generic [ref=f2e1763]:
+                - heading "Lena B." [level=4] [ref=f2e1764]
+                - paragraph [ref=f2e1765]: Normal skin
+          - generic [ref=f2e1766] [cursor=pointer]:
+            - generic [ref=f2e1767]:
+              - generic [ref=f2e1768]:
+                - img "Rated 5.0 out of 5" [ref=f2e1769]
+                - generic [ref=f2e1796]: "5.0"
+              - generic [ref=f2e1797]: Everyday Peptide
+            - paragraph [ref=f2e1799]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e1801]:
+              - generic [ref=f2e1802]: J
+              - generic [ref=f2e1805]:
+                - heading "Julia M." [level=4] [ref=f2e1806]
+                - paragraph [ref=f2e1807]: Normal skin
+          - generic [ref=f2e1808] [cursor=pointer]:
+            - generic [ref=f2e1809]:
+              - generic [ref=f2e1810]:
+                - img "Rated 5.0 out of 5" [ref=f2e1811]
+                - generic [ref=f2e1838]: "5.0"
+              - generic [ref=f2e1839]: Dew Drop
+            - paragraph [ref=f2e1841]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e1843]:
+              - generic [ref=f2e1844]: E
+              - generic [ref=f2e1847]:
+                - heading "Elena V." [level=4] [ref=f2e1848]
+                - paragraph [ref=f2e1849]: Oily skin
+          - generic [ref=f2e1850] [cursor=pointer]:
+            - generic [ref=f2e1851]:
+              - generic [ref=f2e1852]:
+                - img "Rated 5.0 out of 5" [ref=f2e1853]
+                - generic [ref=f2e1880]: "5.0"
+              - generic [ref=f2e1881]: Clear Slate
+            - paragraph [ref=f2e1883]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e1885]:
+              - generic [ref=f2e1886]: K
+              - generic [ref=f2e1889]:
+                - heading "Kofi A." [level=4] [ref=f2e1890]
+                - paragraph [ref=f2e1891]: Combination skin
+          - generic [ref=f2e1892] [cursor=pointer]:
+            - generic [ref=f2e1893]:
+              - generic [ref=f2e1894]:
+                - img "Rated 5.0 out of 5" [ref=f2e1895]
+                - generic [ref=f2e1922]: "5.0"
+              - generic [ref=f2e1923]: Invisible Shield
+            - paragraph [ref=f2e1925]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e1927]:
+              - generic [ref=f2e1928]: D
+              - generic [ref=f2e1931]:
+                - heading "Dee A." [level=4] [ref=f2e1932]
+                - paragraph [ref=f2e1933]: Combination skin
+          - generic [ref=f2e1934] [cursor=pointer]:
+            - generic [ref=f2e1935]:
+              - generic [ref=f2e1936]:
+                - img "Rated 5.0 out of 5" [ref=f2e1937]
+                - generic [ref=f2e1964]: "5.0"
+              - generic [ref=f2e1965]: Invisible Shield
+            - paragraph [ref=f2e1967]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e1969]:
+              - generic [ref=f2e1970]: E
+              - generic [ref=f2e1973]:
+                - heading "Emi J." [level=4] [ref=f2e1974]
+                - paragraph [ref=f2e1975]: Dry skin
+          - generic [ref=f2e1976] [cursor=pointer]:
+            - generic [ref=f2e1977]:
+              - generic [ref=f2e1978]:
+                - img "Rated 5.0 out of 5" [ref=f2e1979]
+                - generic [ref=f2e2006]: "5.0"
+              - generic [ref=f2e2007]: Bright Eyes
+            - paragraph [ref=f2e2009]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e2011]:
+              - generic [ref=f2e2012]: A
+              - generic [ref=f2e2015]:
+                - heading "Alma N." [level=4] [ref=f2e2016]
+                - paragraph [ref=f2e2017]: Normal skin
+          - generic [ref=f2e2018] [cursor=pointer]:
+            - generic [ref=f2e2019]:
+              - generic [ref=f2e2020]:
+                - img "Rated 5.0 out of 5" [ref=f2e2021]
+                - generic [ref=f2e2048]: "5.0"
+              - generic [ref=f2e2049]: Night Renew
+            - paragraph [ref=f2e2051]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e2053]:
+              - generic [ref=f2e2054]: S
+              - generic [ref=f2e2057]:
+                - heading "Sofia L." [level=4] [ref=f2e2058]
+                - paragraph [ref=f2e2059]: Dry skin
+          - generic [ref=f2e2060] [cursor=pointer]:
+            - generic [ref=f2e2061]:
+              - generic [ref=f2e2062]:
+                - img "Rated 5.0 out of 5" [ref=f2e2063]
+                - generic [ref=f2e2090]: "5.0"
+              - generic [ref=f2e2091]: Bright Side
+            - paragraph [ref=f2e2093]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e2095]:
+              - generic [ref=f2e2096]: "N"
+              - generic [ref=f2e2099]:
+                - heading "Noor H." [level=4] [ref=f2e2100]
+                - paragraph [ref=f2e2101]: Dry skin
+          - generic [ref=f2e2102] [cursor=pointer]:
+            - generic [ref=f2e2103]:
+              - generic [ref=f2e2104]:
+                - img "Rated 5.0 out of 5" [ref=f2e2105]
+                - generic [ref=f2e2132]: "5.0"
+              - generic [ref=f2e2133]: Glow Reset
+            - paragraph [ref=f2e2135]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e2137]:
+              - generic [ref=f2e2138]: B
+              - generic [ref=f2e2141]:
+                - heading "Bianca T." [level=4] [ref=f2e2142]
+                - paragraph [ref=f2e2143]: Combination skin
+          - generic [ref=f2e2144] [cursor=pointer]:
+            - generic [ref=f2e2145]:
+              - generic [ref=f2e2146]:
+                - img "Rated 5.0 out of 5" [ref=f2e2147]
+                - generic [ref=f2e2174]: "5.0"
+              - generic [ref=f2e2175]: Barrier Butter
+            - paragraph [ref=f2e2177]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e2179]:
+              - generic [ref=f2e2180]: H
+              - generic [ref=f2e2183]:
+                - heading "Hana O." [level=4] [ref=f2e2184]
+                - paragraph [ref=f2e2185]: Dry skin
+          - generic [ref=f2e2186] [cursor=pointer]:
+            - generic [ref=f2e2187]:
+              - generic [ref=f2e2188]:
+                - img "Rated 5.0 out of 5" [ref=f2e2189]
+                - generic [ref=f2e2216]: "5.0"
+              - generic [ref=f2e2217]: Night Renew
+            - paragraph [ref=f2e2219]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e2221]:
+              - generic [ref=f2e2222]: A
+              - generic [ref=f2e2225]:
+                - heading "Anika B." [level=4] [ref=f2e2226]
+                - paragraph [ref=f2e2227]: Normal skin
+          - generic [ref=f2e2228] [cursor=pointer]:
+            - generic [ref=f2e2229]:
+              - generic [ref=f2e2230]:
+                - img "Rated 5.0 out of 5" [ref=f2e2231]
+                - generic [ref=f2e2258]: "5.0"
+              - generic [ref=f2e2259]: Clear Skin
+            - paragraph [ref=f2e2261]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e2263]:
+              - generic [ref=f2e2264]: L
+              - generic [ref=f2e2267]:
+                - heading "Lena B." [level=4] [ref=f2e2268]
+                - paragraph [ref=f2e2269]: Normal skin
+          - generic [ref=f2e2270] [cursor=pointer]:
+            - generic [ref=f2e2271]:
+              - generic [ref=f2e2272]:
+                - img "Rated 5.0 out of 5" [ref=f2e2273]
+                - generic [ref=f2e2300]: "5.0"
+              - generic [ref=f2e2301]: Everyday Peptide
+            - paragraph [ref=f2e2303]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e2305]:
+              - generic [ref=f2e2306]: J
+              - generic [ref=f2e2309]:
+                - heading "Julia M." [level=4] [ref=f2e2310]
+                - paragraph [ref=f2e2311]: Normal skin
+          - generic [ref=f2e2312] [cursor=pointer]:
+            - generic [ref=f2e2313]:
+              - generic [ref=f2e2314]:
+                - img "Rated 5.0 out of 5" [ref=f2e2315]
+                - generic [ref=f2e2342]: "5.0"
+              - generic [ref=f2e2343]: Dew Drop
+            - paragraph [ref=f2e2345]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e2347]:
+              - generic [ref=f2e2348]: E
+              - generic [ref=f2e2351]:
+                - heading "Elena V." [level=4] [ref=f2e2352]
+                - paragraph [ref=f2e2353]: Oily skin
+          - generic [ref=f2e2354] [cursor=pointer]:
+            - generic [ref=f2e2355]:
+              - generic [ref=f2e2356]:
+                - img "Rated 5.0 out of 5" [ref=f2e2357]
+                - generic [ref=f2e2384]: "5.0"
+              - generic [ref=f2e2385]: Clear Slate
+            - paragraph [ref=f2e2387]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e2389]:
+              - generic [ref=f2e2390]: K
+              - generic [ref=f2e2393]:
+                - heading "Kofi A." [level=4] [ref=f2e2394]
+                - paragraph [ref=f2e2395]: Combination skin
+          - generic [ref=f2e2396] [cursor=pointer]:
+            - generic [ref=f2e2397]:
+              - generic [ref=f2e2398]:
+                - img "Rated 5.0 out of 5" [ref=f2e2399]
+                - generic [ref=f2e2426]: "5.0"
+              - generic [ref=f2e2427]: Invisible Shield
+            - paragraph [ref=f2e2429]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e2431]:
+              - generic [ref=f2e2432]: D
+              - generic [ref=f2e2435]:
+                - heading "Dee A." [level=4] [ref=f2e2436]
+                - paragraph [ref=f2e2437]: Combination skin
+          - generic [ref=f2e2438] [cursor=pointer]:
+            - generic [ref=f2e2439]:
+              - generic [ref=f2e2440]:
+                - img "Rated 5.0 out of 5" [ref=f2e2441]
+                - generic [ref=f2e2468]: "5.0"
+              - generic [ref=f2e2469]: Invisible Shield
+            - paragraph [ref=f2e2471]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e2473]:
+              - generic [ref=f2e2474]: E
+              - generic [ref=f2e2477]:
+                - heading "Emi J." [level=4] [ref=f2e2478]
+                - paragraph [ref=f2e2479]: Dry skin
+          - generic [ref=f2e2480] [cursor=pointer]:
+            - generic [ref=f2e2481]:
+              - generic [ref=f2e2482]:
+                - img "Rated 5.0 out of 5" [ref=f2e2483]
+                - generic [ref=f2e2510]: "5.0"
+              - generic [ref=f2e2511]: Bright Eyes
+            - paragraph [ref=f2e2513]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e2515]:
+              - generic [ref=f2e2516]: A
+              - generic [ref=f2e2519]:
+                - heading "Alma N." [level=4] [ref=f2e2520]
+                - paragraph [ref=f2e2521]: Normal skin
+          - generic [ref=f2e2522] [cursor=pointer]:
+            - generic [ref=f2e2523]:
+              - generic [ref=f2e2524]:
+                - img "Rated 5.0 out of 5" [ref=f2e2525]
+                - generic [ref=f2e2552]: "5.0"
+              - generic [ref=f2e2553]: Night Renew
+            - paragraph [ref=f2e2555]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e2557]:
+              - generic [ref=f2e2558]: S
+              - generic [ref=f2e2561]:
+                - heading "Sofia L." [level=4] [ref=f2e2562]
+                - paragraph [ref=f2e2563]: Dry skin
+          - generic [ref=f2e2564] [cursor=pointer]:
+            - generic [ref=f2e2565]:
+              - generic [ref=f2e2566]:
+                - img "Rated 5.0 out of 5" [ref=f2e2567]
+                - generic [ref=f2e2594]: "5.0"
+              - generic [ref=f2e2595]: Bright Side
+            - paragraph [ref=f2e2597]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e2599]:
+              - generic [ref=f2e2600]: "N"
+              - generic [ref=f2e2603]:
+                - heading "Noor H." [level=4] [ref=f2e2604]
+                - paragraph [ref=f2e2605]: Dry skin
+          - generic [ref=f2e2606] [cursor=pointer]:
+            - generic [ref=f2e2607]:
+              - generic [ref=f2e2608]:
+                - img "Rated 5.0 out of 5" [ref=f2e2609]
+                - generic [ref=f2e2636]: "5.0"
+              - generic [ref=f2e2637]: Glow Reset
+            - paragraph [ref=f2e2639]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e2641]:
+              - generic [ref=f2e2642]: B
+              - generic [ref=f2e2645]:
+                - heading "Bianca T." [level=4] [ref=f2e2646]
+                - paragraph [ref=f2e2647]: Combination skin
+          - generic [ref=f2e2648] [cursor=pointer]:
+            - generic [ref=f2e2649]:
+              - generic [ref=f2e2650]:
+                - img "Rated 5.0 out of 5" [ref=f2e2651]
+                - generic [ref=f2e2678]: "5.0"
+              - generic [ref=f2e2679]: Barrier Butter
+            - paragraph [ref=f2e2681]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e2683]:
+              - generic [ref=f2e2684]: H
+              - generic [ref=f2e2687]:
+                - heading "Hana O." [level=4] [ref=f2e2688]
+                - paragraph [ref=f2e2689]: Dry skin
+          - generic [ref=f2e2690] [cursor=pointer]:
+            - generic [ref=f2e2691]:
+              - generic [ref=f2e2692]:
+                - img "Rated 5.0 out of 5" [ref=f2e2693]
+                - generic [ref=f2e2720]: "5.0"
+              - generic [ref=f2e2721]: Night Renew
+            - paragraph [ref=f2e2723]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e2725]:
+              - generic [ref=f2e2726]: A
+              - generic [ref=f2e2729]:
+                - heading "Anika B." [level=4] [ref=f2e2730]
+                - paragraph [ref=f2e2731]: Normal skin
+          - generic [ref=f2e2732] [cursor=pointer]:
+            - generic [ref=f2e2733]:
+              - generic [ref=f2e2734]:
+                - img "Rated 5.0 out of 5" [ref=f2e2735]
+                - generic [ref=f2e2762]: "5.0"
+              - generic [ref=f2e2763]: Clear Skin
+            - paragraph [ref=f2e2765]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e2767]:
+              - generic [ref=f2e2768]: L
+              - generic [ref=f2e2771]:
+                - heading "Lena B." [level=4] [ref=f2e2772]
+                - paragraph [ref=f2e2773]: Normal skin
+          - generic [ref=f2e2774] [cursor=pointer]:
+            - generic [ref=f2e2775]:
+              - generic [ref=f2e2776]:
+                - img "Rated 5.0 out of 5" [ref=f2e2777]
+                - generic [ref=f2e2804]: "5.0"
+              - generic [ref=f2e2805]: Everyday Peptide
+            - paragraph [ref=f2e2807]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e2809]:
+              - generic [ref=f2e2810]: J
+              - generic [ref=f2e2813]:
+                - heading "Julia M." [level=4] [ref=f2e2814]
+                - paragraph [ref=f2e2815]: Normal skin
+          - generic [ref=f2e2816] [cursor=pointer]:
+            - generic [ref=f2e2817]:
+              - generic [ref=f2e2818]:
+                - img "Rated 5.0 out of 5" [ref=f2e2819]
+                - generic [ref=f2e2846]: "5.0"
+              - generic [ref=f2e2847]: Dew Drop
+            - paragraph [ref=f2e2849]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e2851]:
+              - generic [ref=f2e2852]: E
+              - generic [ref=f2e2855]:
+                - heading "Elena V." [level=4] [ref=f2e2856]
+                - paragraph [ref=f2e2857]: Oily skin
+          - generic [ref=f2e2858] [cursor=pointer]:
+            - generic [ref=f2e2859]:
+              - generic [ref=f2e2860]:
+                - img "Rated 5.0 out of 5" [ref=f2e2861]
+                - generic [ref=f2e2888]: "5.0"
+              - generic [ref=f2e2889]: Clear Slate
+            - paragraph [ref=f2e2891]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e2893]:
+              - generic [ref=f2e2894]: K
+              - generic [ref=f2e2897]:
+                - heading "Kofi A." [level=4] [ref=f2e2898]
+                - paragraph [ref=f2e2899]: Combination skin
+          - generic [ref=f2e2900] [cursor=pointer]:
+            - generic [ref=f2e2901]:
+              - generic [ref=f2e2902]:
+                - img "Rated 5.0 out of 5" [ref=f2e2903]
+                - generic [ref=f2e2930]: "5.0"
+              - generic [ref=f2e2931]: Invisible Shield
+            - paragraph [ref=f2e2933]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e2935]:
+              - generic [ref=f2e2936]: D
+              - generic [ref=f2e2939]:
+                - heading "Dee A." [level=4] [ref=f2e2940]
+                - paragraph [ref=f2e2941]: Combination skin
+        - generic [ref=f2e2943]:
+          - generic [ref=f2e2944] [cursor=pointer]:
+            - generic [ref=f2e2945]:
+              - generic [ref=f2e2946]:
+                - img "Rated 5.0 out of 5" [ref=f2e2947]
+                - generic [ref=f2e2974]: "5.0"
+              - generic [ref=f2e2975]: Bright Eyes
+            - paragraph [ref=f2e2977]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e2979]:
+              - generic [ref=f2e2980]: A
+              - generic [ref=f2e2983]:
+                - heading "Alma N." [level=4] [ref=f2e2984]
+                - paragraph [ref=f2e2985]: Normal skin
+          - generic [ref=f2e2986] [cursor=pointer]:
+            - generic [ref=f2e2987]:
+              - generic [ref=f2e2988]:
+                - img "Rated 5.0 out of 5" [ref=f2e2989]
+                - generic [ref=f2e3016]: "5.0"
+              - generic [ref=f2e3017]: Night Renew
+            - paragraph [ref=f2e3019]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e3021]:
+              - generic [ref=f2e3022]: S
+              - generic [ref=f2e3025]:
+                - heading "Sofia L." [level=4] [ref=f2e3026]
+                - paragraph [ref=f2e3027]: Dry skin
+          - generic [ref=f2e3028] [cursor=pointer]:
+            - generic [ref=f2e3029]:
+              - generic [ref=f2e3030]:
+                - img "Rated 5.0 out of 5" [ref=f2e3031]
+                - generic [ref=f2e3058]: "5.0"
+              - generic [ref=f2e3059]: Bright Side
+            - paragraph [ref=f2e3061]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e3063]:
+              - generic [ref=f2e3064]: "N"
+              - generic [ref=f2e3067]:
+                - heading "Noor H." [level=4] [ref=f2e3068]
+                - paragraph [ref=f2e3069]: Dry skin
+          - generic [ref=f2e3070] [cursor=pointer]:
+            - generic [ref=f2e3071]:
+              - generic [ref=f2e3072]:
+                - img "Rated 5.0 out of 5" [ref=f2e3073]
+                - generic [ref=f2e3100]: "5.0"
+              - generic [ref=f2e3101]: Glow Reset
+            - paragraph [ref=f2e3103]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e3105]:
+              - generic [ref=f2e3106]: B
+              - generic [ref=f2e3109]:
+                - heading "Bianca T." [level=4] [ref=f2e3110]
+                - paragraph [ref=f2e3111]: Combination skin
+          - generic [ref=f2e3112] [cursor=pointer]:
+            - generic [ref=f2e3113]:
+              - generic [ref=f2e3114]:
+                - img "Rated 5.0 out of 5" [ref=f2e3115]
+                - generic [ref=f2e3142]: "5.0"
+              - generic [ref=f2e3143]: Barrier Butter
+            - paragraph [ref=f2e3145]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e3147]:
+              - generic [ref=f2e3148]: H
+              - generic [ref=f2e3151]:
+                - heading "Hana O." [level=4] [ref=f2e3152]
+                - paragraph [ref=f2e3153]: Dry skin
+          - generic [ref=f2e3154] [cursor=pointer]:
+            - generic [ref=f2e3155]:
+              - generic [ref=f2e3156]:
+                - img "Rated 5.0 out of 5" [ref=f2e3157]
+                - generic [ref=f2e3184]: "5.0"
+              - generic [ref=f2e3185]: Night Renew
+            - paragraph [ref=f2e3187]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e3189]:
+              - generic [ref=f2e3190]: A
+              - generic [ref=f2e3193]:
+                - heading "Anika B." [level=4] [ref=f2e3194]
+                - paragraph [ref=f2e3195]: Normal skin
+          - generic [ref=f2e3196] [cursor=pointer]:
+            - generic [ref=f2e3197]:
+              - generic [ref=f2e3198]:
+                - img "Rated 5.0 out of 5" [ref=f2e3199]
+                - generic [ref=f2e3226]: "5.0"
+              - generic [ref=f2e3227]: Clear Skin
+            - paragraph [ref=f2e3229]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e3231]:
+              - generic [ref=f2e3232]: L
+              - generic [ref=f2e3235]:
+                - heading "Lena B." [level=4] [ref=f2e3236]
+                - paragraph [ref=f2e3237]: Normal skin
+          - generic [ref=f2e3238] [cursor=pointer]:
+            - generic [ref=f2e3239]:
+              - generic [ref=f2e3240]:
+                - img "Rated 5.0 out of 5" [ref=f2e3241]
+                - generic [ref=f2e3268]: "5.0"
+              - generic [ref=f2e3269]: Everyday Peptide
+            - paragraph [ref=f2e3271]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e3273]:
+              - generic [ref=f2e3274]: J
+              - generic [ref=f2e3277]:
+                - heading "Julia M." [level=4] [ref=f2e3278]
+                - paragraph [ref=f2e3279]: Normal skin
+          - generic [ref=f2e3280] [cursor=pointer]:
+            - generic [ref=f2e3281]:
+              - generic [ref=f2e3282]:
+                - img "Rated 5.0 out of 5" [ref=f2e3283]
+                - generic [ref=f2e3310]: "5.0"
+              - generic [ref=f2e3311]: Dew Drop
+            - paragraph [ref=f2e3313]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e3315]:
+              - generic [ref=f2e3316]: E
+              - generic [ref=f2e3319]:
+                - heading "Elena V." [level=4] [ref=f2e3320]
+                - paragraph [ref=f2e3321]: Oily skin
+          - generic [ref=f2e3322] [cursor=pointer]:
+            - generic [ref=f2e3323]:
+              - generic [ref=f2e3324]:
+                - img "Rated 5.0 out of 5" [ref=f2e3325]
+                - generic [ref=f2e3352]: "5.0"
+              - generic [ref=f2e3353]: Clear Slate
+            - paragraph [ref=f2e3355]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e3357]:
+              - generic [ref=f2e3358]: K
+              - generic [ref=f2e3361]:
+                - heading "Kofi A." [level=4] [ref=f2e3362]
+                - paragraph [ref=f2e3363]: Combination skin
+          - generic [ref=f2e3364] [cursor=pointer]:
+            - generic [ref=f2e3365]:
+              - generic [ref=f2e3366]:
+                - img "Rated 5.0 out of 5" [ref=f2e3367]
+                - generic [ref=f2e3394]: "5.0"
+              - generic [ref=f2e3395]: Invisible Shield
+            - paragraph [ref=f2e3397]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e3399]:
+              - generic [ref=f2e3400]: D
+              - generic [ref=f2e3403]:
+                - heading "Dee A." [level=4] [ref=f2e3404]
+                - paragraph [ref=f2e3405]: Combination skin
+          - generic [ref=f2e3406] [cursor=pointer]:
+            - generic [ref=f2e3407]:
+              - generic [ref=f2e3408]:
+                - img "Rated 5.0 out of 5" [ref=f2e3409]
+                - generic [ref=f2e3436]: "5.0"
+              - generic [ref=f2e3437]: Invisible Shield
+            - paragraph [ref=f2e3439]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e3441]:
+              - generic [ref=f2e3442]: E
+              - generic [ref=f2e3445]:
+                - heading "Emi J." [level=4] [ref=f2e3446]
+                - paragraph [ref=f2e3447]: Dry skin
+          - generic [ref=f2e3448] [cursor=pointer]:
+            - generic [ref=f2e3449]:
+              - generic [ref=f2e3450]:
+                - img "Rated 5.0 out of 5" [ref=f2e3451]
+                - generic [ref=f2e3478]: "5.0"
+              - generic [ref=f2e3479]: Bright Eyes
+            - paragraph [ref=f2e3481]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e3483]:
+              - generic [ref=f2e3484]: A
+              - generic [ref=f2e3487]:
+                - heading "Alma N." [level=4] [ref=f2e3488]
+                - paragraph [ref=f2e3489]: Normal skin
+          - generic [ref=f2e3490] [cursor=pointer]:
+            - generic [ref=f2e3491]:
+              - generic [ref=f2e3492]:
+                - img "Rated 5.0 out of 5" [ref=f2e3493]
+                - generic [ref=f2e3520]: "5.0"
+              - generic [ref=f2e3521]: Night Renew
+            - paragraph [ref=f2e3523]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e3525]:
+              - generic [ref=f2e3526]: S
+              - generic [ref=f2e3529]:
+                - heading "Sofia L." [level=4] [ref=f2e3530]
+                - paragraph [ref=f2e3531]: Dry skin
+          - generic [ref=f2e3532] [cursor=pointer]:
+            - generic [ref=f2e3533]:
+              - generic [ref=f2e3534]:
+                - img "Rated 5.0 out of 5" [ref=f2e3535]
+                - generic [ref=f2e3562]: "5.0"
+              - generic [ref=f2e3563]: Bright Side
+            - paragraph [ref=f2e3565]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e3567]:
+              - generic [ref=f2e3568]: "N"
+              - generic [ref=f2e3571]:
+                - heading "Noor H." [level=4] [ref=f2e3572]
+                - paragraph [ref=f2e3573]: Dry skin
+          - generic [ref=f2e3574] [cursor=pointer]:
+            - generic [ref=f2e3575]:
+              - generic [ref=f2e3576]:
+                - img "Rated 5.0 out of 5" [ref=f2e3577]
+                - generic [ref=f2e3604]: "5.0"
+              - generic [ref=f2e3605]: Glow Reset
+            - paragraph [ref=f2e3607]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e3609]:
+              - generic [ref=f2e3610]: B
+              - generic [ref=f2e3613]:
+                - heading "Bianca T." [level=4] [ref=f2e3614]
+                - paragraph [ref=f2e3615]: Combination skin
+          - generic [ref=f2e3616] [cursor=pointer]:
+            - generic [ref=f2e3617]:
+              - generic [ref=f2e3618]:
+                - img "Rated 5.0 out of 5" [ref=f2e3619]
+                - generic [ref=f2e3646]: "5.0"
+              - generic [ref=f2e3647]: Barrier Butter
+            - paragraph [ref=f2e3649]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e3651]:
+              - generic [ref=f2e3652]: H
+              - generic [ref=f2e3655]:
+                - heading "Hana O." [level=4] [ref=f2e3656]
+                - paragraph [ref=f2e3657]: Dry skin
+          - generic [ref=f2e3658] [cursor=pointer]:
+            - generic [ref=f2e3659]:
+              - generic [ref=f2e3660]:
+                - img "Rated 5.0 out of 5" [ref=f2e3661]
+                - generic [ref=f2e3688]: "5.0"
+              - generic [ref=f2e3689]: Night Renew
+            - paragraph [ref=f2e3691]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e3693]:
+              - generic [ref=f2e3694]: A
+              - generic [ref=f2e3697]:
+                - heading "Anika B." [level=4] [ref=f2e3698]
+                - paragraph [ref=f2e3699]: Normal skin
+          - generic [ref=f2e3700] [cursor=pointer]:
+            - generic [ref=f2e3701]:
+              - generic [ref=f2e3702]:
+                - img "Rated 5.0 out of 5" [ref=f2e3703]
+                - generic [ref=f2e3730]: "5.0"
+              - generic [ref=f2e3731]: Clear Skin
+            - paragraph [ref=f2e3733]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e3735]:
+              - generic [ref=f2e3736]: L
+              - generic [ref=f2e3739]:
+                - heading "Lena B." [level=4] [ref=f2e3740]
+                - paragraph [ref=f2e3741]: Normal skin
+          - generic [ref=f2e3742] [cursor=pointer]:
+            - generic [ref=f2e3743]:
+              - generic [ref=f2e3744]:
+                - img "Rated 5.0 out of 5" [ref=f2e3745]
+                - generic [ref=f2e3772]: "5.0"
+              - generic [ref=f2e3773]: Everyday Peptide
+            - paragraph [ref=f2e3775]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e3777]:
+              - generic [ref=f2e3778]: J
+              - generic [ref=f2e3781]:
+                - heading "Julia M." [level=4] [ref=f2e3782]
+                - paragraph [ref=f2e3783]: Normal skin
+          - generic [ref=f2e3784] [cursor=pointer]:
+            - generic [ref=f2e3785]:
+              - generic [ref=f2e3786]:
+                - img "Rated 5.0 out of 5" [ref=f2e3787]
+                - generic [ref=f2e3814]: "5.0"
+              - generic [ref=f2e3815]: Dew Drop
+            - paragraph [ref=f2e3817]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e3819]:
+              - generic [ref=f2e3820]: E
+              - generic [ref=f2e3823]:
+                - heading "Elena V." [level=4] [ref=f2e3824]
+                - paragraph [ref=f2e3825]: Oily skin
+          - generic [ref=f2e3826] [cursor=pointer]:
+            - generic [ref=f2e3827]:
+              - generic [ref=f2e3828]:
+                - img "Rated 5.0 out of 5" [ref=f2e3829]
+                - generic [ref=f2e3856]: "5.0"
+              - generic [ref=f2e3857]: Clear Slate
+            - paragraph [ref=f2e3859]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e3861]:
+              - generic [ref=f2e3862]: K
+              - generic [ref=f2e3865]:
+                - heading "Kofi A." [level=4] [ref=f2e3866]
+                - paragraph [ref=f2e3867]: Combination skin
+          - generic [ref=f2e3868] [cursor=pointer]:
+            - generic [ref=f2e3869]:
+              - generic [ref=f2e3870]:
+                - img "Rated 5.0 out of 5" [ref=f2e3871]
+                - generic [ref=f2e3898]: "5.0"
+              - generic [ref=f2e3899]: Invisible Shield
+            - paragraph [ref=f2e3901]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e3903]:
+              - generic [ref=f2e3904]: D
+              - generic [ref=f2e3907]:
+                - heading "Dee A." [level=4] [ref=f2e3908]
+                - paragraph [ref=f2e3909]: Combination skin
+          - generic [ref=f2e3910] [cursor=pointer]:
+            - generic [ref=f2e3911]:
+              - generic [ref=f2e3912]:
+                - img "Rated 5.0 out of 5" [ref=f2e3913]
+                - generic [ref=f2e3940]: "5.0"
+              - generic [ref=f2e3941]: Invisible Shield
+            - paragraph [ref=f2e3943]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e3945]:
+              - generic [ref=f2e3946]: E
+              - generic [ref=f2e3949]:
+                - heading "Emi J." [level=4] [ref=f2e3950]
+                - paragraph [ref=f2e3951]: Dry skin
+          - generic [ref=f2e3952] [cursor=pointer]:
+            - generic [ref=f2e3953]:
+              - generic [ref=f2e3954]:
+                - img "Rated 5.0 out of 5" [ref=f2e3955]
+                - generic [ref=f2e3982]: "5.0"
+              - generic [ref=f2e3983]: Bright Eyes
+            - paragraph [ref=f2e3985]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e3987]:
+              - generic [ref=f2e3988]: A
+              - generic [ref=f2e3991]:
+                - heading "Alma N." [level=4] [ref=f2e3992]
+                - paragraph [ref=f2e3993]: Normal skin
+          - generic [ref=f2e3994] [cursor=pointer]:
+            - generic [ref=f2e3995]:
+              - generic [ref=f2e3996]:
+                - img "Rated 5.0 out of 5" [ref=f2e3997]
+                - generic [ref=f2e4024]: "5.0"
+              - generic [ref=f2e4025]: Night Renew
+            - paragraph [ref=f2e4027]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e4029]:
+              - generic [ref=f2e4030]: S
+              - generic [ref=f2e4033]:
+                - heading "Sofia L." [level=4] [ref=f2e4034]
+                - paragraph [ref=f2e4035]: Dry skin
+          - generic [ref=f2e4036] [cursor=pointer]:
+            - generic [ref=f2e4037]:
+              - generic [ref=f2e4038]:
+                - img "Rated 5.0 out of 5" [ref=f2e4039]
+                - generic [ref=f2e4066]: "5.0"
+              - generic [ref=f2e4067]: Bright Side
+            - paragraph [ref=f2e4069]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e4071]:
+              - generic [ref=f2e4072]: "N"
+              - generic [ref=f2e4075]:
+                - heading "Noor H." [level=4] [ref=f2e4076]
+                - paragraph [ref=f2e4077]: Dry skin
+          - generic [ref=f2e4078] [cursor=pointer]:
+            - generic [ref=f2e4079]:
+              - generic [ref=f2e4080]:
+                - img "Rated 5.0 out of 5" [ref=f2e4081]
+                - generic [ref=f2e4108]: "5.0"
+              - generic [ref=f2e4109]: Glow Reset
+            - paragraph [ref=f2e4111]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e4113]:
+              - generic [ref=f2e4114]: B
+              - generic [ref=f2e4117]:
+                - heading "Bianca T." [level=4] [ref=f2e4118]
+                - paragraph [ref=f2e4119]: Combination skin
+          - generic [ref=f2e4120] [cursor=pointer]:
+            - generic [ref=f2e4121]:
+              - generic [ref=f2e4122]:
+                - img "Rated 5.0 out of 5" [ref=f2e4123]
+                - generic [ref=f2e4150]: "5.0"
+              - generic [ref=f2e4151]: Barrier Butter
+            - paragraph [ref=f2e4153]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e4155]:
+              - generic [ref=f2e4156]: H
+              - generic [ref=f2e4159]:
+                - heading "Hana O." [level=4] [ref=f2e4160]
+                - paragraph [ref=f2e4161]: Dry skin
+          - generic [ref=f2e4162] [cursor=pointer]:
+            - generic [ref=f2e4163]:
+              - generic [ref=f2e4164]:
+                - img "Rated 5.0 out of 5" [ref=f2e4165]
+                - generic [ref=f2e4192]: "5.0"
+              - generic [ref=f2e4193]: Night Renew
+            - paragraph [ref=f2e4195]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e4197]:
+              - generic [ref=f2e4198]: A
+              - generic [ref=f2e4201]:
+                - heading "Anika B." [level=4] [ref=f2e4202]
+                - paragraph [ref=f2e4203]: Normal skin
+          - generic [ref=f2e4204] [cursor=pointer]:
+            - generic [ref=f2e4205]:
+              - generic [ref=f2e4206]:
+                - img "Rated 5.0 out of 5" [ref=f2e4207]
+                - generic [ref=f2e4234]: "5.0"
+              - generic [ref=f2e4235]: Clear Skin
+            - paragraph [ref=f2e4237]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e4239]:
+              - generic [ref=f2e4240]: L
+              - generic [ref=f2e4243]:
+                - heading "Lena B." [level=4] [ref=f2e4244]
+                - paragraph [ref=f2e4245]: Normal skin
+          - generic [ref=f2e4246] [cursor=pointer]:
+            - generic [ref=f2e4247]:
+              - generic [ref=f2e4248]:
+                - img "Rated 5.0 out of 5" [ref=f2e4249]
+                - generic [ref=f2e4276]: "5.0"
+              - generic [ref=f2e4277]: Everyday Peptide
+            - paragraph [ref=f2e4279]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e4281]:
+              - generic [ref=f2e4282]: J
+              - generic [ref=f2e4285]:
+                - heading "Julia M." [level=4] [ref=f2e4286]
+                - paragraph [ref=f2e4287]: Normal skin
+          - generic [ref=f2e4288] [cursor=pointer]:
+            - generic [ref=f2e4289]:
+              - generic [ref=f2e4290]:
+                - img "Rated 5.0 out of 5" [ref=f2e4291]
+                - generic [ref=f2e4318]: "5.0"
+              - generic [ref=f2e4319]: Dew Drop
+            - paragraph [ref=f2e4321]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e4323]:
+              - generic [ref=f2e4324]: E
+              - generic [ref=f2e4327]:
+                - heading "Elena V." [level=4] [ref=f2e4328]
+                - paragraph [ref=f2e4329]: Oily skin
+          - generic [ref=f2e4330] [cursor=pointer]:
+            - generic [ref=f2e4331]:
+              - generic [ref=f2e4332]:
+                - img "Rated 5.0 out of 5" [ref=f2e4333]
+                - generic [ref=f2e4360]: "5.0"
+              - generic [ref=f2e4361]: Clear Slate
+            - paragraph [ref=f2e4363]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e4365]:
+              - generic [ref=f2e4366]: K
+              - generic [ref=f2e4369]:
+                - heading "Kofi A." [level=4] [ref=f2e4370]
+                - paragraph [ref=f2e4371]: Combination skin
+          - generic [ref=f2e4372] [cursor=pointer]:
+            - generic [ref=f2e4373]:
+              - generic [ref=f2e4374]:
+                - img "Rated 5.0 out of 5" [ref=f2e4375]
+                - generic [ref=f2e4402]: "5.0"
+              - generic [ref=f2e4403]: Invisible Shield
+            - paragraph [ref=f2e4405]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e4407]:
+              - generic [ref=f2e4408]: D
+              - generic [ref=f2e4411]:
+                - heading "Dee A." [level=4] [ref=f2e4412]
+                - paragraph [ref=f2e4413]: Combination skin
+          - generic [ref=f2e4414] [cursor=pointer]:
+            - generic [ref=f2e4415]:
+              - generic [ref=f2e4416]:
+                - img "Rated 5.0 out of 5" [ref=f2e4417]
+                - generic [ref=f2e4444]: "5.0"
+              - generic [ref=f2e4445]: Invisible Shield
+            - paragraph [ref=f2e4447]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e4449]:
+              - generic [ref=f2e4450]: E
+              - generic [ref=f2e4453]:
+                - heading "Emi J." [level=4] [ref=f2e4454]
+                - paragraph [ref=f2e4455]: Dry skin
+          - generic [ref=f2e4456] [cursor=pointer]:
+            - generic [ref=f2e4457]:
+              - generic [ref=f2e4458]:
+                - img "Rated 5.0 out of 5" [ref=f2e4459]
+                - generic [ref=f2e4486]: "5.0"
+              - generic [ref=f2e4487]: Bright Eyes
+            - paragraph [ref=f2e4489]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e4491]:
+              - generic [ref=f2e4492]: A
+              - generic [ref=f2e4495]:
+                - heading "Alma N." [level=4] [ref=f2e4496]
+                - paragraph [ref=f2e4497]: Normal skin
+          - generic [ref=f2e4498] [cursor=pointer]:
+            - generic [ref=f2e4499]:
+              - generic [ref=f2e4500]:
+                - img "Rated 5.0 out of 5" [ref=f2e4501]
+                - generic [ref=f2e4528]: "5.0"
+              - generic [ref=f2e4529]: Night Renew
+            - paragraph [ref=f2e4531]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e4533]:
+              - generic [ref=f2e4534]: S
+              - generic [ref=f2e4537]:
+                - heading "Sofia L." [level=4] [ref=f2e4538]
+                - paragraph [ref=f2e4539]: Dry skin
+          - generic [ref=f2e4540] [cursor=pointer]:
+            - generic [ref=f2e4541]:
+              - generic [ref=f2e4542]:
+                - img "Rated 5.0 out of 5" [ref=f2e4543]
+                - generic [ref=f2e4570]: "5.0"
+              - generic [ref=f2e4571]: Bright Side
+            - paragraph [ref=f2e4573]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e4575]:
+              - generic [ref=f2e4576]: "N"
+              - generic [ref=f2e4579]:
+                - heading "Noor H." [level=4] [ref=f2e4580]
+                - paragraph [ref=f2e4581]: Dry skin
+          - generic [ref=f2e4582] [cursor=pointer]:
+            - generic [ref=f2e4583]:
+              - generic [ref=f2e4584]:
+                - img "Rated 5.0 out of 5" [ref=f2e4585]
+                - generic [ref=f2e4612]: "5.0"
+              - generic [ref=f2e4613]: Glow Reset
+            - paragraph [ref=f2e4615]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e4617]:
+              - generic [ref=f2e4618]: B
+              - generic [ref=f2e4621]:
+                - heading "Bianca T." [level=4] [ref=f2e4622]
+                - paragraph [ref=f2e4623]: Combination skin
+          - generic [ref=f2e4624] [cursor=pointer]:
+            - generic [ref=f2e4625]:
+              - generic [ref=f2e4626]:
+                - img "Rated 5.0 out of 5" [ref=f2e4627]
+                - generic [ref=f2e4654]: "5.0"
+              - generic [ref=f2e4655]: Barrier Butter
+            - paragraph [ref=f2e4657]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e4659]:
+              - generic [ref=f2e4660]: H
+              - generic [ref=f2e4663]:
+                - heading "Hana O." [level=4] [ref=f2e4664]
+                - paragraph [ref=f2e4665]: Dry skin
+          - generic [ref=f2e4666] [cursor=pointer]:
+            - generic [ref=f2e4667]:
+              - generic [ref=f2e4668]:
+                - img "Rated 5.0 out of 5" [ref=f2e4669]
+                - generic [ref=f2e4696]: "5.0"
+              - generic [ref=f2e4697]: Night Renew
+            - paragraph [ref=f2e4699]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e4701]:
+              - generic [ref=f2e4702]: A
+              - generic [ref=f2e4705]:
+                - heading "Anika B." [level=4] [ref=f2e4706]
+                - paragraph [ref=f2e4707]: Normal skin
+          - generic [ref=f2e4708] [cursor=pointer]:
+            - generic [ref=f2e4709]:
+              - generic [ref=f2e4710]:
+                - img "Rated 5.0 out of 5" [ref=f2e4711]
+                - generic [ref=f2e4738]: "5.0"
+              - generic [ref=f2e4739]: Clear Skin
+            - paragraph [ref=f2e4741]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e4743]:
+              - generic [ref=f2e4744]: L
+              - generic [ref=f2e4747]:
+                - heading "Lena B." [level=4] [ref=f2e4748]
+                - paragraph [ref=f2e4749]: Normal skin
+          - generic [ref=f2e4750] [cursor=pointer]:
+            - generic [ref=f2e4751]:
+              - generic [ref=f2e4752]:
+                - img "Rated 5.0 out of 5" [ref=f2e4753]
+                - generic [ref=f2e4780]: "5.0"
+              - generic [ref=f2e4781]: Everyday Peptide
+            - paragraph [ref=f2e4783]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e4785]:
+              - generic [ref=f2e4786]: J
+              - generic [ref=f2e4789]:
+                - heading "Julia M." [level=4] [ref=f2e4790]
+                - paragraph [ref=f2e4791]: Normal skin
+          - generic [ref=f2e4792] [cursor=pointer]:
+            - generic [ref=f2e4793]:
+              - generic [ref=f2e4794]:
+                - img "Rated 5.0 out of 5" [ref=f2e4795]
+                - generic [ref=f2e4822]: "5.0"
+              - generic [ref=f2e4823]: Dew Drop
+            - paragraph [ref=f2e4825]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e4827]:
+              - generic [ref=f2e4828]: E
+              - generic [ref=f2e4831]:
+                - heading "Elena V." [level=4] [ref=f2e4832]
+                - paragraph [ref=f2e4833]: Oily skin
+          - generic [ref=f2e4834] [cursor=pointer]:
+            - generic [ref=f2e4835]:
+              - generic [ref=f2e4836]:
+                - img "Rated 5.0 out of 5" [ref=f2e4837]
+                - generic [ref=f2e4864]: "5.0"
+              - generic [ref=f2e4865]: Clear Slate
+            - paragraph [ref=f2e4867]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e4869]:
+              - generic [ref=f2e4870]: K
+              - generic [ref=f2e4873]:
+                - heading "Kofi A." [level=4] [ref=f2e4874]
+                - paragraph [ref=f2e4875]: Combination skin
+          - generic [ref=f2e4876] [cursor=pointer]:
+            - generic [ref=f2e4877]:
+              - generic [ref=f2e4878]:
+                - img "Rated 5.0 out of 5" [ref=f2e4879]
+                - generic [ref=f2e4906]: "5.0"
+              - generic [ref=f2e4907]: Invisible Shield
+            - paragraph [ref=f2e4909]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e4911]:
+              - generic [ref=f2e4912]: D
+              - generic [ref=f2e4915]:
+                - heading "Dee A." [level=4] [ref=f2e4916]
+                - paragraph [ref=f2e4917]: Combination skin
+          - generic [ref=f2e4918] [cursor=pointer]:
+            - generic [ref=f2e4919]:
+              - generic [ref=f2e4920]:
+                - img "Rated 5.0 out of 5" [ref=f2e4921]
+                - generic [ref=f2e4948]: "5.0"
+              - generic [ref=f2e4949]: Invisible Shield
+            - paragraph [ref=f2e4951]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e4953]:
+              - generic [ref=f2e4954]: E
+              - generic [ref=f2e4957]:
+                - heading "Emi J." [level=4] [ref=f2e4958]
+                - paragraph [ref=f2e4959]: Dry skin
+        - generic [ref=f2e4961]:
+          - generic [ref=f2e4962] [cursor=pointer]:
+            - generic [ref=f2e4963]:
+              - generic [ref=f2e4964]:
+                - img "Rated 5.0 out of 5" [ref=f2e4965]
+                - generic [ref=f2e4992]: "5.0"
+              - generic [ref=f2e4993]: Night Renew
+            - paragraph [ref=f2e4995]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e4997]:
+              - generic [ref=f2e4998]: S
+              - generic [ref=f2e5001]:
+                - heading "Sofia L." [level=4] [ref=f2e5002]
+                - paragraph [ref=f2e5003]: Dry skin
+          - generic [ref=f2e5004] [cursor=pointer]:
+            - generic [ref=f2e5005]:
+              - generic [ref=f2e5006]:
+                - img "Rated 5.0 out of 5" [ref=f2e5007]
+                - generic [ref=f2e5034]: "5.0"
+              - generic [ref=f2e5035]: Bright Side
+            - paragraph [ref=f2e5037]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e5039]:
+              - generic [ref=f2e5040]: "N"
+              - generic [ref=f2e5043]:
+                - heading "Noor H." [level=4] [ref=f2e5044]
+                - paragraph [ref=f2e5045]: Dry skin
+          - generic [ref=f2e5046] [cursor=pointer]:
+            - generic [ref=f2e5047]:
+              - generic [ref=f2e5048]:
+                - img "Rated 5.0 out of 5" [ref=f2e5049]
+                - generic [ref=f2e5076]: "5.0"
+              - generic [ref=f2e5077]: Glow Reset
+            - paragraph [ref=f2e5079]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e5081]:
+              - generic [ref=f2e5082]: B
+              - generic [ref=f2e5085]:
+                - heading "Bianca T." [level=4] [ref=f2e5086]
+                - paragraph [ref=f2e5087]: Combination skin
+          - generic [ref=f2e5088] [cursor=pointer]:
+            - generic [ref=f2e5089]:
+              - generic [ref=f2e5090]:
+                - img "Rated 5.0 out of 5" [ref=f2e5091]
+                - generic [ref=f2e5118]: "5.0"
+              - generic [ref=f2e5119]: Barrier Butter
+            - paragraph [ref=f2e5121]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e5123]:
+              - generic [ref=f2e5124]: H
+              - generic [ref=f2e5127]:
+                - heading "Hana O." [level=4] [ref=f2e5128]
+                - paragraph [ref=f2e5129]: Dry skin
+          - generic [ref=f2e5130] [cursor=pointer]:
+            - generic [ref=f2e5131]:
+              - generic [ref=f2e5132]:
+                - img "Rated 5.0 out of 5" [ref=f2e5133]
+                - generic [ref=f2e5160]: "5.0"
+              - generic [ref=f2e5161]: Night Renew
+            - paragraph [ref=f2e5163]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e5165]:
+              - generic [ref=f2e5166]: A
+              - generic [ref=f2e5169]:
+                - heading "Anika B." [level=4] [ref=f2e5170]
+                - paragraph [ref=f2e5171]: Normal skin
+          - generic [ref=f2e5172] [cursor=pointer]:
+            - generic [ref=f2e5173]:
+              - generic [ref=f2e5174]:
+                - img "Rated 5.0 out of 5" [ref=f2e5175]
+                - generic [ref=f2e5202]: "5.0"
+              - generic [ref=f2e5203]: Clear Skin
+            - paragraph [ref=f2e5205]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e5207]:
+              - generic [ref=f2e5208]: L
+              - generic [ref=f2e5211]:
+                - heading "Lena B." [level=4] [ref=f2e5212]
+                - paragraph [ref=f2e5213]: Normal skin
+          - generic [ref=f2e5214] [cursor=pointer]:
+            - generic [ref=f2e5215]:
+              - generic [ref=f2e5216]:
+                - img "Rated 5.0 out of 5" [ref=f2e5217]
+                - generic [ref=f2e5244]: "5.0"
+              - generic [ref=f2e5245]: Everyday Peptide
+            - paragraph [ref=f2e5247]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e5249]:
+              - generic [ref=f2e5250]: J
+              - generic [ref=f2e5253]:
+                - heading "Julia M." [level=4] [ref=f2e5254]
+                - paragraph [ref=f2e5255]: Normal skin
+          - generic [ref=f2e5256] [cursor=pointer]:
+            - generic [ref=f2e5257]:
+              - generic [ref=f2e5258]:
+                - img "Rated 5.0 out of 5" [ref=f2e5259]
+                - generic [ref=f2e5286]: "5.0"
+              - generic [ref=f2e5287]: Dew Drop
+            - paragraph [ref=f2e5289]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e5291]:
+              - generic [ref=f2e5292]: E
+              - generic [ref=f2e5295]:
+                - heading "Elena V." [level=4] [ref=f2e5296]
+                - paragraph [ref=f2e5297]: Oily skin
+          - generic [ref=f2e5298] [cursor=pointer]:
+            - generic [ref=f2e5299]:
+              - generic [ref=f2e5300]:
+                - img "Rated 5.0 out of 5" [ref=f2e5301]
+                - generic [ref=f2e5328]: "5.0"
+              - generic [ref=f2e5329]: Clear Slate
+            - paragraph [ref=f2e5331]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e5333]:
+              - generic [ref=f2e5334]: K
+              - generic [ref=f2e5337]:
+                - heading "Kofi A." [level=4] [ref=f2e5338]
+                - paragraph [ref=f2e5339]: Combination skin
+          - generic [ref=f2e5340] [cursor=pointer]:
+            - generic [ref=f2e5341]:
+              - generic [ref=f2e5342]:
+                - img "Rated 5.0 out of 5" [ref=f2e5343]
+                - generic [ref=f2e5370]: "5.0"
+              - generic [ref=f2e5371]: Invisible Shield
+            - paragraph [ref=f2e5373]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e5375]:
+              - generic [ref=f2e5376]: D
+              - generic [ref=f2e5379]:
+                - heading "Dee A." [level=4] [ref=f2e5380]
+                - paragraph [ref=f2e5381]: Combination skin
+          - generic [ref=f2e5382] [cursor=pointer]:
+            - generic [ref=f2e5383]:
+              - generic [ref=f2e5384]:
+                - img "Rated 5.0 out of 5" [ref=f2e5385]
+                - generic [ref=f2e5412]: "5.0"
+              - generic [ref=f2e5413]: Invisible Shield
+            - paragraph [ref=f2e5415]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e5417]:
+              - generic [ref=f2e5418]: E
+              - generic [ref=f2e5421]:
+                - heading "Emi J." [level=4] [ref=f2e5422]
+                - paragraph [ref=f2e5423]: Dry skin
+          - generic [ref=f2e5424] [cursor=pointer]:
+            - generic [ref=f2e5425]:
+              - generic [ref=f2e5426]:
+                - img "Rated 5.0 out of 5" [ref=f2e5427]
+                - generic [ref=f2e5454]: "5.0"
+              - generic [ref=f2e5455]: Bright Eyes
+            - paragraph [ref=f2e5457]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e5459]:
+              - generic [ref=f2e5460]: A
+              - generic [ref=f2e5463]:
+                - heading "Alma N." [level=4] [ref=f2e5464]
+                - paragraph [ref=f2e5465]: Normal skin
+          - generic [ref=f2e5466] [cursor=pointer]:
+            - generic [ref=f2e5467]:
+              - generic [ref=f2e5468]:
+                - img "Rated 5.0 out of 5" [ref=f2e5469]
+                - generic [ref=f2e5496]: "5.0"
+              - generic [ref=f2e5497]: Night Renew
+            - paragraph [ref=f2e5499]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e5501]:
+              - generic [ref=f2e5502]: S
+              - generic [ref=f2e5505]:
+                - heading "Sofia L." [level=4] [ref=f2e5506]
+                - paragraph [ref=f2e5507]: Dry skin
+          - generic [ref=f2e5508] [cursor=pointer]:
+            - generic [ref=f2e5509]:
+              - generic [ref=f2e5510]:
+                - img "Rated 5.0 out of 5" [ref=f2e5511]
+                - generic [ref=f2e5538]: "5.0"
+              - generic [ref=f2e5539]: Bright Side
+            - paragraph [ref=f2e5541]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e5543]:
+              - generic [ref=f2e5544]: "N"
+              - generic [ref=f2e5547]:
+                - heading "Noor H." [level=4] [ref=f2e5548]
+                - paragraph [ref=f2e5549]: Dry skin
+          - generic [ref=f2e5550] [cursor=pointer]:
+            - generic [ref=f2e5551]:
+              - generic [ref=f2e5552]:
+                - img "Rated 5.0 out of 5" [ref=f2e5553]
+                - generic [ref=f2e5580]: "5.0"
+              - generic [ref=f2e5581]: Glow Reset
+            - paragraph [ref=f2e5583]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e5585]:
+              - generic [ref=f2e5586]: B
+              - generic [ref=f2e5589]:
+                - heading "Bianca T." [level=4] [ref=f2e5590]
+                - paragraph [ref=f2e5591]: Combination skin
+          - generic [ref=f2e5592] [cursor=pointer]:
+            - generic [ref=f2e5593]:
+              - generic [ref=f2e5594]:
+                - img "Rated 5.0 out of 5" [ref=f2e5595]
+                - generic [ref=f2e5622]: "5.0"
+              - generic [ref=f2e5623]: Barrier Butter
+            - paragraph [ref=f2e5625]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e5627]:
+              - generic [ref=f2e5628]: H
+              - generic [ref=f2e5631]:
+                - heading "Hana O." [level=4] [ref=f2e5632]
+                - paragraph [ref=f2e5633]: Dry skin
+          - generic [ref=f2e5634] [cursor=pointer]:
+            - generic [ref=f2e5635]:
+              - generic [ref=f2e5636]:
+                - img "Rated 5.0 out of 5" [ref=f2e5637]
+                - generic [ref=f2e5664]: "5.0"
+              - generic [ref=f2e5665]: Night Renew
+            - paragraph [ref=f2e5667]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e5669]:
+              - generic [ref=f2e5670]: A
+              - generic [ref=f2e5673]:
+                - heading "Anika B." [level=4] [ref=f2e5674]
+                - paragraph [ref=f2e5675]: Normal skin
+          - generic [ref=f2e5676] [cursor=pointer]:
+            - generic [ref=f2e5677]:
+              - generic [ref=f2e5678]:
+                - img "Rated 5.0 out of 5" [ref=f2e5679]
+                - generic [ref=f2e5706]: "5.0"
+              - generic [ref=f2e5707]: Clear Skin
+            - paragraph [ref=f2e5709]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e5711]:
+              - generic [ref=f2e5712]: L
+              - generic [ref=f2e5715]:
+                - heading "Lena B." [level=4] [ref=f2e5716]
+                - paragraph [ref=f2e5717]: Normal skin
+          - generic [ref=f2e5718] [cursor=pointer]:
+            - generic [ref=f2e5719]:
+              - generic [ref=f2e5720]:
+                - img "Rated 5.0 out of 5" [ref=f2e5721]
+                - generic [ref=f2e5748]: "5.0"
+              - generic [ref=f2e5749]: Everyday Peptide
+            - paragraph [ref=f2e5751]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e5753]:
+              - generic [ref=f2e5754]: J
+              - generic [ref=f2e5757]:
+                - heading "Julia M." [level=4] [ref=f2e5758]
+                - paragraph [ref=f2e5759]: Normal skin
+          - generic [ref=f2e5760] [cursor=pointer]:
+            - generic [ref=f2e5761]:
+              - generic [ref=f2e5762]:
+                - img "Rated 5.0 out of 5" [ref=f2e5763]
+                - generic [ref=f2e5790]: "5.0"
+              - generic [ref=f2e5791]: Dew Drop
+            - paragraph [ref=f2e5793]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e5795]:
+              - generic [ref=f2e5796]: E
+              - generic [ref=f2e5799]:
+                - heading "Elena V." [level=4] [ref=f2e5800]
+                - paragraph [ref=f2e5801]: Oily skin
+          - generic [ref=f2e5802] [cursor=pointer]:
+            - generic [ref=f2e5803]:
+              - generic [ref=f2e5804]:
+                - img "Rated 5.0 out of 5" [ref=f2e5805]
+                - generic [ref=f2e5832]: "5.0"
+              - generic [ref=f2e5833]: Clear Slate
+            - paragraph [ref=f2e5835]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e5837]:
+              - generic [ref=f2e5838]: K
+              - generic [ref=f2e5841]:
+                - heading "Kofi A." [level=4] [ref=f2e5842]
+                - paragraph [ref=f2e5843]: Combination skin
+          - generic [ref=f2e5844] [cursor=pointer]:
+            - generic [ref=f2e5845]:
+              - generic [ref=f2e5846]:
+                - img "Rated 5.0 out of 5" [ref=f2e5847]
+                - generic [ref=f2e5874]: "5.0"
+              - generic [ref=f2e5875]: Invisible Shield
+            - paragraph [ref=f2e5877]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e5879]:
+              - generic [ref=f2e5880]: D
+              - generic [ref=f2e5883]:
+                - heading "Dee A." [level=4] [ref=f2e5884]
+                - paragraph [ref=f2e5885]: Combination skin
+          - generic [ref=f2e5886] [cursor=pointer]:
+            - generic [ref=f2e5887]:
+              - generic [ref=f2e5888]:
+                - img "Rated 5.0 out of 5" [ref=f2e5889]
+                - generic [ref=f2e5916]: "5.0"
+              - generic [ref=f2e5917]: Invisible Shield
+            - paragraph [ref=f2e5919]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e5921]:
+              - generic [ref=f2e5922]: E
+              - generic [ref=f2e5925]:
+                - heading "Emi J." [level=4] [ref=f2e5926]
+                - paragraph [ref=f2e5927]: Dry skin
+          - generic [ref=f2e5928] [cursor=pointer]:
+            - generic [ref=f2e5929]:
+              - generic [ref=f2e5930]:
+                - img "Rated 5.0 out of 5" [ref=f2e5931]
+                - generic [ref=f2e5958]: "5.0"
+              - generic [ref=f2e5959]: Bright Eyes
+            - paragraph [ref=f2e5961]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e5963]:
+              - generic [ref=f2e5964]: A
+              - generic [ref=f2e5967]:
+                - heading "Alma N." [level=4] [ref=f2e5968]
+                - paragraph [ref=f2e5969]: Normal skin
+          - generic [ref=f2e5970] [cursor=pointer]:
+            - generic [ref=f2e5971]:
+              - generic [ref=f2e5972]:
+                - img "Rated 5.0 out of 5" [ref=f2e5973]
+                - generic [ref=f2e6000]: "5.0"
+              - generic [ref=f2e6001]: Night Renew
+            - paragraph [ref=f2e6003]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e6005]:
+              - generic [ref=f2e6006]: S
+              - generic [ref=f2e6009]:
+                - heading "Sofia L." [level=4] [ref=f2e6010]
+                - paragraph [ref=f2e6011]: Dry skin
+          - generic [ref=f2e6012] [cursor=pointer]:
+            - generic [ref=f2e6013]:
+              - generic [ref=f2e6014]:
+                - img "Rated 5.0 out of 5" [ref=f2e6015]
+                - generic [ref=f2e6042]: "5.0"
+              - generic [ref=f2e6043]: Bright Side
+            - paragraph [ref=f2e6045]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e6047]:
+              - generic [ref=f2e6048]: "N"
+              - generic [ref=f2e6051]:
+                - heading "Noor H." [level=4] [ref=f2e6052]
+                - paragraph [ref=f2e6053]: Dry skin
+          - generic [ref=f2e6054] [cursor=pointer]:
+            - generic [ref=f2e6055]:
+              - generic [ref=f2e6056]:
+                - img "Rated 5.0 out of 5" [ref=f2e6057]
+                - generic [ref=f2e6084]: "5.0"
+              - generic [ref=f2e6085]: Glow Reset
+            - paragraph [ref=f2e6087]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e6089]:
+              - generic [ref=f2e6090]: B
+              - generic [ref=f2e6093]:
+                - heading "Bianca T." [level=4] [ref=f2e6094]
+                - paragraph [ref=f2e6095]: Combination skin
+          - generic [ref=f2e6096] [cursor=pointer]:
+            - generic [ref=f2e6097]:
+              - generic [ref=f2e6098]:
+                - img "Rated 5.0 out of 5" [ref=f2e6099]
+                - generic [ref=f2e6126]: "5.0"
+              - generic [ref=f2e6127]: Barrier Butter
+            - paragraph [ref=f2e6129]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e6131]:
+              - generic [ref=f2e6132]: H
+              - generic [ref=f2e6135]:
+                - heading "Hana O." [level=4] [ref=f2e6136]
+                - paragraph [ref=f2e6137]: Dry skin
+          - generic [ref=f2e6138] [cursor=pointer]:
+            - generic [ref=f2e6139]:
+              - generic [ref=f2e6140]:
+                - img "Rated 5.0 out of 5" [ref=f2e6141]
+                - generic [ref=f2e6168]: "5.0"
+              - generic [ref=f2e6169]: Night Renew
+            - paragraph [ref=f2e6171]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e6173]:
+              - generic [ref=f2e6174]: A
+              - generic [ref=f2e6177]:
+                - heading "Anika B." [level=4] [ref=f2e6178]
+                - paragraph [ref=f2e6179]: Normal skin
+          - generic [ref=f2e6180] [cursor=pointer]:
+            - generic [ref=f2e6181]:
+              - generic [ref=f2e6182]:
+                - img "Rated 5.0 out of 5" [ref=f2e6183]
+                - generic [ref=f2e6210]: "5.0"
+              - generic [ref=f2e6211]: Clear Skin
+            - paragraph [ref=f2e6213]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e6215]:
+              - generic [ref=f2e6216]: L
+              - generic [ref=f2e6219]:
+                - heading "Lena B." [level=4] [ref=f2e6220]
+                - paragraph [ref=f2e6221]: Normal skin
+          - generic [ref=f2e6222] [cursor=pointer]:
+            - generic [ref=f2e6223]:
+              - generic [ref=f2e6224]:
+                - img "Rated 5.0 out of 5" [ref=f2e6225]
+                - generic [ref=f2e6252]: "5.0"
+              - generic [ref=f2e6253]: Everyday Peptide
+            - paragraph [ref=f2e6255]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e6257]:
+              - generic [ref=f2e6258]: J
+              - generic [ref=f2e6261]:
+                - heading "Julia M." [level=4] [ref=f2e6262]
+                - paragraph [ref=f2e6263]: Normal skin
+          - generic [ref=f2e6264] [cursor=pointer]:
+            - generic [ref=f2e6265]:
+              - generic [ref=f2e6266]:
+                - img "Rated 5.0 out of 5" [ref=f2e6267]
+                - generic [ref=f2e6294]: "5.0"
+              - generic [ref=f2e6295]: Dew Drop
+            - paragraph [ref=f2e6297]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e6299]:
+              - generic [ref=f2e6300]: E
+              - generic [ref=f2e6303]:
+                - heading "Elena V." [level=4] [ref=f2e6304]
+                - paragraph [ref=f2e6305]: Oily skin
+          - generic [ref=f2e6306] [cursor=pointer]:
+            - generic [ref=f2e6307]:
+              - generic [ref=f2e6308]:
+                - img "Rated 5.0 out of 5" [ref=f2e6309]
+                - generic [ref=f2e6336]: "5.0"
+              - generic [ref=f2e6337]: Clear Slate
+            - paragraph [ref=f2e6339]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e6341]:
+              - generic [ref=f2e6342]: K
+              - generic [ref=f2e6345]:
+                - heading "Kofi A." [level=4] [ref=f2e6346]
+                - paragraph [ref=f2e6347]: Combination skin
+          - generic [ref=f2e6348] [cursor=pointer]:
+            - generic [ref=f2e6349]:
+              - generic [ref=f2e6350]:
+                - img "Rated 5.0 out of 5" [ref=f2e6351]
+                - generic [ref=f2e6378]: "5.0"
+              - generic [ref=f2e6379]: Invisible Shield
+            - paragraph [ref=f2e6381]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e6383]:
+              - generic [ref=f2e6384]: D
+              - generic [ref=f2e6387]:
+                - heading "Dee A." [level=4] [ref=f2e6388]
+                - paragraph [ref=f2e6389]: Combination skin
+          - generic [ref=f2e6390] [cursor=pointer]:
+            - generic [ref=f2e6391]:
+              - generic [ref=f2e6392]:
+                - img "Rated 5.0 out of 5" [ref=f2e6393]
+                - generic [ref=f2e6420]: "5.0"
+              - generic [ref=f2e6421]: Invisible Shield
+            - paragraph [ref=f2e6423]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e6425]:
+              - generic [ref=f2e6426]: E
+              - generic [ref=f2e6429]:
+                - heading "Emi J." [level=4] [ref=f2e6430]
+                - paragraph [ref=f2e6431]: Dry skin
+          - generic [ref=f2e6432] [cursor=pointer]:
+            - generic [ref=f2e6433]:
+              - generic [ref=f2e6434]:
+                - img "Rated 5.0 out of 5" [ref=f2e6435]
+                - generic [ref=f2e6462]: "5.0"
+              - generic [ref=f2e6463]: Bright Eyes
+            - paragraph [ref=f2e6465]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e6467]:
+              - generic [ref=f2e6468]: A
+              - generic [ref=f2e6471]:
+                - heading "Alma N." [level=4] [ref=f2e6472]
+                - paragraph [ref=f2e6473]: Normal skin
+          - generic [ref=f2e6474] [cursor=pointer]:
+            - generic [ref=f2e6475]:
+              - generic [ref=f2e6476]:
+                - img "Rated 5.0 out of 5" [ref=f2e6477]
+                - generic [ref=f2e6504]: "5.0"
+              - generic [ref=f2e6505]: Night Renew
+            - paragraph [ref=f2e6507]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e6509]:
+              - generic [ref=f2e6510]: S
+              - generic [ref=f2e6513]:
+                - heading "Sofia L." [level=4] [ref=f2e6514]
+                - paragraph [ref=f2e6515]: Dry skin
+          - generic [ref=f2e6516] [cursor=pointer]:
+            - generic [ref=f2e6517]:
+              - generic [ref=f2e6518]:
+                - img "Rated 5.0 out of 5" [ref=f2e6519]
+                - generic [ref=f2e6546]: "5.0"
+              - generic [ref=f2e6547]: Bright Side
+            - paragraph [ref=f2e6549]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e6551]:
+              - generic [ref=f2e6552]: "N"
+              - generic [ref=f2e6555]:
+                - heading "Noor H." [level=4] [ref=f2e6556]
+                - paragraph [ref=f2e6557]: Dry skin
+          - generic [ref=f2e6558] [cursor=pointer]:
+            - generic [ref=f2e6559]:
+              - generic [ref=f2e6560]:
+                - img "Rated 5.0 out of 5" [ref=f2e6561]
+                - generic [ref=f2e6588]: "5.0"
+              - generic [ref=f2e6589]: Glow Reset
+            - paragraph [ref=f2e6591]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e6593]:
+              - generic [ref=f2e6594]: B
+              - generic [ref=f2e6597]:
+                - heading "Bianca T." [level=4] [ref=f2e6598]
+                - paragraph [ref=f2e6599]: Combination skin
+          - generic [ref=f2e6600] [cursor=pointer]:
+            - generic [ref=f2e6601]:
+              - generic [ref=f2e6602]:
+                - img "Rated 5.0 out of 5" [ref=f2e6603]
+                - generic [ref=f2e6630]: "5.0"
+              - generic [ref=f2e6631]: Barrier Butter
+            - paragraph [ref=f2e6633]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e6635]:
+              - generic [ref=f2e6636]: H
+              - generic [ref=f2e6639]:
+                - heading "Hana O." [level=4] [ref=f2e6640]
+                - paragraph [ref=f2e6641]: Dry skin
+          - generic [ref=f2e6642] [cursor=pointer]:
+            - generic [ref=f2e6643]:
+              - generic [ref=f2e6644]:
+                - img "Rated 5.0 out of 5" [ref=f2e6645]
+                - generic [ref=f2e6672]: "5.0"
+              - generic [ref=f2e6673]: Night Renew
+            - paragraph [ref=f2e6675]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e6677]:
+              - generic [ref=f2e6678]: A
+              - generic [ref=f2e6681]:
+                - heading "Anika B." [level=4] [ref=f2e6682]
+                - paragraph [ref=f2e6683]: Normal skin
+          - generic [ref=f2e6684] [cursor=pointer]:
+            - generic [ref=f2e6685]:
+              - generic [ref=f2e6686]:
+                - img "Rated 5.0 out of 5" [ref=f2e6687]
+                - generic [ref=f2e6714]: "5.0"
+              - generic [ref=f2e6715]: Clear Skin
+            - paragraph [ref=f2e6717]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e6719]:
+              - generic [ref=f2e6720]: L
+              - generic [ref=f2e6723]:
+                - heading "Lena B." [level=4] [ref=f2e6724]
+                - paragraph [ref=f2e6725]: Normal skin
+          - generic [ref=f2e6726] [cursor=pointer]:
+            - generic [ref=f2e6727]:
+              - generic [ref=f2e6728]:
+                - img "Rated 5.0 out of 5" [ref=f2e6729]
+                - generic [ref=f2e6756]: "5.0"
+              - generic [ref=f2e6757]: Everyday Peptide
+            - paragraph [ref=f2e6759]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e6761]:
+              - generic [ref=f2e6762]: J
+              - generic [ref=f2e6765]:
+                - heading "Julia M." [level=4] [ref=f2e6766]
+                - paragraph [ref=f2e6767]: Normal skin
+          - generic [ref=f2e6768] [cursor=pointer]:
+            - generic [ref=f2e6769]:
+              - generic [ref=f2e6770]:
+                - img "Rated 5.0 out of 5" [ref=f2e6771]
+                - generic [ref=f2e6798]: "5.0"
+              - generic [ref=f2e6799]: Dew Drop
+            - paragraph [ref=f2e6801]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e6803]:
+              - generic [ref=f2e6804]: E
+              - generic [ref=f2e6807]:
+                - heading "Elena V." [level=4] [ref=f2e6808]
+                - paragraph [ref=f2e6809]: Oily skin
+          - generic [ref=f2e6810] [cursor=pointer]:
+            - generic [ref=f2e6811]:
+              - generic [ref=f2e6812]:
+                - img "Rated 5.0 out of 5" [ref=f2e6813]
+                - generic [ref=f2e6840]: "5.0"
+              - generic [ref=f2e6841]: Clear Slate
+            - paragraph [ref=f2e6843]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e6845]:
+              - generic [ref=f2e6846]: K
+              - generic [ref=f2e6849]:
+                - heading "Kofi A." [level=4] [ref=f2e6850]
+                - paragraph [ref=f2e6851]: Combination skin
+          - generic [ref=f2e6852] [cursor=pointer]:
+            - generic [ref=f2e6853]:
+              - generic [ref=f2e6854]:
+                - img "Rated 5.0 out of 5" [ref=f2e6855]
+                - generic [ref=f2e6882]: "5.0"
+              - generic [ref=f2e6883]: Invisible Shield
+            - paragraph [ref=f2e6885]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e6887]:
+              - generic [ref=f2e6888]: D
+              - generic [ref=f2e6891]:
+                - heading "Dee A." [level=4] [ref=f2e6892]
+                - paragraph [ref=f2e6893]: Combination skin
+          - generic [ref=f2e6894] [cursor=pointer]:
+            - generic [ref=f2e6895]:
+              - generic [ref=f2e6896]:
+                - img "Rated 5.0 out of 5" [ref=f2e6897]
+                - generic [ref=f2e6924]: "5.0"
+              - generic [ref=f2e6925]: Invisible Shield
+            - paragraph [ref=f2e6927]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e6929]:
+              - generic [ref=f2e6930]: E
+              - generic [ref=f2e6933]:
+                - heading "Emi J." [level=4] [ref=f2e6934]
+                - paragraph [ref=f2e6935]: Dry skin
+          - generic [ref=f2e6936] [cursor=pointer]:
+            - generic [ref=f2e6937]:
+              - generic [ref=f2e6938]:
+                - img "Rated 5.0 out of 5" [ref=f2e6939]
+                - generic [ref=f2e6966]: "5.0"
+              - generic [ref=f2e6967]: Bright Eyes
+            - paragraph [ref=f2e6969]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e6971]:
+              - generic [ref=f2e6972]: A
+              - generic [ref=f2e6975]:
+                - heading "Alma N." [level=4] [ref=f2e6976]
+                - paragraph [ref=f2e6977]: Normal skin
+        - generic [ref=f2e6979]:
+          - generic [ref=f2e6980] [cursor=pointer]:
+            - generic [ref=f2e6981]:
+              - generic [ref=f2e6982]:
+                - img "Rated 5.0 out of 5" [ref=f2e6983]
+                - generic [ref=f2e7010]: "5.0"
+              - generic [ref=f2e7011]: Bright Side
+            - paragraph [ref=f2e7013]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e7015]:
+              - generic [ref=f2e7016]: "N"
+              - generic [ref=f2e7019]:
+                - heading "Noor H." [level=4] [ref=f2e7020]
+                - paragraph [ref=f2e7021]: Dry skin
+          - generic [ref=f2e7022] [cursor=pointer]:
+            - generic [ref=f2e7023]:
+              - generic [ref=f2e7024]:
+                - img "Rated 5.0 out of 5" [ref=f2e7025]
+                - generic [ref=f2e7052]: "5.0"
+              - generic [ref=f2e7053]: Glow Reset
+            - paragraph [ref=f2e7055]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e7057]:
+              - generic [ref=f2e7058]: B
+              - generic [ref=f2e7061]:
+                - heading "Bianca T." [level=4] [ref=f2e7062]
+                - paragraph [ref=f2e7063]: Combination skin
+          - generic [ref=f2e7064] [cursor=pointer]:
+            - generic [ref=f2e7065]:
+              - generic [ref=f2e7066]:
+                - img "Rated 5.0 out of 5" [ref=f2e7067]
+                - generic [ref=f2e7094]: "5.0"
+              - generic [ref=f2e7095]: Barrier Butter
+            - paragraph [ref=f2e7097]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e7099]:
+              - generic [ref=f2e7100]: H
+              - generic [ref=f2e7103]:
+                - heading "Hana O." [level=4] [ref=f2e7104]
+                - paragraph [ref=f2e7105]: Dry skin
+          - generic [ref=f2e7106] [cursor=pointer]:
+            - generic [ref=f2e7107]:
+              - generic [ref=f2e7108]:
+                - img "Rated 5.0 out of 5" [ref=f2e7109]
+                - generic [ref=f2e7136]: "5.0"
+              - generic [ref=f2e7137]: Night Renew
+            - paragraph [ref=f2e7139]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e7141]:
+              - generic [ref=f2e7142]: A
+              - generic [ref=f2e7145]:
+                - heading "Anika B." [level=4] [ref=f2e7146]
+                - paragraph [ref=f2e7147]: Normal skin
+          - generic [ref=f2e7148] [cursor=pointer]:
+            - generic [ref=f2e7149]:
+              - generic [ref=f2e7150]:
+                - img "Rated 5.0 out of 5" [ref=f2e7151]
+                - generic [ref=f2e7178]: "5.0"
+              - generic [ref=f2e7179]: Clear Skin
+            - paragraph [ref=f2e7181]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e7183]:
+              - generic [ref=f2e7184]: L
+              - generic [ref=f2e7187]:
+                - heading "Lena B." [level=4] [ref=f2e7188]
+                - paragraph [ref=f2e7189]: Normal skin
+          - generic [ref=f2e7190] [cursor=pointer]:
+            - generic [ref=f2e7191]:
+              - generic [ref=f2e7192]:
+                - img "Rated 5.0 out of 5" [ref=f2e7193]
+                - generic [ref=f2e7220]: "5.0"
+              - generic [ref=f2e7221]: Everyday Peptide
+            - paragraph [ref=f2e7223]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e7225]:
+              - generic [ref=f2e7226]: J
+              - generic [ref=f2e7229]:
+                - heading "Julia M." [level=4] [ref=f2e7230]
+                - paragraph [ref=f2e7231]: Normal skin
+          - generic [ref=f2e7232] [cursor=pointer]:
+            - generic [ref=f2e7233]:
+              - generic [ref=f2e7234]:
+                - img "Rated 5.0 out of 5" [ref=f2e7235]
+                - generic [ref=f2e7262]: "5.0"
+              - generic [ref=f2e7263]: Dew Drop
+            - paragraph [ref=f2e7265]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e7267]:
+              - generic [ref=f2e7268]: E
+              - generic [ref=f2e7271]:
+                - heading "Elena V." [level=4] [ref=f2e7272]
+                - paragraph [ref=f2e7273]: Oily skin
+          - generic [ref=f2e7274] [cursor=pointer]:
+            - generic [ref=f2e7275]:
+              - generic [ref=f2e7276]:
+                - img "Rated 5.0 out of 5" [ref=f2e7277]
+                - generic [ref=f2e7304]: "5.0"
+              - generic [ref=f2e7305]: Clear Slate
+            - paragraph [ref=f2e7307]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e7309]:
+              - generic [ref=f2e7310]: K
+              - generic [ref=f2e7313]:
+                - heading "Kofi A." [level=4] [ref=f2e7314]
+                - paragraph [ref=f2e7315]: Combination skin
+          - generic [ref=f2e7316] [cursor=pointer]:
+            - generic [ref=f2e7317]:
+              - generic [ref=f2e7318]:
+                - img "Rated 5.0 out of 5" [ref=f2e7319]
+                - generic [ref=f2e7346]: "5.0"
+              - generic [ref=f2e7347]: Invisible Shield
+            - paragraph [ref=f2e7349]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e7351]:
+              - generic [ref=f2e7352]: D
+              - generic [ref=f2e7355]:
+                - heading "Dee A." [level=4] [ref=f2e7356]
+                - paragraph [ref=f2e7357]: Combination skin
+          - generic [ref=f2e7358] [cursor=pointer]:
+            - generic [ref=f2e7359]:
+              - generic [ref=f2e7360]:
+                - img "Rated 5.0 out of 5" [ref=f2e7361]
+                - generic [ref=f2e7388]: "5.0"
+              - generic [ref=f2e7389]: Invisible Shield
+            - paragraph [ref=f2e7391]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e7393]:
+              - generic [ref=f2e7394]: E
+              - generic [ref=f2e7397]:
+                - heading "Emi J." [level=4] [ref=f2e7398]
+                - paragraph [ref=f2e7399]: Dry skin
+          - generic [ref=f2e7400] [cursor=pointer]:
+            - generic [ref=f2e7401]:
+              - generic [ref=f2e7402]:
+                - img "Rated 5.0 out of 5" [ref=f2e7403]
+                - generic [ref=f2e7430]: "5.0"
+              - generic [ref=f2e7431]: Bright Eyes
+            - paragraph [ref=f2e7433]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e7435]:
+              - generic [ref=f2e7436]: A
+              - generic [ref=f2e7439]:
+                - heading "Alma N." [level=4] [ref=f2e7440]
+                - paragraph [ref=f2e7441]: Normal skin
+          - generic [ref=f2e7442] [cursor=pointer]:
+            - generic [ref=f2e7443]:
+              - generic [ref=f2e7444]:
+                - img "Rated 5.0 out of 5" [ref=f2e7445]
+                - generic [ref=f2e7472]: "5.0"
+              - generic [ref=f2e7473]: Night Renew
+            - paragraph [ref=f2e7475]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e7477]:
+              - generic [ref=f2e7478]: S
+              - generic [ref=f2e7481]:
+                - heading "Sofia L." [level=4] [ref=f2e7482]
+                - paragraph [ref=f2e7483]: Dry skin
+          - generic [ref=f2e7484] [cursor=pointer]:
+            - generic [ref=f2e7485]:
+              - generic [ref=f2e7486]:
+                - img "Rated 5.0 out of 5" [ref=f2e7487]
+                - generic [ref=f2e7514]: "5.0"
+              - generic [ref=f2e7515]: Bright Side
+            - paragraph [ref=f2e7517]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e7519]:
+              - generic [ref=f2e7520]: "N"
+              - generic [ref=f2e7523]:
+                - heading "Noor H." [level=4] [ref=f2e7524]
+                - paragraph [ref=f2e7525]: Dry skin
+          - generic [ref=f2e7526] [cursor=pointer]:
+            - generic [ref=f2e7527]:
+              - generic [ref=f2e7528]:
+                - img "Rated 5.0 out of 5" [ref=f2e7529]
+                - generic [ref=f2e7556]: "5.0"
+              - generic [ref=f2e7557]: Glow Reset
+            - paragraph [ref=f2e7559]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e7561]:
+              - generic [ref=f2e7562]: B
+              - generic [ref=f2e7565]:
+                - heading "Bianca T." [level=4] [ref=f2e7566]
+                - paragraph [ref=f2e7567]: Combination skin
+          - generic [ref=f2e7568] [cursor=pointer]:
+            - generic [ref=f2e7569]:
+              - generic [ref=f2e7570]:
+                - img "Rated 5.0 out of 5" [ref=f2e7571]
+                - generic [ref=f2e7598]: "5.0"
+              - generic [ref=f2e7599]: Barrier Butter
+            - paragraph [ref=f2e7601]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e7603]:
+              - generic [ref=f2e7604]: H
+              - generic [ref=f2e7607]:
+                - heading "Hana O." [level=4] [ref=f2e7608]
+                - paragraph [ref=f2e7609]: Dry skin
+          - generic [ref=f2e7610] [cursor=pointer]:
+            - generic [ref=f2e7611]:
+              - generic [ref=f2e7612]:
+                - img "Rated 5.0 out of 5" [ref=f2e7613]
+                - generic [ref=f2e7640]: "5.0"
+              - generic [ref=f2e7641]: Night Renew
+            - paragraph [ref=f2e7643]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e7645]:
+              - generic [ref=f2e7646]: A
+              - generic [ref=f2e7649]:
+                - heading "Anika B." [level=4] [ref=f2e7650]
+                - paragraph [ref=f2e7651]: Normal skin
+          - generic [ref=f2e7652] [cursor=pointer]:
+            - generic [ref=f2e7653]:
+              - generic [ref=f2e7654]:
+                - img "Rated 5.0 out of 5" [ref=f2e7655]
+                - generic [ref=f2e7682]: "5.0"
+              - generic [ref=f2e7683]: Clear Skin
+            - paragraph [ref=f2e7685]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e7687]:
+              - generic [ref=f2e7688]: L
+              - generic [ref=f2e7691]:
+                - heading "Lena B." [level=4] [ref=f2e7692]
+                - paragraph [ref=f2e7693]: Normal skin
+          - generic [ref=f2e7694] [cursor=pointer]:
+            - generic [ref=f2e7695]:
+              - generic [ref=f2e7696]:
+                - img "Rated 5.0 out of 5" [ref=f2e7697]
+                - generic [ref=f2e7724]: "5.0"
+              - generic [ref=f2e7725]: Everyday Peptide
+            - paragraph [ref=f2e7727]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e7729]:
+              - generic [ref=f2e7730]: J
+              - generic [ref=f2e7733]:
+                - heading "Julia M." [level=4] [ref=f2e7734]
+                - paragraph [ref=f2e7735]: Normal skin
+          - generic [ref=f2e7736] [cursor=pointer]:
+            - generic [ref=f2e7737]:
+              - generic [ref=f2e7738]:
+                - img "Rated 5.0 out of 5" [ref=f2e7739]
+                - generic [ref=f2e7766]: "5.0"
+              - generic [ref=f2e7767]: Dew Drop
+            - paragraph [ref=f2e7769]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e7771]:
+              - generic [ref=f2e7772]: E
+              - generic [ref=f2e7775]:
+                - heading "Elena V." [level=4] [ref=f2e7776]
+                - paragraph [ref=f2e7777]: Oily skin
+          - generic [ref=f2e7778] [cursor=pointer]:
+            - generic [ref=f2e7779]:
+              - generic [ref=f2e7780]:
+                - img "Rated 5.0 out of 5" [ref=f2e7781]
+                - generic [ref=f2e7808]: "5.0"
+              - generic [ref=f2e7809]: Clear Slate
+            - paragraph [ref=f2e7811]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e7813]:
+              - generic [ref=f2e7814]: K
+              - generic [ref=f2e7817]:
+                - heading "Kofi A." [level=4] [ref=f2e7818]
+                - paragraph [ref=f2e7819]: Combination skin
+          - generic [ref=f2e7820] [cursor=pointer]:
+            - generic [ref=f2e7821]:
+              - generic [ref=f2e7822]:
+                - img "Rated 5.0 out of 5" [ref=f2e7823]
+                - generic [ref=f2e7850]: "5.0"
+              - generic [ref=f2e7851]: Invisible Shield
+            - paragraph [ref=f2e7853]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e7855]:
+              - generic [ref=f2e7856]: D
+              - generic [ref=f2e7859]:
+                - heading "Dee A." [level=4] [ref=f2e7860]
+                - paragraph [ref=f2e7861]: Combination skin
+          - generic [ref=f2e7862] [cursor=pointer]:
+            - generic [ref=f2e7863]:
+              - generic [ref=f2e7864]:
+                - img "Rated 5.0 out of 5" [ref=f2e7865]
+                - generic [ref=f2e7892]: "5.0"
+              - generic [ref=f2e7893]: Invisible Shield
+            - paragraph [ref=f2e7895]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e7897]:
+              - generic [ref=f2e7898]: E
+              - generic [ref=f2e7901]:
+                - heading "Emi J." [level=4] [ref=f2e7902]
+                - paragraph [ref=f2e7903]: Dry skin
+          - generic [ref=f2e7904] [cursor=pointer]:
+            - generic [ref=f2e7905]:
+              - generic [ref=f2e7906]:
+                - img "Rated 5.0 out of 5" [ref=f2e7907]
+                - generic [ref=f2e7934]: "5.0"
+              - generic [ref=f2e7935]: Bright Eyes
+            - paragraph [ref=f2e7937]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e7939]:
+              - generic [ref=f2e7940]: A
+              - generic [ref=f2e7943]:
+                - heading "Alma N." [level=4] [ref=f2e7944]
+                - paragraph [ref=f2e7945]: Normal skin
+          - generic [ref=f2e7946] [cursor=pointer]:
+            - generic [ref=f2e7947]:
+              - generic [ref=f2e7948]:
+                - img "Rated 5.0 out of 5" [ref=f2e7949]
+                - generic [ref=f2e7976]: "5.0"
+              - generic [ref=f2e7977]: Night Renew
+            - paragraph [ref=f2e7979]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e7981]:
+              - generic [ref=f2e7982]: S
+              - generic [ref=f2e7985]:
+                - heading "Sofia L." [level=4] [ref=f2e7986]
+                - paragraph [ref=f2e7987]: Dry skin
+          - generic [ref=f2e7988] [cursor=pointer]:
+            - generic [ref=f2e7989]:
+              - generic [ref=f2e7990]:
+                - img "Rated 5.0 out of 5" [ref=f2e7991]
+                - generic [ref=f2e8018]: "5.0"
+              - generic [ref=f2e8019]: Bright Side
+            - paragraph [ref=f2e8021]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e8023]:
+              - generic [ref=f2e8024]: "N"
+              - generic [ref=f2e8027]:
+                - heading "Noor H." [level=4] [ref=f2e8028]
+                - paragraph [ref=f2e8029]: Dry skin
+          - generic [ref=f2e8030] [cursor=pointer]:
+            - generic [ref=f2e8031]:
+              - generic [ref=f2e8032]:
+                - img "Rated 5.0 out of 5" [ref=f2e8033]
+                - generic [ref=f2e8060]: "5.0"
+              - generic [ref=f2e8061]: Glow Reset
+            - paragraph [ref=f2e8063]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e8065]:
+              - generic [ref=f2e8066]: B
+              - generic [ref=f2e8069]:
+                - heading "Bianca T." [level=4] [ref=f2e8070]
+                - paragraph [ref=f2e8071]: Combination skin
+          - generic [ref=f2e8072] [cursor=pointer]:
+            - generic [ref=f2e8073]:
+              - generic [ref=f2e8074]:
+                - img "Rated 5.0 out of 5" [ref=f2e8075]
+                - generic [ref=f2e8102]: "5.0"
+              - generic [ref=f2e8103]: Barrier Butter
+            - paragraph [ref=f2e8105]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e8107]:
+              - generic [ref=f2e8108]: H
+              - generic [ref=f2e8111]:
+                - heading "Hana O." [level=4] [ref=f2e8112]
+                - paragraph [ref=f2e8113]: Dry skin
+          - generic [ref=f2e8114] [cursor=pointer]:
+            - generic [ref=f2e8115]:
+              - generic [ref=f2e8116]:
+                - img "Rated 5.0 out of 5" [ref=f2e8117]
+                - generic [ref=f2e8144]: "5.0"
+              - generic [ref=f2e8145]: Night Renew
+            - paragraph [ref=f2e8147]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e8149]:
+              - generic [ref=f2e8150]: A
+              - generic [ref=f2e8153]:
+                - heading "Anika B." [level=4] [ref=f2e8154]
+                - paragraph [ref=f2e8155]: Normal skin
+          - generic [ref=f2e8156] [cursor=pointer]:
+            - generic [ref=f2e8157]:
+              - generic [ref=f2e8158]:
+                - img "Rated 5.0 out of 5" [ref=f2e8159]
+                - generic [ref=f2e8186]: "5.0"
+              - generic [ref=f2e8187]: Clear Skin
+            - paragraph [ref=f2e8189]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e8191]:
+              - generic [ref=f2e8192]: L
+              - generic [ref=f2e8195]:
+                - heading "Lena B." [level=4] [ref=f2e8196]
+                - paragraph [ref=f2e8197]: Normal skin
+          - generic [ref=f2e8198] [cursor=pointer]:
+            - generic [ref=f2e8199]:
+              - generic [ref=f2e8200]:
+                - img "Rated 5.0 out of 5" [ref=f2e8201]
+                - generic [ref=f2e8228]: "5.0"
+              - generic [ref=f2e8229]: Everyday Peptide
+            - paragraph [ref=f2e8231]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e8233]:
+              - generic [ref=f2e8234]: J
+              - generic [ref=f2e8237]:
+                - heading "Julia M." [level=4] [ref=f2e8238]
+                - paragraph [ref=f2e8239]: Normal skin
+          - generic [ref=f2e8240] [cursor=pointer]:
+            - generic [ref=f2e8241]:
+              - generic [ref=f2e8242]:
+                - img "Rated 5.0 out of 5" [ref=f2e8243]
+                - generic [ref=f2e8270]: "5.0"
+              - generic [ref=f2e8271]: Dew Drop
+            - paragraph [ref=f2e8273]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e8275]:
+              - generic [ref=f2e8276]: E
+              - generic [ref=f2e8279]:
+                - heading "Elena V." [level=4] [ref=f2e8280]
+                - paragraph [ref=f2e8281]: Oily skin
+          - generic [ref=f2e8282] [cursor=pointer]:
+            - generic [ref=f2e8283]:
+              - generic [ref=f2e8284]:
+                - img "Rated 5.0 out of 5" [ref=f2e8285]
+                - generic [ref=f2e8312]: "5.0"
+              - generic [ref=f2e8313]: Clear Slate
+            - paragraph [ref=f2e8315]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e8317]:
+              - generic [ref=f2e8318]: K
+              - generic [ref=f2e8321]:
+                - heading "Kofi A." [level=4] [ref=f2e8322]
+                - paragraph [ref=f2e8323]: Combination skin
+          - generic [ref=f2e8324] [cursor=pointer]:
+            - generic [ref=f2e8325]:
+              - generic [ref=f2e8326]:
+                - img "Rated 5.0 out of 5" [ref=f2e8327]
+                - generic [ref=f2e8354]: "5.0"
+              - generic [ref=f2e8355]: Invisible Shield
+            - paragraph [ref=f2e8357]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e8359]:
+              - generic [ref=f2e8360]: D
+              - generic [ref=f2e8363]:
+                - heading "Dee A." [level=4] [ref=f2e8364]
+                - paragraph [ref=f2e8365]: Combination skin
+          - generic [ref=f2e8366] [cursor=pointer]:
+            - generic [ref=f2e8367]:
+              - generic [ref=f2e8368]:
+                - img "Rated 5.0 out of 5" [ref=f2e8369]
+                - generic [ref=f2e8396]: "5.0"
+              - generic [ref=f2e8397]: Invisible Shield
+            - paragraph [ref=f2e8399]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e8401]:
+              - generic [ref=f2e8402]: E
+              - generic [ref=f2e8405]:
+                - heading "Emi J." [level=4] [ref=f2e8406]
+                - paragraph [ref=f2e8407]: Dry skin
+          - generic [ref=f2e8408] [cursor=pointer]:
+            - generic [ref=f2e8409]:
+              - generic [ref=f2e8410]:
+                - img "Rated 5.0 out of 5" [ref=f2e8411]
+                - generic [ref=f2e8438]: "5.0"
+              - generic [ref=f2e8439]: Bright Eyes
+            - paragraph [ref=f2e8441]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e8443]:
+              - generic [ref=f2e8444]: A
+              - generic [ref=f2e8447]:
+                - heading "Alma N." [level=4] [ref=f2e8448]
+                - paragraph [ref=f2e8449]: Normal skin
+          - generic [ref=f2e8450] [cursor=pointer]:
+            - generic [ref=f2e8451]:
+              - generic [ref=f2e8452]:
+                - img "Rated 5.0 out of 5" [ref=f2e8453]
+                - generic [ref=f2e8480]: "5.0"
+              - generic [ref=f2e8481]: Night Renew
+            - paragraph [ref=f2e8483]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e8485]:
+              - generic [ref=f2e8486]: S
+              - generic [ref=f2e8489]:
+                - heading "Sofia L." [level=4] [ref=f2e8490]
+                - paragraph [ref=f2e8491]: Dry skin
+          - generic [ref=f2e8492] [cursor=pointer]:
+            - generic [ref=f2e8493]:
+              - generic [ref=f2e8494]:
+                - img "Rated 5.0 out of 5" [ref=f2e8495]
+                - generic [ref=f2e8522]: "5.0"
+              - generic [ref=f2e8523]: Bright Side
+            - paragraph [ref=f2e8525]: "\"Layered under Invisible Shield it makes my morning routine feel complete. Dull winter skin looks brighter.\""
+            - generic [ref=f2e8527]:
+              - generic [ref=f2e8528]: "N"
+              - generic [ref=f2e8531]:
+                - heading "Noor H." [level=4] [ref=f2e8532]
+                - paragraph [ref=f2e8533]: Dry skin
+          - generic [ref=f2e8534] [cursor=pointer]:
+            - generic [ref=f2e8535]:
+              - generic [ref=f2e8536]:
+                - img "Rated 5.0 out of 5" [ref=f2e8537]
+                - generic [ref=f2e8564]: "5.0"
+              - generic [ref=f2e8565]: Glow Reset
+            - paragraph [ref=f2e8567]: "\"Skin feels polished and plump after ten minutes. My go-to before events.\""
+            - generic [ref=f2e8569]:
+              - generic [ref=f2e8570]: B
+              - generic [ref=f2e8573]:
+                - heading "Bianca T." [level=4] [ref=f2e8574]
+                - paragraph [ref=f2e8575]: Combination skin
+          - generic [ref=f2e8576] [cursor=pointer]:
+            - generic [ref=f2e8577]:
+              - generic [ref=f2e8578]:
+                - img "Rated 5.0 out of 5" [ref=f2e8579]
+                - generic [ref=f2e8606]: "5.0"
+              - generic [ref=f2e8607]: Barrier Butter
+            - paragraph [ref=f2e8609]: "\"My skin was peeling after retinol. This repaired it in a week. Thick but not greasy.\""
+            - generic [ref=f2e8611]:
+              - generic [ref=f2e8612]: H
+              - generic [ref=f2e8615]:
+                - heading "Hana O." [level=4] [ref=f2e8616]
+                - paragraph [ref=f2e8617]: Dry skin
+          - generic [ref=f2e8618] [cursor=pointer]:
+            - generic [ref=f2e8619]:
+              - generic [ref=f2e8620]:
+                - img "Rated 5.0 out of 5" [ref=f2e8621]
+                - generic [ref=f2e8648]: "5.0"
+              - generic [ref=f2e8649]: Night Renew
+            - paragraph [ref=f2e8651]: "\"No peeling, no flaking. Fine lines around my eyes are visibly softer after 8 weeks.\""
+            - generic [ref=f2e8653]:
+              - generic [ref=f2e8654]: A
+              - generic [ref=f2e8657]:
+                - heading "Anika B." [level=4] [ref=f2e8658]
+                - paragraph [ref=f2e8659]: Normal skin
+          - generic [ref=f2e8660] [cursor=pointer]:
+            - generic [ref=f2e8661]:
+              - generic [ref=f2e8662]:
+                - img "Rated 5.0 out of 5" [ref=f2e8663]
+                - generic [ref=f2e8690]: "5.0"
+              - generic [ref=f2e8691]: Clear Skin
+            - paragraph [ref=f2e8693]: "\"My cheeks look less blotchy. Layers perfectly with vitamin C.\""
+            - generic [ref=f2e8695]:
+              - generic [ref=f2e8696]: L
+              - generic [ref=f2e8699]:
+                - heading "Lena B." [level=4] [ref=f2e8700]
+                - paragraph [ref=f2e8701]: Normal skin
+          - generic [ref=f2e8702] [cursor=pointer]:
+            - generic [ref=f2e8703]:
+              - generic [ref=f2e8704]:
+                - img "Rated 5.0 out of 5" [ref=f2e8705]
+                - generic [ref=f2e8732]: "5.0"
+              - generic [ref=f2e8733]: Everyday Peptide
+            - paragraph [ref=f2e8735]: "\"Skin looks bouncier by afternoon. Elegant texture, no pilling under makeup.\""
+            - generic [ref=f2e8737]:
+              - generic [ref=f2e8738]: J
+              - generic [ref=f2e8741]:
+                - heading "Julia M." [level=4] [ref=f2e8742]
+                - paragraph [ref=f2e8743]: Normal skin
+          - generic [ref=f2e8744] [cursor=pointer]:
+            - generic [ref=f2e8745]:
+              - generic [ref=f2e8746]:
+                - img "Rated 5.0 out of 5" [ref=f2e8747]
+                - generic [ref=f2e8774]: "5.0"
+              - generic [ref=f2e8775]: Dew Drop
+            - paragraph [ref=f2e8777]: "\"Turns out my oily skin was just thirsty. Shine is down and I'm breaking out less.\""
+            - generic [ref=f2e8779]:
+              - generic [ref=f2e8780]: E
+              - generic [ref=f2e8783]:
+                - heading "Elena V." [level=4] [ref=f2e8784]
+                - paragraph [ref=f2e8785]: Oily skin
+          - generic [ref=f2e8786] [cursor=pointer]:
+            - generic [ref=f2e8787]:
+              - generic [ref=f2e8788]:
+                - img "Rated 5.0 out of 5" [ref=f2e8789]
+                - generic [ref=f2e8816]: "5.0"
+              - generic [ref=f2e8817]: Clear Slate
+            - paragraph [ref=f2e8819]: "\"Never strips. My chin breakouts have calmed down after a month.\""
+            - generic [ref=f2e8821]:
+              - generic [ref=f2e8822]: K
+              - generic [ref=f2e8825]:
+                - heading "Kofi A." [level=4] [ref=f2e8826]
+                - paragraph [ref=f2e8827]: Combination skin
+          - generic [ref=f2e8828] [cursor=pointer]:
+            - generic [ref=f2e8829]:
+              - generic [ref=f2e8830]:
+                - img "Rated 5.0 out of 5" [ref=f2e8831]
+                - generic [ref=f2e8858]: "5.0"
+              - generic [ref=f2e8859]: Invisible Shield
+            - paragraph [ref=f2e8861]: "\"I have deep skin and most SPFs ghost me. This is truly invisible and does not pill under makeup.\""
+            - generic [ref=f2e8863]:
+              - generic [ref=f2e8864]: D
+              - generic [ref=f2e8867]:
+                - heading "Dee A." [level=4] [ref=f2e8868]
+                - paragraph [ref=f2e8869]: Combination skin
+          - generic [ref=f2e8870] [cursor=pointer]:
+            - generic [ref=f2e8871]:
+              - generic [ref=f2e8872]:
+                - img "Rated 5.0 out of 5" [ref=f2e8873]
+                - generic [ref=f2e8900]: "5.0"
+              - generic [ref=f2e8901]: Invisible Shield
+            - paragraph [ref=f2e8903]: "\"Consistent SPF made more difference than any serum. This one I actually enjoy wearing.\""
+            - generic [ref=f2e8905]:
+              - generic [ref=f2e8906]: E
+              - generic [ref=f2e8909]:
+                - heading "Emi J." [level=4] [ref=f2e8910]
+                - paragraph [ref=f2e8911]: Dry skin
+          - generic [ref=f2e8912] [cursor=pointer]:
+            - generic [ref=f2e8913]:
+              - generic [ref=f2e8914]:
+                - img "Rated 5.0 out of 5" [ref=f2e8915]
+                - generic [ref=f2e8942]: "5.0"
+              - generic [ref=f2e8943]: Bright Eyes
+            - paragraph [ref=f2e8945]: "\"Cooling applicator is a nice touch. Puffiness is down on mornings I use it.\""
+            - generic [ref=f2e8947]:
+              - generic [ref=f2e8948]: A
+              - generic [ref=f2e8951]:
+                - heading "Alma N." [level=4] [ref=f2e8952]
+                - paragraph [ref=f2e8953]: Normal skin
+          - generic [ref=f2e8954] [cursor=pointer]:
+            - generic [ref=f2e8955]:
+              - generic [ref=f2e8956]:
+                - img "Rated 5.0 out of 5" [ref=f2e8957]
+                - generic [ref=f2e8984]: "5.0"
+              - generic [ref=f2e8985]: Night Renew
+            - paragraph [ref=f2e8987]: "\"I couldn't tolerate retinol before. This one feels gentle and effective.\""
+            - generic [ref=f2e8989]:
+              - generic [ref=f2e8990]: S
+              - generic [ref=f2e8993]:
+                - heading "Sofia L." [level=4] [ref=f2e8994]
+                - paragraph [ref=f2e8995]: Dry skin
+    - generic [ref=f2e8998]:
+      - heading "Skin notes, and 15% off your first order" [level=2] [ref=f2e9000]
+      - paragraph [ref=f2e9002]: "Two emails a month: routines that work, ingredients explained, early access to launches. Unsubscribe in one click."
+      - generic [ref=f2e9005]:
+        - textbox "Email address" [ref=f2e9009]:
+          - /placeholder: you@example.com
+        - button "Get 15% off" [ref=f2e9010] [cursor=pointer]
+      - list [ref=f2e9015]:
+        - listitem [ref=f2e9016]: 15% welcome code
+        - listitem [ref=f2e9021]: No spam, ever
+        - listitem [ref=f2e9025]: Free shipping over $50
+  - generic [ref=f2e9031]:
+    - contentinfo [ref=f2e9032]:
+      - generic [ref=f2e9033]:
+        - generic [ref=f2e9034]:
+          - generic [ref=f2e9035]:
+            - link "Aurelle" [ref=f2e9036] [cursor=pointer]:
+              - /url: /
+            - paragraph [ref=f2e9038]: Skincare that listens to your skin. Honest formulas, fair prices and a routine that fits real life.
+          - generic [ref=f2e9039]:
+            - navigation "Shop" [ref=f2e9040]:
+              - paragraph [ref=f2e9041]: Shop
+              - list [ref=f2e9042]:
+                - listitem [ref=f2e9043]:
+                  - link "All products" [ref=f2e9044] [cursor=pointer]:
+                    - /url: /shop
+                - listitem [ref=f2e9045]:
+                  - link "Bestsellers" [ref=f2e9046] [cursor=pointer]:
+                    - /url: /shop?sort=best
+                - listitem [ref=f2e9047]:
+                  - link "Serums" [ref=f2e9048] [cursor=pointer]:
+                    - /url: /shop?step=serum
+                - listitem [ref=f2e9049]:
+                  - link "Sun care" [ref=f2e9050] [cursor=pointer]:
+                    - /url: /shop?step=sunscreen
+                - listitem [ref=f2e9051]:
+                  - link "Flash sale" [ref=f2e9052] [cursor=pointer]:
+                    - /url: /#flash-sale
+            - navigation "Help" [ref=f2e9053]:
+              - paragraph [ref=f2e9054]: Help
+              - list [ref=f2e9055]:
+                - listitem [ref=f2e9056]:
+                  - link "Skin-type quiz" [ref=f2e9057] [cursor=pointer]:
+                    - /url: /quiz
+                - listitem [ref=f2e9058]:
+                  - link "Track your order" [ref=f2e9059] [cursor=pointer]:
+                    - /url: /track
+                - listitem [ref=f2e9060]:
+                  - link "Your bag" [ref=f2e9061] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f2e9062]:
+                  - link "Favourites" [ref=f2e9063] [cursor=pointer]:
+                    - /url: /shop?saved=1
+          - generic [ref=f2e9064]:
+            - paragraph [ref=f2e9065]: Say hello
+            - link "hello@aurelle.test" [ref=f2e9066] [cursor=pointer]:
+              - /url: mailto:hello@aurelle.test
+            - paragraph [ref=f2e9067]: Our studio
+            - paragraph [ref=f2e9068]: Studio 4, 22 Alder Lane, Portland, OR
+            - paragraph [ref=f2e9069]: Follow
+            - list [ref=f2e9070]:
+              - listitem [ref=f2e9071]:
+                - link "Instagram" [ref=f2e9072] [cursor=pointer]:
+                  - /url: https://instagram.com
+              - listitem [ref=f2e9073]:
+                - link "TikTok" [ref=f2e9074] [cursor=pointer]:
+                  - /url: https://tiktok.com
+              - listitem [ref=f2e9075]:
+                - link "YouTube" [ref=f2e9076] [cursor=pointer]:
+                  - /url: https://youtube.com
+        - generic [ref=f2e9077]:
+          - paragraph [ref=f2e9078]: © 2026 Aurelle Skin Co.
+          - list [ref=f2e9079]:
+            - listitem [ref=f2e9080]:
+              - link "Privacy" [ref=f2e9081] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f2e9082]:
+              - link "Terms" [ref=f2e9083] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f2e9084]:
+              - link "Shipping & returns" [ref=f2e9085] [cursor=pointer]:
+                - /url: /
+          - paragraph [ref=f2e9086]: Demo store — no payments are taken.
+      - generic [ref=f2e9087]:
+        - paragraph [aria-hidden]:
+          - generic: A
+          - generic: U
+          - generic: R
+          - generic: E
+          - generic: L
+          - generic: L
+          - generic: E
+    - button "Toggle dark mode" [ref=f2e9090]:
+      - generic [ref=f2e9097]: Light
+      - generic [ref=f2e9098]: loading
+  - button "Open Next.js Dev Tools" [ref=f2e9104] [cursor=pointer]

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Everyday Peptide Cream">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5eef4"/>
+      <stop offset="1" stop-color="#EBDDE8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+      <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="#f2e9f0"/><circle cx="240" cy="281" r="17" fill="#cab5c6" opacity="0.33"/><circle cx="470" cy="587" r="10" fill="#cab5c6" opacity="0.36"/><circle cx="729" cy="262" r="7" fill="#cab5c6" opacity="0.29"/><circle cx="104" cy="378" r="11" fill="#cab5c6" opacity="0.25"/><circle cx="796" cy="487" r="17" fill="#cab5c6" opacity="0.26"/><circle cx="405" cy="298" r="12" fill="#cab5c6" opacity="0.27"/><circle cx="316" cy="593" r="17" fill="#cab5c6" opacity="0.28"/><circle cx="608" cy="588" r="7" fill="#cab5c6" opacity="0.24"/><circle cx="96" cy="186" r="5" fill="#cab5c6" opacity="0.19"/><circle cx="315" cy="833" r="8" fill="#cab5c6" opacity="0.26"/><circle cx="462" cy="917" r="19" fill="#cab5c6" opacity="0.22"/><circle cx="112" cy="938" r="19" fill="#cab5c6" opacity="0.35"/><circle cx="302" cy="864" r="9" fill="#cab5c6" opacity="0.22"/><circle cx="232" cy="421" r="19" fill="#cab5c6" opacity="0.15"/>
+     <g transform="translate(400 796) scale(2.3)"><ellipse cx="0" cy="6" rx="190" ry="16" fill="#1d1612" opacity=".16"/>
+        <rect x="-160" y="-170" width="320" height="170" rx="34" fill="#F7EEF4" stroke="#ddd4d9" stroke-width="2"/>
+        <rect x="-140" y="-148" width="18" height="116" rx="8" fill="#fff" opacity=".28"/>
+        <rect x="-168" y="-246" width="336" height="86" rx="24" fill="#8A5A80"/>
+        <rect x="-168" y="-246" width="336" height="14" rx="7" fill="#764e6c" opacity=".45"/>
+        <rect x="-154" y="-230" width="308" height="10" rx="5" fill="#fff" opacity=".28"/>
+        <rect x="-110" y="-146" width="220" height="110" rx="6" fill="#fbf7fa" opacity=".9"/>
+        <g fill="#6f4965" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+          <text x="0" y="-122" font-size="10" letter-spacing="5" font-weight="700">AURELLE</text>
+          <text x="0" y="-92" font-size="17" font-style="italic">Everyday</text>
+          <text x="0" y="-70" font-size="17">Peptide Cream</text>
+          <text x="0" y="-18" font-size="9" letter-spacing="2" opacity=".75">50 ML</text>
+        </g></g>
+</svg>

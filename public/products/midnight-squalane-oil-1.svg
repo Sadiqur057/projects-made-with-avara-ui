@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Midnight Squalane Oil">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2ece6"/>
+      <stop offset="1" stop-color="#E4D9CC"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+      <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <path d="M 130 840 L 130 400 Q 130 130 400 130 Q 670 130 670 400 L 670 840 Z" fill="#f3eee8" opacity=".85"/>
+     <path d="M 130 840 L 130 400 Q 130 130 400 130 Q 670 130 670 400 L 670 840 Z" fill="url(#glow)"/>
+     <rect x="0" y="830" width="800" height="170" fill="#d8cdc1" opacity=".55"/>
+     <g transform="translate(400 840) scale(1.25)"><ellipse cx="0" cy="6" rx="120" ry="16" fill="#1d1612" opacity=".16"/>
+        <rect x="-75" y="-250" width="150" height="250" rx="34" fill="#6D5140" stroke="#634a3a" stroke-width="2"/>
+        <rect x="-61" y="-224" width="16" height="180" rx="8" fill="#fff" opacity=".28"/>
+        <rect x="-56" y="-290" width="112" height="46" rx="10" fill="#2F2620"/>
+        <rect x="-56" y="-290" width="112" height="10" rx="5" fill="#2c231d" opacity=".5"/>
+        <path d="M -34 -290 L -34 -380 Q -34 -420 0 -420 Q 34 -420 34 -380 L 34 -290 Z" fill="#2c231d"/>
+        <rect x="-22" y="-400" width="10" height="90" rx="5" fill="#fff" opacity=".22"/>
+        <rect x="-55" y="-180" width="110" height="140" rx="6" fill="#2F2620" opacity=".35"/>
+        
+    <g fill="#F2E6D8" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+      <text x="0" y="-150" font-size="11" letter-spacing="5" font-weight="700">AURELLE</text>
+      <line x1="-22" y1="-138" x2="22" y2="-138" stroke="#F2E6D8" stroke-width="1" opacity=".5"/>
+      <text x="0" y="-106" font-size="18" font-style="italic">Midnight</text>
+      <text x="0" y="-84" font-size="18">Squalane Oil</text>
+      <text x="0" y="-54" font-size="10" letter-spacing="2" opacity=".75">30 ML</text>
+    </g></g>
+</svg>

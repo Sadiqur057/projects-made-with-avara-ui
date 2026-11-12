@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Glow Reset AHA/BHA Toner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf4e4"/>
+      <stop offset="1" stop-color="#F5E9C9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+      <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="#e9d7ac"/>
+     <circle cx="400" cy="420" r="300" fill="url(#glow)"/>
+     <circle cx="352" cy="429" r="38" fill="#fcf7ec" opacity="0.79"/><circle cx="576" cy="181" r="42" fill="#d8c294" opacity="0.45"/><circle cx="379" cy="159" r="28" fill="#fcf7ec" opacity="0.67"/><circle cx="290" cy="296" r="42" fill="#d8c294" opacity="0.53"/><circle cx="247" cy="505" r="42" fill="#fcf7ec" opacity="0.50"/>
+     <ellipse cx="400" cy="806" rx="270" ry="40" fill="#cabfa4" opacity=".9"/>
+     <rect x="130" y="700" width="540" height="106" fill="#dfd4b7"/>
+     <ellipse cx="400" cy="700" rx="270" ry="40" fill="#f9f2df"/>
+     <ellipse cx="400" cy="640" rx="170" ry="26" fill="#d2c7ac"/>
+     <rect x="230" y="614" width="340" height="26" fill="#ece1c2"/>
+     <ellipse cx="400" cy="614" rx="170" ry="26" fill="#fbf5e7"/>
+     <g transform="translate(400 612) scale(0.95)"><ellipse cx="0" cy="6" rx="120" ry="16" fill="#1d1612" opacity=".16"/>
+        <path d="M -85 -30 Q -85 0 -55 0 L 55 0 Q 85 0 85 -30 L 85 -250 Q 85 -290 36 -302 L 36 -334 L -36 -334 L -36 -302 Q -85 -290 -85 -250 Z" fill="#FBF3DA" stroke="#e0d8c2" stroke-width="2"/>
+        <rect x="-71" y="-240" width="14" height="190" rx="8" fill="#fff" opacity=".28"/>
+        <rect x="-44" y="-400" width="88" height="72" rx="10" fill="#B08529"/>
+        <rect x="-44" y="-400" width="88" height="12" rx="6" fill="#967125" opacity=".5"/>
+        <rect x="-67" y="-230" width="134" height="180" rx="6" fill="#fdfaee" opacity=".9"/>
+        
+    <g fill="#8b6923" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+      <text x="0" y="-200" font-size="11" letter-spacing="5" font-weight="700">AURELLE</text>
+      <line x1="-26.8" y1="-188" x2="26.8" y2="-188" stroke="#8b6923" stroke-width="1" opacity=".5"/>
+      <text x="0" y="-136" font-size="18" font-style="italic">Glow Reset</text>
+      <text x="0" y="-114" font-size="18">AHA/BHA Toner</text>
+      <text x="0" y="-64" font-size="10" letter-spacing="2" opacity=".75">150 ML</text>
+    </g></g>
+</svg>

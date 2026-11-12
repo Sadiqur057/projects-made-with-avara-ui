@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Glow Reset AHA/BHA Toner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf4e4"/>
+      <stop offset="1" stop-color="#F5E9C9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+      <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <path d="M 130 840 L 130 400 Q 130 130 400 130 Q 670 130 670 400 L 670 840 Z" fill="#fbf5e7" opacity=".85"/>
+     <path d="M 130 840 L 130 400 Q 130 130 400 130 Q 670 130 670 400 L 670 840 Z" fill="url(#glow)"/>
+     <rect x="0" y="830" width="800" height="170" fill="#e8dcbe" opacity=".55"/>
+     <g transform="translate(400 840) scale(1.25)"><ellipse cx="0" cy="6" rx="120" ry="16" fill="#1d1612" opacity=".16"/>
+        <path d="M -85 -30 Q -85 0 -55 0 L 55 0 Q 85 0 85 -30 L 85 -250 Q 85 -290 36 -302 L 36 -334 L -36 -334 L -36 -302 Q -85 -290 -85 -250 Z" fill="#FBF3DA" stroke="#e0d8c2" stroke-width="2"/>
+        <rect x="-71" y="-240" width="14" height="190" rx="8" fill="#fff" opacity=".28"/>
+        <rect x="-44" y="-400" width="88" height="72" rx="10" fill="#B08529"/>
+        <rect x="-44" y="-400" width="88" height="12" rx="6" fill="#967125" opacity=".5"/>
+        <rect x="-67" y="-230" width="134" height="180" rx="6" fill="#fdfaee" opacity=".9"/>
+        
+    <g fill="#8b6923" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+      <text x="0" y="-200" font-size="11" letter-spacing="5" font-weight="700">AURELLE</text>
+      <line x1="-26.8" y1="-188" x2="26.8" y2="-188" stroke="#8b6923" stroke-width="1" opacity=".5"/>
+      <text x="0" y="-136" font-size="18" font-style="italic">Glow Reset</text>
+      <text x="0" y="-114" font-size="18">AHA/BHA Toner</text>
+      <text x="0" y="-64" font-size="10" letter-spacing="2" opacity=".75">150 ML</text>
+    </g></g>
+</svg>

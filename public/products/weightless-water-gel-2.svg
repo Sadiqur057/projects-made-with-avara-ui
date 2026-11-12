@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Weightless Water Gel">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef5f7"/>
+      <stop offset="1" stop-color="#DCEBEF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+      <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="280" cy="470" r="330" fill="#eef5f7" opacity=".7"/>
+     <path d="M 60 520 C 80 380 200 330 300 360 C 420 396 470 300 560 330 C 660 364 700 480 620 560 C 540 640 420 600 330 640 C 220 684 70 660 60 520 Z" fill="#f1f8fa" stroke="#dbe3e6" stroke-width="2"/>
+       <path d="M 100 520 C 130 430 220 400 300 420 C 400 446 470 372 540 390" fill="none" stroke="#548A9C" stroke-width="10" stroke-linecap="round" opacity=".35"/><circle cx="188" cy="407" r="20" fill="#90b3bf" opacity="0.26"/><circle cx="184" cy="503" r="19" fill="#90b3bf" opacity="0.32"/><circle cx="371" cy="319" r="26" fill="#90b3bf" opacity="0.32"/><circle cx="424" cy="575" r="18" fill="#90b3bf" opacity="0.60"/><circle cx="367" cy="385" r="10" fill="#90b3bf" opacity="0.52"/><circle cx="328" cy="146" r="30" fill="#90b3bf" opacity="0.39"/><circle cx="102" cy="568" r="20" fill="#90b3bf" opacity="0.43"/><circle cx="109" cy="511" r="26" fill="#90b3bf" opacity="0.25"/><circle cx="368" cy="541" r="14" fill="#90b3bf" opacity="0.28"/>
+     <rect x="0" y="830" width="800" height="170" fill="#d1dee2" opacity=".55"/>
+     <g transform="translate(560 850) scale(.95)"><ellipse cx="0" cy="6" rx="190" ry="16" fill="#1d1612" opacity=".16"/>
+        <rect x="-160" y="-170" width="320" height="170" rx="34" fill="#EBF5F8" stroke="#d2dadc" stroke-width="2"/>
+        <rect x="-140" y="-148" width="18" height="116" rx="8" fill="#fff" opacity=".28"/>
+        <rect x="-168" y="-246" width="336" height="86" rx="24" fill="#548A9C"/>
+        <rect x="-168" y="-246" width="336" height="14" rx="7" fill="#4a7583" opacity=".45"/>
+        <rect x="-154" y="-230" width="308" height="10" rx="5" fill="#fff" opacity=".28"/>
+        <rect x="-110" y="-146" width="220" height="110" rx="6" fill="#f6fbfc" opacity=".9"/>
+        <g fill="#466d7a" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+          <text x="0" y="-122" font-size="10" letter-spacing="5" font-weight="700">AURELLE</text>
+          <text x="0" y="-92" font-size="17" font-style="italic">Weightless</text>
+          <text x="0" y="-70" font-size="17">Water Gel</text>
+          <text x="0" y="-18" font-size="9" letter-spacing="2" opacity=".75">50 ML</text>
+        </g></g>
+</svg>

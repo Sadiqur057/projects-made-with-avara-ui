@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Barrier Butter Ceramide Cream">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f0e9"/>
+      <stop offset="1" stop-color="#F1E1D3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+      <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="#f6ece2"/><circle cx="211" cy="975" r="16" fill="#d4bcad" opacity="0.18"/><circle cx="182" cy="547" r="16" fill="#d4bcad" opacity="0.28"/><circle cx="86" cy="595" r="11" fill="#d4bcad" opacity="0.31"/><circle cx="51" cy="61" r="16" fill="#d4bcad" opacity="0.18"/><circle cx="479" cy="450" r="10" fill="#d4bcad" opacity="0.33"/><circle cx="522" cy="155" r="9" fill="#d4bcad" opacity="0.16"/><circle cx="564" cy="399" r="17" fill="#d4bcad" opacity="0.19"/><circle cx="725" cy="991" r="9" fill="#d4bcad" opacity="0.24"/><circle cx="391" cy="356" r="15" fill="#d4bcad" opacity="0.29"/><circle cx="799" cy="534" r="10" fill="#d4bcad" opacity="0.22"/><circle cx="70" cy="113" r="9" fill="#d4bcad" opacity="0.22"/><circle cx="715" cy="283" r="16" fill="#d4bcad" opacity="0.17"/><circle cx="219" cy="479" r="8" fill="#d4bcad" opacity="0.20"/><circle cx="330" cy="309" r="9" fill="#d4bcad" opacity="0.24"/>
+     <g transform="translate(400 796) scale(2.3)"><ellipse cx="0" cy="6" rx="190" ry="16" fill="#1d1612" opacity=".16"/>
+        <rect x="-160" y="-170" width="320" height="170" rx="34" fill="#FAF1E7" stroke="#dfd7cd" stroke-width="2"/>
+        <rect x="-140" y="-148" width="18" height="116" rx="8" fill="#fff" opacity=".28"/>
+        <rect x="-168" y="-246" width="336" height="86" rx="24" fill="#A06A48"/>
+        <rect x="-168" y="-246" width="336" height="14" rx="7" fill="#885b3e" opacity=".45"/>
+        <rect x="-154" y="-230" width="308" height="10" rx="5" fill="#fff" opacity=".28"/>
+        <rect x="-110" y="-146" width="220" height="110" rx="6" fill="#fdf9f4" opacity=".9"/>
+        <g fill="#7f553b" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+          <text x="0" y="-122" font-size="10" letter-spacing="5" font-weight="700">AURELLE</text>
+          <text x="0" y="-92" font-size="17" font-style="italic">Barrier Butter</text>
+          <text x="0" y="-70" font-size="17">Ceramide Cream</text>
+          <text x="0" y="-18" font-size="9" letter-spacing="2" opacity=".75">50 ML</text>
+        </g></g>
+</svg>
