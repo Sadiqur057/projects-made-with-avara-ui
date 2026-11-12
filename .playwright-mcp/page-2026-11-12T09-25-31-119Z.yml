@@ -1,0 +1,717 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - generic [ref=e4]:
+          - link "Wayfare" [ref=e5] [cursor=pointer]:
+            - /url: /
+          - list [ref=e10]:
+            - listitem [ref=e11]:
+              - link "Destinations" [ref=e12] [cursor=pointer]:
+                - /url: /destinations
+              - generic:
+                - generic:
+                  - link "All destinations":
+                    - /url: /destinations
+                  - link "Asia":
+                    - /url: /destinations?region=Asia
+                  - link "Europe":
+                    - /url: /destinations?region=Europe
+                  - link "Africa":
+                    - /url: /destinations?region=Africa
+                  - link "Americas":
+                    - /url: /destinations?region=Americas
+            - listitem [ref=e15]:
+              - link "Packages" [ref=e16] [cursor=pointer]:
+                - /url: /packages
+            - listitem [ref=e17]:
+              - link "Deals" [ref=e18] [cursor=pointer]:
+                - /url: /#deals
+            - listitem [ref=e19]:
+              - link "Blog" [ref=e20] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e21]:
+              - link "Contact" [ref=e22] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e23]:
+          - link "Wishlist, 0 saved" [ref=e24] [cursor=pointer]:
+            - /url: /wishlist
+          - generic [ref=e27]:
+            - link "My trips" [ref=e28] [cursor=pointer]:
+              - /url: /my-trips
+            - link "Plan a trip" [ref=e29] [cursor=pointer]:
+              - /url: /packages
+  - main [ref=e30]:
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]: Small-group journeys · Local hosts
+        - heading "Sail into Santorini's golden hour" [level=1] [ref=e44]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: Sail into Santorini's golden hour
+            - generic [ref=e49]: Walk Kyoto before the crowds wake
+            - generic [ref=e50]: Wake up over a glassy lagoon
+            - generic [ref=e51]: Slow mornings between rice terraces
+            - generic [ref=e52]: Chase the northern lights
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - img "Sienna Laurent" [ref=e60] [cursor=pointer]
+            - img "Henrik Lindqvist" [ref=e64] [cursor=pointer]
+            - img "Camille Moreau" [ref=e68] [cursor=pointer]
+            - img "Devon Mercer" [ref=e72] [cursor=pointer]
+          - generic [ref=e73]: 12,400+ happy travellers
+        - paragraph [ref=e74]: Hand-built trips to 14 destinations, led by hosts who live there. Book in minutes, change plans free for up to 30 days.
+        - link "Explore all trips" [ref=e75] [cursor=pointer]:
+          - /url: /packages
+    - search "Search trips" [ref=e80]:
+      - generic [ref=e81]:
+        - text: Where to?
+        - combobox "Where to?" [ref=e82]:
+          - option "Any destination" [selected]
+          - option "Bali, Indonesia"
+          - option "Santorini, Greece"
+          - option "Kyoto, Japan"
+          - option "Swiss Alps, Switzerland"
+          - option "Maldives, Maldives"
+          - option "Machu Picchu, Peru"
+          - option "Paris, France"
+          - option "Iceland, Iceland"
+          - option "Marrakech, Morocco"
+          - option "Tanzania, Tanzania"
+          - option "Amalfi Coast, Italy"
+          - option "Thailand, Thailand"
+          - option "Cappadocia, Türkiye"
+          - option "Banff & Rockies, Canada"
+      - generic [ref=e83]:
+        - text: Duration
+        - combobox "Duration" [ref=e84]:
+          - option "Any length" [selected]
+          - option "1–5 days"
+          - option "6–8 days"
+          - option "9+ days"
+      - generic [ref=e85]:
+        - text: Travellers
+        - button "2 travellers" [ref=e86]
+      - button "Search" [ref=e93]
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - paragraph [ref=e100]: Destinations
+          - heading "Fourteen places worth the journey" [level=2] [ref=e101]
+          - paragraph [ref=e102]: From volcano sunrises to desert camps. Pick a destination and see the trips we run there.
+        - link "All destinations" [ref=e103] [cursor=pointer]:
+          - /url: /destinations
+      - list [ref=e106]:
+        - listitem [ref=e107]:
+          - img "Santorini, Greece" [ref=e108]
+          - generic [ref=e111]:
+            - paragraph [ref=e112]: Greece
+            - heading [level=3] [ref=e113]:
+              - link "Santorini" [ref=e114] [cursor=pointer]:
+                - /url: /packages?destination=santorini
+            - paragraph [ref=e115]: from $1,890
+        - listitem [ref=e120]:
+          - img "Kyoto, Japan" [ref=e121]
+          - generic [ref=e124]:
+            - paragraph [ref=e125]: Japan
+            - heading [level=3] [ref=e126]:
+              - link "Kyoto" [ref=e127] [cursor=pointer]:
+                - /url: /packages?destination=kyoto
+            - paragraph [ref=e128]: from $2,450
+        - listitem [ref=e133]:
+          - img "Bali, Indonesia" [ref=e134]
+          - generic [ref=e137]:
+            - paragraph [ref=e138]: Indonesia
+            - heading [level=3] [ref=e139]:
+              - link "Bali" [ref=e140] [cursor=pointer]:
+                - /url: /packages?destination=bali
+            - paragraph [ref=e141]: from $1,290
+        - listitem [ref=e146]:
+          - img "Maldives, Maldives" [ref=e147]
+          - generic [ref=e150]:
+            - paragraph [ref=e151]: Maldives
+            - heading [level=3] [ref=e152]:
+              - link "Maldives" [ref=e153] [cursor=pointer]:
+                - /url: /packages?destination=maldives
+            - paragraph [ref=e154]: from $3,450
+        - listitem [ref=e159]:
+          - img "Iceland, Iceland" [ref=e160]
+          - generic [ref=e163]:
+            - paragraph [ref=e164]: Iceland
+            - heading [level=3] [ref=e165]:
+              - link "Iceland" [ref=e166] [cursor=pointer]:
+                - /url: /packages?destination=iceland
+            - paragraph [ref=e167]: from $2,350
+        - listitem [ref=e172]:
+          - img "Machu Picchu, Peru" [ref=e173]
+          - generic [ref=e176]:
+            - paragraph [ref=e177]: Peru
+            - heading [level=3] [ref=e178]:
+              - link "Machu Picchu" [ref=e179] [cursor=pointer]:
+                - /url: /packages?destination=peru
+            - paragraph [ref=e180]: from $2,190
+        - listitem [ref=e185]:
+          - img "Tanzania, Tanzania" [ref=e186]
+          - generic [ref=e189]:
+            - paragraph [ref=e190]: Tanzania
+            - heading [level=3] [ref=e191]:
+              - link "Tanzania" [ref=e192] [cursor=pointer]:
+                - /url: /packages?destination=tanzania
+            - paragraph [ref=e193]: from $3,890
+    - generic [ref=e198]:
+      - generic [ref=e200]:
+        - paragraph [ref=e201]: Packages
+        - heading "Find a trip that fits how you travel" [level=2] [ref=e202]
+        - paragraph [ref=e203]: Beach, adventure, culture, luxury or wildlife. Every package is hosted, small-group and fully priced.
+      - generic [ref=e204]:
+        - tablist "Package categories" [ref=e205]:
+          - tab "All" [selected] [ref=e206]
+          - tab "Beach" [ref=e207]
+          - tab "Adventure" [ref=e208]
+          - tab "Culture" [ref=e209]
+          - tab "Luxury" [ref=e210]
+          - tab "Wildlife" [ref=e211]
+        - generic [ref=e212]:
+          - paragraph [ref=e213]: Our highest-rated trips right now
+          - link "View all packages" [ref=e214] [cursor=pointer]:
+            - /url: /packages
+        - tabpanel "All" [ref=e217]:
+          - article [ref=e218]:
+            - generic [ref=e219]:
+              - img "Bali Serenity Retreat — Bali" [ref=e220]
+              - generic [ref=e221]:
+                - generic [ref=e222]: Beach
+                - generic [ref=e223]: "-22%"
+              - button "Save Bali Serenity Retreat to wishlist" [ref=e224]
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - generic [ref=e229]: Bali, Indonesia
+                - generic [ref=e233]:
+                  - text: "4.8"
+                  - generic [ref=e236]: (412)
+              - heading [level=3] [ref=e237]:
+                - link "Bali Serenity Retreat" [ref=e238] [cursor=pointer]:
+                  - /url: /packages/bali-serenity-retreat
+              - paragraph [ref=e239]: Seven slow days between Ubud's rice terraces and the cliffs of Uluwatu, with yoga, cooking classes and a private sunset temple visit.
+              - generic [ref=e240]:
+                - generic [ref=e241]: 7 days
+                - generic [ref=e245]:
+                  - generic [ref=e246]: from
+                  - text: $1,290 /person
+          - article [ref=e247]:
+            - generic [ref=e248]:
+              - img "Santorini Sunset Escape — Santorini" [ref=e249]
+              - generic [ref=e250]: Luxury
+              - button "Save Santorini Sunset Escape to wishlist" [ref=e252]
+            - generic [ref=e255]:
+              - generic [ref=e256]:
+                - generic [ref=e257]: Santorini, Greece
+                - generic [ref=e261]:
+                  - text: "4.9"
+                  - generic [ref=e264]: (538)
+              - heading [level=3] [ref=e265]:
+                - link "Santorini Sunset Escape" [ref=e266] [cursor=pointer]:
+                  - /url: /packages/santorini-sunset-escape
+              - paragraph [ref=e267]: "Six days in a cave suite on the caldera rim: private catamaran sailing, wine tasting in volcanic vineyards and unhurried dinners in Oia."
+              - generic [ref=e268]:
+                - generic [ref=e269]: 6 days
+                - generic [ref=e273]:
+                  - generic [ref=e274]: from
+                  - text: $1,890 /person
+          - article [ref=e275]:
+            - generic [ref=e276]:
+              - img "Kyoto Cherry Blossom Journey — Kyoto" [ref=e277]
+              - generic [ref=e278]: Culture
+              - button "Save Kyoto Cherry Blossom Journey to wishlist" [ref=e280]
+            - generic [ref=e283]:
+              - generic [ref=e284]:
+                - generic [ref=e285]: Kyoto, Japan
+                - generic [ref=e289]:
+                  - text: "4.9"
+                  - generic [ref=e292]: (327)
+              - heading [level=3] [ref=e293]:
+                - link "Kyoto Cherry Blossom Journey" [ref=e294] [cursor=pointer]:
+                  - /url: /packages/kyoto-cherry-blossom-journey
+              - paragraph [ref=e295]: Nine days of tea ceremonies, temple dawns and kaiseki dinners, with a bullet-train side trip to Nara and Osaka.
+              - generic [ref=e296]:
+                - generic [ref=e297]: 9 days
+                - generic [ref=e301]:
+                  - generic [ref=e302]: from
+                  - text: $2,450 /person
+          - article [ref=e303]:
+            - generic [ref=e304]:
+              - img "Maldives Overwater Escape — Maldives" [ref=e305]
+              - generic [ref=e306]: Luxury
+              - button "Save Maldives Overwater Escape to wishlist" [ref=e308]
+            - generic [ref=e311]:
+              - generic [ref=e312]:
+                - generic [ref=e313]: Maldives, Maldives
+                - generic [ref=e317]:
+                  - text: "4.9"
+                  - generic [ref=e320]: (604)
+              - heading [level=3] [ref=e321]:
+                - link "Maldives Overwater Escape" [ref=e322] [cursor=pointer]:
+                  - /url: /packages/maldives-overwater-escape
+              - paragraph [ref=e323]: Five nights in an overwater villa with seaplane transfers, a house reef at your door and a private sandbank dinner.
+              - generic [ref=e324]:
+                - generic [ref=e325]: 5 days
+                - generic [ref=e329]:
+                  - generic [ref=e330]: from
+                  - text: $3,450 /person
+          - article [ref=e331]:
+            - generic [ref=e332]:
+              - img "Machu Picchu Inca Trail — Machu Picchu" [ref=e333]
+              - generic [ref=e334]: Adventure
+              - button "Save Machu Picchu Inca Trail to wishlist" [ref=e336]
+            - generic [ref=e339]:
+              - generic [ref=e340]:
+                - generic [ref=e341]: Machu Picchu, Peru
+                - generic [ref=e345]:
+                  - text: "4.8"
+                  - generic [ref=e348]: (351)
+              - heading [level=3] [ref=e349]:
+                - link "Machu Picchu Inca Trail" [ref=e350] [cursor=pointer]:
+                  - /url: /packages/machu-picchu-inca-trail
+              - paragraph [ref=e351]: Acclimatise in Cusco, trek the classic 4-day Inca Trail with porters and guides, and reach Machu Picchu at sunrise.
+              - generic [ref=e352]:
+                - generic [ref=e353]: 10 days
+                - generic [ref=e357]:
+                  - generic [ref=e358]: from
+                  - text: $2,190 /person
+          - article [ref=e359]:
+            - generic [ref=e360]:
+              - img "Iceland Northern Lights Ring Road — Iceland" [ref=e361]
+              - generic [ref=e362]: Adventure
+              - button "Save Iceland Northern Lights Ring Road to wishlist" [ref=e364]
+            - generic [ref=e367]:
+              - generic [ref=e368]:
+                - generic [ref=e369]: Iceland, Iceland
+                - generic [ref=e373]:
+                  - text: "4.8"
+                  - generic [ref=e376]: (263)
+              - heading [level=3] [ref=e377]:
+                - link "Iceland Northern Lights Ring Road" [ref=e378] [cursor=pointer]:
+                  - /url: /packages/iceland-northern-lights
+              - paragraph [ref=e379]: "Chase the aurora along the south coast: glacier hikes, ice caves, geothermal lagoons and black-sand beaches."
+              - generic [ref=e380]:
+                - generic [ref=e381]: 7 days
+                - generic [ref=e385]:
+                  - generic [ref=e386]: from
+                  - text: $2,350 /person
+    - generic [ref=e387]:
+      - generic [ref=e389]:
+        - paragraph [ref=e390]: Featured tour
+        - heading "Our tour of the season" [level=2] [ref=e391]
+      - generic [ref=e392]:
+        - generic [ref=e393]:
+          - img "Santorini at sunset" [ref=e394]
+          - generic [ref=e395]: Tour of the season
+          - button "Save Santorini Sunset Escape to wishlist" [ref=e396]
+        - generic [ref=e399]:
+          - generic [ref=e400]:
+            - generic [ref=e401]: Santorini, Greece
+            - generic [ref=e405]: 6 days
+            - generic [ref=e409]: max 8
+            - generic [ref=e415]: 4.9 (538)
+          - heading "Santorini Sunset Escape" [level=3] [ref=e418]
+          - paragraph [ref=e419]: "Six days in a cave suite on the caldera rim: private catamaran sailing, wine tasting in volcanic vineyards and unhurried dinners in Oia."
+          - list [ref=e420]:
+            - listitem [ref=e421]: Private caldera catamaran
+            - listitem [ref=e424]: Volcanic wine tasting
+            - listitem [ref=e427]: Oia sunset dinner
+            - listitem [ref=e430]: Cave suite with plunge pool
+          - generic [ref=e433]:
+            - generic [ref=e434]:
+              - text: From
+              - generic [ref=e435]: $1,890 /person
+            - link "See the itinerary" [ref=e436] [cursor=pointer]:
+              - /url: /packages/santorini-sunset-escape
+    - generic [ref=e438]:
+      - generic [ref=e440]:
+        - paragraph [ref=e441]: Last-minute deals
+        - heading "Leaving soon, priced lower" [level=2] [ref=e442]
+        - paragraph [ref=e443]: Unsold places on departures within the next two weeks. When the timer ends, the price goes back up.
+      - generic [ref=e444]:
+        - article [ref=e445]:
+          - generic [ref=e446]:
+            - img "Bali Serenity Retreat" [ref=e447]
+            - generic [ref=e448]: 22% OFF
+            - button "Save Bali Serenity Retreat to wishlist" [ref=e451]
+          - generic [ref=e454]:
+            - generic [ref=e455]:
+              - paragraph [ref=e456]: Bali, Indonesia · 7 days
+              - heading [level=3] [ref=e460]:
+                - link "Bali Serenity Retreat" [ref=e461] [cursor=pointer]:
+                  - /url: /packages/bali-serenity-retreat?deal=1
+              - paragraph [ref=e462]:
+                - text: Departs … ·
+                - generic [ref=e463]: only 4 places left
+            - generic [ref=e464]:
+              - paragraph [ref=e465]: Offer ends in
+              - timer "Time left on this deal" [ref=e466]:
+                - generic [ref=e467]:
+                  - generic [ref=e468]: "--"
+                  - generic [ref=e469]: days
+                - generic [ref=e470]:
+                  - generic [ref=e471]: "--"
+                  - generic [ref=e472]: hrs
+                - generic [ref=e473]:
+                  - generic [ref=e474]: "--"
+                  - generic [ref=e475]: min
+                - generic [ref=e476]:
+                  - generic [ref=e477]: "--"
+                  - generic [ref=e478]: sec
+            - generic [ref=e479]:
+              - generic [ref=e480]: $1,290$1,006 /person
+              - generic: Book deal
+        - article [ref=e481]:
+          - generic [ref=e482]:
+            - img "Swiss Alps Explorer" [ref=e483]
+            - generic [ref=e484]: 15% OFF
+            - button "Save Swiss Alps Explorer to wishlist" [ref=e487]
+          - generic [ref=e490]:
+            - generic [ref=e491]:
+              - paragraph [ref=e492]: Swiss Alps, Switzerland · 8 days
+              - heading [level=3] [ref=e496]:
+                - link "Swiss Alps Explorer" [ref=e497] [cursor=pointer]:
+                  - /url: /packages/swiss-alps-explorer?deal=1
+              - paragraph [ref=e498]:
+                - text: Departs … ·
+                - generic [ref=e499]: only 6 places left
+            - generic [ref=e500]:
+              - paragraph [ref=e501]: Offer ends in
+              - timer "Time left on this deal" [ref=e502]:
+                - generic [ref=e503]:
+                  - generic [ref=e504]: "--"
+                  - generic [ref=e505]: days
+                - generic [ref=e506]:
+                  - generic [ref=e507]: "--"
+                  - generic [ref=e508]: hrs
+                - generic [ref=e509]:
+                  - generic [ref=e510]: "--"
+                  - generic [ref=e511]: min
+                - generic [ref=e512]:
+                  - generic [ref=e513]: "--"
+                  - generic [ref=e514]: sec
+            - generic [ref=e515]:
+              - generic [ref=e516]: $2,980$2,533 /person
+              - generic: Book deal
+        - article [ref=e517]:
+          - generic [ref=e518]:
+            - img "Paris Romance Weekender" [ref=e519]
+            - generic [ref=e520]: 30% OFF
+            - button "Save Paris Romance Weekender to wishlist" [ref=e523]
+          - generic [ref=e526]:
+            - generic [ref=e527]:
+              - paragraph [ref=e528]: Paris, France · 5 days
+              - heading [level=3] [ref=e532]:
+                - link "Paris Romance Weekender" [ref=e533] [cursor=pointer]:
+                  - /url: /packages/paris-romance-weekender?deal=1
+              - paragraph [ref=e534]:
+                - text: Departs … ·
+                - generic [ref=e535]: only 3 places left
+            - generic [ref=e536]:
+              - paragraph [ref=e537]: Offer ends in
+              - timer "Time left on this deal" [ref=e538]:
+                - generic [ref=e539]:
+                  - generic [ref=e540]: "--"
+                  - generic [ref=e541]: days
+                - generic [ref=e542]:
+                  - generic [ref=e543]: "--"
+                  - generic [ref=e544]: hrs
+                - generic [ref=e545]:
+                  - generic [ref=e546]: "--"
+                  - generic [ref=e547]: min
+                - generic [ref=e548]:
+                  - generic [ref=e549]: "--"
+                  - generic [ref=e550]: sec
+            - generic [ref=e551]:
+              - generic [ref=e552]: $1,490$1,043 /person
+              - generic: Book deal
+        - article [ref=e553]:
+          - generic [ref=e554]:
+            - img "Morocco Medina & Desert" [ref=e555]
+            - generic [ref=e556]: 18% OFF
+            - button "Save Morocco Medina & Desert to wishlist" [ref=e559]
+          - generic [ref=e562]:
+            - generic [ref=e563]:
+              - paragraph [ref=e564]: Marrakech, Morocco · 6 days
+              - heading [level=3] [ref=e568]:
+                - link "Morocco Medina & Desert" [ref=e569] [cursor=pointer]:
+                  - /url: /packages/morocco-medina-and-desert?deal=1
+              - paragraph [ref=e570]:
+                - text: Departs … ·
+                - generic [ref=e571]: only 7 places left
+            - generic [ref=e572]:
+              - paragraph [ref=e573]: Offer ends in
+              - timer "Time left on this deal" [ref=e574]:
+                - generic [ref=e575]:
+                  - generic [ref=e576]: "--"
+                  - generic [ref=e577]: days
+                - generic [ref=e578]:
+                  - generic [ref=e579]: "--"
+                  - generic [ref=e580]: hrs
+                - generic [ref=e581]:
+                  - generic [ref=e582]: "--"
+                  - generic [ref=e583]: min
+                - generic [ref=e584]:
+                  - generic [ref=e585]: "--"
+                  - generic [ref=e586]: sec
+            - generic [ref=e587]:
+              - generic [ref=e588]: $1,150$943 /person
+              - generic: Book deal
+        - article [ref=e589]:
+          - generic [ref=e590]:
+            - img "Thailand Island Hopping" [ref=e591]
+            - generic [ref=e592]: 20% OFF
+            - button "Save Thailand Island Hopping to wishlist" [ref=e595]
+          - generic [ref=e598]:
+            - generic [ref=e599]:
+              - paragraph [ref=e600]: Thailand, Thailand · 10 days
+              - heading [level=3] [ref=e604]:
+                - link "Thailand Island Hopping" [ref=e605] [cursor=pointer]:
+                  - /url: /packages/thailand-island-hopping?deal=1
+              - paragraph [ref=e606]:
+                - text: Departs … ·
+                - generic [ref=e607]: only 8 places left
+            - generic [ref=e608]:
+              - paragraph [ref=e609]: Offer ends in
+              - timer "Time left on this deal" [ref=e610]:
+                - generic [ref=e611]:
+                  - generic [ref=e612]: "--"
+                  - generic [ref=e613]: days
+                - generic [ref=e614]:
+                  - generic [ref=e615]: "--"
+                  - generic [ref=e616]: hrs
+                - generic [ref=e617]:
+                  - generic [ref=e618]: "--"
+                  - generic [ref=e619]: min
+                - generic [ref=e620]:
+                  - generic [ref=e621]: "--"
+                  - generic [ref=e622]: sec
+            - generic [ref=e623]:
+              - generic [ref=e624]: $1,450$1,160 /person
+              - generic: Book deal
+        - article [ref=e625]:
+          - generic [ref=e626]:
+            - img "Cappadocia Balloon Weekend" [ref=e627]
+            - generic [ref=e628]: 25% OFF
+            - button "Save Cappadocia Balloon Weekend to wishlist" [ref=e631]
+          - generic [ref=e634]:
+            - generic [ref=e635]:
+              - paragraph [ref=e636]: Cappadocia, Türkiye · 4 days
+              - heading [level=3] [ref=e640]:
+                - link "Cappadocia Balloon Weekend" [ref=e641] [cursor=pointer]:
+                  - /url: /packages/cappadocia-balloon-weekend?deal=1
+              - paragraph [ref=e642]:
+                - text: Departs … ·
+                - generic [ref=e643]: only 5 places left
+            - generic [ref=e644]:
+              - paragraph [ref=e645]: Offer ends in
+              - timer "Time left on this deal" [ref=e646]:
+                - generic [ref=e647]:
+                  - generic [ref=e648]: "--"
+                  - generic [ref=e649]: days
+                - generic [ref=e650]:
+                  - generic [ref=e651]: "--"
+                  - generic [ref=e652]: hrs
+                - generic [ref=e653]:
+                  - generic [ref=e654]: "--"
+                  - generic [ref=e655]: min
+                - generic [ref=e656]:
+                  - generic [ref=e657]: "--"
+                  - generic [ref=e658]: sec
+            - generic [ref=e659]:
+              - generic [ref=e660]: $980$735 /person
+              - generic: Book deal
+    - generic [ref=e661]:
+      - generic [ref=e663]:
+        - paragraph [ref=e664]: Why Wayfare
+        - heading "Trips that are easy to book and hard to forget" [level=2] [ref=e665]
+      - generic [ref=e666]:
+        - generic [ref=e667]:
+          - generic [ref=e668]:
+            - term [ref=e669]: travellers since 2012
+            - definition [ref=e670]: 12,400+
+          - generic [ref=e671]:
+            - term [ref=e672]: average trip rating
+            - definition [ref=e673]: 4.8 / 5
+          - generic [ref=e674]:
+            - term [ref=e675]: destinations, all hosted locally
+            - definition [ref=e676]: "14"
+          - generic [ref=e677]:
+            - term [ref=e678]: book a second trip with us
+            - definition [ref=e679]: 94%
+        - list [ref=e680]:
+          - listitem [ref=e681]:
+            - generic [ref=e686]:
+              - heading "Local hosts, not call centres" [level=3] [ref=e687]
+              - paragraph [ref=e688]: Every trip has a named Wayfare host who lives in the destination and stays with the group from arrival to departure.
+          - listitem [ref=e689]:
+            - generic [ref=e694]:
+              - heading "Free changes up to 30 days out" [level=3] [ref=e695]
+              - paragraph [ref=e696]: Plans move. Change dates or travellers up to 30 days before departure with no fee.
+          - listitem [ref=e697]:
+            - generic [ref=e702]:
+              - heading "No hidden costs" [level=3] [ref=e703]
+              - paragraph [ref=e704]: The price you see covers transfers, stays and activities. What is not included is listed on every trip page.
+          - listitem [ref=e705]:
+            - generic [ref=e710]:
+              - heading "24/7 support on the ground" [level=3] [ref=e711]
+              - paragraph [ref=e712]: A real person answers the trip line at any hour, in your language.
+          - listitem [ref=e713]:
+            - generic [ref=e718]:
+              - heading "Travel that gives back" [level=3] [ref=e719]
+              - paragraph [ref=e720]: Small groups, locally owned stays and a share of every booking goes to community projects in the places we visit.
+          - listitem [ref=e721]:
+            - generic [ref=e728]:
+              - heading "Small groups, big memories" [level=3] [ref=e729]
+              - paragraph [ref=e730]: Groups of 6 to 14 people, so experiences stay personal and access stays easy.
+    - region "Postcards from people who went" [ref=e731]:
+      - generic [ref=e732]:
+        - paragraph [ref=e733]: Traveller reviews
+        - heading "Postcards from people who went" [level=2] [ref=e734]
+      - generic [ref=e736]:
+        - generic "Click to replay envelope animation" [ref=e737] [cursor=pointer]:
+          - generic [ref=e741]:
+            - generic [ref=e742]:
+              - generic [ref=e743]: "5.0"
+              - generic [ref=e756]: Family safari
+            - paragraph [ref=e761]: “Six of us, three generations, one vehicle. The guide found a leopard on day two and my dad cried. Nobody rushed us once.”
+            - generic [ref=e762]:
+              - generic [ref=e763]:
+                - img "Devon Mercer" [ref=e765]
+                - generic [ref=e766]:
+                  - generic [ref=e767]: Devon Mercer
+                  - generic [ref=e771]:
+                    - text: Tanzania Serengeti Safari ·
+                    - strong [ref=e772]: Austin, USA
+              - generic [ref=e773]:
+                - generic [ref=e774]: WF-211
+                - generic [ref=e775]: 04 Jun 2026
+          - generic:
+            - generic:
+              - generic:
+                - generic: 04 / 06
+                - generic: •
+                - generic: Austin, USA
+              - generic: 04 Jun 2026
+        - generic [ref=e776]:
+          - generic [ref=e777]:
+            - button "Select testimonial 1 from Sienna Laurent" [ref=e779] [cursor=pointer]
+            - button "Select testimonial 2 from Henrik Lindqvist" [ref=e783] [cursor=pointer]
+            - button "Select testimonial 3 from Camille Moreau" [ref=e787] [cursor=pointer]
+            - button "Select testimonial 4 from Devon Mercer" [ref=e791] [cursor=pointer]
+            - button "Select testimonial 5 from Mei-Ling Sato" [ref=e796] [cursor=pointer]
+            - button "Select testimonial 6 from Lukas Richter" [ref=e800] [cursor=pointer]
+          - generic [ref=e803]:
+            - button "Previous envelope" [ref=e804] [cursor=pointer]
+            - button "Next envelope" [ref=e807] [cursor=pointer]
+    - generic [ref=e812]:
+      - img "Sienna Laurent" [ref=e814]
+      - img "Henrik Lindqvist" [ref=e816]
+      - img "Camille Moreau" [ref=e818]
+      - img "Devon Mercer" [ref=e820]
+      - generic [ref=e821]:
+        - heading "Get the trips we would book ourselves" [level=2] [ref=e823]
+        - paragraph [ref=e825]: "One email a fortnight: new departures, quiet corners and last-minute deals before they go public. No spam, unsubscribe anytime."
+        - generic [ref=e828]:
+          - textbox "Email address" [ref=e832]:
+            - /placeholder: you@example.com
+          - button "Subscribe" [ref=e833] [cursor=pointer]
+        - generic [ref=e839]:
+          - generic [aria-hidden] [ref=e842]: +
+          - generic [ref=e843]: Read by 18,000 travellers
+  - contentinfo [ref=e845]:
+    - generic [ref=e846]:
+      - generic [ref=e847]:
+        - generic [ref=e848]:
+          - link "Avara UI" [ref=e849] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e860]:
+              - text: Avara
+              - generic [ref=e861]: UI
+          - paragraph [ref=e862]: Journeys planned by people who have walked them.
+        - generic [ref=e863]:
+          - navigation "Explore" [ref=e864]:
+            - paragraph [ref=e865]: Explore
+            - list [ref=e866]:
+              - listitem [ref=e867]:
+                - link "Destinations" [ref=e868] [cursor=pointer]:
+                  - /url: /destinations
+              - listitem [ref=e869]:
+                - link "All packages" [ref=e870] [cursor=pointer]:
+                  - /url: /packages
+              - listitem [ref=e871]:
+                - link "Last-minute deals" [ref=e872] [cursor=pointer]:
+                  - /url: /#deals
+              - listitem [ref=e873]:
+                - link "Wishlist" [ref=e874] [cursor=pointer]:
+                  - /url: /wishlist
+          - navigation "Your trip" [ref=e875]:
+            - paragraph [ref=e876]: Your trip
+            - list [ref=e877]:
+              - listitem [ref=e878]:
+                - link "My trips" [ref=e879] [cursor=pointer]:
+                  - /url: /my-trips
+              - listitem [ref=e880]:
+                - link "Track a booking" [ref=e881] [cursor=pointer]:
+                  - /url: /my-trips#track
+              - listitem [ref=e882]:
+                - link "Booking checkout" [ref=e883] [cursor=pointer]:
+                  - /url: /packages
+          - navigation "Company" [ref=e884]:
+            - paragraph [ref=e885]: Company
+            - list [ref=e886]:
+              - listitem [ref=e887]:
+                - link "Travel journal" [ref=e888] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=e889]:
+                - link "Contact" [ref=e890] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e891]:
+                - link "FAQs" [ref=e892] [cursor=pointer]:
+                  - /url: /contact#faq
+        - generic [ref=e893]:
+          - paragraph [ref=e894]: Talk to a planner
+          - link "hello@wayfare.travel" [ref=e895] [cursor=pointer]:
+            - /url: mailto:hello@wayfare.travel
+          - paragraph [ref=e896]: Visit our studio
+          - paragraph [ref=e897]: 214 Harbor Street, San Francisco, CA
+          - paragraph [ref=e898]: Follow along
+          - list [ref=e899]:
+            - listitem [ref=e900]:
+              - link "Instagram" [ref=e901] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e902]:
+              - link "YouTube" [ref=e903] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e904]:
+              - link "Pinterest" [ref=e905] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e906]:
+        - paragraph [ref=e907]: © 2026 Wayfare
+        - list [ref=e908]:
+          - listitem [ref=e909]:
+            - link "Terms" [ref=e910] [cursor=pointer]:
+              - /url: /contact#faq
+          - listitem [ref=e911]:
+            - link "Privacy" [ref=e912] [cursor=pointer]:
+              - /url: /contact#faq
+        - paragraph [ref=e913]: Small-group travel with local hosts since 2012.
+    - generic [ref=e914]:
+      - paragraph [aria-hidden]:
+        - generic: W
+        - generic: a
+        - generic: "y"
+        - generic: f
+        - generic: a
+        - generic: r
+        - generic: e
+  - button "Open Next.js Dev Tools" [ref=e921] [cursor=pointer]:
+    - generic [ref=e924]:
+      - text: Compiling
+      - generic [ref=e925]:
+        - generic [ref=e926]: .
+        - generic [ref=e927]: .
+        - generic [ref=e928]: .
