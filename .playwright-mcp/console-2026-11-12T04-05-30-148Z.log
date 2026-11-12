@@ -1,0 +1,2802 @@
+[    1075ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:1
+[    1709ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16703
+[    1931ms] Error: ./components/store/sections/showcase.tsx
+Error: Reading source code for parsing failed
+An unexpected error happened while trying to read the source code to parse: reading file "\\\\?\\D:\\Office\\documentation\\avara-agent-test\\project\\.claude\\skills\\avara-ui\\SKILL.md"
+
+Caused by:
+- The process cannot access the file because it is being used by another process. (os error 32)
+
+Debug info:
+- Execution of <WebpackLoadersProcessedAsset as Asset>::content failed
+- Execution of WebpackLoadersProcessedAsset::process failed
+- Execution of evaluate_webpack_loader failed
+- Execution of track_glob failed
+- Execution of track_glob_inner failed
+- Execution of track_glob_inner failed
+- Execution of <DiskFileSystem as FileSystem>::read failed
+- reading file "\\\\?\\D:\\Office\\documentation\\avara-agent-test\\project\\.claude\\skills\\avara-ui\\SKILL.md"
+- The process cannot access the file because it is being used by another process. (os error 32)
+
+Import trace:
+  Server Component:
+    ./components/store/sections/showcase.tsx
+    ./app/page.tsx
+
+
+    at Object.getCompilationErrors (file://D:\Office\documentation\avara-agent-test\project\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1566:37)
+    at DevBundlerService.getCompilationError (file://D:\Office\documentation\avara-agent-test\project\node_modules\next\dist\server\lib\dev-bundler-service.js:66:55)
+    at DevServer.getCompilationError (file://D:\Office\documentation\avara-agent-test\project\node_modules\next\dist\server\dev\next-dev-server.js:695:42)
+    at DevServer.findPageComponents (file://D:\Office\documentation\avara-agent-test\project\node_modules\next\dist\server\dev\next-dev-server.js:665:43)
+    at async DevServer.renderErrorToResponseImpl (file://D:\Office\documentation\avara-agent-test\project\node_modules\next\dist\server\base-server.js:2068:26)
+[    1893ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:745
+[    1944ms] [ERROR] ./components/store/sections/showcase.tsx
+Error: Reading source code for parsing failed
+An unexpected error happened while trying to read the source code to parse: reading file "\\\\?\\D:\\Office\\documentation\\avara-agent-test\\project\\.claude\\skills\\avara-ui\\SKILL.md"
+
+Caused by:
+- The process cannot access the file because it is being used by another process. (os error 32)
+
+Debug info:
+- Execution of <WebpackLoadersProcessedAsset as Asset>::content failed
+- Execution of WebpackLoadersProcessedAsset::process failed
+- Execution of evaluate_webpack_loader failed
+- Execution of track_glob failed
+- Execution of track_glob_inner failed
+- Execution of track_glob_inner failed
+- Execution of <DiskFileSystem as FileSystem>::read failed
+- reading file "\\\\?\\D:\\Office\\documentation\\avara-agent-test\\project\\.claude\\skills\\avara-ui\\SKILL.md"
+- The process cannot access the file because it is being used by another process. (os error 32)
+
+Import trace:
+  Server Component:
+    ./components/store/sections/showcase.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1946ms] [ERROR] ./app/globals.css.css:263:8
+Error: Parsing CSS source code failed
+  261 | }
+  262 |
+> 263 | export function ToastProvider({ children, variant = "default", position = "bottom-right",...
+      |        ^
+  264 |   const [toasts, setToasts] = useState<ToastProps[]>([]);
+  265 |   const [hovered, setHovered] = useState(false);
+  266 |   const [heights, setHeights] = useState<Record<string, number>>({});
+
+Invalid dangling combinator in selector
+
+Generated code of PostCSS transform of loaders [@tailwindcss/turbopack] transform of file content of app/globals.css:
+./app/globals.css.css:449:17
+  447 |   stack?: boolean;
+  448 | }
+> 449 | export function ToastProvider(t0) {
+      |                 ^
+  450 |   const $ = _c(25);
+  451 |   if ($[0] !== "253949d45f2d3d50d3d2aacfcd27ba08de4ef1a398bddd404b272ede31fd21e5") {
+  452 |     for (let $i = 0; $i < 25; $i += 1) {
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1946ms] [ERROR] ./app/globals.css.css:247:2
+Error: Parsing CSS source code failed
+  245 |     </div>
+  246 |   );
+> 247 | };
+      |  ^
+  248 |
+  249 | // ==========================================
+  250 | // TOAST PROVIDER (WRAPPER)
+
+Invalid empty selector
+
+Generated code of PostCSS transform of loaders [@tailwindcss/turbopack] transform of file content of app/globals.css:
+./app/globals.css.css:434:2
+  432 |   }
+  433 |   return t3;
+> 434 | };
+      |  ^
+  435 |
+  436 | // ==========================================
+  437 | // TOAST PROVIDER (WRAPPER)
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1946ms] [ERROR] ./components/custom/blocks/Button.tsx:4:14
+Error: Expected ';', '}' or <eof>
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-sans);
+  7 |     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/Button.tsx:
+./components/custom/blocks/Button.tsx:4:14
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-sans);
+  7 |     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./components/custom/blocks/Button.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./components/custom/blocks/Button.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./components/custom/blocks/Button.tsx [Client Component Browser]
+    ./components/store/coupon-box.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./components/custom/blocks/Button.tsx [Client Component SSR]
+    ./components/store/coupon-box.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1946ms] [ERROR] ./components/custom/blocks/FashionHeroBlock.tsx:4:14
+Error: Expected ';', '}' or <eof>
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/FashionHeroBlock.tsx:
+./components/custom/blocks/FashionHeroBlock.tsx:4:14
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1947ms] [ERROR] ./lib/store/store.ts:4:14
+Error: Expected ';', '}' or <eof>
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of lib/store/store.ts:
+./lib/store/store.ts:4:14
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./lib/store/store.ts [Client Component Browser]
+    ./components/store/site-header.tsx [Client Component Browser]
+    ./components/store/site-header.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./lib/store/store.ts [Client Component SSR]
+    ./components/store/site-header.tsx [Client Component SSR]
+    ./components/store/site-header.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #3 [Client Component SSR]:
+    ./lib/store/store.ts [Client Component SSR]
+    ./components/store/product-card.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #4 [Client Component Browser]:
+    ./lib/store/store.ts [Client Component Browser]
+    ./components/custom/blocks/HalfStarsBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1947ms] [ERROR] ./components/custom/blocks/motion-curves.ts:94:16
+Error: Expected '>', got 'ident'
+  92 |       >
+  93 |         <img
+> 94 |           src={look.src}
+     |                ^^^^^^^^
+  95 |           alt={look.alt}
+  96 |           style={look.position ? { objectPosition: look.position } : undefined}
+  97 |           className={cn(
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/motion-curves.ts:
+./components/custom/blocks/motion-curves.ts:150:15
+  148 |   let t8;
+  149 |   if ($[9] !== look.alt || $[10] !== look.src || $[11] !== t5 || $[12] !== t7) {
+> 150 |     t8 = <img src={t3} alt={t4} style={t5} className={t7} />;
+      |               ^^^
+  151 |     $[9] = look.alt;
+  152 |     $[10] = look.src;
+  153 |     $[11] = t5;
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/motion-curves.ts [Client Component Browser]
+    ./components/custom/blocks/MasonryGridBlock.tsx [Client Component Browser]
+    ./components/store/sections/lookbook.tsx [Client Component Browser]
+    ./components/store/sections/lookbook.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/motion-curves.ts [Client Component SSR]
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1947ms] [ERROR] ./lib/animate.ts:20:13
+Error: Expected '>', got 'ident'
+  18 |     className={cn("animate-spin", className)}
+  19 |   >
+> 20 |     <path d="M21 12a9 9 0 1 1-6.219-8.56" />
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |   </svg>
+  22 | );
+  23 |
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of lib/animate.ts:
+./lib/animate.ts:30:16
+  28 |   let t2;
+  29 |   if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+> 30 |     t2 = <path d="M21 12a9 9 0 1 1-6.219-8.56" />;
+     |                ^
+  31 |     $[3] = t2;
+  32 |   } else {
+  33 |     t2 = $[3];
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./lib/animate.ts [Client Component Browser]
+    ./components/custom/blocks/FooterBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FooterBlock.tsx [Server Component]
+    ./components/store/site-footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./lib/animate.ts [Client Component SSR]
+    ./components/custom/blocks/FooterBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FooterBlock.tsx [Server Component]
+    ./components/store/site-footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./lib/animate.ts [Client Component Browser]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/animate.ts [Client Component SSR]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1947ms] [ERROR] ./components/custom/blocks/toast-context.ts:148:11
+Error: Unterminated regexp literal
+  146 |             -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black ...
+  147 |           }
+> 148 |         `}</style>
+      |           ^^^^^^^^
+  149 |
+  150 |         {/* Track 1 */}
+  151 |         <div
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/toast-context.ts:
+./components/custom/blocks/toast-context.ts:208:24
+  206 |   let t16;
+  207 |   if ($[22] !== t15) {
+> 208 |     t16 = <style>{t15}</style>;
+      |                        ^^^^^^^^
+  209 |     $[22] = t15;
+  210 |     $[23] = t16;
+  211 |   } else {
+
+Import traces:
+  Client Component SSR:
+    ./components/custom/blocks/toast-context.ts [Client Component SSR]
+    ./components/custom/blocks/ToastBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/ToastBlock.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component Browser:
+    ./components/custom/blocks/toast-context.ts [Client Component Browser]
+    ./components/custom/blocks/MarqueeBlock.tsx [Client Component Browser]
+    ./components/store/site-header.tsx [Client Component Browser]
+    ./components/store/site-header.tsx [Server Component]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1947ms] [ERROR] ./components/custom/blocks/TextAnimationBlock.tsx:7:1
+Error: Module not found: Can't resolve '../section-heading'
+   5 | import { products } from "@/lib/store/products";
+   6 | import { money } from "@/lib/store/pricing";
+>  7 | import { Section, SectionHeading } from "../section-heading";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | const items = products
+  10 |   .filter((p) => p.featured || p.badge === "Bestseller")
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1948ms] [ERROR] ./components/store/use-shop.ts:4:1
+Error: Module not found: Can't resolve './pricing'
+   2 |
+   3 | import { useCallback, useMemo, useSyncExternalStore } from "react";
+>  4 | import {
+     | ^^^^^^^
+>  5 |   DEMO_ORDER_ID,
+     | ^^^^^^^^^^^^^^^^
+>  6 |   SHIPPING,
+     | ^^^^^^^^^^^
+>  7 |   checkCoupon,
+     | ^^^^^^^^^^^^^^
+>  8 |   computeTotals,
+     | ^^^^^^^^^^^^^^^^
+>  9 |   lineKey,
+     | ^^^^^^^^^^
+> 10 |   orderId,
+     | ^^^^^^^^^^
+> 11 |   resolveLines,
+     | ^^^^^^^^^^^^^^^
+> 12 |   type CartLine,
+     | ^^^^^^^^^^^^^^^^
+> 13 |   type CouponCheck,
+     | ^^^^^^^^^^^^^^^^^^^
+> 14 |   type Order,
+     | ^^^^^^^^^^^^^
+> 15 |   type ShippingMethod,
+     | ^^^^^^^^^^^^^^^^^^^^^^
+> 16 | } from "./pricing";
+     | ^^^^^^^^^^^^^^^^^^
+  17 | import { getProductById } from "./products";
+  18 |
+  19 | // ---------------------------------------------------------------------------
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/sections/featured.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/sections/featured.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1948ms] [ERROR] ./components/store/use-shop.ts:17:1
+Error: Module not found: Can't resolve './products'
+  15 |   type ShippingMethod,
+  16 | } from "./pricing";
+> 17 | import { getProductById } from "./products";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | // ---------------------------------------------------------------------------
+  20 | // A tiny external store, persisted to localStorage.
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/sections/featured.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/sections/featured.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1948ms] [ERROR] ./components/custom/blocks/HalfStarsBlock.tsx:9:1
+Error: Module not found: Can't resolve './use-shop'
+   7 | import { money } from "@/lib/store/pricing";
+   8 | import { useWishlist } from "@/lib/store/store";
+>  9 | import { useShop } from "./use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export function Price({ product, className }: { product: Pick<Product, "price" | "compareA...
+  12 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/HalfStarsBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/HalfStarsBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1948ms] [ERROR] ./components/store/sections/featured.tsx:8:1
+Error: Export FavouriteButton doesn't exist in target module
+   6 | import Button from "@/components/custom/blocks/Button";
+   7 | import { getProduct } from "@/lib/store/products";
+>  8 | import { FavouriteButton, Price } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Section } from "../section-heading";
+  10 | import { ColorPicker, SizePicker } from "../variant-picker";
+  11 | import { useShop } from "../use-shop";
+
+The export FavouriteButton was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/featured.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1949ms] [ERROR] ./components/custom/blocks/TextAnimationBlock.tsx:4:1
+Error: Export Gallery doesn't exist in target module
+  2 |
+  3 | import { useRouter } from "next/navigation";
+> 4 | import { Gallery } from "@/components/custom/blocks/GalleryBlock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { products } from "@/lib/store/products";
+  6 | import { money } from "@/lib/store/pricing";
+  7 | import { Section, SectionHeading } from "../section-heading";
+
+The export Gallery was not found in module [project]/components/custom/blocks/GalleryBlock.tsx [app-client] (ecmascript).
+Did you mean to import rafTicker?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1949ms] [ERROR] ./components/custom/blocks/ReviewsBlock.tsx:6:1
+Error: Export HalfStars doesn't exist in target module
+  4 | import { cn } from "@/lib/utils";
+  5 | import { Star, ArrowLeft, ArrowRight } from "lucide-react";
+> 6 | import { HalfStars } from "@/components/custom/blocks/HalfStarsBlock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { springLinear } from "./motion-curves";
+  8 |
+  9 | export type ReviewsVariant =
+
+The export HalfStars was not found in module [project]/components/custom/blocks/HalfStarsBlock.tsx [app-client] (ecmascript).
+Did you mean to import ProductCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1949ms] [ERROR] ./components/custom/blocks/TooltipBlock.tsx:15:1
+Error: Export InputBlock doesn't exist in target module
+  13 | import { cn } from "@/lib/utils";
+  14 | import Button from "./Button";
+> 15 | import { InputBlock } from "./InputBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 | import { MarqueeBlock } from "./MarqueeBlock";
+  17 | import { TiltedCard } from "./TiltedCardBlock";
+  18 | import { bezierEase, gsapTicker } from "./gsap-motion";
+
+The export InputBlock was not found in module [project]/components/custom/blocks/InputBlock.tsx [app-client] (ecmascript).
+Did you mean to import TextAnimation?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1949ms] [ERROR] ./components/custom/blocks/TooltipBlock.tsx:16:1
+Error: Export MarqueeBlock doesn't exist in target module
+  14 | import Button from "./Button";
+  15 | import { InputBlock } from "./InputBlock";
+> 16 | import { MarqueeBlock } from "./MarqueeBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { TiltedCard } from "./TiltedCardBlock";
+  18 | import { bezierEase, gsapTicker } from "./gsap-motion";
+  19 | import { createSpringFollower, MOTION_EASE, springEase } from "./motion-curves";
+
+The export MarqueeBlock was not found in module [project]/components/custom/blocks/MarqueeBlock.tsx [app-client] (ecmascript).
+Did you mean to import useShop?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1949ms] [ERROR] ./components/store/site-header.tsx:7:1
+Error: Export MarqueeBlock doesn't exist in target module
+   5 | import { useDeferredValue, useMemo, useState } from "react";
+   6 | import { ArrowRight, Heart, Menu, PackageSearch, Search, ShoppingBag, Truck } from "lucide...
+>  7 | import { MarqueeBlock } from "@/components/custom/blocks/MarqueeBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { Dialog, DialogContent } from "@/components/custom/blocks/DialogBlock";
+   9 | import { Drawer, DrawerContent, DrawerHeader, DrawerOverlay, DrawerTitle } from "@/compone...
+  10 | import { cn } from "@/lib/utils";
+
+The export MarqueeBlock was not found in module [project]/components/custom/blocks/MarqueeBlock.tsx [app-client] (ecmascript).
+Did you mean to import useShop?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/site-header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1950ms] [ERROR] ./components/store/product-card.tsx:3:1
+Error: Export Newsletter doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { Newsletter } from "@/components/custom/blocks/NewsletterBlock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { newsletterFaces } from "@/lib/store/products";
+  5 |
+  6 | export function NewsletterSection() {
+
+The export Newsletter was not found in module [project]/components/custom/blocks/NewsletterBlock.tsx [app-client] (ecmascript).
+Did you mean to import HalfStars?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/store/product-card.tsx [Client Component Browser]
+    ./components/store/sections/newsletter.tsx [Client Component Browser]
+    ./components/store/sections/newsletter.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/store/product-card.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1950ms] [ERROR] ./components/store/sections/featured.tsx:8:1
+Error: Export Price doesn't exist in target module
+   6 | import Button from "@/components/custom/blocks/Button";
+   7 | import { getProduct } from "@/lib/store/products";
+>  8 | import { FavouriteButton, Price } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Section } from "../section-heading";
+  10 | import { ColorPicker, SizePicker } from "../variant-picker";
+  11 | import { useShop } from "../use-shop";
+
+The export Price was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/featured.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1950ms] [ERROR] ./components/store/sections/flash-sale.tsx:8:1
+Error: Export ProductCard doesn't exist in target module
+   6 | import { CounterBlock } from "@/components/custom/blocks/CounterBlock";
+   7 | import { products } from "@/lib/store/products";
+>  8 | import { ProductCard } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Section } from "../section-heading";
+  10 |
+  11 | const deals = products.filter((p) => p.flashSale);
+
+The export ProductCard was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/flash-sale.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1950ms] [ERROR] ./components/store/sections/new-arrivals.tsx:6:1
+Error: Export ProductCard doesn't exist in target module
+  4 | import { ArrowLeft, ArrowRight } from "lucide-react";
+  5 | import { products } from "@/lib/store/products";
+> 6 | import { ProductCard } from "../product-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Section, SectionHeading } from "../section-heading";
+  8 |
+  9 | const arrivals = [...products].filter((p) => p.isNew).sort((a, b) => b.released - a.released);
+
+The export ProductCard was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/new-arrivals.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1950ms] [ERROR] ./components/store/sections/newsletter.tsx:7:1
+Error: Export ProductCard doesn't exist in target module
+   5 | import { ToggleGroup, ToggleGroupItem } from "@/components/custom/blocks/ToggleGroupBlock";
+   6 | import { categories, productsByCategory, type CategoryId } from "@/lib/store/products";
+>  7 | import { ProductCard } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { Section, SectionHeading } from "../section-heading";
+   9 |
+  10 | export function ByCategorySection() {
+
+The export ProductCard was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/newsletter.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1951ms] [ERROR] ./components/custom/blocks/FashionHeroBlock.tsx:10:38
+Error: Export TextAnimation doesn't exist in target module
+   8 |     --color-red-100: oklch(93.6% 0.032 17.717);
+   9 |     --color-red-200: oklch(88.5% 0.062 18.334);
+> 10 |     --color-red-300: oklch(80.8% 0.114 19.571);
+     |                                      ^^^^^^^^^
+> 11 |     --color-red-400: oklch(70.4% 0.191 22.216);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |     --color-red-500: oklch(63.7% 0.237 25.331);
+  13 |     --color-red-600: oklch(57.7% 0.245 27.325);
+  14 |     --color-red-900: oklch(39.6% 0.141 25.723);
+
+The export TextAnimation was not found in module [project]/components/custom/blocks/TextAnimationBlock.tsx [app-client] (ecmascript).
+Did you mean to import ShowcaseSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1951ms] [ERROR] ./components/custom/blocks/AvatarStackBlock.tsx:15:1
+Error: Export Tooltip doesn't exist in target module
+  13 | } from "@/lib/animate";
+  14 | import * as AvatarPrimitive from "@radix-ui/react-avatar";
+> 15 | import {
+     | ^^^^^^^
+> 16 |   Tooltip,
+     | ^^^^^^^^^^
+> 17 |   TooltipContent,
+     | ^^^^^^^^^^^^^^^^^
+> 18 |   TooltipTrigger,
+     | ^^^^^^^^^^^^^^^^^
+> 19 | } from "@/components/custom/blocks/TooltipBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | export { AvatarImage, AvatarFallback } from "@/components/custom/ui/avatar";
+  21 |
+  22 | // ==========================================
+
+The export Tooltip was not found in module [project]/components/custom/blocks/TooltipBlock.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1951ms] [ERROR] ./components/custom/blocks/AvatarStackBlock.tsx:15:1
+Error: Export TooltipContent doesn't exist in target module
+  13 | } from "@/lib/animate";
+  14 | import * as AvatarPrimitive from "@radix-ui/react-avatar";
+> 15 | import {
+     | ^^^^^^^
+> 16 |   Tooltip,
+     | ^^^^^^^^^^
+> 17 |   TooltipContent,
+     | ^^^^^^^^^^^^^^^^^
+> 18 |   TooltipTrigger,
+     | ^^^^^^^^^^^^^^^^^
+> 19 | } from "@/components/custom/blocks/TooltipBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | export { AvatarImage, AvatarFallback } from "@/components/custom/ui/avatar";
+  21 |
+  22 | // ==========================================
+
+The export TooltipContent was not found in module [project]/components/custom/blocks/TooltipBlock.tsx [app-client] (ecmascript).
+Did you mean to import Newsletter?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1952ms] [ERROR] ./components/custom/blocks/AvatarStackBlock.tsx:15:1
+Error: Export TooltipTrigger doesn't exist in target module
+  13 | } from "@/lib/animate";
+  14 | import * as AvatarPrimitive from "@radix-ui/react-avatar";
+> 15 | import {
+     | ^^^^^^^
+> 16 |   Tooltip,
+     | ^^^^^^^^^^
+> 17 |   TooltipContent,
+     | ^^^^^^^^^^^^^^^^^
+> 18 |   TooltipTrigger,
+     | ^^^^^^^^^^^^^^^^^
+> 19 | } from "@/components/custom/blocks/TooltipBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | export { AvatarImage, AvatarFallback } from "@/components/custom/ui/avatar";
+  21 |
+  22 | // ==========================================
+
+The export TooltipTrigger was not found in module [project]/components/custom/blocks/TooltipBlock.tsx [app-client] (ecmascript).
+Did you mean to import Newsletter?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1952ms] [ERROR] ./components/store/cart-drawer.tsx:9:1
+Error: Export useShop doesn't exist in target module
+   7 | import { setQty, useCart, useUi } from "@/lib/store/store";
+   8 | import { CouponBox } from "./coupon-box";
+>  9 | import { useShop } from "./use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export function QtyStepper({ line, size = "md" }: { line: ResolvedLine; size?: "sm" | "md"...
+  12 |   const dim = size === "sm" ? "size-7" : "size-8";
+
+The export useShop was not found in module [project]/components/store/use-shop.ts [app-client] (ecmascript).
+Did you mean to import useShopState?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/cart-drawer.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1952ms] [ERROR] ./components/store/coupon-box.tsx:8:1
+Error: Export useShop doesn't exist in target module
+   6 | import { coupons } from "@/lib/store/products";
+   7 | import { useCart } from "@/lib/store/store";
+>  8 | import { useShop } from "./use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export function CouponBox() {
+  11 |   const { totals, coupon } = useCart();
+
+The export useShop was not found in module [project]/components/store/use-shop.ts [app-client] (ecmascript).
+Did you mean to import useShopState?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/store/coupon-box.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/store/coupon-box.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    1952ms] [ERROR] ./components/store/sections/featured.tsx:11:1
+Error: Export useShop doesn't exist in target module
+   9 | import { Section } from "../section-heading";
+  10 | import { ColorPicker, SizePicker } from "../variant-picker";
+> 11 | import { useShop } from "../use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const product = getProduct("noir-leather-biker")!;
+  14 |
+
+The export useShop was not found in module [project]/components/store/use-shop.ts [app-client] (ecmascript).
+Did you mean to import useShopState?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/featured.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2463ms] [ERROR] ./components/store/sections/showcase.tsx
+Error: Reading source code for parsing failed
+An unexpected error happened while trying to read the source code to parse: reading file "\\\\?\\D:\\Office\\documentation\\avara-agent-test\\project\\.claude\\skills\\avara-ui\\SKILL.md"
+
+Caused by:
+- The process cannot access the file because it is being used by another process. (os error 32)
+
+Debug info:
+- Execution of <WebpackLoadersProcessedAsset as Asset>::content failed
+- Execution of WebpackLoadersProcessedAsset::process failed
+- Execution of evaluate_webpack_loader failed
+- Execution of track_glob failed
+- Execution of track_glob_inner failed
+- Execution of track_glob_inner failed
+- Execution of <DiskFileSystem as FileSystem>::read failed
+- reading file "\\\\?\\D:\\Office\\documentation\\avara-agent-test\\project\\.claude\\skills\\avara-ui\\SKILL.md"
+- The process cannot access the file because it is being used by another process. (os error 32)
+
+Import trace:
+  Server Component:
+    ./components/store/sections/showcase.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2464ms] [ERROR] ./app/globals.css.css:263:8
+Error: Parsing CSS source code failed
+  261 | }
+  262 |
+> 263 | export function ToastProvider({ children, variant = "default", position = "bottom-right",...
+      |        ^
+  264 |   const [toasts, setToasts] = useState<ToastProps[]>([]);
+  265 |   const [hovered, setHovered] = useState(false);
+  266 |   const [heights, setHeights] = useState<Record<string, number>>({});
+
+Invalid dangling combinator in selector
+
+Generated code of PostCSS transform of loaders [@tailwindcss/turbopack] transform of file content of app/globals.css:
+./app/globals.css.css:449:17
+  447 |   stack?: boolean;
+  448 | }
+> 449 | export function ToastProvider(t0) {
+      |                 ^
+  450 |   const $ = _c(25);
+  451 |   if ($[0] !== "253949d45f2d3d50d3d2aacfcd27ba08de4ef1a398bddd404b272ede31fd21e5") {
+  452 |     for (let $i = 0; $i < 25; $i += 1) {
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2465ms] [ERROR] ./app/globals.css.css:247:2
+Error: Parsing CSS source code failed
+  245 |     </div>
+  246 |   );
+> 247 | };
+      |  ^
+  248 |
+  249 | // ==========================================
+  250 | // TOAST PROVIDER (WRAPPER)
+
+Invalid empty selector
+
+Generated code of PostCSS transform of loaders [@tailwindcss/turbopack] transform of file content of app/globals.css:
+./app/globals.css.css:434:2
+  432 |   }
+  433 |   return t3;
+> 434 | };
+      |  ^
+  435 |
+  436 | // ==========================================
+  437 | // TOAST PROVIDER (WRAPPER)
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2465ms] [ERROR] ./components/custom/blocks/Button.tsx:4:14
+Error: Expected ';', '}' or <eof>
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-sans);
+  7 |     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/Button.tsx:
+./components/custom/blocks/Button.tsx:4:14
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-sans);
+  7 |     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./components/custom/blocks/Button.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./components/custom/blocks/Button.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./components/custom/blocks/Button.tsx [Client Component Browser]
+    ./components/store/coupon-box.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./components/custom/blocks/Button.tsx [Client Component SSR]
+    ./components/store/coupon-box.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2466ms] [ERROR] ./components/custom/blocks/FashionHeroBlock.tsx:4:14
+Error: Expected ';', '}' or <eof>
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/FashionHeroBlock.tsx:
+./components/custom/blocks/FashionHeroBlock.tsx:4:14
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2466ms] [ERROR] ./lib/store/store.ts:4:14
+Error: Expected ';', '}' or <eof>
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of lib/store/store.ts:
+./lib/store/store.ts:4:14
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./lib/store/store.ts [Client Component Browser]
+    ./components/store/site-header.tsx [Client Component Browser]
+    ./components/store/site-header.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./lib/store/store.ts [Client Component SSR]
+    ./components/store/site-header.tsx [Client Component SSR]
+    ./components/store/site-header.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #3 [Client Component SSR]:
+    ./lib/store/store.ts [Client Component SSR]
+    ./components/store/product-card.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #4 [Client Component Browser]:
+    ./lib/store/store.ts [Client Component Browser]
+    ./components/custom/blocks/HalfStarsBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2467ms] [ERROR] ./components/custom/blocks/motion-curves.ts:94:16
+Error: Expected '>', got 'ident'
+  92 |       >
+  93 |         <img
+> 94 |           src={look.src}
+     |                ^^^^^^^^
+  95 |           alt={look.alt}
+  96 |           style={look.position ? { objectPosition: look.position } : undefined}
+  97 |           className={cn(
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/motion-curves.ts:
+./components/custom/blocks/motion-curves.ts:150:15
+  148 |   let t8;
+  149 |   if ($[9] !== look.alt || $[10] !== look.src || $[11] !== t5 || $[12] !== t7) {
+> 150 |     t8 = <img src={t3} alt={t4} style={t5} className={t7} />;
+      |               ^^^
+  151 |     $[9] = look.alt;
+  152 |     $[10] = look.src;
+  153 |     $[11] = t5;
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/motion-curves.ts [Client Component Browser]
+    ./components/custom/blocks/MasonryGridBlock.tsx [Client Component Browser]
+    ./components/store/sections/lookbook.tsx [Client Component Browser]
+    ./components/store/sections/lookbook.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/motion-curves.ts [Client Component SSR]
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2467ms] [ERROR] ./lib/animate.ts:20:13
+Error: Expected '>', got 'ident'
+  18 |     className={cn("animate-spin", className)}
+  19 |   >
+> 20 |     <path d="M21 12a9 9 0 1 1-6.219-8.56" />
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |   </svg>
+  22 | );
+  23 |
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of lib/animate.ts:
+./lib/animate.ts:30:16
+  28 |   let t2;
+  29 |   if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+> 30 |     t2 = <path d="M21 12a9 9 0 1 1-6.219-8.56" />;
+     |                ^
+  31 |     $[3] = t2;
+  32 |   } else {
+  33 |     t2 = $[3];
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./lib/animate.ts [Client Component Browser]
+    ./components/custom/blocks/FooterBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FooterBlock.tsx [Server Component]
+    ./components/store/site-footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./lib/animate.ts [Client Component SSR]
+    ./components/custom/blocks/FooterBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FooterBlock.tsx [Server Component]
+    ./components/store/site-footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./lib/animate.ts [Client Component Browser]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/animate.ts [Client Component SSR]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2468ms] [ERROR] ./components/custom/blocks/toast-context.ts:148:11
+Error: Unterminated regexp literal
+  146 |             -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black ...
+  147 |           }
+> 148 |         `}</style>
+      |           ^^^^^^^^
+  149 |
+  150 |         {/* Track 1 */}
+  151 |         <div
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/toast-context.ts:
+./components/custom/blocks/toast-context.ts:208:24
+  206 |   let t16;
+  207 |   if ($[22] !== t15) {
+> 208 |     t16 = <style>{t15}</style>;
+      |                        ^^^^^^^^
+  209 |     $[22] = t15;
+  210 |     $[23] = t16;
+  211 |   } else {
+
+Import traces:
+  Client Component SSR:
+    ./components/custom/blocks/toast-context.ts [Client Component SSR]
+    ./components/custom/blocks/ToastBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/ToastBlock.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component Browser:
+    ./components/custom/blocks/toast-context.ts [Client Component Browser]
+    ./components/custom/blocks/MarqueeBlock.tsx [Client Component Browser]
+    ./components/store/site-header.tsx [Client Component Browser]
+    ./components/store/site-header.tsx [Server Component]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2471ms] [ERROR] ./components/custom/blocks/TextAnimationBlock.tsx:7:1
+Error: Module not found: Can't resolve '../section-heading'
+   5 | import { products } from "@/lib/store/products";
+   6 | import { money } from "@/lib/store/pricing";
+>  7 | import { Section, SectionHeading } from "../section-heading";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | const items = products
+  10 |   .filter((p) => p.featured || p.badge === "Bestseller")
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2472ms] [ERROR] ./components/store/use-shop.ts:4:1
+Error: Module not found: Can't resolve './pricing'
+   2 |
+   3 | import { useCallback, useMemo, useSyncExternalStore } from "react";
+>  4 | import {
+     | ^^^^^^^
+>  5 |   DEMO_ORDER_ID,
+     | ^^^^^^^^^^^^^^^^
+>  6 |   SHIPPING,
+     | ^^^^^^^^^^^
+>  7 |   checkCoupon,
+     | ^^^^^^^^^^^^^^
+>  8 |   computeTotals,
+     | ^^^^^^^^^^^^^^^^
+>  9 |   lineKey,
+     | ^^^^^^^^^^
+> 10 |   orderId,
+     | ^^^^^^^^^^
+> 11 |   resolveLines,
+     | ^^^^^^^^^^^^^^^
+> 12 |   type CartLine,
+     | ^^^^^^^^^^^^^^^^
+> 13 |   type CouponCheck,
+     | ^^^^^^^^^^^^^^^^^^^
+> 14 |   type Order,
+     | ^^^^^^^^^^^^^
+> 15 |   type ShippingMethod,
+     | ^^^^^^^^^^^^^^^^^^^^^^
+> 16 | } from "./pricing";
+     | ^^^^^^^^^^^^^^^^^^
+  17 | import { getProductById } from "./products";
+  18 |
+  19 | // ---------------------------------------------------------------------------
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/sections/featured.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/sections/featured.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2472ms] [ERROR] ./components/store/use-shop.ts:17:1
+Error: Module not found: Can't resolve './products'
+  15 |   type ShippingMethod,
+  16 | } from "./pricing";
+> 17 | import { getProductById } from "./products";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | // ---------------------------------------------------------------------------
+  20 | // A tiny external store, persisted to localStorage.
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/sections/featured.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/sections/featured.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2473ms] [ERROR] ./components/custom/blocks/HalfStarsBlock.tsx:9:1
+Error: Module not found: Can't resolve './use-shop'
+   7 | import { money } from "@/lib/store/pricing";
+   8 | import { useWishlist } from "@/lib/store/store";
+>  9 | import { useShop } from "./use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export function Price({ product, className }: { product: Pick<Product, "price" | "compareA...
+  12 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/HalfStarsBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/HalfStarsBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2474ms] [ERROR] ./components/store/sections/featured.tsx:8:1
+Error: Export FavouriteButton doesn't exist in target module
+   6 | import Button from "@/components/custom/blocks/Button";
+   7 | import { getProduct } from "@/lib/store/products";
+>  8 | import { FavouriteButton, Price } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Section } from "../section-heading";
+  10 | import { ColorPicker, SizePicker } from "../variant-picker";
+  11 | import { useShop } from "../use-shop";
+
+The export FavouriteButton was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/featured.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2474ms] [ERROR] ./components/custom/blocks/TextAnimationBlock.tsx:4:1
+Error: Export Gallery doesn't exist in target module
+  2 |
+  3 | import { useRouter } from "next/navigation";
+> 4 | import { Gallery } from "@/components/custom/blocks/GalleryBlock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { products } from "@/lib/store/products";
+  6 | import { money } from "@/lib/store/pricing";
+  7 | import { Section, SectionHeading } from "../section-heading";
+
+The export Gallery was not found in module [project]/components/custom/blocks/GalleryBlock.tsx [app-client] (ecmascript).
+Did you mean to import rafTicker?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2475ms] [ERROR] ./components/custom/blocks/ReviewsBlock.tsx:6:1
+Error: Export HalfStars doesn't exist in target module
+  4 | import { cn } from "@/lib/utils";
+  5 | import { Star, ArrowLeft, ArrowRight } from "lucide-react";
+> 6 | import { HalfStars } from "@/components/custom/blocks/HalfStarsBlock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { springLinear } from "./motion-curves";
+  8 |
+  9 | export type ReviewsVariant =
+
+The export HalfStars was not found in module [project]/components/custom/blocks/HalfStarsBlock.tsx [app-client] (ecmascript).
+Did you mean to import ProductCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2476ms] [ERROR] ./components/custom/blocks/TooltipBlock.tsx:15:1
+Error: Export InputBlock doesn't exist in target module
+  13 | import { cn } from "@/lib/utils";
+  14 | import Button from "./Button";
+> 15 | import { InputBlock } from "./InputBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 | import { MarqueeBlock } from "./MarqueeBlock";
+  17 | import { TiltedCard } from "./TiltedCardBlock";
+  18 | import { bezierEase, gsapTicker } from "./gsap-motion";
+
+The export InputBlock was not found in module [project]/components/custom/blocks/InputBlock.tsx [app-client] (ecmascript).
+Did you mean to import TextAnimation?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2478ms] [ERROR] ./components/custom/blocks/TooltipBlock.tsx:16:1
+Error: Export MarqueeBlock doesn't exist in target module
+  14 | import Button from "./Button";
+  15 | import { InputBlock } from "./InputBlock";
+> 16 | import { MarqueeBlock } from "./MarqueeBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { TiltedCard } from "./TiltedCardBlock";
+  18 | import { bezierEase, gsapTicker } from "./gsap-motion";
+  19 | import { createSpringFollower, MOTION_EASE, springEase } from "./motion-curves";
+
+The export MarqueeBlock was not found in module [project]/components/custom/blocks/MarqueeBlock.tsx [app-client] (ecmascript).
+Did you mean to import useShop?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2478ms] [ERROR] ./components/store/site-header.tsx:7:1
+Error: Export MarqueeBlock doesn't exist in target module
+   5 | import { useDeferredValue, useMemo, useState } from "react";
+   6 | import { ArrowRight, Heart, Menu, PackageSearch, Search, ShoppingBag, Truck } from "lucide...
+>  7 | import { MarqueeBlock } from "@/components/custom/blocks/MarqueeBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { Dialog, DialogContent } from "@/components/custom/blocks/DialogBlock";
+   9 | import { Drawer, DrawerContent, DrawerHeader, DrawerOverlay, DrawerTitle } from "@/compone...
+  10 | import { cn } from "@/lib/utils";
+
+The export MarqueeBlock was not found in module [project]/components/custom/blocks/MarqueeBlock.tsx [app-client] (ecmascript).
+Did you mean to import useShop?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/site-header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2479ms] [ERROR] ./components/store/product-card.tsx:3:1
+Error: Export Newsletter doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { Newsletter } from "@/components/custom/blocks/NewsletterBlock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { newsletterFaces } from "@/lib/store/products";
+  5 |
+  6 | export function NewsletterSection() {
+
+The export Newsletter was not found in module [project]/components/custom/blocks/NewsletterBlock.tsx [app-client] (ecmascript).
+Did you mean to import HalfStars?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/store/product-card.tsx [Client Component Browser]
+    ./components/store/sections/newsletter.tsx [Client Component Browser]
+    ./components/store/sections/newsletter.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/store/product-card.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2479ms] [ERROR] ./components/store/sections/featured.tsx:8:1
+Error: Export Price doesn't exist in target module
+   6 | import Button from "@/components/custom/blocks/Button";
+   7 | import { getProduct } from "@/lib/store/products";
+>  8 | import { FavouriteButton, Price } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Section } from "../section-heading";
+  10 | import { ColorPicker, SizePicker } from "../variant-picker";
+  11 | import { useShop } from "../use-shop";
+
+The export Price was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/featured.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2480ms] [ERROR] ./components/store/sections/flash-sale.tsx:8:1
+Error: Export ProductCard doesn't exist in target module
+   6 | import { CounterBlock } from "@/components/custom/blocks/CounterBlock";
+   7 | import { products } from "@/lib/store/products";
+>  8 | import { ProductCard } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Section } from "../section-heading";
+  10 |
+  11 | const deals = products.filter((p) => p.flashSale);
+
+The export ProductCard was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/flash-sale.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2480ms] [ERROR] ./components/store/sections/new-arrivals.tsx:6:1
+Error: Export ProductCard doesn't exist in target module
+  4 | import { ArrowLeft, ArrowRight } from "lucide-react";
+  5 | import { products } from "@/lib/store/products";
+> 6 | import { ProductCard } from "../product-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Section, SectionHeading } from "../section-heading";
+  8 |
+  9 | const arrivals = [...products].filter((p) => p.isNew).sort((a, b) => b.released - a.released);
+
+The export ProductCard was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/new-arrivals.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2480ms] [ERROR] ./components/store/sections/newsletter.tsx:7:1
+Error: Export ProductCard doesn't exist in target module
+   5 | import { ToggleGroup, ToggleGroupItem } from "@/components/custom/blocks/ToggleGroupBlock";
+   6 | import { categories, productsByCategory, type CategoryId } from "@/lib/store/products";
+>  7 | import { ProductCard } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { Section, SectionHeading } from "../section-heading";
+   9 |
+  10 | export function ByCategorySection() {
+
+The export ProductCard was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/newsletter.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2481ms] [ERROR] ./components/custom/blocks/FashionHeroBlock.tsx:10:38
+Error: Export TextAnimation doesn't exist in target module
+   8 |     --color-red-100: oklch(93.6% 0.032 17.717);
+   9 |     --color-red-200: oklch(88.5% 0.062 18.334);
+> 10 |     --color-red-300: oklch(80.8% 0.114 19.571);
+     |                                      ^^^^^^^^^
+> 11 |     --color-red-400: oklch(70.4% 0.191 22.216);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |     --color-red-500: oklch(63.7% 0.237 25.331);
+  13 |     --color-red-600: oklch(57.7% 0.245 27.325);
+  14 |     --color-red-900: oklch(39.6% 0.141 25.723);
+
+The export TextAnimation was not found in module [project]/components/custom/blocks/TextAnimationBlock.tsx [app-client] (ecmascript).
+Did you mean to import ShowcaseSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2482ms] [ERROR] ./components/custom/blocks/AvatarStackBlock.tsx:15:1
+Error: Export Tooltip doesn't exist in target module
+  13 | } from "@/lib/animate";
+  14 | import * as AvatarPrimitive from "@radix-ui/react-avatar";
+> 15 | import {
+     | ^^^^^^^
+> 16 |   Tooltip,
+     | ^^^^^^^^^^
+> 17 |   TooltipContent,
+     | ^^^^^^^^^^^^^^^^^
+> 18 |   TooltipTrigger,
+     | ^^^^^^^^^^^^^^^^^
+> 19 | } from "@/components/custom/blocks/TooltipBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | export { AvatarImage, AvatarFallback } from "@/components/custom/ui/avatar";
+  21 |
+  22 | // ==========================================
+
+The export Tooltip was not found in module [project]/components/custom/blocks/TooltipBlock.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2482ms] [ERROR] ./components/custom/blocks/AvatarStackBlock.tsx:15:1
+Error: Export TooltipContent doesn't exist in target module
+  13 | } from "@/lib/animate";
+  14 | import * as AvatarPrimitive from "@radix-ui/react-avatar";
+> 15 | import {
+     | ^^^^^^^
+> 16 |   Tooltip,
+     | ^^^^^^^^^^
+> 17 |   TooltipContent,
+     | ^^^^^^^^^^^^^^^^^
+> 18 |   TooltipTrigger,
+     | ^^^^^^^^^^^^^^^^^
+> 19 | } from "@/components/custom/blocks/TooltipBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | export { AvatarImage, AvatarFallback } from "@/components/custom/ui/avatar";
+  21 |
+  22 | // ==========================================
+
+The export TooltipContent was not found in module [project]/components/custom/blocks/TooltipBlock.tsx [app-client] (ecmascript).
+Did you mean to import Newsletter?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2483ms] [ERROR] ./components/custom/blocks/AvatarStackBlock.tsx:15:1
+Error: Export TooltipTrigger doesn't exist in target module
+  13 | } from "@/lib/animate";
+  14 | import * as AvatarPrimitive from "@radix-ui/react-avatar";
+> 15 | import {
+     | ^^^^^^^
+> 16 |   Tooltip,
+     | ^^^^^^^^^^
+> 17 |   TooltipContent,
+     | ^^^^^^^^^^^^^^^^^
+> 18 |   TooltipTrigger,
+     | ^^^^^^^^^^^^^^^^^
+> 19 | } from "@/components/custom/blocks/TooltipBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | export { AvatarImage, AvatarFallback } from "@/components/custom/ui/avatar";
+  21 |
+  22 | // ==========================================
+
+The export TooltipTrigger was not found in module [project]/components/custom/blocks/TooltipBlock.tsx [app-client] (ecmascript).
+Did you mean to import Newsletter?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2483ms] [ERROR] ./components/store/cart-drawer.tsx:9:1
+Error: Export useShop doesn't exist in target module
+   7 | import { setQty, useCart, useUi } from "@/lib/store/store";
+   8 | import { CouponBox } from "./coupon-box";
+>  9 | import { useShop } from "./use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export function QtyStepper({ line, size = "md" }: { line: ResolvedLine; size?: "sm" | "md"...
+  12 |   const dim = size === "sm" ? "size-7" : "size-8";
+
+The export useShop was not found in module [project]/components/store/use-shop.ts [app-client] (ecmascript).
+Did you mean to import useShopState?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/cart-drawer.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2484ms] [ERROR] ./components/store/coupon-box.tsx:8:1
+Error: Export useShop doesn't exist in target module
+   6 | import { coupons } from "@/lib/store/products";
+   7 | import { useCart } from "@/lib/store/store";
+>  8 | import { useShop } from "./use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export function CouponBox() {
+  11 |   const { totals, coupon } = useCart();
+
+The export useShop was not found in module [project]/components/store/use-shop.ts [app-client] (ecmascript).
+Did you mean to import useShopState?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/store/coupon-box.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/store/coupon-box.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2484ms] [ERROR] ./components/store/sections/featured.tsx:11:1
+Error: Export useShop doesn't exist in target module
+   9 | import { Section } from "../section-heading";
+  10 | import { ColorPicker, SizePicker } from "../variant-picker";
+> 11 | import { useShop } from "../use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const product = getProduct("noir-leather-biker")!;
+  14 |
+
+The export useShop was not found in module [project]/components/store/use-shop.ts [app-client] (ecmascript).
+Did you mean to import useShopState?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/featured.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2936ms] [ERROR] ./components/store/sections/showcase.tsx
+Error: Reading source code for parsing failed
+An unexpected error happened while trying to read the source code to parse: reading file "\\\\?\\D:\\Office\\documentation\\avara-agent-test\\project\\.claude\\skills\\avara-ui\\SKILL.md"
+
+Caused by:
+- The process cannot access the file because it is being used by another process. (os error 32)
+
+Debug info:
+- Execution of <WebpackLoadersProcessedAsset as Asset>::content failed
+- Execution of WebpackLoadersProcessedAsset::process failed
+- Execution of evaluate_webpack_loader failed
+- Execution of track_glob failed
+- Execution of track_glob_inner failed
+- Execution of track_glob_inner failed
+- Execution of <DiskFileSystem as FileSystem>::read failed
+- reading file "\\\\?\\D:\\Office\\documentation\\avara-agent-test\\project\\.claude\\skills\\avara-ui\\SKILL.md"
+- The process cannot access the file because it is being used by another process. (os error 32)
+
+Import trace:
+  Server Component:
+    ./components/store/sections/showcase.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2936ms] [ERROR] ./app/globals.css.css:263:8
+Error: Parsing CSS source code failed
+  261 | }
+  262 |
+> 263 | export function ToastProvider({ children, variant = "default", position = "bottom-right",...
+      |        ^
+  264 |   const [toasts, setToasts] = useState<ToastProps[]>([]);
+  265 |   const [hovered, setHovered] = useState(false);
+  266 |   const [heights, setHeights] = useState<Record<string, number>>({});
+
+Invalid dangling combinator in selector
+
+Generated code of PostCSS transform of loaders [@tailwindcss/turbopack] transform of file content of app/globals.css:
+./app/globals.css.css:449:17
+  447 |   stack?: boolean;
+  448 | }
+> 449 | export function ToastProvider(t0) {
+      |                 ^
+  450 |   const $ = _c(25);
+  451 |   if ($[0] !== "253949d45f2d3d50d3d2aacfcd27ba08de4ef1a398bddd404b272ede31fd21e5") {
+  452 |     for (let $i = 0; $i < 25; $i += 1) {
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2937ms] [ERROR] ./app/globals.css.css:247:2
+Error: Parsing CSS source code failed
+  245 |     </div>
+  246 |   );
+> 247 | };
+      |  ^
+  248 |
+  249 | // ==========================================
+  250 | // TOAST PROVIDER (WRAPPER)
+
+Invalid empty selector
+
+Generated code of PostCSS transform of loaders [@tailwindcss/turbopack] transform of file content of app/globals.css:
+./app/globals.css.css:434:2
+  432 |   }
+  433 |   return t3;
+> 434 | };
+      |  ^
+  435 |
+  436 | // ==========================================
+  437 | // TOAST PROVIDER (WRAPPER)
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2937ms] [ERROR] ./components/custom/blocks/Button.tsx:4:14
+Error: Expected ';', '}' or <eof>
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-sans);
+  7 |     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/Button.tsx:
+./components/custom/blocks/Button.tsx:4:14
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-sans);
+  7 |     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./components/custom/blocks/Button.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./components/custom/blocks/Button.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./components/custom/blocks/Button.tsx [Client Component Browser]
+    ./components/store/coupon-box.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./components/custom/blocks/Button.tsx [Client Component SSR]
+    ./components/store/coupon-box.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2938ms] [ERROR] ./components/custom/blocks/FashionHeroBlock.tsx:4:14
+Error: Expected ';', '}' or <eof>
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/FashionHeroBlock.tsx:
+./components/custom/blocks/FashionHeroBlock.tsx:4:14
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2938ms] [ERROR] ./lib/store/store.ts:4:14
+Error: Expected ';', '}' or <eof>
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of lib/store/store.ts:
+./lib/store/store.ts:4:14
+  2 | @layer properties;
+  3 | @layer theme, base, components, utilities;
+> 4 | @layer theme {
+    |              ^
+  5 |   :root, :host {
+  6 |     --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  7 |     --color-red-50: oklch(97.1% 0.013 17.38);
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./lib/store/store.ts [Client Component Browser]
+    ./components/store/site-header.tsx [Client Component Browser]
+    ./components/store/site-header.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./lib/store/store.ts [Client Component SSR]
+    ./components/store/site-header.tsx [Client Component SSR]
+    ./components/store/site-header.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #3 [Client Component SSR]:
+    ./lib/store/store.ts [Client Component SSR]
+    ./components/store/product-card.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #4 [Client Component Browser]:
+    ./lib/store/store.ts [Client Component Browser]
+    ./components/custom/blocks/HalfStarsBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2939ms] [ERROR] ./components/custom/blocks/motion-curves.ts:94:16
+Error: Expected '>', got 'ident'
+  92 |       >
+  93 |         <img
+> 94 |           src={look.src}
+     |                ^^^^^^^^
+  95 |           alt={look.alt}
+  96 |           style={look.position ? { objectPosition: look.position } : undefined}
+  97 |           className={cn(
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/motion-curves.ts:
+./components/custom/blocks/motion-curves.ts:150:15
+  148 |   let t8;
+  149 |   if ($[9] !== look.alt || $[10] !== look.src || $[11] !== t5 || $[12] !== t7) {
+> 150 |     t8 = <img src={t3} alt={t4} style={t5} className={t7} />;
+      |               ^^^
+  151 |     $[9] = look.alt;
+  152 |     $[10] = look.src;
+  153 |     $[11] = t5;
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/motion-curves.ts [Client Component Browser]
+    ./components/custom/blocks/MasonryGridBlock.tsx [Client Component Browser]
+    ./components/store/sections/lookbook.tsx [Client Component Browser]
+    ./components/store/sections/lookbook.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/motion-curves.ts [Client Component SSR]
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2939ms] [ERROR] ./lib/animate.ts:20:13
+Error: Expected '>', got 'ident'
+  18 |     className={cn("animate-spin", className)}
+  19 |   >
+> 20 |     <path d="M21 12a9 9 0 1 1-6.219-8.56" />
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |   </svg>
+  22 | );
+  23 |
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of lib/animate.ts:
+./lib/animate.ts:30:16
+  28 |   let t2;
+  29 |   if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+> 30 |     t2 = <path d="M21 12a9 9 0 1 1-6.219-8.56" />;
+     |                ^
+  31 |     $[3] = t2;
+  32 |   } else {
+  33 |     t2 = $[3];
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./lib/animate.ts [Client Component Browser]
+    ./components/custom/blocks/FooterBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FooterBlock.tsx [Server Component]
+    ./components/store/site-footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./lib/animate.ts [Client Component SSR]
+    ./components/custom/blocks/FooterBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FooterBlock.tsx [Server Component]
+    ./components/store/site-footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./lib/animate.ts [Client Component Browser]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/animate.ts [Client Component SSR]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2939ms] [ERROR] ./components/custom/blocks/toast-context.ts:148:11
+Error: Unterminated regexp literal
+  146 |             -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black ...
+  147 |           }
+> 148 |         `}</style>
+      |           ^^^^^^^^
+  149 |
+  150 |         {/* Track 1 */}
+  151 |         <div
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of components/custom/blocks/toast-context.ts:
+./components/custom/blocks/toast-context.ts:208:24
+  206 |   let t16;
+  207 |   if ($[22] !== t15) {
+> 208 |     t16 = <style>{t15}</style>;
+      |                        ^^^^^^^^
+  209 |     $[22] = t15;
+  210 |     $[23] = t16;
+  211 |   } else {
+
+Import traces:
+  Client Component SSR:
+    ./components/custom/blocks/toast-context.ts [Client Component SSR]
+    ./components/custom/blocks/ToastBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/ToastBlock.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component Browser:
+    ./components/custom/blocks/toast-context.ts [Client Component Browser]
+    ./components/custom/blocks/MarqueeBlock.tsx [Client Component Browser]
+    ./components/store/site-header.tsx [Client Component Browser]
+    ./components/store/site-header.tsx [Server Component]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2940ms] [ERROR] ./components/custom/blocks/TextAnimationBlock.tsx:7:1
+Error: Module not found: Can't resolve '../section-heading'
+   5 | import { products } from "@/lib/store/products";
+   6 | import { money } from "@/lib/store/pricing";
+>  7 | import { Section, SectionHeading } from "../section-heading";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | const items = products
+  10 |   .filter((p) => p.featured || p.badge === "Bestseller")
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2940ms] [ERROR] ./components/store/use-shop.ts:4:1
+Error: Module not found: Can't resolve './pricing'
+   2 |
+   3 | import { useCallback, useMemo, useSyncExternalStore } from "react";
+>  4 | import {
+     | ^^^^^^^
+>  5 |   DEMO_ORDER_ID,
+     | ^^^^^^^^^^^^^^^^
+>  6 |   SHIPPING,
+     | ^^^^^^^^^^^
+>  7 |   checkCoupon,
+     | ^^^^^^^^^^^^^^
+>  8 |   computeTotals,
+     | ^^^^^^^^^^^^^^^^
+>  9 |   lineKey,
+     | ^^^^^^^^^^
+> 10 |   orderId,
+     | ^^^^^^^^^^
+> 11 |   resolveLines,
+     | ^^^^^^^^^^^^^^^
+> 12 |   type CartLine,
+     | ^^^^^^^^^^^^^^^^
+> 13 |   type CouponCheck,
+     | ^^^^^^^^^^^^^^^^^^^
+> 14 |   type Order,
+     | ^^^^^^^^^^^^^
+> 15 |   type ShippingMethod,
+     | ^^^^^^^^^^^^^^^^^^^^^^
+> 16 | } from "./pricing";
+     | ^^^^^^^^^^^^^^^^^^
+  17 | import { getProductById } from "./products";
+  18 |
+  19 | // ---------------------------------------------------------------------------
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/sections/featured.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/sections/featured.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2940ms] [ERROR] ./components/store/use-shop.ts:17:1
+Error: Module not found: Can't resolve './products'
+  15 |   type ShippingMethod,
+  16 | } from "./pricing";
+> 17 | import { getProductById } from "./products";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | // ---------------------------------------------------------------------------
+  20 | // A tiny external store, persisted to localStorage.
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #2 [Client Component Browser]:
+    ./components/store/use-shop.ts [Client Component Browser]
+    ./components/store/sections/featured.tsx [Client Component Browser]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./components/store/use-shop.ts [Client Component SSR]
+    ./components/store/sections/featured.tsx [Client Component SSR]
+    ./components/store/sections/featured.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2941ms] [ERROR] ./components/custom/blocks/HalfStarsBlock.tsx:9:1
+Error: Module not found: Can't resolve './use-shop'
+   7 | import { money } from "@/lib/store/pricing";
+   8 | import { useWishlist } from "@/lib/store/store";
+>  9 | import { useShop } from "./use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export function Price({ product, className }: { product: Pick<Product, "price" | "compareA...
+  12 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/HalfStarsBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/HalfStarsBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2941ms] [ERROR] ./components/store/sections/featured.tsx:8:1
+Error: Export FavouriteButton doesn't exist in target module
+   6 | import Button from "@/components/custom/blocks/Button";
+   7 | import { getProduct } from "@/lib/store/products";
+>  8 | import { FavouriteButton, Price } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Section } from "../section-heading";
+  10 | import { ColorPicker, SizePicker } from "../variant-picker";
+  11 | import { useShop } from "../use-shop";
+
+The export FavouriteButton was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/featured.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2941ms] [ERROR] ./components/custom/blocks/TextAnimationBlock.tsx:4:1
+Error: Export Gallery doesn't exist in target module
+  2 |
+  3 | import { useRouter } from "next/navigation";
+> 4 | import { Gallery } from "@/components/custom/blocks/GalleryBlock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { products } from "@/lib/store/products";
+  6 | import { money } from "@/lib/store/pricing";
+  7 | import { Section, SectionHeading } from "../section-heading";
+
+The export Gallery was not found in module [project]/components/custom/blocks/GalleryBlock.tsx [app-client] (ecmascript).
+Did you mean to import rafTicker?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TextAnimationBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2942ms] [ERROR] ./components/custom/blocks/ReviewsBlock.tsx:6:1
+Error: Export HalfStars doesn't exist in target module
+  4 | import { cn } from "@/lib/utils";
+  5 | import { Star, ArrowLeft, ArrowRight } from "lucide-react";
+> 6 | import { HalfStars } from "@/components/custom/blocks/HalfStarsBlock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { springLinear } from "./motion-curves";
+  8 |
+  9 | export type ReviewsVariant =
+
+The export HalfStars was not found in module [project]/components/custom/blocks/HalfStarsBlock.tsx [app-client] (ecmascript).
+Did you mean to import ProductCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Client Component Browser]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/ReviewsBlock.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Client Component SSR]
+    ./components/store/sections/testimonials.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2942ms] [ERROR] ./components/custom/blocks/TooltipBlock.tsx:15:1
+Error: Export InputBlock doesn't exist in target module
+  13 | import { cn } from "@/lib/utils";
+  14 | import Button from "./Button";
+> 15 | import { InputBlock } from "./InputBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 | import { MarqueeBlock } from "./MarqueeBlock";
+  17 | import { TiltedCard } from "./TiltedCardBlock";
+  18 | import { bezierEase, gsapTicker } from "./gsap-motion";
+
+The export InputBlock was not found in module [project]/components/custom/blocks/InputBlock.tsx [app-client] (ecmascript).
+Did you mean to import TextAnimation?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2942ms] [ERROR] ./components/custom/blocks/TooltipBlock.tsx:16:1
+Error: Export MarqueeBlock doesn't exist in target module
+  14 | import Button from "./Button";
+  15 | import { InputBlock } from "./InputBlock";
+> 16 | import { MarqueeBlock } from "./MarqueeBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { TiltedCard } from "./TiltedCardBlock";
+  18 | import { bezierEase, gsapTicker } from "./gsap-motion";
+  19 | import { createSpringFollower, MOTION_EASE, springEase } from "./motion-curves";
+
+The export MarqueeBlock was not found in module [project]/components/custom/blocks/MarqueeBlock.tsx [app-client] (ecmascript).
+Did you mean to import useShop?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/TooltipBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2943ms] [ERROR] ./components/store/site-header.tsx:7:1
+Error: Export MarqueeBlock doesn't exist in target module
+   5 | import { useDeferredValue, useMemo, useState } from "react";
+   6 | import { ArrowRight, Heart, Menu, PackageSearch, Search, ShoppingBag, Truck } from "lucide...
+>  7 | import { MarqueeBlock } from "@/components/custom/blocks/MarqueeBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { Dialog, DialogContent } from "@/components/custom/blocks/DialogBlock";
+   9 | import { Drawer, DrawerContent, DrawerHeader, DrawerOverlay, DrawerTitle } from "@/compone...
+  10 | import { cn } from "@/lib/utils";
+
+The export MarqueeBlock was not found in module [project]/components/custom/blocks/MarqueeBlock.tsx [app-client] (ecmascript).
+Did you mean to import useShop?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/site-header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2943ms] [ERROR] ./components/store/product-card.tsx:3:1
+Error: Export Newsletter doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { Newsletter } from "@/components/custom/blocks/NewsletterBlock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { newsletterFaces } from "@/lib/store/products";
+  5 |
+  6 | export function NewsletterSection() {
+
+The export Newsletter was not found in module [project]/components/custom/blocks/NewsletterBlock.tsx [app-client] (ecmascript).
+Did you mean to import HalfStars?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/store/product-card.tsx [Client Component Browser]
+    ./components/store/sections/newsletter.tsx [Client Component Browser]
+    ./components/store/sections/newsletter.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/store/product-card.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Client Component SSR]
+    ./components/store/sections/new-arrivals.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2943ms] [ERROR] ./components/store/sections/featured.tsx:8:1
+Error: Export Price doesn't exist in target module
+   6 | import Button from "@/components/custom/blocks/Button";
+   7 | import { getProduct } from "@/lib/store/products";
+>  8 | import { FavouriteButton, Price } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Section } from "../section-heading";
+  10 | import { ColorPicker, SizePicker } from "../variant-picker";
+  11 | import { useShop } from "../use-shop";
+
+The export Price was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/featured.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2943ms] [ERROR] ./components/store/sections/flash-sale.tsx:8:1
+Error: Export ProductCard doesn't exist in target module
+   6 | import { CounterBlock } from "@/components/custom/blocks/CounterBlock";
+   7 | import { products } from "@/lib/store/products";
+>  8 | import { ProductCard } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Section } from "../section-heading";
+  10 |
+  11 | const deals = products.filter((p) => p.flashSale);
+
+The export ProductCard was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/flash-sale.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2944ms] [ERROR] ./components/store/sections/new-arrivals.tsx:6:1
+Error: Export ProductCard doesn't exist in target module
+  4 | import { ArrowLeft, ArrowRight } from "lucide-react";
+  5 | import { products } from "@/lib/store/products";
+> 6 | import { ProductCard } from "../product-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Section, SectionHeading } from "../section-heading";
+  8 |
+  9 | const arrivals = [...products].filter((p) => p.isNew).sort((a, b) => b.released - a.released);
+
+The export ProductCard was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/new-arrivals.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2944ms] [ERROR] ./components/store/sections/newsletter.tsx:7:1
+Error: Export ProductCard doesn't exist in target module
+   5 | import { ToggleGroup, ToggleGroupItem } from "@/components/custom/blocks/ToggleGroupBlock";
+   6 | import { categories, productsByCategory, type CategoryId } from "@/lib/store/products";
+>  7 | import { ProductCard } from "../product-card";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { Section, SectionHeading } from "../section-heading";
+   9 |
+  10 | export function ByCategorySection() {
+
+The export ProductCard was not found in module [project]/components/store/product-card.tsx [app-client] (ecmascript).
+Did you mean to import NewsletterSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/newsletter.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2944ms] [ERROR] ./components/custom/blocks/FashionHeroBlock.tsx:10:38
+Error: Export TextAnimation doesn't exist in target module
+   8 |     --color-red-100: oklch(93.6% 0.032 17.717);
+   9 |     --color-red-200: oklch(88.5% 0.062 18.334);
+> 10 |     --color-red-300: oklch(80.8% 0.114 19.571);
+     |                                      ^^^^^^^^^
+> 11 |     --color-red-400: oklch(70.4% 0.191 22.216);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |     --color-red-500: oklch(63.7% 0.237 25.331);
+  13 |     --color-red-600: oklch(57.7% 0.245 27.325);
+  14 |     --color-red-900: oklch(39.6% 0.141 25.723);
+
+The export TextAnimation was not found in module [project]/components/custom/blocks/TextAnimationBlock.tsx [app-client] (ecmascript).
+Did you mean to import ShowcaseSection?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2944ms] [ERROR] ./components/custom/blocks/AvatarStackBlock.tsx:15:1
+Error: Export Tooltip doesn't exist in target module
+  13 | } from "@/lib/animate";
+  14 | import * as AvatarPrimitive from "@radix-ui/react-avatar";
+> 15 | import {
+     | ^^^^^^^
+> 16 |   Tooltip,
+     | ^^^^^^^^^^
+> 17 |   TooltipContent,
+     | ^^^^^^^^^^^^^^^^^
+> 18 |   TooltipTrigger,
+     | ^^^^^^^^^^^^^^^^^
+> 19 | } from "@/components/custom/blocks/TooltipBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | export { AvatarImage, AvatarFallback } from "@/components/custom/ui/avatar";
+  21 |
+  22 | // ==========================================
+
+The export Tooltip was not found in module [project]/components/custom/blocks/TooltipBlock.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2945ms] [ERROR] ./components/custom/blocks/AvatarStackBlock.tsx:15:1
+Error: Export TooltipContent doesn't exist in target module
+  13 | } from "@/lib/animate";
+  14 | import * as AvatarPrimitive from "@radix-ui/react-avatar";
+> 15 | import {
+     | ^^^^^^^
+> 16 |   Tooltip,
+     | ^^^^^^^^^^
+> 17 |   TooltipContent,
+     | ^^^^^^^^^^^^^^^^^
+> 18 |   TooltipTrigger,
+     | ^^^^^^^^^^^^^^^^^
+> 19 | } from "@/components/custom/blocks/TooltipBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | export { AvatarImage, AvatarFallback } from "@/components/custom/ui/avatar";
+  21 |
+  22 | // ==========================================
+
+The export TooltipContent was not found in module [project]/components/custom/blocks/TooltipBlock.tsx [app-client] (ecmascript).
+Did you mean to import Newsletter?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2945ms] [ERROR] ./components/custom/blocks/AvatarStackBlock.tsx:15:1
+Error: Export TooltipTrigger doesn't exist in target module
+  13 | } from "@/lib/animate";
+  14 | import * as AvatarPrimitive from "@radix-ui/react-avatar";
+> 15 | import {
+     | ^^^^^^^
+> 16 |   Tooltip,
+     | ^^^^^^^^^^
+> 17 |   TooltipContent,
+     | ^^^^^^^^^^^^^^^^^
+> 18 |   TooltipTrigger,
+     | ^^^^^^^^^^^^^^^^^
+> 19 | } from "@/components/custom/blocks/TooltipBlock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | export { AvatarImage, AvatarFallback } from "@/components/custom/ui/avatar";
+  21 |
+  22 | // ==========================================
+
+The export TooltipTrigger was not found in module [project]/components/custom/blocks/TooltipBlock.tsx [app-client] (ecmascript).
+Did you mean to import Newsletter?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component Browser]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Client Component Browser]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/custom/blocks/AvatarStackBlock.tsx [Client Component SSR]
+    ./components/custom/blocks/FashionHeroBlock.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Client Component SSR]
+    ./components/store/sections/hero.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2945ms] [ERROR] ./components/store/cart-drawer.tsx:9:1
+Error: Export useShop doesn't exist in target module
+   7 | import { setQty, useCart, useUi } from "@/lib/store/store";
+   8 | import { CouponBox } from "./coupon-box";
+>  9 | import { useShop } from "./use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export function QtyStepper({ line, size = "md" }: { line: ResolvedLine; size?: "sm" | "md"...
+  12 |   const dim = size === "sm" ? "size-7" : "size-8";
+
+The export useShop was not found in module [project]/components/store/use-shop.ts [app-client] (ecmascript).
+Did you mean to import useShopState?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/cart-drawer.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2945ms] [ERROR] ./components/store/coupon-box.tsx:8:1
+Error: Export useShop doesn't exist in target module
+   6 | import { coupons } from "@/lib/store/products";
+   7 | import { useCart } from "@/lib/store/store";
+>  8 | import { useShop } from "./use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export function CouponBox() {
+  11 |   const { totals, coupon } = useCart();
+
+The export useShop was not found in module [project]/components/store/use-shop.ts [app-client] (ecmascript).
+Did you mean to import useShopState?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/store/coupon-box.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Client Component Browser]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/store/coupon-box.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Client Component SSR]
+    ./components/store/cart-drawer.tsx [Server Component]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[    2946ms] [ERROR] ./components/store/sections/featured.tsx:11:1
+Error: Export useShop doesn't exist in target module
+   9 | import { Section } from "../section-heading";
+  10 | import { ColorPicker, SizePicker } from "../variant-picker";
+> 11 | import { useShop } from "../use-shop";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | const product = getProduct("noir-leather-biker")!;
+  14 |
+
+The export useShop was not found in module [project]/components/store/use-shop.ts [app-client] (ecmascript).
+Did you mean to import useShopState?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/store/sections/featured.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[   12784ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:745

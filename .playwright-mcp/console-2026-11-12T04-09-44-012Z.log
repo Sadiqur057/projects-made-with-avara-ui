@@ -1,0 +1,8 @@
+[     450ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3200/_next/static/chunks/2idurp4c2-yq5.css:1
+[     688ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3200/_next/static/chunks/3850yi39nz619.js:1
+[     688ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3200/_next/static/chunks/08ma87b74pypq.js:1
+[    1577ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3200/shop?_rsc=5CB68i4pnAekjehf:1
+[    1577ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3200/shop?sort=newest&_rsc=5CB68i4pnAekjehf:1
+[    1578ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3200/shop?sale=1&_rsc=5CB68i4pnAekjehf:1
+[    1668ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3200/track?_rsc=5CB68i4pnAekjehf:1
+[    1677ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3200/shop?category=dresses&_rsc=5CB68i4pnAekjehf:1

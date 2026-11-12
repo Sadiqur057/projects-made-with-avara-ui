@@ -1,0 +1,769 @@
+- generic [active] [ref=f7e1]:
+  - link "Skip to content" [ref=f7e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f7e3]:
+    - generic [ref=f7e5]:
+      - generic [ref=f7e6]:
+        - generic [ref=f7e7]: Free standard shipping over $120
+        - generic [ref=f7e13]:
+          - text: Use
+          - strong [ref=f7e14]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f7e15]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f7e16]: 30-day easy returns
+      - generic [aria-hidden] [ref=f7e17]:
+        - generic [ref=f7e18]: Free standard shipping over $120
+        - generic [ref=f7e24]:
+          - text: Use
+          - strong [ref=f7e25]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f7e26]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f7e27]: 30-day easy returns
+      - generic [aria-hidden] [ref=f7e28]:
+        - generic [ref=f7e29]: Free standard shipping over $120
+        - generic [ref=f7e35]:
+          - text: Use
+          - strong [ref=f7e36]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f7e37]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f7e38]: 30-day easy returns
+      - generic [aria-hidden] [ref=f7e39]:
+        - generic [ref=f7e40]: Free standard shipping over $120
+        - generic [ref=f7e46]:
+          - text: Use
+          - strong [ref=f7e47]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f7e48]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f7e49]: 30-day easy returns
+    - generic [ref=f7e50]:
+      - link "AVARA home" [ref=f7e51] [cursor=pointer]:
+        - /url: /
+        - text: AVARA
+      - navigation "Primary" [ref=f7e52]:
+        - link "Shop" [ref=f7e54] [cursor=pointer]:
+          - /url: /shop
+        - link "New in" [ref=f7e56] [cursor=pointer]:
+          - /url: /shop?sort=newest
+        - link "Sale" [ref=f7e58] [cursor=pointer]:
+          - /url: /shop?sale=1
+        - link "Lookbook" [ref=f7e60] [cursor=pointer]:
+          - /url: /#lookbook
+        - link "Track order" [ref=f7e62] [cursor=pointer]:
+          - /url: /track
+      - generic [ref=f7e63]:
+        - button "Search" [ref=f7e64]
+        - link "Track order" [ref=f7e68] [cursor=pointer]:
+          - /url: /track
+        - link "Wishlist, 0 items" [ref=f7e75] [cursor=pointer]:
+          - /url: /wishlist
+        - button "Open bag, 0 items" [ref=f7e78]
+  - main [ref=f7e82]:
+    - generic [ref=f7e84]:
+      - generic [ref=f7e85]:
+        - generic [ref=f7e89]:
+          - img "Elena Vance" [ref=f7e93] [cursor=pointer]
+          - img "Marcus Chen" [ref=f7e97] [cursor=pointer]
+          - img "Sarah Jenkins" [ref=f7e101] [cursor=pointer]
+          - link "Shop the AW26 collection" [ref=f7e105] [cursor=pointer]:
+            - /url: /shop
+        - heading "Dress with intent. Wear it all season." [level=1] [ref=f7e109]:
+          - generic [ref=f7e110]: Dress
+          - generic [ref=f7e111]: with
+          - generic [ref=f7e112]: intent.
+          - generic [ref=f7e113]: Wear
+          - generic [ref=f7e114]: it
+          - generic [ref=f7e115]: all
+          - generic [ref=f7e116]: season.
+      - generic [ref=f7e117]:
+        - generic [ref=f7e118]:
+          - figure [ref=f7e122] [cursor=pointer]:
+            - img "Model in a yellow hoodie and joggers set" [ref=f7e123]
+          - figure [ref=f7e127] [cursor=pointer]:
+            - img "A rail of white blouses and earthy knits" [ref=f7e128]
+        - figure [ref=f7e133] [cursor=pointer]:
+          - img "Model in a powder-blue wool coat" [ref=f7e134]
+        - generic [ref=f7e135]:
+          - figure [ref=f7e146] [cursor=pointer]:
+            - img "Model in a red floral dress" [ref=f7e147]
+          - link "Shop AW26" [ref=f7e149] [cursor=pointer]:
+            - /url: /shop
+        - figure [ref=f7e157] [cursor=pointer]:
+          - img "Model in a plum off-shoulder gown" [ref=f7e158]
+        - generic [ref=f7e159]:
+          - figure [ref=f7e163] [cursor=pointer]:
+            - img "Model in striped wide-leg trousers against a teal wall" [ref=f7e164]
+          - figure [ref=f7e168] [cursor=pointer]:
+            - img "Flat-lay of a rust beanie, grey knit and jeans" [ref=f7e169]
+      - generic [ref=f7e170]:
+        - generic [ref=f7e171]:
+          - generic [aria-hidden] [ref=f7e172]: “
+          - paragraph [ref=f7e173]: The coat is unreal in person. The drape, the weight, the colour. Everyone asks where it's from.
+          - paragraph [ref=f7e174]: Amara O.
+        - 'link "01 Lookbook The Teal Hour: AW26 story" [ref=f7e176] [cursor=pointer]':
+          - /url: /#lookbook
+          - generic [ref=f7e178]:
+            - generic [ref=f7e179]: "01"
+            - generic [ref=f7e180]: Lookbook
+          - generic [ref=f7e184]: "The Teal Hour: AW26 story"
+    - region "Pieces people keep coming back for" [ref=f7e185]:
+      - generic [ref=f7e187]:
+        - generic [ref=f7e188]:
+          - paragraph [ref=f7e189]: Showcase
+          - heading "Pieces people keep coming back for" [level=2] [ref=f7e190]
+        - link "Shop all" [ref=f7e191] [cursor=pointer]:
+          - /url: /shop
+      - paragraph [ref=f7e198]: Drag to explore · click a piece to view it
+    - generic [ref=f7e199]:
+      - generic [ref=f7e200]:
+        - generic [ref=f7e201]:
+          - generic [ref=f7e202]:
+            - paragraph [ref=f7e203]: Just landed
+            - heading "New arrivals" [level=2] [ref=f7e204]
+          - link "See everything new" [ref=f7e205] [cursor=pointer]:
+            - /url: /shop?sort=newest
+        - generic [ref=f7e209]:
+          - button "Scroll left" [ref=f7e210]
+          - button "Scroll right" [ref=f7e213]
+      - list "New arrivals" [ref=f7e216]:
+        - listitem [ref=f7e217]:
+          - article [ref=f7e218]:
+            - generic [ref=f7e219]:
+              - link "Violet Off-Shoulder Gown" [ref=f7e220] [cursor=pointer]:
+                - /url: /product/violet-off-shoulder-gown
+                - img "Violet Off-Shoulder Gown" [ref=f7e222]
+                - generic [ref=f7e223]: New
+              - button "Save Violet Off-Shoulder Gown to wishlist" [ref=f7e224]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f7e227]:
+              - generic [ref=f7e228]:
+                - paragraph [ref=f7e229]: Dresses
+                - heading [level=3] [ref=f7e230]:
+                  - link "Violet Off-Shoulder Gown" [ref=f7e231] [cursor=pointer]:
+                    - /url: /product/violet-off-shoulder-gown
+              - generic [ref=f7e232]: $189
+            - generic "2 colours" [ref=f7e234]:
+              - generic "Plum" [ref=f7e235]
+              - generic "Midnight" [ref=f7e236]
+        - listitem [ref=f7e237]:
+          - article [ref=f7e238]:
+            - generic [ref=f7e239]:
+              - link "Bordeaux Tailored Coat" [ref=f7e240] [cursor=pointer]:
+                - /url: /product/bordeaux-tailored-coat
+                - img "Bordeaux Tailored Coat" [ref=f7e242]
+                - generic [ref=f7e243]: New
+              - button "Save Bordeaux Tailored Coat to wishlist" [ref=f7e244]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f7e247]:
+              - generic [ref=f7e248]:
+                - paragraph [ref=f7e249]: Outerwear
+                - heading [level=3] [ref=f7e250]:
+                  - link "Bordeaux Tailored Coat" [ref=f7e251] [cursor=pointer]:
+                    - /url: /product/bordeaux-tailored-coat
+              - generic [ref=f7e252]: $268
+            - generic "2 colours" [ref=f7e254]:
+              - generic "Bordeaux" [ref=f7e255]
+              - generic "Charcoal" [ref=f7e256]
+        - listitem [ref=f7e257]:
+          - article [ref=f7e258]:
+            - generic [ref=f7e259]:
+              - link "Sol Lounge Set" [ref=f7e260] [cursor=pointer]:
+                - /url: /product/sol-lounge-set
+                - img "Sol Lounge Set" [ref=f7e262]
+                - generic [ref=f7e263]: New
+              - button "Save Sol Lounge Set to wishlist" [ref=f7e264]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f7e267]:
+              - generic [ref=f7e268]:
+                - paragraph [ref=f7e269]: Tops & Tees
+                - heading [level=3] [ref=f7e270]:
+                  - link "Sol Lounge Set" [ref=f7e271] [cursor=pointer]:
+                    - /url: /product/sol-lounge-set
+              - generic [ref=f7e272]: $112
+            - generic "2 colours" [ref=f7e274]:
+              - generic "Sol yellow" [ref=f7e275]
+              - generic "Fog" [ref=f7e276]
+        - listitem [ref=f7e277]:
+          - article [ref=f7e278]:
+            - generic [ref=f7e279]:
+              - link "Flare Runner Sneaker" [ref=f7e280] [cursor=pointer]:
+                - /url: /product/flare-runner-sneaker
+                - img "Flare Runner Sneaker" [ref=f7e282]
+                - generic [ref=f7e283]: New
+              - button "Save Flare Runner Sneaker to wishlist" [ref=f7e284]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "40"
+                    - button "41"
+                    - button "42"
+                    - button "43"
+                    - button "44"
+            - generic [ref=f7e287]:
+              - generic [ref=f7e288]:
+                - paragraph [ref=f7e289]: Accessories
+                - heading [level=3] [ref=f7e290]:
+                  - link "Flare Runner Sneaker" [ref=f7e291] [cursor=pointer]:
+                    - /url: /product/flare-runner-sneaker
+              - generic [ref=f7e292]: $139
+    - generic [ref=f7e294]:
+      - generic [ref=f7e295]:
+        - generic [ref=f7e296]:
+          - paragraph [ref=f7e297]: Browse
+          - heading "Shop by category" [level=2] [ref=f7e298]
+        - link "All dresses" [ref=f7e299] [cursor=pointer]:
+          - /url: /shop?category=dresses
+      - list "Categories" [ref=f7e303]:
+        - listitem [ref=f7e304]:
+          - link "Dresses 4 styles" [ref=f7e305] [cursor=pointer]:
+            - /url: /shop?category=dresses
+            - generic [ref=f7e307]:
+              - generic [ref=f7e308]: Dresses
+              - generic [ref=f7e309]: 4 styles
+        - listitem [ref=f7e310]:
+          - link "Outerwear 4 styles" [ref=f7e311] [cursor=pointer]:
+            - /url: /shop?category=outerwear
+            - generic [ref=f7e313]:
+              - generic [ref=f7e314]: Outerwear
+              - generic [ref=f7e315]: 4 styles
+        - listitem [ref=f7e316]:
+          - link "Tops & Tees 4 styles" [ref=f7e317] [cursor=pointer]:
+            - /url: /shop?category=tops
+            - generic [ref=f7e319]:
+              - generic [ref=f7e320]: Tops & Tees
+              - generic [ref=f7e321]: 4 styles
+        - listitem [ref=f7e322]:
+          - link "Knitwear 3 styles" [ref=f7e323] [cursor=pointer]:
+            - /url: /shop?category=knitwear
+            - generic [ref=f7e325]:
+              - generic [ref=f7e326]: Knitwear
+              - generic [ref=f7e327]: 3 styles
+        - listitem [ref=f7e328]:
+          - link "Tailoring 2 styles" [ref=f7e329] [cursor=pointer]:
+            - /url: /shop?category=tailoring
+            - generic [ref=f7e331]:
+              - generic [ref=f7e332]: Tailoring
+              - generic [ref=f7e333]: 2 styles
+        - listitem [ref=f7e334]:
+          - link "Accessories 3 styles" [ref=f7e335] [cursor=pointer]:
+            - /url: /shop?category=accessories
+            - generic [ref=f7e337]:
+              - generic [ref=f7e338]: Accessories
+              - generic [ref=f7e339]: 3 styles
+      - generic [ref=f7e340]:
+        - heading "Trending in dresses" [level=3] [ref=f7e341]
+        - radiogroup "Pick a category" [ref=f7e343]:
+          - radio "Dresses" [checked] [ref=f7e344]
+          - radio "Outerwear" [ref=f7e345]
+          - radio "Tops & Tees" [ref=f7e346]
+          - radio "Knitwear" [ref=f7e347]
+          - radio "Tailoring" [ref=f7e348]
+          - radio "Accessories" [ref=f7e349]
+      - list [ref=f7e350]:
+        - listitem [ref=f7e351]:
+          - article [ref=f7e352]:
+            - generic [ref=f7e353]:
+              - link "Marigold Wrap Dress" [ref=f7e354] [cursor=pointer]:
+                - /url: /product/marigold-wrap-dress
+                - img "Marigold Wrap Dress" [ref=f7e356]
+                - generic [ref=f7e357]: −24%
+              - button "Save Marigold Wrap Dress to wishlist" [ref=f7e358]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f7e361]:
+              - generic [ref=f7e362]:
+                - paragraph [ref=f7e363]: Dresses
+                - heading [level=3] [ref=f7e364]:
+                  - link "Marigold Wrap Dress" [ref=f7e365] [cursor=pointer]:
+                    - /url: /product/marigold-wrap-dress
+              - generic [ref=f7e366]:
+                - generic [ref=f7e367]: $128
+                - generic [ref=f7e368]: $168
+            - generic "3 colours" [ref=f7e369]:
+              - generic "Poppy" [ref=f7e370]
+              - generic "Marigold" [ref=f7e371]
+              - generic "Ink" [ref=f7e372]
+        - listitem [ref=f7e373]:
+          - article [ref=f7e374]:
+            - generic [ref=f7e375]:
+              - link "Violet Off-Shoulder Gown" [ref=f7e376] [cursor=pointer]:
+                - /url: /product/violet-off-shoulder-gown
+                - img "Violet Off-Shoulder Gown" [ref=f7e378]
+                - generic [ref=f7e379]: New
+              - button "Save Violet Off-Shoulder Gown to wishlist" [ref=f7e380]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f7e383]:
+              - generic [ref=f7e384]:
+                - paragraph [ref=f7e385]: Dresses
+                - heading [level=3] [ref=f7e386]:
+                  - link "Violet Off-Shoulder Gown" [ref=f7e387] [cursor=pointer]:
+                    - /url: /product/violet-off-shoulder-gown
+              - generic [ref=f7e388]: $189
+            - generic "2 colours" [ref=f7e390]:
+              - generic "Plum" [ref=f7e391]
+              - generic "Midnight" [ref=f7e392]
+        - listitem [ref=f7e393]:
+          - article [ref=f7e394]:
+            - generic [ref=f7e395]:
+              - link "Blush Ruffle Dress" [ref=f7e396] [cursor=pointer]:
+                - /url: /product/blush-ruffle-dress
+                - img "Blush Ruffle Dress" [ref=f7e398]
+                - generic [ref=f7e399]: Bestseller
+              - button "Save Blush Ruffle Dress to wishlist" [ref=f7e400]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f7e403]:
+              - generic [ref=f7e404]:
+                - paragraph [ref=f7e405]: Dresses
+                - heading [level=3] [ref=f7e406]:
+                  - link "Blush Ruffle Dress" [ref=f7e407] [cursor=pointer]:
+                    - /url: /product/blush-ruffle-dress
+              - generic [ref=f7e408]: $142
+            - generic "2 colours" [ref=f7e410]:
+              - generic "Blush" [ref=f7e411]
+              - generic "Cream" [ref=f7e412]
+        - listitem [ref=f7e413]:
+          - article [ref=f7e414]:
+            - generic [ref=f7e415]:
+              - link "Meadow Floral Midi" [ref=f7e416] [cursor=pointer]:
+                - /url: /product/meadow-floral-midi
+                - img "Meadow Floral Midi" [ref=f7e418]
+              - button "Save Meadow Floral Midi to wishlist" [ref=f7e419]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f7e422]:
+              - generic [ref=f7e423]:
+                - paragraph [ref=f7e424]: Dresses
+                - heading [level=3] [ref=f7e425]:
+                  - link "Meadow Floral Midi" [ref=f7e426] [cursor=pointer]:
+                    - /url: /product/meadow-floral-midi
+              - generic [ref=f7e427]: $116
+    - generic [ref=f7e430]:
+      - generic [ref=f7e431]:
+        - img "Noir Leather Biker" [ref=f7e432]
+        - generic [ref=f7e433]: Featured piece
+      - generic [ref=f7e434]:
+        - paragraph [ref=f7e435]: Editor’s pick · Outerwear
+        - heading "Noir Leather Biker" [level=2] [ref=f7e436]
+        - generic [ref=f7e437]:
+          - strong [ref=f7e441]: "4.9"
+          - generic [aria-hidden] [ref=f7e442]: ·
+          - generic [ref=f7e443]: 421 reviews
+        - paragraph [ref=f7e444]: Full-grain lambskin leather with an asymmetric zip, notch lapels and silver hardware. Soft from day one and built to develop its own patina.
+        - paragraph [ref=f7e445]: $329
+        - generic [ref=f7e446]:
+          - 'group "Colour: Noir" [ref=f7e447]':
+            - radiogroup "Colour" [ref=f7e450]:
+              - radio "Noir" [checked] [ref=f7e451]
+          - group "Size" [ref=f7e454]:
+            - radiogroup "Size" [ref=f7e457]:
+              - radio "XS" [ref=f7e458]
+              - radio "S" [ref=f7e459]
+              - radio "M" [ref=f7e460]
+              - radio "L" [ref=f7e461]
+              - radio "XL" [ref=f7e462]
+        - generic [ref=f7e463]:
+          - button "Add to bag" [ref=f7e464] [cursor=pointer]
+          - button "Save Noir Leather Biker to wishlist" [ref=f7e470]
+          - link "Full details" [ref=f7e473] [cursor=pointer]:
+            - /url: /product/noir-leather-biker
+    - generic [ref=f7e475]:
+      - generic [ref=f7e477]:
+        - paragraph [ref=f7e478]: Flash sale
+        - heading "Up to 25% off. Tonight only." [level=2] [ref=f7e481]
+        - paragraph [ref=f7e482]: Our most-loved pieces at their lowest prices this season. When the clock hits zero, prices go back.
+      - list [ref=f7e483]:
+        - listitem [ref=f7e484]:
+          - article [ref=f7e485]:
+            - generic [ref=f7e486]:
+              - link "Marigold Wrap Dress" [ref=f7e487] [cursor=pointer]:
+                - /url: /product/marigold-wrap-dress
+                - img "Marigold Wrap Dress" [ref=f7e489]
+                - generic [ref=f7e490]: −24%
+              - button "Save Marigold Wrap Dress to wishlist" [ref=f7e491]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f7e494]:
+              - generic [ref=f7e495]:
+                - paragraph [ref=f7e496]: Dresses
+                - heading [level=3] [ref=f7e497]:
+                  - link "Marigold Wrap Dress" [ref=f7e498] [cursor=pointer]:
+                    - /url: /product/marigold-wrap-dress
+              - generic [ref=f7e499]:
+                - generic [ref=f7e500]: $128
+                - generic [ref=f7e501]: $168
+            - generic "3 colours" [ref=f7e502]:
+              - generic "Poppy" [ref=f7e503]
+              - generic "Marigold" [ref=f7e504]
+              - generic "Ink" [ref=f7e505]
+        - listitem [ref=f7e506]:
+          - article [ref=f7e507]:
+            - generic [ref=f7e508]:
+              - link "Milano Wool Coat" [ref=f7e509] [cursor=pointer]:
+                - /url: /product/milano-wool-coat
+                - img "Milano Wool Coat" [ref=f7e511]
+                - generic [ref=f7e512]: −22%
+              - button "Save Milano Wool Coat to wishlist" [ref=f7e513]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f7e516]:
+              - generic [ref=f7e517]:
+                - paragraph [ref=f7e518]: Outerwear
+                - heading [level=3] [ref=f7e519]:
+                  - link "Milano Wool Coat" [ref=f7e520] [cursor=pointer]:
+                    - /url: /product/milano-wool-coat
+              - generic [ref=f7e521]:
+                - generic [ref=f7e522]: $248
+                - generic [ref=f7e523]: $320
+            - generic "2 colours" [ref=f7e524]:
+              - generic "Powder" [ref=f7e525]
+              - generic "Stone" [ref=f7e526]
+        - listitem [ref=f7e527]:
+          - article [ref=f7e528]:
+            - generic [ref=f7e529]:
+              - link "Essential Crew Tee" [ref=f7e530] [cursor=pointer]:
+                - /url: /product/essential-tee
+                - img "Essential Crew Tee" [ref=f7e532]
+                - generic [ref=f7e533]: Bestseller
+              - button "Save Essential Crew Tee to wishlist" [ref=f7e534]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f7e537]:
+              - generic [ref=f7e538]:
+                - paragraph [ref=f7e539]: Tops & Tees
+                - heading [level=3] [ref=f7e540]:
+                  - link "Essential Crew Tee" [ref=f7e541] [cursor=pointer]:
+                    - /url: /product/essential-tee
+              - generic [ref=f7e542]:
+                - generic [ref=f7e543]: $38
+                - generic [ref=f7e544]: $48
+            - generic "2 colours" [ref=f7e545]:
+              - generic "White" [ref=f7e546]
+              - generic "Black" [ref=f7e547]
+        - listitem [ref=f7e548]:
+          - article [ref=f7e549]:
+            - generic [ref=f7e550]:
+              - link "Terra Colour-block Sweater" [ref=f7e551] [cursor=pointer]:
+                - /url: /product/terra-colorblock-sweater
+                - img "Terra Colour-block Sweater" [ref=f7e553]
+                - generic [ref=f7e554]: −20%
+              - button "Save Terra Colour-block Sweater to wishlist" [ref=f7e555]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f7e558]:
+              - generic [ref=f7e559]:
+                - paragraph [ref=f7e560]: Knitwear
+                - heading [level=3] [ref=f7e561]:
+                  - link "Terra Colour-block Sweater" [ref=f7e562] [cursor=pointer]:
+                    - /url: /product/terra-colorblock-sweater
+              - generic [ref=f7e563]:
+                - generic [ref=f7e564]: $118
+                - generic [ref=f7e565]: $148
+        - listitem [ref=f7e566]:
+          - article [ref=f7e567]:
+            - generic [ref=f7e568]:
+              - link "Rust Ribbed Beanie" [ref=f7e569] [cursor=pointer]:
+                - /url: /product/rust-ribbed-beanie
+                - img "Rust Ribbed Beanie" [ref=f7e571]
+                - generic [ref=f7e572]: −22%
+              - button "Save Rust Ribbed Beanie to wishlist" [ref=f7e573]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "One size"
+            - generic [ref=f7e576]:
+              - generic [ref=f7e577]:
+                - paragraph [ref=f7e578]: Accessories
+                - heading [level=3] [ref=f7e579]:
+                  - link "Rust Ribbed Beanie" [ref=f7e580] [cursor=pointer]:
+                    - /url: /product/rust-ribbed-beanie
+              - generic [ref=f7e581]:
+                - generic [ref=f7e582]: $28
+                - generic [ref=f7e583]: $36
+            - generic "2 colours" [ref=f7e584]:
+              - generic "Rust" [ref=f7e585]
+              - generic "Oat" [ref=f7e586]
+        - listitem [ref=f7e587]:
+          - generic [ref=f7e588]:
+            - paragraph [ref=f7e589]: More deals
+            - paragraph [ref=f7e590]: Everything on sale, in one place.
+            - link "Shop sale" [ref=f7e591] [cursor=pointer]:
+              - /url: /shop?sale=1
+    - generic [ref=f7e592]:
+      - generic [ref=f7e593]:
+        - generic [ref=f7e594]:
+          - paragraph [ref=f7e595]: AW26 Lookbook
+          - heading "Stories we dressed this season" [level=2] [ref=f7e596]
+        - link "Shop the looks" [ref=f7e597] [cursor=pointer]:
+          - /url: /shop
+      - generic [ref=f7e601]:
+        - link "Striped wide-leg trousers against a teal wall AW26 Teal Hour" [ref=f7e603] [cursor=pointer]:
+          - /url: /shop
+          - img "Striped wide-leg trousers against a teal wall" [ref=f7e604]
+          - generic [ref=f7e607]:
+            - generic [ref=f7e608]: AW26
+            - generic [ref=f7e609]: Teal Hour
+        - link "Red tee under an oversized black jacket AW26 Red Signal" [ref=f7e614] [cursor=pointer]:
+          - /url: /shop
+          - img "Red tee under an oversized black jacket" [ref=f7e615]
+          - generic [ref=f7e618]:
+            - generic [ref=f7e619]: AW26
+            - generic [ref=f7e620]: Red Signal
+        - link "A rail of white blouses and earthy knits AW26 The Atelier Rail" [ref=f7e625] [cursor=pointer]:
+          - /url: /shop
+          - img "A rail of white blouses and earthy knits" [ref=f7e626]
+          - generic [ref=f7e629]:
+            - generic [ref=f7e630]: AW26
+            - generic [ref=f7e631]: The Atelier Rail
+        - link "Warm-lit rail of coats AW26 Amber Coats" [ref=f7e636] [cursor=pointer]:
+          - /url: /shop
+          - img "Warm-lit rail of coats" [ref=f7e637]
+          - generic [ref=f7e640]:
+            - generic [ref=f7e641]: AW26
+            - generic [ref=f7e642]: Amber Coats
+        - link "Flat-lay of denim, stripes and red espadrilles AW26 Weekend Kit" [ref=f7e647] [cursor=pointer]:
+          - /url: /shop
+          - img "Flat-lay of denim, stripes and red espadrilles" [ref=f7e648]
+          - generic [ref=f7e651]:
+            - generic [ref=f7e652]: AW26
+            - generic [ref=f7e653]: Weekend Kit
+        - link "A child in a navy cardigan and cobalt shorts AW26 Mini Mood" [ref=f7e658] [cursor=pointer]:
+          - /url: /shop
+          - img "A child in a navy cardigan and cobalt shorts" [ref=f7e659]
+          - generic [ref=f7e662]:
+            - generic [ref=f7e663]: AW26
+            - generic [ref=f7e664]: Mini Mood
+        - link "Forest-green tees on wooden hangers AW26 Forest Basics" [ref=f7e669] [cursor=pointer]:
+          - /url: /shop
+          - img "Forest-green tees on wooden hangers" [ref=f7e670]
+          - generic [ref=f7e673]:
+            - generic [ref=f7e674]: AW26
+            - generic [ref=f7e675]: Forest Basics
+        - link "A colourful rail of shirts AW26 Colour Library" [ref=f7e680] [cursor=pointer]:
+          - /url: /shop
+          - img "A colourful rail of shirts" [ref=f7e681]
+          - generic [ref=f7e684]:
+            - generic [ref=f7e685]: AW26
+            - generic [ref=f7e686]: Colour Library
+    - generic [ref=f7e690]:
+      - generic [ref=f7e691]:
+        - generic [ref=f7e692]: Client Testimonials
+        - heading "Loved by people who dress with intent" [level=2] [ref=f7e695]
+        - paragraph [ref=f7e696]: Real words from verified AVARA customers.
+      - generic [ref=f7e697]:
+        - generic [ref=f7e698]:
+          - generic [ref=f7e699] [cursor=pointer]:
+            - img "Amara Okafor"
+          - generic [ref=f7e700] [cursor=pointer]:
+            - img "Lucas Meyer"
+          - generic [ref=f7e701] [cursor=pointer]:
+            - img "Sofia Alvarez"
+          - generic [ref=f7e702] [cursor=pointer]:
+            - img "Jonah Reyes"
+          - generic [ref=f7e703] [cursor=pointer]:
+            - img "Priya Nair"
+        - generic [ref=f7e704]:
+          - generic [ref=f7e705]:
+            - img "Rated 5.0 out of 5" [ref=f7e706]
+            - generic [ref=f7e733]: "5.0"
+          - generic [ref=f7e734]:
+            - heading "Amara Okafor" [level=3] [ref=f7e735]
+            - paragraph [ref=f7e736]: Verified buyer · Milano Wool Coat
+          - paragraph [ref=f7e737]: "\"The coat is unreal in person. The drape, the weight, the colour: everyone asks where it's from. Delivery took three days and the packaging was gorgeous.\""
+          - generic [ref=f7e738]:
+            - button "Previous review" [ref=f7e739] [cursor=pointer]
+            - button "Next review" [ref=f7e742] [cursor=pointer]
+    - generic [ref=f7e747]:
+      - img "Subscriber 1" [ref=f7e749]
+      - img "Subscriber 2" [ref=f7e751]
+      - img "Subscriber 3" [ref=f7e753]
+      - img "Subscriber 4" [ref=f7e755]
+      - generic [ref=f7e756]:
+        - heading "First to the drop. Always." [level=2] [ref=f7e758]
+        - paragraph [ref=f7e760]: Join 24,000 readers for early access to new arrivals, restocks and flash sales, plus 10% off your first order with WELCOME10.
+        - generic [ref=f7e763]:
+          - textbox "Email address" [ref=f7e767]:
+            - /placeholder: you@email.com
+          - button "Join the list" [ref=f7e768] [cursor=pointer]
+        - generic [ref=f7e774]:
+          - generic [aria-hidden] [ref=f7e777]: +
+          - generic [ref=f7e778]: Loved by 24,000+ readers
+  - generic [ref=f7e779]:
+    - generic [ref=f7e780]:
+      - generic [ref=f7e781]:
+        - paragraph [ref=f7e782]: AVARA
+        - paragraph [ref=f7e783]: Considered clothing for people who dress with intent. Designed in small runs, shipped worldwide.
+      - navigation "Shop" [ref=f7e784]:
+        - heading "Shop" [level=2] [ref=f7e785]
+        - list [ref=f7e786]:
+          - listitem [ref=f7e787]:
+            - link "New arrivals" [ref=f7e788] [cursor=pointer]:
+              - /url: /shop?sort=newest
+          - listitem [ref=f7e789]:
+            - link "Sale" [ref=f7e790] [cursor=pointer]:
+              - /url: /shop?sale=1
+          - listitem [ref=f7e791]:
+            - link "Dresses" [ref=f7e792] [cursor=pointer]:
+              - /url: /shop?category=dresses
+          - listitem [ref=f7e793]:
+            - link "Outerwear" [ref=f7e794] [cursor=pointer]:
+              - /url: /shop?category=outerwear
+          - listitem [ref=f7e795]:
+            - link "Tops & Tees" [ref=f7e796] [cursor=pointer]:
+              - /url: /shop?category=tops
+          - listitem [ref=f7e797]:
+            - link "Knitwear" [ref=f7e798] [cursor=pointer]:
+              - /url: /shop?category=knitwear
+      - navigation "Help" [ref=f7e799]:
+        - heading "Help" [level=2] [ref=f7e800]
+        - list [ref=f7e801]:
+          - listitem [ref=f7e802]:
+            - link "Track your order" [ref=f7e803] [cursor=pointer]:
+              - /url: /track
+          - listitem [ref=f7e804]:
+            - link "Wishlist" [ref=f7e805] [cursor=pointer]:
+              - /url: /wishlist
+          - listitem [ref=f7e806]:
+            - link "Checkout" [ref=f7e807] [cursor=pointer]:
+              - /url: /checkout
+          - listitem [ref=f7e808]:
+            - link "Shipping & returns" [ref=f7e809] [cursor=pointer]:
+              - /url: /track
+      - navigation "Coupons" [ref=f7e810]:
+        - heading "Coupons" [level=2] [ref=f7e811]
+        - list [ref=f7e812]:
+          - listitem [ref=f7e813]:
+            - link "WELCOME10 · 10% off" [ref=f7e814] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=f7e815]:
+            - link "FASHION20 · 20% over $150" [ref=f7e816] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=f7e817]:
+            - link "FREESHIP · free shipping" [ref=f7e818] [cursor=pointer]:
+              - /url: /shop
+    - contentinfo [ref=f7e819]:
+      - generic [ref=f7e820]:
+        - generic [ref=f7e823]:
+          - generic [ref=f7e824]:
+            - button "NEWSLETTER" [ref=f7e826] [cursor=pointer]
+            - button "SHIPPING & RETURNS" [ref=f7e829] [cursor=pointer]
+            - button "CARE & FIT" [ref=f7e831] [cursor=pointer]
+          - generic [ref=f7e836]:
+            - generic [ref=f7e837]: 10:15:18
+            - generic [ref=f7e840]: Thursday Nov 12 2026
+          - generic [ref=f7e846]:
+            - generic [ref=f7e847]: AVARA © 2026
+            - generic [ref=f7e848]: All rights reserved
+        - generic [ref=f7e849]:
+          - link "INSTAGRAM" [ref=f7e850] [cursor=pointer]:
+            - /url: "#"
+          - link "PINTEREST" [ref=f7e851] [cursor=pointer]:
+            - /url: "#"
+          - link "TIKTOK" [ref=f7e852] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f7e855] [cursor=pointer]:
+          - generic [ref=f7e856]:
+            - generic [ref=f7e857]:
+              - generic [ref=f7e858]: NEWSLETTER
+              - generic [ref=f7e861]:
+                - generic [ref=f7e862]: AW26 EDIT
+                - generic [ref=f7e863]: new!
+            - generic [ref=f7e870]:
+              - generic [ref=f7e871]: 01 • THE EDIT
+              - heading "NEW DROPS, BEFORE ANYONE ELSE" [level=3] [ref=f7e874]
+              - paragraph [ref=f7e876]: Early access to new arrivals, restocks and flash sales, plus 10% off your first order. One email a week, never more.
+            - generic [ref=f7e877]:
+              - generic [ref=f7e879]:
+                - textbox "you@email.com" [ref=f7e884]
+                - button "JOIN" [ref=f7e885]
+              - generic [ref=f7e890]:
+                - generic [ref=f7e891]: ✓ Early access to drops
+                - generic [ref=f7e892]: ✓ Unsubscribe anytime
+            - generic [ref=f7e893]:
+              - generic [ref=f7e894]: FREQUENCY
+              - generic [ref=f7e895]: Weekly, Thursdays
+          - button "JOIN THE LIST" [ref=f7e897]
+  - button "Open Next.js Dev Tools" [ref=f7e909] [cursor=pointer]
+  - alert [ref=f7e913]

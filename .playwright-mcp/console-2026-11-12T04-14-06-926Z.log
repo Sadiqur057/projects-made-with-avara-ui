@@ -1,0 +1,720 @@
+[    5438ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:761
+[    5858ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:761
+[    8905ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <Home>
+              <HeroSection>
+              <ShowcaseSection>
+                <section aria-labelledby="showcase-t..." className="overflow-h...">
+                  <Section>
+                  <div className="mt-6" onClickCapture={function ShowcaseSection[<div>.onClickCapture]}>
+                    <_c6 variant="arc-carousel" arcItems={[...]} color="primary" cardSize={230} autoScrollSpeed={0.15}>
+                      <section ref={null} onMouseMove={undefined} onMouseEnter={undefined} onMouseLeave={undefined} ...>
+                        <div className="relative z...">
+                          <ArcCarouselGallery items={[...]} color="primary" cardSize={230} cardHeight={undefined} ...>
+                            <div ref={function ref} onPointerDown={function handlePointerDown} ...>
+                              <div
+                                style={{
++                                 position: "absolute"
+-                                 position: "absolute"
++                                 inset: 0
++                                 perspective: "1200px"
+-                                 perspective: "950px"
++                                 perspectiveOrigin: "50% 50%"
++                                 transformStyle: "preserve-3d"
+-                                 top: "0px"
+-                                 right: "0px"
+-                                 bottom: "0px"
+-                                 left: "0px"
+-                                 perspective-origin: "50% 50%"
+-                                 transform-style: "preserve-3d"
+                                }}
+                              >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.8200000000000001
+-                                   opacity: "0.82"
++                                   zIndex: 868
++                                   transform: "translate3d(-50%, -50%, 0) translateX(-1420.7821468401223px) translate..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(-1273.59px) translateZ(604.03p..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "848"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.8425
+-                                   opacity: "0.8425"
++                                   zIndex: 885
++                                   transform: "translate3d(-50%, -50%, 0) translateX(-1341.6992738296606px) translate..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(-1238.03px) translateZ(365.022..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "867"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.865
+-                                   opacity: "0.865"
++                                   zIndex: 901
++                                   transform: "translate3d(-50%, -50%, 0) translateX(-1226.1714352807633px) translate..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(-1158.04px) translateZ(137.011..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "886"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.8875
+-                                   opacity: "0.8875"
++                                   zIndex: 918
++                                   transform: "translate3d(-50%, -50%, 0) translateX(-1077.336747294982px) translateZ..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(-1036.47px) translateZ(-71.820..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "905"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.91
+-                                   opacity: "0.91"
++                                   zIndex: 934
++                                   transform: "translate3d(-50%, -50%, 0) translateX(-899.2380495610361px) translateZ..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(-877.7px) translateZ(-253.974p..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "924"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.9325
+-                                   opacity: "0.9325"
++                                   zIndex: 951
++                                   transform: "translate3d(-50%, -50%, 0) translateX(-696.7130885307279px) translateZ..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(-687.421px) translateZ(-402.91..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "943"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.955
+-                                   opacity: "0.955"
++                                   zIndex: 967
++                                   transform: "translate3d(-50%, -50%, 0) translateX(-475.26310831247355px) translate..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(-472.466px) translateZ(-513.28..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "962"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.9775
+-                                   opacity: "0.9775"
++                                   zIndex: 984
++                                   transform: "translate3d(-50%, -50%, 0) translateX(-240.90341878603874px) translate..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(-240.55px) translateZ(-581.139..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "981"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 1
+-                                   opacity: "1"
++                                   zIndex: 1000
++                                   transform: "translate3d(-50%, -50%, 0) translateX(0px) translateZ(-551.33800212159..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(0px) translateZ(-604.03px) rot..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "1000"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.9775
+-                                   opacity: "0.9775"
++                                   zIndex: 984
++                                   transform: "translate3d(-50%, -50%, 0) translateX(240.90341878603874px) translateZ..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(240.55px) translateZ(-581.139p..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "981"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.955
+-                                   opacity: "0.955"
++                                   zIndex: 967
++                                   transform: "translate3d(-50%, -50%, 0) translateX(475.26310831247355px) translateZ..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(472.466px) translateZ(-513.288..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "962"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.9325
+-                                   opacity: "0.9325"
++                                   zIndex: 951
++                                   transform: "translate3d(-50%, -50%, 0) translateX(696.7130885307279px) translateZ(..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(687.421px) translateZ(-402.912..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "943"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.91
+-                                   opacity: "0.91"
++                                   zIndex: 934
++                                   transform: "translate3d(-50%, -50%, 0) translateX(899.2380495610361px) translateZ(..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(877.7px) translateZ(-253.974px..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "924"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.8875
+-                                   opacity: "0.8875"
++                                   zIndex: 917
++                                   transform: "translate3d(-50%, -50%, 0) translateX(1077.336747294982px) translateZ(..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(1036.47px) translateZ(-71.8201..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "905"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.865
+-                                   opacity: "0.865"
++                                   zIndex: 901
++                                   transform: "translate3d(-50%, -50%, 0) translateX(1226.1714352807633px) translateZ..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(1158.04px) translateZ(137.011p..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "886"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.8425
+-                                   opacity: "0.8425"
++                                   zIndex: 885
++                                   transform: "translate3d(-50%, -50%, 0) translateX(1341.6992738296606px) translateZ..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(1238.03px) translateZ(365.022p..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "867"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                                <div
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "50%"
+-                                   top: "50%"
++                                   width: 230
+-                                   width: "230px"
++                                   height: 308
+-                                   height: "308px"
++                                   borderRadius: "20px"
++                                   overflow: "hidden"
++                                   transformStyle: "preserve-3d"
++                                   backfaceVisibility: "hidden"
++                                   WebkitBackfaceVisibility: "hidden"
++                                   opacity: 0.8200000000000001
+-                                   opacity: "0.82"
++                                   zIndex: 868
++                                   transform: "translate3d(-50%, -50%, 0) translateX(1420.7821468401223px) translateZ..."
+-                                   transform: "translate3d(-50%, -50%, 0px) translateX(1273.59px) translateZ(604.03px..."
++                                   willChange: "transform, opacity"
++                                   boxShadow: "0 22px 55px rgba(0, 0, 0, 0.28)"
+-                                   border-top-left-radius: "20px"
+-                                   border-top-right-radius: "20px"
+-                                   border-bottom-right-radius: "20px"
+-                                   border-bottom-left-radius: "20px"
+-                                   overflow-x: "hidden"
+-                                   overflow-y: "hidden"
+-                                   transform-style: "preserve-3d"
+-                                   backface-visibility: "hidden"
+-                                   z-index: "848"
+-                                   will-change: "transform, opacity"
+-                                   box-shadow: "rgba(0, 0, 0, 0.28) 0px 22px 55px"
+                                  }}
+                                  onClick={function onClick}
+                                  className="group select-none border border-border/20 transition-shadow duration-300 ..."
+                                >
+                  ...
+              ...
+          ...
+        ...
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:1037
+[   23901ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:761
+[   27086ms] [LOG] [Fast Refresh] done in 3237ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:761
+[   27442ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:761
+[   27691ms] [LOG] [Fast Refresh] done in 364ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:761

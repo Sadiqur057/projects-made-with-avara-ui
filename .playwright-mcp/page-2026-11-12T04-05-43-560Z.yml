@@ -1,0 +1,77 @@
+- generic:
+  - generic [active]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - navigation [ref=f1e6]:
+          - button [disabled] [ref=f1e7]:
+            - img "previous" [ref=f1e8]
+          - generic [ref=f1e10]:
+            - generic [ref=f1e11]: 1/
+            - generic [ref=f1e12]: "1"
+          - button [disabled] [ref=f1e13]:
+            - img "next" [ref=f1e14]
+        - link "Next.js 16.4.5 (stale) Turbopack" [ref=f1e17] [cursor=pointer]:
+          - /url: https://nextjs.org/docs/messages/version-staleness
+          - generic "There is a newer version (16.4.6) available, upgrade recommended!" [ref=f1e20]: Next.js 16.4.5 (stale)
+          - generic [ref=f1e21]: Turbopack
+      - dialog "Build Error" [ref=f1e23]:
+        - generic [ref=f1e26]:
+          - generic [ref=f1e28]:
+            - generic [ref=f1e29]:
+              - generic [ref=f1e30]: Build Error
+              - generic [ref=f1e32]:
+                - button "Copy Error Info" [ref=f1e33] [cursor=pointer]
+                - button "No related documentation found" [disabled] [ref=f1e36]
+                - button "Attach Node.js inspector" [ref=f1e39] [cursor=pointer]
+            - generic [ref=f1e48]: Parsing CSS source code failed
+          - generic [ref=f1e51]:
+            - generic [ref=f1e53]:
+              - generic [ref=f1e57]: ./app/globals.css.css (468:8)
+              - button "Open in editor" [ref=f1e58] [cursor=pointer]
+            - generic [ref=f1e63]:
+              - text: Error
+              - generic [ref=f1e64]: ": Parsing CSS source code failed"
+              - generic [ref=f1e65]: 466 |
+              - generic [ref=f1e66]: "}"
+              - generic [ref=f1e67]: 467 |
+              - text: ">"
+              - generic [ref=f1e68]: 468 |
+              - text: export function CartBlock
+              - generic [ref=f1e69]: "({"
+              - generic [ref=f1e70]: "|"
+              - text: ^
+              - generic [ref=f1e71]: 469 |
+              - generic [ref=f1e72]: initialItems = [],
+              - generic [ref=f1e73]: 470 |
+              - text: type
+              - generic [ref=f1e74]: =
+              - text: "\"drawer\""
+              - generic [ref=f1e75]: ","
+              - generic [ref=f1e76]: 471 |
+              - generic [ref=f1e77]: color =
+              - text: "\"primary\""
+              - generic [ref=f1e78]: ", Invalid dangling combinator in selector Generated code of PostCSS transform of loaders [@tailwindcss/turbopack] transform of file content of app/globals.css: ./app/globals.css.css:1068:10"
+              - generic [ref=f1e79]: 1066 |
+              - text: return
+              - generic [ref=f1e80]: acc_0 + item_0.quantity;
+              - generic [ref=f1e81]: 1067 |
+              - generic [ref=f1e82]: "}"
+              - text: ">"
+              - generic [ref=f1e83]: 1068 |
+              - text: function
+              - generic [ref=f1e84]: "_CartBlockItemsReduce(acc, item) {"
+              - generic [ref=f1e85]: "|"
+              - text: ^
+              - generic [ref=f1e86]: 1069 |
+              - text: return
+              - generic [ref=f1e87]: acc + item.price * item.quantity;
+              - generic [ref=f1e88]: 1070 |
+              - generic [ref=f1e89]: "} Import trace: Client Component Browser: ./app/globals.css.css [Client Component Browser] ./app/layout.tsx [Server Component]"
+    - generic [ref=f1e94] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=f1e95]
+      - button "Open issues overlay" [ref=f1e100]:
+        - generic [ref=f1e101]:
+          - generic [aria-hidden] [ref=f1e102]: "0"
+          - generic [ref=f1e103]: "1"
+        - generic [ref=f1e104]: Issue
+  - alert [ref=f1e105]

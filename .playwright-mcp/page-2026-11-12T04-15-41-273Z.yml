@@ -1,0 +1,360 @@
+- generic [ref=f8e1]:
+  - link "Skip to content" [ref=f8e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f8e3]:
+    - generic [ref=f8e5]:
+      - generic [ref=f8e6]:
+        - generic [ref=f8e7]: Free standard shipping over $120
+        - generic [ref=f8e13]:
+          - text: Use
+          - strong [ref=f8e14]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f8e15]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f8e16]: 30-day easy returns
+      - generic [aria-hidden] [ref=f8e17]:
+        - generic [ref=f8e18]: Free standard shipping over $120
+        - generic [ref=f8e24]:
+          - text: Use
+          - strong [ref=f8e25]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f8e26]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f8e27]: 30-day easy returns
+      - generic [aria-hidden] [ref=f8e28]:
+        - generic [ref=f8e29]: Free standard shipping over $120
+        - generic [ref=f8e35]:
+          - text: Use
+          - strong [ref=f8e36]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f8e37]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f8e38]: 30-day easy returns
+      - generic [aria-hidden] [ref=f8e39]:
+        - generic [ref=f8e40]: Free standard shipping over $120
+        - generic [ref=f8e46]:
+          - text: Use
+          - strong [ref=f8e47]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f8e48]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f8e49]: 30-day easy returns
+    - generic [ref=f8e50]:
+      - link "AVARA home" [ref=f8e51] [cursor=pointer]:
+        - /url: /
+        - text: AVARA
+      - navigation "Primary" [ref=f8e52]:
+        - link "Shop" [ref=f8e54] [cursor=pointer]:
+          - /url: /shop
+        - link "New in" [ref=f8e56] [cursor=pointer]:
+          - /url: /shop?sort=newest
+        - link "Sale" [ref=f8e58] [cursor=pointer]:
+          - /url: /shop?sale=1
+        - link "Lookbook" [ref=f8e60] [cursor=pointer]:
+          - /url: /#lookbook
+        - link "Track order" [ref=f8e62] [cursor=pointer]:
+          - /url: /track
+      - generic [ref=f8e63]:
+        - button "Search" [ref=f8e64]
+        - link "Track order" [ref=f8e68] [cursor=pointer]:
+          - /url: /track
+        - link "Wishlist, 0 items" [ref=f8e75] [cursor=pointer]:
+          - /url: /wishlist
+        - button "Open bag, 0 items" [ref=f8e78]
+  - main [ref=f8e82]:
+    - navigation "Breadcrumb" [ref=f8e83]:
+      - navigation "Breadcrumb" [ref=f8e84]:
+        - list [ref=f8e85]:
+          - listitem [ref=f8e86]:
+            - link "Home" [ref=f8e87] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f8e90]:
+            - link "Shop" [ref=f8e91] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=f8e94]:
+            - link "Tops & Tees" [ref=f8e95] [cursor=pointer]:
+              - /url: /shop?category=tops
+          - listitem [ref=f8e98]:
+            - generic [ref=f8e99]: Essential Crew Tee
+    - generic [ref=f8e100]:
+      - generic [ref=f8e101]:
+        - generic [ref=f8e102]:
+          - generic [ref=f8e103]:
+            - generic [ref=f8e104]: Tops & Tees
+            - generic [ref=f8e132]:
+              - generic [ref=f8e133]: "4.7"
+              - generic [ref=f8e134]: / 5
+            - generic [ref=f8e135]: "4.7"
+            - link "(1,204 reviews)" [ref=f8e136] [cursor=pointer]:
+              - /url: "#reviews"
+          - heading "Essential Crew Tee" [level=1] [ref=f8e137]
+          - paragraph [ref=f8e138]: Heavyweight cotton that holds its shape.
+        - generic [ref=f8e139]:
+          - generic [ref=f8e140]:
+            - generic [ref=f8e141]: $48
+            - text: $38
+          - generic [ref=f8e142]: Save 21%
+      - generic [ref=f8e143]:
+        - generic [ref=f8e145]:
+          - generic [ref=f8e146]:
+            - button "View image 1" [ref=f8e147]
+            - button "View image 2" [ref=f8e148]
+          - generic [ref=f8e149]:
+            - img "Essential Crew Tee in Black" [ref=f8e461]
+            - generic [ref=f8e151]: Bestseller
+            - button "Save to wishlist" [ref=f8e152]
+        - generic [ref=f8e155]:
+          - paragraph [ref=f8e156]: A 220gsm cotton tee that drapes properly. Garment-dyed for a lived-in finish, with a ribbed neckline that won't stretch out.
+          - generic [ref=f8e157]:
+            - generic [ref=f8e159]: In stock
+            - generic [ref=f8e160]: · ships within 24 hours
+          - 'group "Colour: Black" [ref=f8e462]':
+            - radiogroup "Colour" [ref=f8e164]:
+              - radio "White" [ref=f8e165]
+              - radio "Black" [checked] [ref=f8e168]
+          - generic [ref=f8e169]:
+            - 'group "Size: M" [ref=f8e470]':
+              - radiogroup "Size" [ref=f8e173]:
+                - radio "XS" [ref=f8e174]
+                - radio "S" [ref=f8e175]
+                - radio "M" [checked] [active] [ref=f8e176]
+                - radio "L" [ref=f8e177]
+                - radio "XL" [ref=f8e178]
+            - button "Size guide" [ref=f8e179]
+          - generic [ref=f8e186]:
+            - generic [ref=f8e187]:
+              - button "Decrease quantity" [disabled] [ref=f8e188]
+              - generic [ref=f8e190]: "1"
+              - button "Increase quantity" [ref=f8e191]
+            - button "Add to bag · $38" [ref=f8e193] [cursor=pointer]
+          - button "Buy it now" [ref=f8e200] [cursor=pointer]
+          - list [ref=f8e202]:
+            - listitem [ref=f8e203]:
+              - paragraph [ref=f8e209]: Free shipping
+              - paragraph [ref=f8e210]: Over $120
+            - listitem [ref=f8e211]:
+              - paragraph [ref=f8e215]: 30-day returns
+              - paragraph [ref=f8e216]: Free exchanges
+            - listitem [ref=f8e217]:
+              - paragraph [ref=f8e221]: Secure checkout
+              - paragraph [ref=f8e222]: Encrypted
+      - generic [ref=f8e223]:
+        - tablist "Product information" [ref=f8e224]:
+          - tab "details" [selected] [ref=f8e225]
+          - tab "Shipping & returns" [ref=f8e226]
+          - tab "reviews" [ref=f8e227]
+        - tabpanel "details" [ref=f8e228]:
+          - generic [ref=f8e229]:
+            - list [ref=f8e230]:
+              - listitem [ref=f8e231]: 220gsm combed cotton
+              - listitem [ref=f8e233]: Garment-dyed
+              - listitem [ref=f8e235]: Ribbed crew neck
+              - listitem [ref=f8e237]: Boxy-regular fit
+            - generic [ref=f8e239]:
+              - paragraph [ref=f8e240]: Fabric & care
+              - paragraph [ref=f8e241]: 100% organic cotton. Machine wash 30°.
+      - paragraph [ref=f8e242]:
+        - link "← Back to the shop" [ref=f8e243] [cursor=pointer]:
+          - /url: /shop
+    - region "You may also like" [ref=f8e244]:
+      - generic [ref=f8e246]:
+        - paragraph [ref=f8e247]: Complete the look
+        - heading "You may also like" [level=2] [ref=f8e248]
+      - list [ref=f8e249]:
+        - listitem [ref=f8e250]:
+          - article [ref=f8e251]:
+            - generic [ref=f8e252]:
+              - link "Peace Graphic Tee" [ref=f8e253] [cursor=pointer]:
+                - /url: /product/peace-graphic-tee
+                - img "Peace Graphic Tee" [ref=f8e255]
+              - button "Save Peace Graphic Tee to wishlist" [ref=f8e256]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f8e259]:
+              - generic [ref=f8e260]:
+                - paragraph [ref=f8e261]: Tops & Tees
+                - heading [level=3] [ref=f8e262]:
+                  - link "Peace Graphic Tee" [ref=f8e263] [cursor=pointer]:
+                    - /url: /product/peace-graphic-tee
+              - generic [ref=f8e264]: $46
+        - listitem [ref=f8e266]:
+          - article [ref=f8e267]:
+            - generic [ref=f8e268]:
+              - link "Trail Graphic Tee" [ref=f8e269] [cursor=pointer]:
+                - /url: /product/trail-graphic-tee
+                - img "Trail Graphic Tee" [ref=f8e271]
+              - button "Save Trail Graphic Tee to wishlist" [ref=f8e272]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f8e275]:
+              - generic [ref=f8e276]:
+                - paragraph [ref=f8e277]: Tops & Tees
+                - heading [level=3] [ref=f8e278]:
+                  - link "Trail Graphic Tee" [ref=f8e279] [cursor=pointer]:
+                    - /url: /product/trail-graphic-tee
+              - generic [ref=f8e280]: $44
+        - listitem [ref=f8e282]:
+          - article [ref=f8e283]:
+            - generic [ref=f8e284]:
+              - link "Sol Lounge Set" [ref=f8e285] [cursor=pointer]:
+                - /url: /product/sol-lounge-set
+                - img "Sol Lounge Set" [ref=f8e287]
+                - generic [ref=f8e288]: New
+              - button "Save Sol Lounge Set to wishlist" [ref=f8e289]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "XS"
+                    - button "S"
+                    - button "M"
+                    - button "L"
+                    - button "XL"
+            - generic [ref=f8e292]:
+              - generic [ref=f8e293]:
+                - paragraph [ref=f8e294]: Tops & Tees
+                - heading [level=3] [ref=f8e295]:
+                  - link "Sol Lounge Set" [ref=f8e296] [cursor=pointer]:
+                    - /url: /product/sol-lounge-set
+              - generic [ref=f8e297]: $112
+            - generic "2 colours" [ref=f8e299]:
+              - generic "Sol yellow" [ref=f8e300]
+              - generic "Fog" [ref=f8e301]
+        - listitem [ref=f8e302]:
+          - article [ref=f8e303]:
+            - generic [ref=f8e304]:
+              - link "Rust Ribbed Beanie" [ref=f8e305] [cursor=pointer]:
+                - /url: /product/rust-ribbed-beanie
+                - img "Rust Ribbed Beanie" [ref=f8e307]
+                - generic [ref=f8e308]: −22%
+              - button "Save Rust Ribbed Beanie to wishlist" [ref=f8e309]
+              - generic:
+                - generic:
+                  - paragraph: Quick add · pick a size
+                  - generic:
+                    - button "One size"
+            - generic [ref=f8e312]:
+              - generic [ref=f8e313]:
+                - paragraph [ref=f8e314]: Accessories
+                - heading [level=3] [ref=f8e315]:
+                  - link "Rust Ribbed Beanie" [ref=f8e316] [cursor=pointer]:
+                    - /url: /product/rust-ribbed-beanie
+              - generic [ref=f8e317]:
+                - generic [ref=f8e318]: $28
+                - generic [ref=f8e319]: $36
+            - generic "2 colours" [ref=f8e320]:
+              - generic "Rust" [ref=f8e321]
+              - generic "Oat" [ref=f8e322]
+  - generic [ref=f8e323]:
+    - generic [ref=f8e324]:
+      - generic [ref=f8e325]:
+        - paragraph [ref=f8e326]: AVARA
+        - paragraph [ref=f8e327]: Considered clothing for people who dress with intent. Designed in small runs, shipped worldwide.
+      - navigation "Shop" [ref=f8e328]:
+        - heading "Shop" [level=2] [ref=f8e329]
+        - list [ref=f8e330]:
+          - listitem [ref=f8e331]:
+            - link "New arrivals" [ref=f8e332] [cursor=pointer]:
+              - /url: /shop?sort=newest
+          - listitem [ref=f8e333]:
+            - link "Sale" [ref=f8e334] [cursor=pointer]:
+              - /url: /shop?sale=1
+          - listitem [ref=f8e335]:
+            - link "Dresses" [ref=f8e336] [cursor=pointer]:
+              - /url: /shop?category=dresses
+          - listitem [ref=f8e337]:
+            - link "Outerwear" [ref=f8e338] [cursor=pointer]:
+              - /url: /shop?category=outerwear
+          - listitem [ref=f8e339]:
+            - link "Tops & Tees" [ref=f8e340] [cursor=pointer]:
+              - /url: /shop?category=tops
+          - listitem [ref=f8e341]:
+            - link "Knitwear" [ref=f8e342] [cursor=pointer]:
+              - /url: /shop?category=knitwear
+      - navigation "Help" [ref=f8e343]:
+        - heading "Help" [level=2] [ref=f8e344]
+        - list [ref=f8e345]:
+          - listitem [ref=f8e346]:
+            - link "Track your order" [ref=f8e347] [cursor=pointer]:
+              - /url: /track
+          - listitem [ref=f8e348]:
+            - link "Wishlist" [ref=f8e349] [cursor=pointer]:
+              - /url: /wishlist
+          - listitem [ref=f8e350]:
+            - link "Checkout" [ref=f8e351] [cursor=pointer]:
+              - /url: /checkout
+          - listitem [ref=f8e352]:
+            - link "Shipping & returns" [ref=f8e353] [cursor=pointer]:
+              - /url: /track
+      - navigation "Coupons" [ref=f8e354]:
+        - heading "Coupons" [level=2] [ref=f8e355]
+        - list [ref=f8e356]:
+          - listitem [ref=f8e357]:
+            - link "WELCOME10 · 10% off" [ref=f8e358] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=f8e359]:
+            - link "FASHION20 · 20% over $150" [ref=f8e360] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=f8e361]:
+            - link "FREESHIP · free shipping" [ref=f8e362] [cursor=pointer]:
+              - /url: /shop
+    - contentinfo [ref=f8e363]:
+      - generic [ref=f8e364]:
+        - generic [ref=f8e367]:
+          - generic [ref=f8e368]:
+            - button "NEWSLETTER" [ref=f8e370] [cursor=pointer]
+            - button "SHIPPING & RETURNS" [ref=f8e373] [cursor=pointer]
+            - button "CARE & FIT" [ref=f8e375] [cursor=pointer]
+          - generic [ref=f8e380]:
+            - generic [ref=f8e381]: 10:15:40
+            - generic [ref=f8e384]: Thursday Nov 12 2026
+          - generic [ref=f8e390]:
+            - generic [ref=f8e391]: AVARA © 2026
+            - generic [ref=f8e392]: All rights reserved
+        - generic [ref=f8e393]:
+          - link "INSTAGRAM" [ref=f8e394] [cursor=pointer]:
+            - /url: "#"
+          - link "PINTEREST" [ref=f8e395] [cursor=pointer]:
+            - /url: "#"
+          - link "TIKTOK" [ref=f8e396] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f8e399] [cursor=pointer]:
+          - generic [ref=f8e400]:
+            - generic [ref=f8e401]:
+              - generic [ref=f8e402]: NEWSLETTER
+              - generic [ref=f8e405]:
+                - generic [ref=f8e406]: AW26 EDIT
+                - generic [ref=f8e407]: new!
+            - generic [ref=f8e414]:
+              - generic [ref=f8e415]: 01 • THE EDIT
+              - heading "NEW DROPS, BEFORE ANYONE ELSE" [level=3] [ref=f8e418]
+              - paragraph [ref=f8e420]: Early access to new arrivals, restocks and flash sales, plus 10% off your first order. One email a week, never more.
+            - generic [ref=f8e421]:
+              - generic [ref=f8e423]:
+                - textbox "you@email.com" [ref=f8e428]
+                - button "JOIN" [ref=f8e429]
+              - generic [ref=f8e434]:
+                - generic [ref=f8e435]: ✓ Early access to drops
+                - generic [ref=f8e436]: ✓ Unsubscribe anytime
+            - generic [ref=f8e437]:
+              - generic [ref=f8e438]: FREQUENCY
+              - generic [ref=f8e439]: Weekly, Thursdays
+          - button "JOIN THE LIST" [ref=f8e441]
+  - button "Open Next.js Dev Tools" [ref=f8e471] [cursor=pointer]:
+    - generic [ref=f8e474]:
+      - text: Compiling
+      - generic [ref=f8e475]:
+        - generic [ref=f8e476]: .
+        - generic [ref=f8e477]: .
+        - generic [ref=f8e478]: .
+  - alert [ref=f8e469]

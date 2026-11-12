@@ -1,0 +1,238 @@
+- generic [active] [ref=f9e1]:
+  - link "Skip to content" [ref=f9e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f9e3]:
+    - generic [ref=f9e5]:
+      - generic [ref=f9e6]:
+        - generic [ref=f9e7]: Free standard shipping over $120
+        - generic [ref=f9e13]:
+          - text: Use
+          - strong [ref=f9e14]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f9e15]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f9e16]: 30-day easy returns
+      - generic [aria-hidden] [ref=f9e17]:
+        - generic [ref=f9e18]: Free standard shipping over $120
+        - generic [ref=f9e24]:
+          - text: Use
+          - strong [ref=f9e25]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f9e26]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f9e27]: 30-day easy returns
+      - generic [aria-hidden] [ref=f9e28]:
+        - generic [ref=f9e29]: Free standard shipping over $120
+        - generic [ref=f9e35]:
+          - text: Use
+          - strong [ref=f9e36]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f9e37]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f9e38]: 30-day easy returns
+      - generic [aria-hidden] [ref=f9e39]:
+        - generic [ref=f9e40]: Free standard shipping over $120
+        - generic [ref=f9e46]:
+          - text: Use
+          - strong [ref=f9e47]: WELCOME10
+          - text: for 10% off your first order
+        - generic [ref=f9e48]: "Flash sale: up to 25% off, ends tonight"
+        - generic [ref=f9e49]: 30-day easy returns
+    - generic [ref=f9e50]:
+      - link "AVARA home" [ref=f9e51] [cursor=pointer]:
+        - /url: /
+        - text: AVARA
+      - navigation "Primary" [ref=f9e52]:
+        - link "Shop" [ref=f9e54] [cursor=pointer]:
+          - /url: /shop
+        - link "New in" [ref=f9e56] [cursor=pointer]:
+          - /url: /shop?sort=newest
+        - link "Sale" [ref=f9e58] [cursor=pointer]:
+          - /url: /shop?sale=1
+        - link "Lookbook" [ref=f9e60] [cursor=pointer]:
+          - /url: /#lookbook
+        - link "Track order" [ref=f9e62] [cursor=pointer]:
+          - /url: /track
+      - generic [ref=f9e63]:
+        - button "Search" [ref=f9e64]
+        - link "Track order" [ref=f9e68] [cursor=pointer]:
+          - /url: /track
+        - link "Wishlist, 0 items" [ref=f9e75] [cursor=pointer]:
+          - /url: /wishlist
+        - button "Open bag, 1 items" [ref=f9e471]:
+          - generic [aria-hidden] [ref=f9e472]: "1"
+  - main [ref=f9e82]:
+    - navigation "Breadcrumb" [ref=f9e575]:
+      - navigation "Breadcrumb" [ref=f9e576]:
+        - list [ref=f9e577]:
+          - listitem [ref=f9e578]:
+            - link "Home" [ref=f9e579] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f9e582]:
+            - generic [ref=f9e583]: Checkout
+    - generic [ref=f9e584]:
+      - generic [ref=f9e585]:
+        - heading "Checkout" [level=1] [ref=f9e586]
+        - generic [ref=f9e590]:
+          - generic [ref=f9e591]:
+            - button [ref=f9e592] [cursor=pointer]
+            - generic [ref=f9e597]: Information
+          - generic [ref=f9e599]:
+            - button [ref=f9e600] [cursor=pointer]
+            - generic [ref=f9e607]: Delivery
+          - generic [ref=f9e609]:
+            - button [ref=f9e610] [cursor=pointer]
+            - generic [ref=f9e614]: Payment
+        - generic [ref=f9e768]:
+          - group "Payment" [ref=f9e769]:
+            - radiogroup "Payment method" [ref=f9e773]:
+              - radio "Credit / debit card" [checked] [ref=f9e774]
+              - radio "Cash on delivery" [ref=f9e778]
+          - generic [ref=f9e783]:
+            - paragraph [ref=f9e784]:
+              - text: "Demo store: no payment is taken. Use test card"
+              - strong [ref=f9e788]: 4242 4242 4242 4242
+              - text: ", any future date and any CVC."
+            - generic [ref=f9e789]:
+              - generic [ref=f9e790]: Name on card
+              - textbox [ref=f9e793]
+            - generic [ref=f9e794]:
+              - generic [ref=f9e795]: Card number
+              - textbox "1234 5678 9012 3456" [ref=f9e801]
+            - generic [ref=f9e802]:
+              - generic [ref=f9e803]:
+                - generic [ref=f9e804]: Expiry (MM/YY)
+                - textbox "08/29" [ref=f9e807]
+              - generic [ref=f9e808]:
+                - generic [ref=f9e809]: CVC
+                - textbox "123" [ref=f9e812]
+          - generic [ref=f9e813]:
+            - button "Back" [ref=f9e815] [cursor=pointer]
+            - button "Place order · $54.94" [ref=f9e817] [cursor=pointer]
+      - complementary "Order summary" [ref=f9e677]:
+        - heading "Order summary" [level=2] [ref=f9e678]
+        - list [ref=f9e679]:
+          - listitem [ref=f9e680]:
+            - generic [ref=f9e682]:
+              - paragraph [ref=f9e683]: Essential Crew Tee
+              - paragraph [ref=f9e684]: Black · M
+              - generic [ref=f9e686]:
+                - button "Decrease quantity of Essential Crew Tee" [ref=f9e687]
+                - generic [ref=f9e689]: "1"
+                - button "Increase quantity of Essential Crew Tee" [ref=f9e690]
+            - paragraph [ref=f9e692]: $38
+        - generic [ref=f9e694]:
+          - generic [ref=f9e698]:
+            - paragraph [ref=f9e699]: WELCOME10
+            - paragraph [ref=f9e700]: 10% off your order
+          - button "Remove coupon" [ref=f9e701]
+        - generic [ref=f9e705]:
+          - generic [ref=f9e706]:
+            - term [ref=f9e707]: Subtotal
+            - definition [ref=f9e708]: $38
+          - generic [ref=f9e709]:
+            - term [ref=f9e710]: Discount (WELCOME10)
+            - definition [ref=f9e711]: −$3.80
+          - generic [ref=f9e712]:
+            - term [ref=f9e713]: Shipping
+            - definition [ref=f9e714]: $18
+          - generic [ref=f9e715]:
+            - term [ref=f9e716]: Estimated tax (8%)
+            - definition [ref=f9e717]: $2.74
+          - generic [ref=f9e718]:
+            - term [ref=f9e719]: Total
+            - definition [ref=f9e720]: $54.94
+  - generic [ref=f9e323]:
+    - generic [ref=f9e324]:
+      - generic [ref=f9e325]:
+        - paragraph [ref=f9e326]: AVARA
+        - paragraph [ref=f9e327]: Considered clothing for people who dress with intent. Designed in small runs, shipped worldwide.
+      - navigation "Shop" [ref=f9e328]:
+        - heading "Shop" [level=2] [ref=f9e329]
+        - list [ref=f9e330]:
+          - listitem [ref=f9e331]:
+            - link "New arrivals" [ref=f9e332] [cursor=pointer]:
+              - /url: /shop?sort=newest
+          - listitem [ref=f9e333]:
+            - link "Sale" [ref=f9e334] [cursor=pointer]:
+              - /url: /shop?sale=1
+          - listitem [ref=f9e335]:
+            - link "Dresses" [ref=f9e336] [cursor=pointer]:
+              - /url: /shop?category=dresses
+          - listitem [ref=f9e337]:
+            - link "Outerwear" [ref=f9e338] [cursor=pointer]:
+              - /url: /shop?category=outerwear
+          - listitem [ref=f9e339]:
+            - link "Tops & Tees" [ref=f9e340] [cursor=pointer]:
+              - /url: /shop?category=tops
+          - listitem [ref=f9e341]:
+            - link "Knitwear" [ref=f9e342] [cursor=pointer]:
+              - /url: /shop?category=knitwear
+      - navigation "Help" [ref=f9e343]:
+        - heading "Help" [level=2] [ref=f9e344]
+        - list [ref=f9e345]:
+          - listitem [ref=f9e346]:
+            - link "Track your order" [ref=f9e347] [cursor=pointer]:
+              - /url: /track
+          - listitem [ref=f9e348]:
+            - link "Wishlist" [ref=f9e349] [cursor=pointer]:
+              - /url: /wishlist
+          - listitem [ref=f9e350]:
+            - link "Checkout" [ref=f9e351] [cursor=pointer]:
+              - /url: /checkout
+          - listitem [ref=f9e352]:
+            - link "Shipping & returns" [ref=f9e353] [cursor=pointer]:
+              - /url: /track
+      - navigation "Coupons" [ref=f9e354]:
+        - heading "Coupons" [level=2] [ref=f9e355]
+        - list [ref=f9e356]:
+          - listitem [ref=f9e357]:
+            - link "WELCOME10 · 10% off" [ref=f9e358] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=f9e359]:
+            - link "FASHION20 · 20% over $150" [ref=f9e360] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=f9e361]:
+            - link "FREESHIP · free shipping" [ref=f9e362] [cursor=pointer]:
+              - /url: /shop
+    - contentinfo [ref=f9e363]:
+      - generic [ref=f9e364]:
+        - generic [ref=f9e367]:
+          - generic [ref=f9e368]:
+            - button "NEWSLETTER" [ref=f9e370] [cursor=pointer]
+            - button "SHIPPING & RETURNS" [ref=f9e373] [cursor=pointer]
+            - button "CARE & FIT" [ref=f9e375] [cursor=pointer]
+          - generic [ref=f9e380]:
+            - generic [ref=f9e381]: 10:16:40
+            - generic [ref=f9e384]: Thursday Nov 12 2026
+          - generic [ref=f9e390]:
+            - generic [ref=f9e391]: AVARA © 2026
+            - generic [ref=f9e392]: All rights reserved
+        - generic [ref=f9e393]:
+          - link "INSTAGRAM" [ref=f9e394] [cursor=pointer]:
+            - /url: "#"
+          - link "PINTEREST" [ref=f9e395] [cursor=pointer]:
+            - /url: "#"
+          - link "TIKTOK" [ref=f9e396] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f9e399] [cursor=pointer]:
+          - generic [ref=f9e400]:
+            - generic [ref=f9e401]:
+              - generic [ref=f9e402]: NEWSLETTER
+              - generic [ref=f9e405]:
+                - generic [ref=f9e406]: AW26 EDIT
+                - generic [ref=f9e407]: new!
+            - generic [ref=f9e414]:
+              - generic [ref=f9e415]: 01 • THE EDIT
+              - heading "NEW DROPS, BEFORE ANYONE ELSE" [level=3] [ref=f9e418]
+              - paragraph [ref=f9e420]: Early access to new arrivals, restocks and flash sales, plus 10% off your first order. One email a week, never more.
+            - generic [ref=f9e421]:
+              - generic [ref=f9e423]:
+                - textbox "you@email.com" [ref=f9e428]
+                - button "JOIN" [ref=f9e429]
+              - generic [ref=f9e434]:
+                - generic [ref=f9e435]: ✓ Early access to drops
+                - generic [ref=f9e436]: ✓ Unsubscribe anytime
+            - generic [ref=f9e437]:
+              - generic [ref=f9e438]: FREQUENCY
+              - generic [ref=f9e439]: Weekly, Thursdays
+          - button "JOIN THE LIST" [ref=f9e441]
+  - button "Open Next.js Dev Tools" [ref=f9e465] [cursor=pointer]
+  - alert [ref=f9e469]: Checkout · AVARA
