@@ -1,69 +1,204 @@
-import Image from "next/image";
+import { SiteLink } from "@/components/site/SiteLink";
+import { HeroCarousel } from "@/components/custom/blocks/HeroCarouselBlock";
+import { CounterSection } from "@/components/custom/blocks/CounterSectionBlock";
+import { ReviewsBlock, type ReviewItem } from "@/components/custom/blocks/ReviewsBlock";
+import { SiteHeader } from "@/components/site/SiteHeader";
+import { SiteFooter } from "@/components/site/SiteFooter";
+import { PropertyTypes } from "@/components/site/PropertyTypes";
+import { FeaturedListings } from "@/components/site/FeaturedListings";
+import { HowItWorks } from "@/components/site/HowItWorks";
+import { PORTRAITS, img } from "@/lib/properties";
+
+const SLIDES = [
+  {
+    image: img("1613490493576-7fde63acd811", 2000),
+    alt: "A modern villa with a pool at dusk",
+    title: "Harborview Modern Villa",
+    description: "5 bed · 4 bath · Austin, TX — $1,285,000",
+    heading: (
+      <>
+        Find the home
+        <br />
+        that fits your life
+      </>
+    ),
+  },
+  {
+    image: img("1568605114967-8130f3a36994", 2000),
+    alt: "A welcoming family house with a front lawn",
+    title: "Oakline Family Residence",
+    description: "4 bed · 3 bath · Denver, CO — $689,000",
+    heading: (
+      <>
+        Room for family,
+        <br />
+        and for Sunday dinners
+      </>
+    ),
+  },
+  {
+    image: img("1545324418-cc1a3fa10c00", 2000),
+    alt: "A city apartment building at golden hour",
+    title: "Skyline Corner Loft",
+    description: "2 bed · 2 bath · Chicago, IL — $425,000",
+    heading: (
+      <>
+        City views,
+        <br />
+        a short walk from everything
+      </>
+    ),
+  },
+];
+
+const AVATARS = [
+  { src: PORTRAITS.a, alt: "Client Priya", name: "Priya S.", designation: "First-time buyer" },
+  { src: PORTRAITS.b, alt: "Client Daniel", name: "Daniel R.", designation: "Relocating family" },
+  { src: PORTRAITS.c, alt: "Client Amara", name: "Amara O.", designation: "Investor" },
+  { src: PORTRAITS.d, alt: "Client Marcus", name: "Marcus L.", designation: "Seller" },
+  { src: PORTRAITS.e, alt: "Client Tom", name: "Tom H.", designation: "Downsizer" },
+];
+
+const STATS = [
+  {
+    value: 2400,
+    suffix: "+",
+    label: "/HOMES SOLD",
+    sublabel: "Families and investors who found their place with us",
+    tag: "Since 2009",
+  },
+  {
+    value: 1.8,
+    prefix: "$",
+    suffix: "B",
+    decimals: 1,
+    label: "/SALES VOLUME",
+    sublabel: "Closed across 14 neighbourhoods and growing",
+    tag: "+22% YoY",
+  },
+  {
+    value: 21,
+    suffix: " days",
+    label: "/AVERAGE TIME TO OFFER",
+    sublabel: "Well under the local market average of 46 days",
+    tag: "Faster",
+  },
+  {
+    value: 4.9,
+    decimals: 1,
+    suffix: "★",
+    label: "/CLIENT RATING",
+    sublabel: "From 860 verified reviews on Google and Zillow",
+    tag: "Top rated",
+  },
+];
+
+const REVIEWS: ReviewItem[] = [
+  {
+    id: "1",
+    name: "Priya Shah",
+    role: "First-time buyer, Denver",
+    avatar: img("1494790108377-be9c29b29330", 800),
+    rating: 5,
+    content:
+      "I had no idea where to start. Amelia walked me through every step, and we made an offer on our third tour. We got the keys in 38 days.",
+  },
+  {
+    id: "2",
+    name: "Daniel Reyes",
+    role: "Relocated from Seattle",
+    avatar: img("1507003211169-0a1dd7228f2d", 800),
+    rating: 5,
+    content:
+      "Moving across the country felt impossible. They toured homes on video for us, flagged a roof issue early and saved us from a bad purchase.",
+  },
+  {
+    id: "3",
+    name: "Amara Okafor",
+    role: "Property investor, Austin",
+    avatar: img("1438761681033-6461ffad8d80", 800),
+    rating: 5,
+    content:
+      "Their comparable-sales research was sharper than anything I've seen from a big brokerage. Three purchases in, I wouldn't use anyone else.",
+  },
+  {
+    id: "4",
+    name: "Marcus Lindqvist",
+    role: "Sold a family home, Raleigh",
+    avatar: img("1500648767791-00dcc994a43e", 800),
+    rating: 5,
+    content:
+      "Our house sold in eleven days, $22,000 over asking. The staging advice alone paid for itself ten times over.",
+  },
+  {
+    id: "5",
+    name: "Tom Harlan",
+    role: "Downsized, Portland",
+    avatar: img("1472099645785-5658abf4ff4e", 800),
+    rating: 5,
+    content:
+      "Selling after thirty years was emotional. They were patient, honest and found us a lovely flat near the grandchildren.",
+  },
+  {
+    id: "6",
+    name: "Sofia Marin",
+    role: "Bought a townhome, Raleigh",
+    avatar: img("1534528741775-53994a69daeb", 800),
+    rating: 5,
+    content:
+      "Transparent from day one. No pressure, no surprise fees, and they negotiated a repair credit I would never have asked for myself.",
+  },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <>
+      <SiteHeader />
+      <main className="flex-1">
+        <HeroCarousel
+          
+          eyebrow="Boutique real estate agency · Austin, Denver, Chicago"
+          heading={
+            <>
+              Find the home
+              <br />
+              that fits your life
+            </>
+          }
+          slides={SLIDES}
+          intro="Hand-picked listings, local agents who answer the phone, and a team that stays with you from the first tour to the day you get the keys."
+          avatars={AVATARS}
+          avatarsLabel="2,400+ happy homeowners"
+          cta={{ label: "Schedule a visit", href: "/schedule" }}
+          linkComponent={SiteLink}
+          interval={6000}
+          reveal="immediate"
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+
+        <PropertyTypes />
+        <FeaturedListings />
+        <HowItWorks />
+
+        <section aria-label="Haven & Co. in numbers" className="mx-auto max-w-7xl px-6 lg:px-12">
+          <CounterSection
+            variant="minimal-slash"
+            eyebrow="Haven & Co. in numbers"
+            heading="Results that speak for the street"
+            description="Fifteen years of local knowledge, measured in homes sold and clients who came back."
+            stats={STATS}
+          />
+        </section>
+
+        <section id="reviews" className="scroll-mt-24">
+          <ReviewsBlock
+            variant="stacked-carousel"
+            title="Loved by buyers and sellers"
+            subtitle="Real words from clients who trusted us with the biggest purchase of their lives."
+            reviews={REVIEWS}
+          />
+        </section>
       </main>
-    </div>
+      <SiteFooter />
+    </>
   );
 }

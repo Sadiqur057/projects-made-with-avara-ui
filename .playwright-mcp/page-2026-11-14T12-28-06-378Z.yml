@@ -1,0 +1,236 @@
+- generic [active] [ref=f7e1]:
+  - banner:
+    - navigation [ref=f7e2]:
+      - generic [ref=f7e3]:
+        - generic [ref=f7e4]:
+          - link "Haven & Co." [ref=f7e5] [cursor=pointer]:
+            - /url: /
+          - list [ref=f7e11]:
+            - listitem [ref=f7e12]:
+              - link "Listings" [ref=f7e13] [cursor=pointer]:
+                - /url: /#listings
+            - listitem [ref=f7e14]:
+              - link "Property types" [ref=f7e15] [cursor=pointer]:
+                - /url: /#types
+            - listitem [ref=f7e16]:
+              - link "How it works" [ref=f7e17] [cursor=pointer]:
+                - /url: /#how-it-works
+            - listitem [ref=f7e18]:
+              - link "Reviews" [ref=f7e19] [cursor=pointer]:
+                - /url: /#reviews
+        - generic [ref=f7e21]:
+          - link "Call us" [ref=f7e22] [cursor=pointer]:
+            - /url: tel:+15550142200
+          - link "Book a visit" [ref=f7e23] [cursor=pointer]:
+            - /url: /schedule
+  - main [ref=f7e24]:
+    - generic [ref=f7e25]:
+      - paragraph [ref=f7e26]: Schedule a visit
+      - heading "See it in person, with someone who knows the street" [level=2] [ref=f7e27]
+      - paragraph [ref=f7e28]: Choose a day and time. Your agent confirms within the hour and meets you at the door.
+    - generic [ref=f7e31]:
+      - generic [ref=f7e32]:
+        - img "Portrait of Amelia Hart, senior agent at Haven & Co." [ref=f7e34]
+        - list [ref=f7e36]:
+          - listitem [ref=f7e37]:
+            - generic [ref=f7e41]: 210 Congress Ave, Austin, TX
+          - listitem [ref=f7e42]:
+            - link "(555) 014-2200" [ref=f7e45] [cursor=pointer]:
+              - /url: tel:5550142200
+          - listitem [ref=f7e46]:
+            - link "amelia@havenandco.example" [ref=f7e50] [cursor=pointer]:
+              - /url: mailto:amelia@havenandco.example
+          - listitem [ref=f7e51]:
+            - generic [ref=f7e56]: English, Spanish
+      - generic [ref=f7e57]:
+        - generic [ref=f7e58]:
+          - generic [ref=f7e59]:
+            - heading "Amelia Hart, Senior Agent" [level=1] [ref=f7e60]
+            - paragraph [ref=f7e61]: Residential sales · Relocation · First-time buyers
+          - generic [ref=f7e62]:
+            - generic [ref=f7e64]:
+              - paragraph [ref=f7e65]: "4.9"
+              - paragraph [ref=f7e66]: 212 reviews
+            - generic [ref=f7e67]:
+              - paragraph [ref=f7e68]: What clients say
+              - paragraph [ref=f7e69]: Clients describe Amelia as calm, candid and always reachable. She is known for spotting problems in a home before the inspection does.
+          - generic [ref=f7e70]:
+            - generic [ref=f7e71]:
+              - paragraph [ref=f7e72]: Responsiveness
+              - generic [ref=f7e73]:
+                - 'img "Responsiveness: 4.92 out of 5" [ref=f7e74]'
+                - generic [ref=f7e101]: "4.92"
+            - generic [ref=f7e102]:
+              - paragraph [ref=f7e103]: Local knowledge
+              - generic [ref=f7e104]:
+                - 'img "Local knowledge: 4.87 out of 5" [ref=f7e105]'
+                - generic [ref=f7e132]: "4.87"
+            - generic [ref=f7e133]:
+              - paragraph [ref=f7e134]: Negotiation
+              - generic [ref=f7e135]:
+                - 'img "Negotiation: 4.78 out of 5" [ref=f7e136]'
+                - generic [ref=f7e163]: "4.78"
+        - generic [ref=f7e164]:
+          - heading "What clients ask about" [level=2] [ref=f7e165]
+          - generic [ref=f7e167]:
+            - generic [ref=f7e168]:
+              - img "Share of the whole by category" [ref=f7e169]:
+                - generic [ref=f7e170] [cursor=pointer]
+                - generic [ref=f7e171] [cursor=pointer]
+                - generic [ref=f7e172] [cursor=pointer]
+                - generic [ref=f7e173] [cursor=pointer]
+              - generic [ref=f7e175]:
+                - paragraph [ref=f7e176]: 38%
+                - paragraph [ref=f7e177]: top request
+            - list [ref=f7e178]:
+              - listitem [ref=f7e179]:
+                - generic [ref=f7e181]: Family homes
+                - generic [ref=f7e182]: 38%
+              - listitem [ref=f7e183]:
+                - generic [ref=f7e185]: Apartments & lofts
+                - generic [ref=f7e186]: 27%
+              - listitem [ref=f7e187]:
+                - generic [ref=f7e189]: Relocation help
+                - generic [ref=f7e190]: 21%
+              - listitem [ref=f7e191]:
+                - generic [ref=f7e193]: Investment property
+                - generic [ref=f7e194]: 14%
+        - generic [ref=f7e195]:
+          - heading "How a typical week splits" [level=2] [ref=f7e196]
+          - generic [ref=f7e198]:
+            - img "Share of the whole by category" [ref=f7e199]:
+              - generic "Tours 42%" [ref=f7e200]
+              - generic "Negotiating 22%" [ref=f7e201]
+              - generic "Paperwork 16%" [ref=f7e202]
+              - generic "Client calls 14%" [ref=f7e203]
+              - generic "Other 6%" [ref=f7e204]
+            - list [ref=f7e205]:
+              - listitem [ref=f7e206]:
+                - generic [ref=f7e208]: Tours
+                - generic [ref=f7e209]: 42%
+              - listitem [ref=f7e210]:
+                - generic [ref=f7e212]: Negotiating
+                - generic [ref=f7e213]: 22%
+              - listitem [ref=f7e214]:
+                - generic [ref=f7e216]: Paperwork
+                - generic [ref=f7e217]: 16%
+              - listitem [ref=f7e218]:
+                - generic [ref=f7e220]: Client calls
+                - generic [ref=f7e221]: 14%
+              - listitem [ref=f7e222]:
+                - generic [ref=f7e224]: Other
+                - generic [ref=f7e225]: 6%
+      - generic [ref=f7e227]:
+        - heading "Schedule a visit" [level=2] [ref=f7e228]
+        - generic [ref=f7e229]:
+          - generic [ref=f7e230]:
+            - paragraph
+            - generic [ref=f7e231]:
+              - button "Previous days" [disabled] [ref=f7e232]
+              - button "Next days" [disabled] [ref=f7e235]
+          - radiogroup "Day"
+        - generic [ref=f7e238]:
+          - paragraph [ref=f7e239]: Time
+          - generic [ref=f7e240]:
+            - paragraph [ref=f7e241]: Morning
+            - radiogroup "Morning times" [ref=f7e242]:
+              - radio "9:00 AM" [disabled] [ref=f7e243]
+              - radio "10:00 AM" [disabled] [ref=f7e244]
+              - radio "11:00 AM" [disabled] [ref=f7e245]
+          - generic [ref=f7e246]:
+            - paragraph [ref=f7e247]: Afternoon
+            - radiogroup "Afternoon times" [ref=f7e248]:
+              - radio "1:00 PM" [disabled] [ref=f7e249]
+              - radio "2:00 PM" [disabled] [ref=f7e250]
+              - radio "3:00 PM" [disabled] [ref=f7e251]
+              - radio "4:30 PM" [disabled] [ref=f7e252]
+        - button "Book now" [disabled] [ref=f7e253]
+  - contentinfo [ref=f7e255]:
+    - generic [ref=f7e256]:
+      - generic [ref=f7e257]:
+        - generic [ref=f7e258]:
+          - link "Haven & Co." [ref=f7e259] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f7e266]: A boutique real estate agency helping families, first-time buyers and investors find the right home, from the first tour to the day you get the keys.
+        - generic [ref=f7e267]:
+          - navigation "Buy" [ref=f7e268]:
+            - paragraph [ref=f7e269]: Buy
+            - list [ref=f7e270]:
+              - listitem [ref=f7e271]:
+                - link "Featured listings" [ref=f7e272] [cursor=pointer]:
+                  - /url: /#listings
+              - listitem [ref=f7e273]:
+                - link "Property types" [ref=f7e274] [cursor=pointer]:
+                  - /url: /#types
+              - listitem [ref=f7e275]:
+                - link "How it works" [ref=f7e276] [cursor=pointer]:
+                  - /url: /#how-it-works
+              - listitem [ref=f7e277]:
+                - link "Schedule a visit" [ref=f7e278] [cursor=pointer]:
+                  - /url: /schedule
+          - navigation "Sell" [ref=f7e279]:
+            - paragraph [ref=f7e280]: Sell
+            - list [ref=f7e281]:
+              - listitem [ref=f7e282]:
+                - link "Free home valuation" [ref=f7e283] [cursor=pointer]:
+                  - /url: /schedule
+              - listitem [ref=f7e284]:
+                - link "Our marketing plan" [ref=f7e285] [cursor=pointer]:
+                  - /url: /#how-it-works
+              - listitem [ref=f7e286]:
+                - link "Seller guide" [ref=f7e287] [cursor=pointer]:
+                  - /url: /#reviews
+          - navigation "Company" [ref=f7e288]:
+            - paragraph [ref=f7e289]: Company
+            - list [ref=f7e290]:
+              - listitem [ref=f7e291]:
+                - link "Our agents" [ref=f7e292] [cursor=pointer]:
+                  - /url: /schedule
+              - listitem [ref=f7e293]:
+                - link "Client reviews" [ref=f7e294] [cursor=pointer]:
+                  - /url: /#reviews
+              - listitem [ref=f7e295]:
+                - link "Careers" [ref=f7e296] [cursor=pointer]:
+                  - /url: /schedule
+        - generic [ref=f7e297]:
+          - paragraph [ref=f7e298]: Talk to an agent
+          - link "hello@havenandco.example" [ref=f7e299] [cursor=pointer]:
+            - /url: mailto:hello@havenandco.example
+          - paragraph [ref=f7e300]: Visit our office
+          - paragraph [ref=f7e301]: 210 Congress Ave, Austin, TX
+          - paragraph [ref=f7e302]: Follow
+          - list [ref=f7e303]:
+            - listitem [ref=f7e304]:
+              - link "Instagram" [ref=f7e305] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f7e306]:
+              - link "LinkedIn" [ref=f7e307] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f7e308]:
+              - link "YouTube" [ref=f7e309] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=f7e310]:
+        - paragraph [ref=f7e311]: © 2026 Haven & Co. Realty
+        - list [ref=f7e312]:
+          - listitem [ref=f7e313]:
+            - link "Privacy" [ref=f7e314] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f7e315]:
+            - link "Terms" [ref=f7e316] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f7e317]:
+            - link "Fair housing" [ref=f7e318] [cursor=pointer]:
+              - /url: "#"
+        - paragraph [ref=f7e319]: Licensed brokerage. Equal housing opportunity.
+    - generic [ref=f7e320]:
+      - paragraph [aria-hidden]:
+        - generic: H
+        - generic: a
+        - generic: v
+        - generic: e
+        - generic: "n"
+        - generic: "&"
+        - generic: C
+        - generic: o
+        - generic: .
+  - alert [ref=f7e322]

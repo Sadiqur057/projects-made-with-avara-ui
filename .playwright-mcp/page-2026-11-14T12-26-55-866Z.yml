@@ -1,0 +1,392 @@
+- generic [active] [ref=f5e1]:
+  - banner:
+    - navigation [ref=f5e2]:
+      - generic [ref=f5e3]:
+        - generic [ref=f5e4]:
+          - link "Haven & Co." [ref=f5e5] [cursor=pointer]:
+            - /url: /
+          - list [ref=f5e11]:
+            - listitem [ref=f5e12]:
+              - link "Listings" [ref=f5e13] [cursor=pointer]:
+                - /url: /#listings
+            - listitem [ref=f5e14]:
+              - link "Property types" [ref=f5e15] [cursor=pointer]:
+                - /url: /#types
+            - listitem [ref=f5e16]:
+              - link "How it works" [ref=f5e17] [cursor=pointer]:
+                - /url: /#how-it-works
+            - listitem [ref=f5e18]:
+              - link "Reviews" [ref=f5e19] [cursor=pointer]:
+                - /url: /#reviews
+        - generic [ref=f5e21]:
+          - link "Call us" [ref=f5e22] [cursor=pointer]:
+            - /url: tel:+15550142200
+          - link "Book a visit" [ref=f5e23] [cursor=pointer]:
+            - /url: /schedule
+  - main [ref=f5e24]:
+    - generic [ref=f5e31]:
+      - generic [ref=f5e32]:
+        - generic [ref=f5e33]: Boutique real estate agency · Austin, Denver, Chicago
+        - heading [level=1] [ref=f5e36]:
+          - generic [ref=f5e37]: Find the homethat fits your life
+          - generic [ref=f5e39]:
+            - generic [ref=f5e40]: Find the home that fits your life
+            - generic [ref=f5e41]: Room for family, and for Sunday dinners
+            - generic [ref=f5e42]: City views, a short walk from everything
+      - generic [ref=f5e44]:
+        - generic [ref=f5e45]:
+          - generic [ref=f5e46]:
+            - img "Client Priya" [ref=f5e50] [cursor=pointer]
+            - img "Client Daniel" [ref=f5e54] [cursor=pointer]
+            - img "Client Amara" [ref=f5e58] [cursor=pointer]
+            - img "Client Marcus" [ref=f5e62] [cursor=pointer]
+            - generic [ref=f5e63] [cursor=pointer]: "+1"
+          - generic [ref=f5e66]: 2,400+ happy homeowners
+        - paragraph [ref=f5e67]: Hand-picked listings, local agents who answer the phone, and a team that stays with you from the first tour to the day you get the keys.
+        - link "Schedule a visit" [ref=f5e68] [cursor=pointer]:
+          - /url: /schedule
+    - generic [ref=f5e74]:
+      - generic [ref=f5e75]:
+        - generic [ref=f5e76]:
+          - paragraph [ref=f5e77]: Property types
+          - heading "Whatever home you imagine, we know where it is" [level=2] [ref=f5e78]
+        - paragraph [ref=f5e79]: From a first flat to a family house or a waterfront villa, browse the kind of place that fits your life.
+      - list [ref=f5e80]:
+        - listitem [ref=f5e81]:
+          - link [ref=f5e82] [cursor=pointer]:
+            - /url: /#listings
+            - generic [ref=f5e85]:
+              - heading "Houses" [level=3] [ref=f5e86]
+              - paragraph [ref=f5e87]: 128 available
+        - listitem [ref=f5e92]:
+          - link [ref=f5e93] [cursor=pointer]:
+            - /url: /#listings
+            - generic [ref=f5e96]:
+              - heading "Apartments" [level=3] [ref=f5e97]
+              - paragraph [ref=f5e98]: 214 available
+        - listitem [ref=f5e103]:
+          - link [ref=f5e104] [cursor=pointer]:
+            - /url: /#listings
+            - generic [ref=f5e107]:
+              - heading "Villas" [level=3] [ref=f5e108]
+              - paragraph [ref=f5e109]: 46 available
+        - listitem [ref=f5e114]:
+          - link [ref=f5e115] [cursor=pointer]:
+            - /url: /#listings
+            - generic [ref=f5e118]:
+              - heading "Townhouses" [level=3] [ref=f5e119]
+              - paragraph [ref=f5e120]: 87 available
+    - generic [ref=f5e126]:
+      - generic [ref=f5e127]:
+        - paragraph [ref=f5e128]: Featured listings
+        - heading "Hand-picked homes, ready to tour" [level=2] [ref=f5e129]
+        - paragraph [ref=f5e130]: Every listing is visited by one of our agents, photographed in daylight and checked for clear title.
+      - list [ref=f5e131]:
+        - listitem [ref=f5e132]:
+          - link "Harborview Modern Villa, villa in Austin, TX Featured $1,285,000 Villa Harborview Modern Villa 48 Lakeshore Drive, Austin, TX 5 bd 4 ba 3,850 sqft" [ref=f5e134] [cursor=pointer]:
+            - /url: /properties/harborview-modern-villa
+            - generic [ref=f5e135]:
+              - img "Harborview Modern Villa, villa in Austin, TX" [ref=f5e136]
+              - generic [ref=f5e137]: Featured
+            - generic [ref=f5e142]:
+              - generic [ref=f5e143]:
+                - paragraph [ref=f5e144]: $1,285,000
+                - paragraph [ref=f5e145]: Villa
+              - heading "Harborview Modern Villa" [level=3] [ref=f5e146]
+              - paragraph [ref=f5e147]: 48 Lakeshore Drive, Austin, TX
+              - list [ref=f5e151]:
+                - listitem [ref=f5e152]: 5 bd
+                - listitem [ref=f5e156]: 4 ba
+                - listitem [ref=f5e160]: 3,850 sqft
+        - listitem [ref=f5e167]:
+          - link "Oakline Family Residence, house in Denver, CO New $689,000 House Oakline Family Residence 12 Oakline Court, Denver, CO 4 bd 3 ba 2,640 sqft" [ref=f5e169] [cursor=pointer]:
+            - /url: /properties/oakline-family-residence
+            - generic [ref=f5e170]:
+              - img "Oakline Family Residence, house in Denver, CO" [ref=f5e171]
+              - generic [ref=f5e172]: New
+            - generic [ref=f5e177]:
+              - generic [ref=f5e178]:
+                - paragraph [ref=f5e179]: $689,000
+                - paragraph [ref=f5e180]: House
+              - heading "Oakline Family Residence" [level=3] [ref=f5e181]
+              - paragraph [ref=f5e182]: 12 Oakline Court, Denver, CO
+              - list [ref=f5e186]:
+                - listitem [ref=f5e187]: 4 bd
+                - listitem [ref=f5e191]: 3 ba
+                - listitem [ref=f5e195]: 2,640 sqft
+        - listitem [ref=f5e202]:
+          - link "Skyline Corner Loft, apartment in Chicago, IL Open house Sat $425,000 Apartment Skyline Corner Loft 900 W Wacker, Unit 22B, Chicago, IL 2 bd 2 ba 1,180 sqft" [ref=f5e204] [cursor=pointer]:
+            - /url: /properties/skyline-corner-loft
+            - generic [ref=f5e205]:
+              - img "Skyline Corner Loft, apartment in Chicago, IL" [ref=f5e206]
+              - generic [ref=f5e207]: Open house Sat
+            - generic [ref=f5e212]:
+              - generic [ref=f5e213]:
+                - paragraph [ref=f5e214]: $425,000
+                - paragraph [ref=f5e215]: Apartment
+              - heading "Skyline Corner Loft" [level=3] [ref=f5e216]
+              - paragraph [ref=f5e217]: 900 W Wacker, Unit 22B, Chicago, IL
+              - list [ref=f5e221]:
+                - listitem [ref=f5e222]: 2 bd
+                - listitem [ref=f5e226]: 2 ba
+                - listitem [ref=f5e230]: 1,180 sqft
+        - listitem [ref=f5e237]:
+          - link "Maple Court Townhome, townhouse in Raleigh, NC Price reduced $539,000 Townhouse Maple Court Townhome 7 Maple Court, Raleigh, NC 3 bd 3 ba 1,960 sqft" [ref=f5e239] [cursor=pointer]:
+            - /url: /properties/maple-court-townhome
+            - generic [ref=f5e240]:
+              - img "Maple Court Townhome, townhouse in Raleigh, NC" [ref=f5e241]
+              - generic [ref=f5e242]: Price reduced
+            - generic [ref=f5e247]:
+              - generic [ref=f5e248]:
+                - paragraph [ref=f5e249]: $539,000
+                - paragraph [ref=f5e250]: Townhouse
+              - heading "Maple Court Townhome" [level=3] [ref=f5e251]
+              - paragraph [ref=f5e252]: 7 Maple Court, Raleigh, NC
+              - list [ref=f5e256]:
+                - listitem [ref=f5e257]: 3 bd
+                - listitem [ref=f5e261]: 3 ba
+                - listitem [ref=f5e265]: 1,960 sqft
+        - listitem [ref=f5e272]:
+          - link "Palm Bay Pool Estate, villa in Miami, FL Exclusive $1,890,000 Villa Palm Bay Pool Estate 3 Palm Bay Lane, Miami, FL 6 bd 5 ba 4,900 sqft" [ref=f5e274] [cursor=pointer]:
+            - /url: /properties/palm-bay-pool-estate
+            - generic [ref=f5e275]:
+              - img "Palm Bay Pool Estate, villa in Miami, FL" [ref=f5e276]
+              - generic [ref=f5e277]: Exclusive
+            - generic [ref=f5e282]:
+              - generic [ref=f5e283]:
+                - paragraph [ref=f5e284]: $1,890,000
+                - paragraph [ref=f5e285]: Villa
+              - heading "Palm Bay Pool Estate" [level=3] [ref=f5e286]
+              - paragraph [ref=f5e287]: 3 Palm Bay Lane, Miami, FL
+              - list [ref=f5e291]:
+                - listitem [ref=f5e292]: 6 bd
+                - listitem [ref=f5e296]: 5 ba
+                - listitem [ref=f5e300]: 4,900 sqft
+        - listitem [ref=f5e307]:
+          - link "Juniper Garden Flat, apartment in Portland, OR Great first home $318,000 Apartment Juniper Garden Flat 21 Juniper Street, Flat 3, Portland, OR 1 bd 1 ba 780 sqft" [ref=f5e309] [cursor=pointer]:
+            - /url: /properties/juniper-garden-flat
+            - generic [ref=f5e310]:
+              - img "Juniper Garden Flat, apartment in Portland, OR" [ref=f5e311]
+              - generic [ref=f5e312]: Great first home
+            - generic [ref=f5e317]:
+              - generic [ref=f5e318]:
+                - paragraph [ref=f5e319]: $318,000
+                - paragraph [ref=f5e320]: Apartment
+              - heading "Juniper Garden Flat" [level=3] [ref=f5e321]
+              - paragraph [ref=f5e322]: 21 Juniper Street, Flat 3, Portland, OR
+              - list [ref=f5e326]:
+                - listitem [ref=f5e327]: 1 bd
+                - listitem [ref=f5e331]: 1 ba
+                - listitem [ref=f5e335]: 780 sqft
+    - generic [ref=f5e343]:
+      - generic [ref=f5e344]:
+        - paragraph [ref=f5e345]: How it works
+        - heading "Four steps from browsing to your front door" [level=2] [ref=f5e346]
+      - list [ref=f5e347]:
+        - listitem [ref=f5e348]:
+          - generic [aria-hidden] [ref=f5e354]: "01"
+          - heading "Tell us what you need" [level=3] [ref=f5e355]
+          - paragraph [ref=f5e356]: Share your budget, neighbourhoods and must-haves in a 15-minute call. We turn it into a short, honest shortlist.
+        - listitem [ref=f5e357]:
+          - generic [aria-hidden] [ref=f5e363]: "02"
+          - heading "Tour with an agent" [level=3] [ref=f5e364]
+          - paragraph [ref=f5e365]: Pick a time that suits you. We open the doors, answer the awkward questions and point out what photos hide.
+        - listitem [ref=f5e366]:
+          - generic [aria-hidden] [ref=f5e374]: "03"
+          - heading "Make a confident offer" [level=3] [ref=f5e375]
+          - paragraph [ref=f5e376]: We pull comparable sales, negotiate on your behalf and keep the paperwork moving until the seller says yes.
+        - listitem [ref=f5e377]:
+          - generic [aria-hidden] [ref=f5e383]: "04"
+          - heading "Collect your keys" [level=3] [ref=f5e384]
+          - paragraph [ref=f5e385]: From inspection to closing day, we coordinate lenders, lawyers and movers so handover day is the easy part.
+      - link "Start with a free call" [ref=f5e387] [cursor=pointer]:
+        - /url: /schedule
+    - region "Haven & Co. in numbers" [ref=f5e388]:
+      - generic [ref=f5e389]:
+        - generic [ref=f5e391]:
+          - generic [ref=f5e392]: Haven & Co. in numbers
+          - heading "Results that speak for the street" [level=2] [ref=f5e393]
+          - paragraph [ref=f5e394]: Fifteen years of local knowledge, measured in homes sold and clients who came back.
+        - generic [ref=f5e395]:
+          - generic [ref=f5e396]:
+            - generic: "01"
+            - generic [ref=f5e398]:
+              - generic [ref=f5e399]:
+                - generic [ref=f5e400]:
+                  - generic [ref=f5e401]: //
+                  - text: "01"
+                - generic [ref=f5e402]: Since 2009
+              - generic [ref=f5e406]:
+                - generic [ref=f5e407]: "0"
+                - generic [ref=f5e408]: +
+            - generic [ref=f5e410]:
+              - generic [ref=f5e411]:
+                - generic [ref=f5e412]: /
+                - generic [ref=f5e413]: HOMES SOLD
+              - paragraph [ref=f5e414]: Families and investors who found their place with us
+          - generic [ref=f5e415]:
+            - generic: "02"
+            - generic [ref=f5e417]:
+              - generic [ref=f5e418]:
+                - generic [ref=f5e419]:
+                  - generic [ref=f5e420]: //
+                  - text: "02"
+                - generic [ref=f5e421]: +22% YoY
+              - generic [ref=f5e425]:
+                - generic [ref=f5e426]: $
+                - generic [ref=f5e427]: "0.0"
+                - generic [ref=f5e428]: B
+            - generic [ref=f5e430]:
+              - generic [ref=f5e431]:
+                - generic [ref=f5e432]: /
+                - generic [ref=f5e433]: SALES VOLUME
+              - paragraph [ref=f5e434]: Closed across 14 neighbourhoods and growing
+          - generic [ref=f5e435]:
+            - generic: "03"
+            - generic [ref=f5e437]:
+              - generic [ref=f5e438]:
+                - generic [ref=f5e439]:
+                  - generic [ref=f5e440]: //
+                  - text: "03"
+                - generic [ref=f5e441]: Faster
+              - generic [ref=f5e445]:
+                - generic [ref=f5e446]: "0"
+                - generic [ref=f5e447]: days
+            - generic [ref=f5e449]:
+              - generic [ref=f5e450]:
+                - generic [ref=f5e451]: /
+                - generic [ref=f5e452]: AVERAGE TIME TO OFFER
+              - paragraph [ref=f5e453]: Well under the local market average of 46 days
+          - generic [ref=f5e454]:
+            - generic: "04"
+            - generic [ref=f5e456]:
+              - generic [ref=f5e457]:
+                - generic [ref=f5e458]:
+                  - generic [ref=f5e459]: //
+                  - text: "04"
+                - generic [ref=f5e460]: Top rated
+              - generic [ref=f5e463]: "0.0"
+            - generic [ref=f5e469]:
+              - generic [ref=f5e470]:
+                - generic [ref=f5e471]: /
+                - generic [ref=f5e472]: CLIENT RATING
+              - paragraph [ref=f5e473]: From 860 verified reviews on Google and Zillow
+    - generic [ref=f5e475]:
+      - generic [ref=f5e476]:
+        - generic [ref=f5e477]: Client Testimonials
+        - heading "Loved by buyers and sellers" [level=2] [ref=f5e480]
+        - paragraph [ref=f5e481]: Real words from clients who trusted us with the biggest purchase of their lives.
+      - generic [ref=f5e482]:
+        - generic [ref=f5e483]:
+          - generic [ref=f5e484] [cursor=pointer]:
+            - img "Priya Shah"
+          - generic [ref=f5e485] [cursor=pointer]:
+            - img "Daniel Reyes"
+          - generic [ref=f5e486] [cursor=pointer]:
+            - img "Amara Okafor"
+          - generic [ref=f5e487] [cursor=pointer]:
+            - img "Marcus Lindqvist"
+          - generic [ref=f5e488] [cursor=pointer]:
+            - img "Tom Harlan"
+          - generic [ref=f5e489] [cursor=pointer]:
+            - img "Sofia Marin"
+        - generic [ref=f5e490]:
+          - generic [ref=f5e491]:
+            - img "Rated 5.0 out of 5" [ref=f5e492]
+            - generic [ref=f5e519]: "5.0"
+          - generic [ref=f5e520]:
+            - heading "Priya Shah" [level=3] [ref=f5e521]
+            - paragraph [ref=f5e522]: First-time buyer, Denver
+          - paragraph [ref=f5e523]: "\"I had no idea where to start. Amelia walked me through every step, and we made an offer on our third tour. We got the keys in 38 days.\""
+          - generic [ref=f5e524]:
+            - button "Previous review" [ref=f5e525] [cursor=pointer]
+            - button "Next review" [ref=f5e528] [cursor=pointer]
+  - contentinfo [ref=f5e532]:
+    - generic [ref=f5e533]:
+      - generic [ref=f5e534]:
+        - generic [ref=f5e535]:
+          - link "Haven & Co." [ref=f5e536] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f5e543]: A boutique real estate agency helping families, first-time buyers and investors find the right home, from the first tour to the day you get the keys.
+        - generic [ref=f5e544]:
+          - navigation "Buy" [ref=f5e545]:
+            - paragraph [ref=f5e546]: Buy
+            - list [ref=f5e547]:
+              - listitem [ref=f5e548]:
+                - link "Featured listings" [ref=f5e549] [cursor=pointer]:
+                  - /url: /#listings
+              - listitem [ref=f5e550]:
+                - link "Property types" [ref=f5e551] [cursor=pointer]:
+                  - /url: /#types
+              - listitem [ref=f5e552]:
+                - link "How it works" [ref=f5e553] [cursor=pointer]:
+                  - /url: /#how-it-works
+              - listitem [ref=f5e554]:
+                - link "Schedule a visit" [ref=f5e555] [cursor=pointer]:
+                  - /url: /schedule
+          - navigation "Sell" [ref=f5e556]:
+            - paragraph [ref=f5e557]: Sell
+            - list [ref=f5e558]:
+              - listitem [ref=f5e559]:
+                - link "Free home valuation" [ref=f5e560] [cursor=pointer]:
+                  - /url: /schedule
+              - listitem [ref=f5e561]:
+                - link "Our marketing plan" [ref=f5e562] [cursor=pointer]:
+                  - /url: /#how-it-works
+              - listitem [ref=f5e563]:
+                - link "Seller guide" [ref=f5e564] [cursor=pointer]:
+                  - /url: /#reviews
+          - navigation "Company" [ref=f5e565]:
+            - paragraph [ref=f5e566]: Company
+            - list [ref=f5e567]:
+              - listitem [ref=f5e568]:
+                - link "Our agents" [ref=f5e569] [cursor=pointer]:
+                  - /url: /schedule
+              - listitem [ref=f5e570]:
+                - link "Client reviews" [ref=f5e571] [cursor=pointer]:
+                  - /url: /#reviews
+              - listitem [ref=f5e572]:
+                - link "Careers" [ref=f5e573] [cursor=pointer]:
+                  - /url: /schedule
+        - generic [ref=f5e574]:
+          - paragraph [ref=f5e575]: Talk to an agent
+          - link "hello@havenandco.example" [ref=f5e576] [cursor=pointer]:
+            - /url: mailto:hello@havenandco.example
+          - paragraph [ref=f5e577]: Visit our office
+          - paragraph [ref=f5e578]: 210 Congress Ave, Austin, TX
+          - paragraph [ref=f5e579]: Follow
+          - list [ref=f5e580]:
+            - listitem [ref=f5e581]:
+              - link "Instagram" [ref=f5e582] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f5e583]:
+              - link "LinkedIn" [ref=f5e584] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f5e585]:
+              - link "YouTube" [ref=f5e586] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=f5e587]:
+        - paragraph [ref=f5e588]: © 2026 Haven & Co. Realty
+        - list [ref=f5e589]:
+          - listitem [ref=f5e590]:
+            - link "Privacy" [ref=f5e591] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f5e592]:
+            - link "Terms" [ref=f5e593] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f5e594]:
+            - link "Fair housing" [ref=f5e595] [cursor=pointer]:
+              - /url: "#"
+        - paragraph [ref=f5e596]: Licensed brokerage. Equal housing opportunity.
+    - generic [ref=f5e597]:
+      - paragraph [aria-hidden]:
+        - generic: H
+        - generic: a
+        - generic: v
+        - generic: e
+        - generic: "n"
+        - generic: "&"
+        - generic: C
+        - generic: o
+        - generic: .
+  - alert [ref=f5e599]

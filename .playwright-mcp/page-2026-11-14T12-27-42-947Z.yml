@@ -1,0 +1,249 @@
+- generic [active] [ref=f6e1]:
+  - banner:
+    - navigation [ref=f6e2]:
+      - generic [ref=f6e3]:
+        - generic [ref=f6e4]:
+          - link "Haven & Co." [ref=f6e5] [cursor=pointer]:
+            - /url: /
+          - list [ref=f6e11]:
+            - listitem [ref=f6e12]:
+              - link "Listings" [ref=f6e13] [cursor=pointer]:
+                - /url: /#listings
+            - listitem [ref=f6e14]:
+              - link "Property types" [ref=f6e15] [cursor=pointer]:
+                - /url: /#types
+            - listitem [ref=f6e16]:
+              - link "How it works" [ref=f6e17] [cursor=pointer]:
+                - /url: /#how-it-works
+            - listitem [ref=f6e18]:
+              - link "Reviews" [ref=f6e19] [cursor=pointer]:
+                - /url: /#reviews
+        - generic [ref=f6e21]:
+          - link "Call us" [ref=f6e22] [cursor=pointer]:
+            - /url: tel:+15550142200
+          - link "Book a visit" [ref=f6e23] [cursor=pointer]:
+            - /url: /schedule
+  - main [ref=f6e24]:
+    - navigation "Breadcrumb" [ref=f6e25]:
+      - list [ref=f6e26]:
+        - listitem [ref=f6e27]:
+          - link "Home" [ref=f6e28] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f6e31]:
+          - link "Listings" [ref=f6e32] [cursor=pointer]:
+            - /url: /#listings
+        - listitem [ref=f6e35]: Harborview Modern Villa
+    - generic [ref=f6e37]:
+      - generic [ref=f6e38]:
+        - generic [ref=f6e39]:
+          - generic [ref=f6e40] [cursor=pointer]:
+            - img "Harborview Modern Villa — photo 1" [ref=f6e41]
+            - generic: Click to expand
+            - generic [ref=f6e42]: For sale
+            - button "Save property" [ref=f6e43]
+            - button "Previous Image" [ref=f6e46]
+            - button "Next Image" [ref=f6e49]
+            - generic [ref=f6e52]:
+              - button "Show photo 1" [ref=f6e53]
+              - button "Show photo 2" [ref=f6e54]
+              - button "Show photo 3" [ref=f6e55]
+              - button "Show photo 4" [ref=f6e56]
+          - generic [ref=f6e57]:
+            - button [ref=f6e58]
+            - button [ref=f6e59]
+            - button [ref=f6e60]
+            - button [ref=f6e61]
+        - generic [ref=f6e62]:
+          - generic [ref=f6e63]:
+            - generic [ref=f6e64]:
+              - generic [ref=f6e65]: Featured
+              - generic [ref=f6e77]: "4.8"
+              - generic [ref=f6e78]: (126 neighbourhood reviews)
+            - heading "Harborview Modern Villa" [level=1] [ref=f6e79]
+            - paragraph [ref=f6e80]: 48 Lakeshore Drive, Austin, TX
+            - paragraph [ref=f6e84]: A light-filled modern villa with double-height ceilings, a chef's kitchen and a heated pool, set on a quiet lakeside street ten minutes from downtown.
+          - generic [ref=f6e85]:
+            - generic [ref=f6e86]: $1,285,000
+            - generic [ref=f6e87]: $1,350,000
+            - generic [ref=f6e88]: Price reduced
+          - generic [ref=f6e89]:
+            - generic [ref=f6e90]:
+              - text: Bedrooms
+              - paragraph [ref=f6e91]: "5"
+            - generic [ref=f6e92]:
+              - text: Bathrooms
+              - paragraph [ref=f6e93]: "4"
+            - generic [ref=f6e94]:
+              - text: Living area
+              - paragraph [ref=f6e95]: 3,850 sqft
+            - generic [ref=f6e96]:
+              - text: Property type
+              - paragraph [ref=f6e97]: Villa
+          - generic [ref=f6e98]: "High demand: 4 viewings already booked this week."
+          - generic [ref=f6e102]:
+            - link "Schedule a visit" [ref=f6e103] [cursor=pointer]:
+              - /url: /schedule
+            - link "Call agent" [ref=f6e107] [cursor=pointer]:
+              - /url: tel:+15550142200
+          - generic [ref=f6e110]:
+            - generic [ref=f6e111]: Verified title
+            - generic [ref=f6e115]: No hidden fees
+            - generic [ref=f6e119]: Free reschedule
+      - generic [ref=f6e123]:
+        - generic [ref=f6e124]:
+          - button "Property details" [ref=f6e125]
+          - button "Amenities" [ref=f6e126]
+          - button "Neighbourhood" [ref=f6e127]
+        - generic [ref=f6e128]:
+          - generic [ref=f6e129]:
+            - text: Year built
+            - paragraph [ref=f6e130]: "2021"
+          - generic [ref=f6e131]:
+            - text: Lot size
+            - paragraph [ref=f6e132]: 0.42 acres
+          - generic [ref=f6e133]:
+            - text: Parking
+            - paragraph [ref=f6e134]: 3-car garage
+          - generic [ref=f6e135]:
+            - text: Price per sqft
+            - paragraph [ref=f6e136]: $334
+    - generic [ref=f6e138]:
+      - heading "You might also like" [level=2] [ref=f6e139]
+      - list [ref=f6e140]:
+        - listitem [ref=f6e141]:
+          - link "Oakline Family Residence, house in Denver, CO New $689,000 House Oakline Family Residence 12 Oakline Court, Denver, CO 4 bd 3 ba 2,640 sqft" [ref=f6e143] [cursor=pointer]:
+            - /url: /properties/oakline-family-residence
+            - generic [ref=f6e144]:
+              - img "Oakline Family Residence, house in Denver, CO" [ref=f6e145]
+              - generic [ref=f6e146]: New
+            - generic [ref=f6e151]:
+              - generic [ref=f6e152]:
+                - paragraph [ref=f6e153]: $689,000
+                - paragraph [ref=f6e154]: House
+              - heading "Oakline Family Residence" [level=3] [ref=f6e155]
+              - paragraph [ref=f6e156]: 12 Oakline Court, Denver, CO
+              - list [ref=f6e160]:
+                - listitem [ref=f6e161]: 4 bd
+                - listitem [ref=f6e165]: 3 ba
+                - listitem [ref=f6e169]: 2,640 sqft
+        - listitem [ref=f6e176]:
+          - link "Skyline Corner Loft, apartment in Chicago, IL Open house Sat $425,000 Apartment Skyline Corner Loft 900 W Wacker, Unit 22B, Chicago, IL 2 bd 2 ba 1,180 sqft" [ref=f6e178] [cursor=pointer]:
+            - /url: /properties/skyline-corner-loft
+            - generic [ref=f6e179]:
+              - img "Skyline Corner Loft, apartment in Chicago, IL" [ref=f6e180]
+              - generic [ref=f6e181]: Open house Sat
+            - generic [ref=f6e186]:
+              - generic [ref=f6e187]:
+                - paragraph [ref=f6e188]: $425,000
+                - paragraph [ref=f6e189]: Apartment
+              - heading "Skyline Corner Loft" [level=3] [ref=f6e190]
+              - paragraph [ref=f6e191]: 900 W Wacker, Unit 22B, Chicago, IL
+              - list [ref=f6e195]:
+                - listitem [ref=f6e196]: 2 bd
+                - listitem [ref=f6e200]: 2 ba
+                - listitem [ref=f6e204]: 1,180 sqft
+        - listitem [ref=f6e211]:
+          - link "Maple Court Townhome, townhouse in Raleigh, NC Price reduced $539,000 Townhouse Maple Court Townhome 7 Maple Court, Raleigh, NC 3 bd 3 ba 1,960 sqft" [ref=f6e213] [cursor=pointer]:
+            - /url: /properties/maple-court-townhome
+            - generic [ref=f6e214]:
+              - img "Maple Court Townhome, townhouse in Raleigh, NC" [ref=f6e215]
+              - generic [ref=f6e216]: Price reduced
+            - generic [ref=f6e221]:
+              - generic [ref=f6e222]:
+                - paragraph [ref=f6e223]: $539,000
+                - paragraph [ref=f6e224]: Townhouse
+              - heading "Maple Court Townhome" [level=3] [ref=f6e225]
+              - paragraph [ref=f6e226]: 7 Maple Court, Raleigh, NC
+              - list [ref=f6e230]:
+                - listitem [ref=f6e231]: 3 bd
+                - listitem [ref=f6e235]: 3 ba
+                - listitem [ref=f6e239]: 1,960 sqft
+  - contentinfo [ref=f6e247]:
+    - generic [ref=f6e248]:
+      - generic [ref=f6e249]:
+        - generic [ref=f6e250]:
+          - link "Haven & Co." [ref=f6e251] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f6e258]: A boutique real estate agency helping families, first-time buyers and investors find the right home, from the first tour to the day you get the keys.
+        - generic [ref=f6e259]:
+          - navigation "Buy" [ref=f6e260]:
+            - paragraph [ref=f6e261]: Buy
+            - list [ref=f6e262]:
+              - listitem [ref=f6e263]:
+                - link "Featured listings" [ref=f6e264] [cursor=pointer]:
+                  - /url: /#listings
+              - listitem [ref=f6e265]:
+                - link "Property types" [ref=f6e266] [cursor=pointer]:
+                  - /url: /#types
+              - listitem [ref=f6e267]:
+                - link "How it works" [ref=f6e268] [cursor=pointer]:
+                  - /url: /#how-it-works
+              - listitem [ref=f6e269]:
+                - link "Schedule a visit" [ref=f6e270] [cursor=pointer]:
+                  - /url: /schedule
+          - navigation "Sell" [ref=f6e271]:
+            - paragraph [ref=f6e272]: Sell
+            - list [ref=f6e273]:
+              - listitem [ref=f6e274]:
+                - link "Free home valuation" [ref=f6e275] [cursor=pointer]:
+                  - /url: /schedule
+              - listitem [ref=f6e276]:
+                - link "Our marketing plan" [ref=f6e277] [cursor=pointer]:
+                  - /url: /#how-it-works
+              - listitem [ref=f6e278]:
+                - link "Seller guide" [ref=f6e279] [cursor=pointer]:
+                  - /url: /#reviews
+          - navigation "Company" [ref=f6e280]:
+            - paragraph [ref=f6e281]: Company
+            - list [ref=f6e282]:
+              - listitem [ref=f6e283]:
+                - link "Our agents" [ref=f6e284] [cursor=pointer]:
+                  - /url: /schedule
+              - listitem [ref=f6e285]:
+                - link "Client reviews" [ref=f6e286] [cursor=pointer]:
+                  - /url: /#reviews
+              - listitem [ref=f6e287]:
+                - link "Careers" [ref=f6e288] [cursor=pointer]:
+                  - /url: /schedule
+        - generic [ref=f6e289]:
+          - paragraph [ref=f6e290]: Talk to an agent
+          - link "hello@havenandco.example" [ref=f6e291] [cursor=pointer]:
+            - /url: mailto:hello@havenandco.example
+          - paragraph [ref=f6e292]: Visit our office
+          - paragraph [ref=f6e293]: 210 Congress Ave, Austin, TX
+          - paragraph [ref=f6e294]: Follow
+          - list [ref=f6e295]:
+            - listitem [ref=f6e296]:
+              - link "Instagram" [ref=f6e297] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f6e298]:
+              - link "LinkedIn" [ref=f6e299] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f6e300]:
+              - link "YouTube" [ref=f6e301] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=f6e302]:
+        - paragraph [ref=f6e303]: © 2026 Haven & Co. Realty
+        - list [ref=f6e304]:
+          - listitem [ref=f6e305]:
+            - link "Privacy" [ref=f6e306] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f6e307]:
+            - link "Terms" [ref=f6e308] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f6e309]:
+            - link "Fair housing" [ref=f6e310] [cursor=pointer]:
+              - /url: "#"
+        - paragraph [ref=f6e311]: Licensed brokerage. Equal housing opportunity.
+    - generic [ref=f6e312]:
+      - paragraph [aria-hidden]:
+        - generic: H
+        - generic: a
+        - generic: v
+        - generic: e
+        - generic: "n"
+        - generic: "&"
+        - generic: C
+        - generic: o
+        - generic: .
+  - alert [ref=f6e314]
