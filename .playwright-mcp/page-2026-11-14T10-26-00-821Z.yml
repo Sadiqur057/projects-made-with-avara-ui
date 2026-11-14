@@ -1,0 +1,663 @@
+- generic [active] [ref=f2e1]:
+  - banner:
+    - navigation [ref=f2e2]:
+      - generic [ref=f2e3]:
+        - generic [ref=f2e4]:
+          - link "Ember & Oak" [ref=f2e5] [cursor=pointer]:
+            - /url: /
+          - list [ref=f2e10]:
+            - listitem [ref=f2e11]:
+              - link "Dishes" [ref=f2e12] [cursor=pointer]:
+                - /url: /#dishes
+            - listitem [ref=f2e13]:
+              - link "Our Story" [ref=f2e14] [cursor=pointer]:
+                - /url: /#story
+            - listitem [ref=f2e15]:
+              - link "Chef's Special" [ref=f2e16] [cursor=pointer]:
+                - /url: /#special
+            - listitem [ref=f2e17]:
+              - link "Reviews" [ref=f2e18] [cursor=pointer]:
+                - /url: /#reviews
+            - listitem [ref=f2e19]:
+              - link "Visit" [ref=f2e20] [cursor=pointer]:
+                - /url: /#visit
+        - generic [ref=f2e22]:
+          - link "(212) 555-0142" [ref=f2e23] [cursor=pointer]:
+            - /url: tel:+12125550142
+          - link "Reserve a Table" [ref=f2e24] [cursor=pointer]:
+            - /url: /reserve
+  - main [ref=f2e25]:
+    - generic [ref=f2e33]:
+      - generic [ref=f2e34]:
+        - generic [ref=f2e35]: Wood-fired fine dining · Brooklyn
+        - heading [level=1] [ref=f2e38]:
+          - generic [ref=f2e39]: Where fire meetsfine dining
+          - generic [ref=f2e41]:
+            - generic [ref=f2e42]: Where fire meets fine dining
+            - generic [ref=f2e43]: An evening worth dressing for
+            - generic [ref=f2e44]: Pour something unforgettable
+            - generic [ref=f2e45]: Finish with something sweet
+      - generic [ref=f2e46]:
+        - generic [ref=f2e47]:
+          - generic [ref=f2e48]:
+            - generic [ref=f2e49]:
+              - img "Guest 1" [ref=f2e53] [cursor=pointer]
+              - img "Guest 2" [ref=f2e57] [cursor=pointer]
+              - img "Guest 3" [ref=f2e61] [cursor=pointer]
+              - img "Guest 4" [ref=f2e65] [cursor=pointer]
+              - generic [ref=f2e66] [cursor=pointer]: "+1"
+            - generic [ref=f2e69]: 12,000+ guests this year
+          - paragraph [ref=f2e70]: Seasonal tasting menus cooked over live oak, served in a candlelit room. Tuesday to Sunday, from 5:30 pm.
+          - link "Reserve a table" [ref=f2e71] [cursor=pointer]:
+            - /url: /reserve
+        - group "Experiences" [ref=f2e813]:
+          - button "The oak-ember tasting menu (showing)" [ref=f2e814]:
+            - img "A plated course set on a candlelit table" [ref=f2e815]
+          - button "Show The dining room" [ref=f2e820] [cursor=pointer]:
+            - img "The Ember & Oak dining room with set tables and warm lighting" [ref=f2e821]
+          - button "Show Smoked cocktails & cellar" [ref=f2e824] [cursor=pointer]:
+            - img "A smoked old fashioned being poured over a large ice sphere" [ref=f2e825]
+          - button "Show Pastry, made every morning" [ref=f2e828] [cursor=pointer]:
+            - img "A raspberry mille-feuille on a dark plate" [ref=f2e829]
+          - generic [ref=f2e832]:
+            - generic [ref=f2e833]:
+              - paragraph [ref=f2e834]: The oak-ember tasting menu
+              - paragraph [ref=f2e835]: Seven courses cooked over live oak and cherrywood, one plate at a time.
+            - generic [aria-hidden] [ref=f2e836]:
+              - paragraph [ref=f2e837]: The dining room
+              - paragraph [ref=f2e838]: Candlelit tables, an open hearth and room for forty-eight guests.
+            - generic [aria-hidden] [ref=f2e839]:
+              - paragraph [ref=f2e840]: Smoked cocktails & cellar
+              - paragraph [ref=f2e841]: An oak-barrel bar programme beside a cellar of 420 labels.
+            - generic [aria-hidden] [ref=f2e842]:
+              - paragraph [ref=f2e843]: Pastry, made every morning
+              - paragraph [ref=f2e844]: Finish with caramelised layers, oak-smoked cream and fresh raspberries.
+          - generic [ref=f2e845]: "Slide 1 of 4: The oak-ember tasting menu"
+    - generic [ref=f2e77]:
+      - generic [ref=f2e79]:
+        - paragraph [ref=f2e80]: Signature dishes
+        - heading "Cooked over fire, plated with patience" [level=2] [ref=f2e81]
+        - paragraph [ref=f2e82]: Six plates that have stayed on the menu through every season, each finished on the oak hearth in the middle of our kitchen.
+      - list [ref=f2e83]:
+        - listitem [ref=f2e84]:
+          - article [ref=f2e86]:
+            - generic [ref=f2e87]:
+              - img "Oak-Fired Wagyu Striploin" [ref=f2e88]
+              - generic [ref=f2e89]: House signature
+            - generic [ref=f2e90]:
+              - heading "Oak-Fired Wagyu Striploin" [level=3] [ref=f2e91]
+              - paragraph [ref=f2e92]: $62
+            - paragraph [ref=f2e93]: A5 striploin seared over live oak, black garlic jus, charred shallot, wild cress.
+        - listitem [ref=f2e94]:
+          - article [ref=f2e96]:
+            - generic [ref=f2e97]:
+              - img "Cedar-Plank Salmon" [ref=f2e98]
+              - generic [ref=f2e99]: From the hearth
+            - generic [ref=f2e100]:
+              - heading "Cedar-Plank Salmon" [level=3] [ref=f2e101]
+              - paragraph [ref=f2e102]: $44
+            - paragraph [ref=f2e103]: Line-caught salmon smoked on cedar, heirloom tomato salsa, brown butter hollandaise.
+        - listitem [ref=f2e104]:
+          - article [ref=f2e106]:
+            - generic [ref=f2e107]:
+              - img "Smoked Apple Pork Chop" [ref=f2e108]
+              - generic [ref=f2e109]: Seasonal
+            - generic [ref=f2e110]:
+              - heading "Smoked Apple Pork Chop" [level=3] [ref=f2e111]
+              - paragraph [ref=f2e112]: $48
+            - paragraph [ref=f2e113]: Heritage pork rested on hay ash, roasted apple, sage and a cider reduction.
+        - listitem [ref=f2e114]:
+          - article [ref=f2e116]:
+            - generic [ref=f2e117]:
+              - img "Lacquered Short Rib" [ref=f2e118]
+              - generic [ref=f2e119]: Chef's pick
+            - generic [ref=f2e120]:
+              - heading "Lacquered Short Rib" [level=3] [ref=f2e121]
+              - paragraph [ref=f2e122]: $52
+            - paragraph [ref=f2e123]: Twelve-hour braise glazed in maple and smoked chilli, pickled radish, bone marrow.
+        - listitem [ref=f2e124]:
+          - article [ref=f2e126]:
+            - generic [ref=f2e127]:
+              - img "Ember Garden Plate" [ref=f2e128]
+              - generic [ref=f2e129]: Vegetarian
+            - generic [ref=f2e130]:
+              - heading "Ember Garden Plate" [level=3] [ref=f2e131]
+              - paragraph [ref=f2e132]: $28
+            - paragraph [ref=f2e133]: Cinder-roasted leeks, brown butter emulsion, toasted hazelnut, garden herbs.
+        - listitem [ref=f2e134]:
+          - article [ref=f2e136]:
+            - generic [ref=f2e137]:
+              - img "Raspberry Oak Mille-Feuille" [ref=f2e138]
+              - generic [ref=f2e139]: To finish
+            - generic [ref=f2e140]:
+              - heading "Raspberry Oak Mille-Feuille" [level=3] [ref=f2e141]
+              - paragraph [ref=f2e142]: $17
+            - paragraph [ref=f2e143]: Layers of caramelised pastry, oak-smoked cream and fresh raspberries.
+    - generic [ref=f2e145]:
+      - generic [ref=f2e147]:
+        - img "The Ember & Oak dining room" [ref=f2e148]
+        - generic [ref=f2e149]:
+          - img "A cook preparing fresh herbs with a knife" [ref=f2e150]
+          - img "The bar at Ember & Oak" [ref=f2e151]
+      - generic [ref=f2e152]:
+        - generic [ref=f2e153]:
+          - paragraph [ref=f2e154]: Our story
+          - 'heading "One hearth, one rule: cook with what the season gives" [level=2] [ref=f2e155]'
+        - generic [ref=f2e156]:
+          - paragraph [ref=f2e157]: "Ember & Oak began in 2014 with a salvaged oak table, a hand-built hearth and a simple idea: fire is the oldest way to cook, and still the most honest. Chef Elias Moreau learned it in the farmhouse kitchens of his grandparents’ village, and brought it to a Brooklyn corner with a tiny menu and eleven seats."
+          - paragraph [ref=f2e158]: Today the room seats forty-eight, but the rule has not changed. We burn only oak and cherrywood, buy from twelve farms within a hundred miles, and let the menu change when the weather does.
+        - figure "Chef Elias Moreau, founder" [ref=f2e159]:
+          - blockquote [ref=f2e160]: “Fire doesn’t hide anything. That is why we love it.”
+        - generic [ref=f2e162]:
+          - generic [ref=f2e163]:
+            - term [ref=f2e164]: Lit our first fire
+            - definition [ref=f2e165]: "2014"
+            - paragraph [ref=f2e166]: Lit our first fire
+          - generic [ref=f2e167]:
+            - term [ref=f2e168]: Local farms we cook with
+            - definition [ref=f2e169]: "12"
+            - paragraph [ref=f2e170]: Local farms we cook with
+          - generic [ref=f2e171]:
+            - term [ref=f2e172]: Labels in the cellar
+            - definition [ref=f2e173]: "420"
+            - paragraph [ref=f2e174]: Labels in the cellar
+    - generic [ref=f2e269]:
+      - generic [ref=f2e270]:
+        - generic [ref=f2e271]: Chef's special · Tuesday to Thursday
+        - heading "The Chef's Autumn Tasting" [level=2] [ref=f2e274]
+        - paragraph [ref=f2e275]: Five courses from Chef Elias, cooked over oak, with a matched glass of wine for every plate. Available Tuesday to Thursday until the end of December.
+      - generic [ref=f2e276]:
+        - generic [ref=f2e277]:
+          - generic [ref=f2e278]: $
+          - generic [ref=f2e279]: "128"
+          - generic [ref=f2e280]: per guest
+        - generic [ref=f2e281]:
+          - generic [ref=f2e282]: $165
+          - generic [ref=f2e283]: Save $37
+        - link "Reserve the tasting" [ref=f2e284] [cursor=pointer]:
+          - /url: /reserve
+        - paragraph [ref=f2e288]: Parties of 2–6 · Booked in advance · Dietary needs welcome
+    - generic [ref=f2e291]:
+      - generic [ref=f2e292]:
+        - generic [ref=f2e293]: Client Testimonials
+        - heading "Words from the table" [level=2] [ref=f2e296]
+        - paragraph [ref=f2e297]: Critics, writers and regulars on an evening at Ember & Oak.
+      - generic [ref=f2e299]:
+        - generic [ref=f2e300]:
+          - generic [ref=f2e301]: T
+          - generic [ref=f2e302]: The Daily Plate
+        - generic [ref=f2e303]:
+          - generic [ref=f2e304]: G
+          - generic [ref=f2e305]: Gazette Gourmand
+        - generic [ref=f2e306]:
+          - generic [ref=f2e307]: C
+          - generic [ref=f2e308]: Cork & Hearth
+        - generic [ref=f2e309]:
+          - generic [ref=f2e310]: T
+          - generic [ref=f2e311]: Table Notes
+        - generic [ref=f2e312]:
+          - generic [ref=f2e313]: S
+          - generic [ref=f2e314]: Savory Quarterly
+        - generic [ref=f2e315]:
+          - generic [ref=f2e316]: T
+          - generic [ref=f2e317]: The Daily Plate
+        - generic [ref=f2e318]:
+          - generic [ref=f2e319]: G
+          - generic [ref=f2e320]: Gazette Gourmand
+        - generic [ref=f2e321]:
+          - generic [ref=f2e322]: C
+          - generic [ref=f2e323]: Cork & Hearth
+        - generic [ref=f2e324]:
+          - generic [ref=f2e325]: T
+          - generic [ref=f2e326]: Table Notes
+        - generic [ref=f2e327]:
+          - generic [ref=f2e328]: S
+          - generic [ref=f2e329]: Savory Quarterly
+        - generic [ref=f2e330]:
+          - generic [ref=f2e331]: T
+          - generic [ref=f2e332]: The Daily Plate
+        - generic [ref=f2e333]:
+          - generic [ref=f2e334]: G
+          - generic [ref=f2e335]: Gazette Gourmand
+        - generic [ref=f2e336]:
+          - generic [ref=f2e337]: C
+          - generic [ref=f2e338]: Cork & Hearth
+        - generic [ref=f2e339]:
+          - generic [ref=f2e340]: T
+          - generic [ref=f2e341]: Table Notes
+        - generic [ref=f2e342]:
+          - generic [ref=f2e343]: S
+          - generic [ref=f2e344]: Savory Quarterly
+        - generic [ref=f2e345]:
+          - generic [ref=f2e346]: T
+          - generic [ref=f2e347]: The Daily Plate
+        - generic [ref=f2e348]:
+          - generic [ref=f2e349]: G
+          - generic [ref=f2e350]: Gazette Gourmand
+        - generic [ref=f2e351]:
+          - generic [ref=f2e352]: C
+          - generic [ref=f2e353]: Cork & Hearth
+        - generic [ref=f2e354]:
+          - generic [ref=f2e355]: T
+          - generic [ref=f2e356]: Table Notes
+        - generic [ref=f2e357]:
+          - generic [ref=f2e358]: S
+          - generic [ref=f2e359]: Savory Quarterly
+      - generic [ref=f2e360]:
+        - button "Go to slide 1" [ref=f2e361] [cursor=pointer]
+        - button "Go to slide 2" [ref=f2e362] [cursor=pointer]
+        - button "Go to slide 3" [ref=f2e363] [cursor=pointer]
+        - button "Go to slide 4" [ref=f2e364] [cursor=pointer]
+        - button "Go to slide 5" [ref=f2e365] [cursor=pointer]
+      - generic [ref=f2e366]:
+        - generic [ref=f2e368]:
+          - paragraph [ref=f2e369]:
+            - generic [ref=f2e370]:
+              - generic [ref=f2e371]:
+                - generic [ref=f2e372]: "\""
+                - generic [ref=f2e373]: T
+                - generic [ref=f2e374]: h
+                - generic [ref=f2e375]: e
+              - generic [ref=f2e376]:
+                - generic [ref=f2e377]: w
+                - generic [ref=f2e378]: a
+                - generic [ref=f2e379]: g
+                - generic [ref=f2e380]: "y"
+                - generic [ref=f2e381]: u
+              - generic [ref=f2e382]:
+                - generic [ref=f2e383]: a
+                - generic [ref=f2e384]: l
+                - generic [ref=f2e385]: o
+                - generic [ref=f2e386]: "n"
+                - generic [ref=f2e387]: e
+              - generic [ref=f2e388]:
+                - generic [ref=f2e389]: i
+                - generic [ref=f2e390]: s
+              - generic [ref=f2e391]:
+                - generic [ref=f2e392]: w
+                - generic [ref=f2e393]: o
+                - generic [ref=f2e394]: r
+                - generic [ref=f2e395]: t
+                - generic [ref=f2e396]: h
+              - generic [ref=f2e397]:
+                - generic [ref=f2e398]: t
+                - generic [ref=f2e399]: h
+                - generic [ref=f2e400]: e
+              - generic [ref=f2e401]:
+                - generic [ref=f2e402]: t
+                - generic [ref=f2e403]: r
+                - generic [ref=f2e404]: i
+                - generic [ref=f2e405]: p
+                - generic [ref=f2e406]: .
+              - generic [ref=f2e407]:
+                - generic [ref=f2e408]: "Y"
+                - generic [ref=f2e409]: o
+                - generic [ref=f2e410]: u
+              - generic [ref=f2e411]:
+                - generic [ref=f2e412]: c
+                - generic [ref=f2e413]: a
+                - generic [ref=f2e414]: "n"
+              - generic [ref=f2e415]:
+                - generic [ref=f2e416]: t
+                - generic [ref=f2e417]: a
+                - generic [ref=f2e418]: s
+                - generic [ref=f2e419]: t
+                - generic [ref=f2e420]: e
+              - generic [ref=f2e421]:
+                - generic [ref=f2e422]: t
+                - generic [ref=f2e423]: h
+                - generic [ref=f2e424]: e
+              - generic [ref=f2e425]:
+                - generic [ref=f2e426]: o
+                - generic [ref=f2e427]: a
+                - generic [ref=f2e428]: k
+              - generic [ref=f2e429]:
+                - generic [ref=f2e430]: i
+                - generic [ref=f2e431]: "n"
+              - generic [ref=f2e432]:
+                - generic [ref=f2e433]: e
+                - generic [ref=f2e434]: v
+                - generic [ref=f2e435]: e
+                - generic [ref=f2e436]: r
+                - generic [ref=f2e437]: "y"
+              - generic [ref=f2e438]:
+                - generic [ref=f2e439]: b
+                - generic [ref=f2e440]: i
+                - generic [ref=f2e441]: t
+                - generic [ref=f2e442]: e
+                - generic [ref=f2e443]: ","
+              - generic [ref=f2e444]:
+                - generic [ref=f2e445]: a
+                - generic [ref=f2e446]: "n"
+                - generic [ref=f2e447]: d
+              - generic [ref=f2e448]:
+                - generic [ref=f2e449]: t
+                - generic [ref=f2e450]: h
+                - generic [ref=f2e451]: e
+              - generic [ref=f2e452]:
+                - generic [ref=f2e453]: s
+                - generic [ref=f2e454]: e
+                - generic [ref=f2e455]: r
+                - generic [ref=f2e456]: v
+                - generic [ref=f2e457]: i
+                - generic [ref=f2e458]: c
+                - generic [ref=f2e459]: e
+              - generic [ref=f2e460]:
+                - generic [ref=f2e461]: m
+                - generic [ref=f2e462]: o
+                - generic [ref=f2e463]: v
+                - generic [ref=f2e464]: e
+                - generic [ref=f2e465]: s
+              - generic [ref=f2e466]:
+                - generic [ref=f2e467]: l
+                - generic [ref=f2e468]: i
+                - generic [ref=f2e469]: k
+                - generic [ref=f2e470]: e
+              - generic [ref=f2e471]: a
+              - generic [ref=f2e473]:
+                - generic [ref=f2e474]: q
+                - generic [ref=f2e475]: u
+                - generic [ref=f2e476]: i
+                - generic [ref=f2e477]: e
+                - generic [ref=f2e478]: t
+              - generic [ref=f2e479]:
+                - generic [ref=f2e480]: p
+                - generic [ref=f2e481]: i
+                - generic [ref=f2e482]: e
+                - generic [ref=f2e483]: c
+                - generic [ref=f2e484]: e
+              - generic [ref=f2e485]:
+                - generic [ref=f2e486]: o
+                - generic [ref=f2e487]: f
+              - generic [ref=f2e488]:
+                - generic [ref=f2e489]: t
+                - generic [ref=f2e490]: h
+                - generic [ref=f2e491]: e
+                - generic [ref=f2e492]: a
+                - generic [ref=f2e493]: t
+                - generic [ref=f2e494]: r
+                - generic [ref=f2e495]: e
+                - generic [ref=f2e496]: .
+                - generic [ref=f2e497]: "\""
+          - generic [ref=f2e498]:
+            - heading "Tamar Mendelson" [level=3] [ref=f2e499]
+            - paragraph [ref=f2e500]: Restaurant Critic, The Daily Plate
+        - img "Tamar Mendelson" [ref=f2e503]
+      - generic [ref=f2e504]:
+        - button "Previous review" [ref=f2e505] [cursor=pointer]
+        - button "Next review" [ref=f2e508] [cursor=pointer]
+    - generic [ref=f2e515]:
+      - heading "Letters from the hearth" [level=2] [ref=f2e517]
+      - paragraph [ref=f2e519]: "One short note when the menu turns: new dishes, wine dinners and early access to tables. No spam, leave anytime."
+      - generic [ref=f2e522]:
+        - textbox "Email address" [ref=f2e526]:
+          - /placeholder: you@email.com
+        - button "Join the list" [ref=f2e527] [cursor=pointer]
+      - generic [ref=f2e533]:
+        - generic [aria-hidden] [ref=f2e536]: +
+        - generic [ref=f2e537]: 3,800 guests read the letter
+      - generic [ref=f2e539]:
+        - generic [ref=f2e540]:
+          - generic [ref=f2e541]:
+            - generic [ref=f2e542]: Iris
+            - text: joined
+            - generic [ref=f2e543]: · just now
+          - generic [ref=f2e544]:
+            - generic [ref=f2e545]: Ben
+            - text: joined
+            - generic [ref=f2e546]: · 2 min ago
+          - generic [ref=f2e547]:
+            - generic [ref=f2e548]: O
+            - generic [ref=f2e549]: Omar
+            - text: joined
+            - generic [ref=f2e550]: · 15 min ago
+          - generic [ref=f2e551]:
+            - generic [ref=f2e552]: Lucia
+            - text: joined
+            - generic [ref=f2e553]: · 1 hr ago
+          - generic [ref=f2e554]:
+            - generic [ref=f2e555]: "N"
+            - generic [ref=f2e556]: Noah
+            - text: joined
+            - generic [ref=f2e557]: · 3 hr ago
+        - generic [aria-hidden] [ref=f2e558]:
+          - generic [ref=f2e559]:
+            - generic [ref=f2e560]: Iris
+            - text: joined
+            - generic [ref=f2e561]: · just now
+          - generic [ref=f2e562]:
+            - generic [ref=f2e563]: Ben
+            - text: joined
+            - generic [ref=f2e564]: · 2 min ago
+          - generic [ref=f2e565]:
+            - generic [ref=f2e566]: O
+            - generic [ref=f2e567]: Omar
+            - text: joined
+            - generic [ref=f2e568]: · 15 min ago
+          - generic [ref=f2e569]:
+            - generic [ref=f2e570]: Lucia
+            - text: joined
+            - generic [ref=f2e571]: · 1 hr ago
+          - generic [ref=f2e572]:
+            - generic [ref=f2e573]: "N"
+            - generic [ref=f2e574]: Noah
+            - text: joined
+            - generic [ref=f2e575]: · 3 hr ago
+        - generic [aria-hidden] [ref=f2e576]:
+          - generic [ref=f2e577]:
+            - generic [ref=f2e578]: Iris
+            - text: joined
+            - generic [ref=f2e579]: · just now
+          - generic [ref=f2e580]:
+            - generic [ref=f2e581]: Ben
+            - text: joined
+            - generic [ref=f2e582]: · 2 min ago
+          - generic [ref=f2e583]:
+            - generic [ref=f2e584]: O
+            - generic [ref=f2e585]: Omar
+            - text: joined
+            - generic [ref=f2e586]: · 15 min ago
+          - generic [ref=f2e587]:
+            - generic [ref=f2e588]: Lucia
+            - text: joined
+            - generic [ref=f2e589]: · 1 hr ago
+          - generic [ref=f2e590]:
+            - generic [ref=f2e591]: "N"
+            - generic [ref=f2e592]: Noah
+            - text: joined
+            - generic [ref=f2e593]: · 3 hr ago
+        - generic [aria-hidden] [ref=f2e594]:
+          - generic [ref=f2e595]:
+            - generic [ref=f2e596]: Iris
+            - text: joined
+            - generic [ref=f2e597]: · just now
+          - generic [ref=f2e598]:
+            - generic [ref=f2e599]: Ben
+            - text: joined
+            - generic [ref=f2e600]: · 2 min ago
+          - generic [ref=f2e601]:
+            - generic [ref=f2e602]: O
+            - generic [ref=f2e603]: Omar
+            - text: joined
+            - generic [ref=f2e604]: · 15 min ago
+          - generic [ref=f2e605]:
+            - generic [ref=f2e606]: Lucia
+            - text: joined
+            - generic [ref=f2e607]: · 1 hr ago
+          - generic [ref=f2e608]:
+            - generic [ref=f2e609]: "N"
+            - generic [ref=f2e610]: Noah
+            - text: joined
+            - generic [ref=f2e611]: · 3 hr ago
+  - contentinfo [ref=f2e613]:
+    - generic [ref=f2e614]:
+      - generic [ref=f2e616]:
+        - generic [ref=f2e617]:
+          - heading "Come hungry. Stay for the fire." [level=2] [ref=f2e618]:
+            - generic [ref=f2e619]: Come
+            - generic [ref=f2e620]: hungry.
+            - generic [ref=f2e621]: Stay
+            - generic [ref=f2e622]: for
+            - generic [ref=f2e623]: the
+            - generic [ref=f2e624]: fire.
+          - paragraph [ref=f2e625]: Find us on a quiet corner of Brooklyn. Tables are set for dinner Tuesday to Sunday; walk-ins are welcome at the bar, and everything else is best reserved ahead.
+        - generic [ref=f2e626]:
+          - generic [ref=f2e630] [cursor=pointer]:
+            - generic [ref=f2e631]:
+              - generic [ref=f2e632]:
+                - generic [ref=f2e633]: OPENING HOURS
+                - generic [ref=f2e636]: Dinner
+              - generic [ref=f2e637]:
+                - heading "Dinner Service" [level=4] [ref=f2e638]
+                - paragraph [ref=f2e639]: Tue – Thu · 5:30 – 10:00 pm
+                - paragraph [ref=f2e640]: Fri – Sat · 5:30 – 11:00 pm
+                - paragraph [ref=f2e641]: Sunday · 5:00 – 9:00 pm
+            - generic [ref=f2e642]:
+              - generic [ref=f2e643]: MONDAY
+              - generic [ref=f2e644]: Closed
+          - generic [ref=f2e648] [cursor=pointer]:
+            - generic [ref=f2e649]:
+              - generic [ref=f2e650]:
+                - generic [ref=f2e651]: RESERVATIONS
+                - generic [ref=f2e654]: Tables of 1–8
+              - generic [ref=f2e655]:
+                - heading "Book Ahead" [level=4] [ref=f2e656]
+                - paragraph [ref=f2e657]: Reserve up to 60 days out,
+                - paragraph [ref=f2e658]: larger parties via private dining,
+                - paragraph [ref=f2e659]: walk-ins welcome at the bar.
+            - generic [ref=f2e660]:
+              - generic [ref=f2e661]: PHONE
+              - generic [ref=f2e662]: (212) 555-0142
+          - generic [ref=f2e665] [cursor=pointer]:
+            - generic [ref=f2e666]:
+              - generic [ref=f2e667]:
+                - generic [ref=f2e668]:
+                  - generic [ref=f2e669]: FIND US
+                  - generic [ref=f2e672]: Brooklyn
+                - generic [ref=f2e673]:
+                  - heading "Ember & Oak" [level=4] [ref=f2e674]
+                  - paragraph [ref=f2e675]: 118 Hearth Lane
+                  - paragraph [ref=f2e676]: Brooklyn, NY 11201
+                  - paragraph [ref=f2e677]: (212) 555-0142
+              - generic [ref=f2e678]:
+                - generic [ref=f2e679]: HOURS
+                - generic [ref=f2e680]: Tue–Sun, from 5:30 pm
+            - generic: see you soon!
+          - generic [ref=f2e684] [cursor=pointer]:
+            - generic [ref=f2e685]:
+              - generic [ref=f2e686]:
+                - generic [ref=f2e687]: PRIVATE DINING
+                - generic [ref=f2e690]: Up to 24
+              - generic [ref=f2e691]:
+                - heading "The Oak Room" [level=4] [ref=f2e692]
+                - paragraph [ref=f2e693]: A candlelit room beside the hearth,
+                - paragraph [ref=f2e694]: set menus for celebrations
+                - paragraph [ref=f2e695]: and company dinners.
+            - generic [ref=f2e696]:
+              - generic [ref=f2e697]: ENQUIRIES
+              - generic [ref=f2e698]: hello@emberandoak.com
+          - generic [ref=f2e702] [cursor=pointer]:
+            - generic [ref=f2e703]:
+              - generic [ref=f2e704]:
+                - generic [ref=f2e705]: CELLAR
+                - generic [ref=f2e708]: 420 labels
+              - generic [ref=f2e709]:
+                - heading "Sommelier's List" [level=4] [ref=f2e710]
+                - paragraph [ref=f2e711]: Small growers and old vintages,
+                - paragraph [ref=f2e712]: an oak-barrel cocktail bar,
+                - paragraph [ref=f2e713]: pairings for every course.
+            - generic [ref=f2e714]:
+              - generic [ref=f2e715]: PAIRING
+              - generic [ref=f2e716]: Optional
+          - generic [ref=f2e720] [cursor=pointer]:
+            - generic [ref=f2e721]:
+              - generic [ref=f2e722]:
+                - generic [ref=f2e723]: KITCHEN
+                - generic [ref=f2e726]: Since 2014
+              - generic [ref=f2e727]:
+                - heading "Wood-Fire Cooking" [level=4] [ref=f2e728]
+                - paragraph [ref=f2e729]: Oak and cherrywood only,
+                - paragraph [ref=f2e730]: twelve local farms,
+                - paragraph [ref=f2e731]: a menu that follows the season.
+            - generic [ref=f2e732]:
+              - generic [ref=f2e733]: NOW SERVING
+              - generic [ref=f2e734]: Autumn menu
+      - generic [ref=f2e737]:
+        - generic [ref=f2e738]:
+          - generic [ref=f2e739]:
+            - link "Ember & Oak" [ref=f2e740] [cursor=pointer]:
+              - /url: "#"
+            - paragraph [ref=f2e751]: Live oak fire.Seasonal tasting menus.Cellar of 420 labels.
+          - navigation "Footer" [ref=f2e752]:
+            - generic [ref=f2e753]:
+              - paragraph [ref=f2e754]: Components
+              - list [ref=f2e755]:
+                - listitem [ref=f2e756]:
+                  - link "Buttons" [ref=f2e757] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e758]:
+                  - link "Bento Grid" [ref=f2e759] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e760]:
+                  - link "Dialog" [ref=f2e761] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e762]:
+                  - link "Carousel" [ref=f2e763] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e764]:
+                  - link "Navigation" [ref=f2e765] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e766]:
+                  - link "Footer" [ref=f2e767] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=f2e768]: New
+                - listitem [ref=f2e769]:
+                  - link "All Catalog" [ref=f2e770] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f2e771]:
+              - paragraph [ref=f2e772]: Resources
+              - list [ref=f2e773]:
+                - listitem [ref=f2e774]:
+                  - link "Documentation" [ref=f2e775] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e776]:
+                  - link "Templates" [ref=f2e777] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e778]:
+                  - link "Changelog" [ref=f2e779] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e780]:
+                  - link "Roadmap" [ref=f2e781] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e782]:
+                  - link "FAQ" [ref=f2e783] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f2e784]:
+              - paragraph [ref=f2e785]: Community
+              - list [ref=f2e786]:
+                - listitem [ref=f2e787]:
+                  - link "GitHub" [ref=f2e788] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e789]:
+                  - link "Discord" [ref=f2e790] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e791]:
+                  - link "X / Twitter" [ref=f2e792] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e793]:
+                  - link "YouTube" [ref=f2e794] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f2e795]:
+                  - link "LinkedIn" [ref=f2e796] [cursor=pointer]:
+                    - /url: "#"
+        - generic [ref=f2e797]:
+          - paragraph [ref=f2e798]: © 2026 Ember & Oak. All rights reserved.
+          - generic [ref=f2e799]:
+            - link "Privacy" [ref=f2e800] [cursor=pointer]:
+              - /url: "#"
+            - link "Terms" [ref=f2e801] [cursor=pointer]:
+              - /url: "#"
+            - link "Allergens" [ref=f2e802] [cursor=pointer]:
+              - /url: "#"
+  - button "Open Next.js Dev Tools" [ref=f2e808] [cursor=pointer]
+  - alert [ref=f2e812]
