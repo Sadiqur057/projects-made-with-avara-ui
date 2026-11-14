@@ -1,0 +1,621 @@
+- generic [active] [ref=f1e1]:
+  - banner:
+    - navigation [ref=f1e2]:
+      - generic [ref=f1e3]:
+        - link "Voltix" [ref=f1e5] [cursor=pointer]:
+          - /url: /
+        - button "Open menu" [ref=f1e11] [cursor=pointer]
+  - main [ref=f1e15]:
+    - generic [ref=f1e18]:
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]:
+          - heading "Next-level tech," [level=1] [ref=f1e21]
+          - generic [ref=f1e22]:
+            - img "Headphones thumbnail" [ref=f1e24]
+            - generic [ref=f1e25]: made easy.
+        - paragraph [ref=f1e27]: Headphones, phones, laptops and smart-home gear from the brands you trust. Genuine products, honest prices and free next-day delivery on every order.
+        - generic [ref=f1e28]:
+          - link "Shop Now" [ref=f1e29] [cursor=pointer]:
+            - /url: /#featured
+          - link "See Flash Sale" [ref=f1e35] [cursor=pointer]:
+            - /url: /#flash-sale
+        - generic [ref=f1e37]:
+          - generic [ref=f1e38]:
+            - paragraph [ref=f1e39]: 100%
+            - generic [ref=f1e40]: Genuine & warrantied products
+          - generic [ref=f1e45]:
+            - paragraph [ref=f1e46]: 98%
+            - generic [ref=f1e47]: Customer satisfaction
+      - generic [ref=f1e51]:
+        - generic [ref=f1e53]:
+          - img "Premium wireless headphones" [ref=f1e56]
+          - generic [ref=f1e57]:
+            - img "Smartphone and smartwatch" [ref=f1e59]
+            - generic [ref=f1e60]:
+              - img "Laptop workstation" [ref=f1e61]
+              - paragraph [ref=f1e63]: Genuine gear. Next-day delivery.
+        - generic [ref=f1e75]:
+          - paragraph [ref=f1e77]: Free Next-Day Delivery
+          - generic [ref=f1e78]:
+            - img "User avatar 1" [ref=f1e79]
+            - img "User avatar 2" [ref=f1e80]
+            - img "User avatar 3" [ref=f1e81]
+            - img "User avatar 4" [ref=f1e82]
+            - img "User avatar 5" [ref=f1e83]
+    - generic [ref=f1e84]:
+      - generic [ref=f1e86]:
+        - generic [ref=f1e87]: Shop by category
+        - heading "Find your next favourite device" [level=2] [ref=f1e88]
+        - paragraph [ref=f1e89]: From everyday earbuds to creator-grade laptops. Pick a category and start browsing.
+      - list [ref=f1e90]:
+        - listitem [ref=f1e91]:
+          - link [ref=f1e92] [cursor=pointer]:
+            - /url: /products/volt-pro-x1-headphones
+            - generic [ref=f1e95]:
+              - heading "Headphones" [level=3] [ref=f1e96]
+              - paragraph [ref=f1e97]: 48 products
+        - listitem [ref=f1e102]:
+          - link [ref=f1e103] [cursor=pointer]:
+            - /url: /products/buds-air-pro
+            - generic [ref=f1e106]:
+              - heading "Earbuds" [level=3] [ref=f1e107]
+              - paragraph [ref=f1e108]: 36 products
+        - listitem [ref=f1e113]:
+          - link [ref=f1e114] [cursor=pointer]:
+            - /url: /products/nova-12-5g-smartphone
+            - generic [ref=f1e117]:
+              - heading "Smartphones" [level=3] [ref=f1e118]
+              - paragraph [ref=f1e119]: 62 products
+        - listitem [ref=f1e124]:
+          - link [ref=f1e125] [cursor=pointer]:
+            - /url: /products/pulse-watch-s2
+            - generic [ref=f1e128]:
+              - heading "Wearables" [level=3] [ref=f1e129]
+              - paragraph [ref=f1e130]: 41 products
+        - listitem [ref=f1e135]:
+          - link [ref=f1e136] [cursor=pointer]:
+            - /url: /products/aero-14-ultrabook
+            - generic [ref=f1e139]:
+              - heading "Laptops" [level=3] [ref=f1e140]
+              - paragraph [ref=f1e141]: 57 products
+        - listitem [ref=f1e146]:
+          - link [ref=f1e147] [cursor=pointer]:
+            - /url: /products/lens-m3-mirrorless-camera
+            - generic [ref=f1e150]:
+              - heading "Cameras" [level=3] [ref=f1e151]
+              - paragraph [ref=f1e152]: 29 products
+        - listitem [ref=f1e157]:
+          - link [ref=f1e158] [cursor=pointer]:
+            - /url: /products/orbit-smart-speaker
+            - generic [ref=f1e161]:
+              - heading "Smart Home" [level=3] [ref=f1e162]
+              - paragraph [ref=f1e163]: 53 products
+        - listitem [ref=f1e168]:
+          - link [ref=f1e169] [cursor=pointer]:
+            - /url: /products/forge-desk-setup-kit
+            - generic [ref=f1e172]:
+              - heading "Accessories" [level=3] [ref=f1e173]
+              - paragraph [ref=f1e174]: 120 products
+    - generic [ref=f1e180]:
+      - generic [ref=f1e181]:
+        - generic [ref=f1e182]:
+          - generic [ref=f1e183]: Featured products
+          - heading "Top picks this week" [level=2] [ref=f1e184]
+          - paragraph [ref=f1e185]: Hand-selected by our team and loved by thousands of customers.
+        - link "View best seller" [ref=f1e186] [cursor=pointer]:
+          - /url: /products/volt-pro-x1-headphones
+      - generic [ref=f1e189]:
+        - article [ref=f1e190]:
+          - generic [ref=f1e191]:
+            - generic [ref=f1e192]: Best Seller
+            - generic [ref=f1e193]: In Stock
+            - button [ref=f1e197]
+            - link "View Volt Pro X1 Wireless Headphones" [ref=f1e201] [cursor=pointer]:
+              - /url: /products/volt-pro-x1-headphones
+              - img "Volt Pro X1 Wireless Headphones" [ref=f1e202]
+          - generic [ref=f1e204]:
+            - generic [ref=f1e205]:
+              - generic [ref=f1e206]: Headphones
+              - generic [ref=f1e207]:
+                - text: "4.9"
+                - generic [ref=f1e210]: (1284)
+            - heading "Volt Pro X1 Wireless Headphones" [level=3] [ref=f1e211]
+          - generic [ref=f1e212]:
+            - generic [ref=f1e213]: $249.00$329.00
+            - generic [ref=f1e214]:
+              - button "Quick View" [ref=f1e215] [cursor=pointer]
+              - button "Add" [ref=f1e219]
+        - article [ref=f1e225]:
+          - generic [ref=f1e226]:
+            - generic [ref=f1e227]: New
+            - generic [ref=f1e228]: In Stock
+            - button [ref=f1e232]
+            - link "View Nova 12 5G Smartphone" [ref=f1e236] [cursor=pointer]:
+              - /url: /products/nova-12-5g-smartphone
+              - img "Nova 12 5G Smartphone" [ref=f1e237]
+          - generic [ref=f1e239]:
+            - generic [ref=f1e240]:
+              - generic [ref=f1e241]: Smartphones
+              - generic [ref=f1e242]:
+                - text: "4.8"
+                - generic [ref=f1e245]: (962)
+            - heading "Nova 12 5G Smartphone" [level=3] [ref=f1e246]
+          - generic [ref=f1e247]:
+            - generic [ref=f1e248]: $699.00$849.00
+            - generic [ref=f1e249]:
+              - button "Quick View" [ref=f1e250] [cursor=pointer]
+              - button "Add" [ref=f1e254]
+        - article [ref=f1e260]:
+          - generic [ref=f1e261]:
+            - generic [ref=f1e262]: "-20%"
+            - generic [ref=f1e263]: In Stock
+            - button [ref=f1e267]
+            - link "View Aero 14 Ultrabook" [ref=f1e271] [cursor=pointer]:
+              - /url: /products/aero-14-ultrabook
+              - img "Aero 14 Ultrabook" [ref=f1e272]
+          - generic [ref=f1e274]:
+            - generic [ref=f1e275]:
+              - generic [ref=f1e276]: Laptops
+              - generic [ref=f1e277]:
+                - text: "4.8"
+                - generic [ref=f1e280]: (418)
+            - heading "Aero 14 Ultrabook" [level=3] [ref=f1e281]
+          - generic [ref=f1e282]:
+            - generic [ref=f1e283]: $1,199.00$1,499.00
+            - generic [ref=f1e284]:
+              - button "Quick View" [ref=f1e285] [cursor=pointer]
+              - button "Add" [ref=f1e289]
+        - article [ref=f1e295]:
+          - generic [ref=f1e296]:
+            - generic [ref=f1e297]: "-34%"
+            - generic [ref=f1e298]: In Stock
+            - button [ref=f1e302]
+            - link "View Buds Air Pro Earbuds" [ref=f1e306] [cursor=pointer]:
+              - /url: /products/buds-air-pro
+              - img "Buds Air Pro Earbuds" [ref=f1e307]
+          - generic [ref=f1e309]:
+            - generic [ref=f1e310]:
+              - generic [ref=f1e311]: Earbuds
+              - generic [ref=f1e312]:
+                - text: "4.6"
+                - generic [ref=f1e315]: (2210)
+            - heading "Buds Air Pro Earbuds" [level=3] [ref=f1e316]
+          - generic [ref=f1e317]:
+            - generic [ref=f1e318]: $99.00$149.00
+            - generic [ref=f1e319]:
+              - button "Quick View" [ref=f1e320] [cursor=pointer]
+              - button "Add" [ref=f1e324]
+    - generic [ref=f1e332]:
+      - generic [ref=f1e333]:
+        - generic [ref=f1e334]: Flash sale
+        - heading "Up to 34% off. Today only." [level=2] [ref=f1e337]
+        - paragraph [ref=f1e338]: Our biggest deals of the week on the gear you actually want. When the timer hits zero, the prices go back up.
+        - timer "Time left in the flash sale" [ref=f1e339]:
+          - generic [ref=f1e340]:
+            - generic [ref=f1e341]: "--"
+            - generic [ref=f1e342]: Hours
+          - generic [aria-hidden] [ref=f1e343]: ":"
+          - generic [ref=f1e344]:
+            - generic [ref=f1e345]: "--"
+            - generic [ref=f1e346]: Mins
+          - generic [aria-hidden] [ref=f1e347]: ":"
+          - generic [ref=f1e348]:
+            - generic [ref=f1e349]: "--"
+            - generic [ref=f1e350]: Secs
+      - list [ref=f1e351]:
+        - listitem [ref=f1e352]:
+          - link "-22% Wearables Pulse Watch S2 $179.00 $229.00 78 78% claimed" [ref=f1e353] [cursor=pointer]:
+            - /url: /products/pulse-watch-s2
+            - generic [ref=f1e354]: "-22%"
+            - generic [ref=f1e356]:
+              - generic [ref=f1e357]:
+                - paragraph [ref=f1e358]: Wearables
+                - heading "Pulse Watch S2" [level=3] [ref=f1e359]
+              - generic [ref=f1e360]:
+                - generic [ref=f1e361]:
+                  - generic [ref=f1e362]: $179.00
+                  - generic [ref=f1e363]: $229.00
+                - generic [ref=f1e364]:
+                  - progressbar "78% claimed" [ref=f1e365]
+                  - paragraph [ref=f1e367]: 78% claimed
+        - listitem [ref=f1e368]:
+          - link "-31% Smart Home Orbit Smart Speaker $89.00 $129.00 64 64% claimed" [ref=f1e369] [cursor=pointer]:
+            - /url: /products/orbit-smart-speaker
+            - generic [ref=f1e370]: "-31%"
+            - generic [ref=f1e372]:
+              - generic [ref=f1e373]:
+                - paragraph [ref=f1e374]: Smart Home
+                - heading "Orbit Smart Speaker" [level=3] [ref=f1e375]
+              - generic [ref=f1e376]:
+                - generic [ref=f1e377]:
+                  - generic [ref=f1e378]: $89.00
+                  - generic [ref=f1e379]: $129.00
+                - generic [ref=f1e380]:
+                  - progressbar "64% claimed" [ref=f1e381]
+                  - paragraph [ref=f1e383]: 64% claimed
+        - listitem [ref=f1e384]:
+          - link "-18% Cameras Lens M3 Mirrorless Camera $899.00 $1,099.00 91 91% claimed" [ref=f1e385] [cursor=pointer]:
+            - /url: /products/lens-m3-mirrorless-camera
+            - generic [ref=f1e386]: "-18%"
+            - generic [ref=f1e388]:
+              - generic [ref=f1e389]:
+                - paragraph [ref=f1e390]: Cameras
+                - heading "Lens M3 Mirrorless Camera" [level=3] [ref=f1e391]
+              - generic [ref=f1e392]:
+                - generic [ref=f1e393]:
+                  - generic [ref=f1e394]: $899.00
+                  - generic [ref=f1e395]: $1,099.00
+                - generic [ref=f1e396]:
+                  - progressbar "91% claimed" [ref=f1e397]
+                  - paragraph [ref=f1e399]: 91% claimed
+        - listitem [ref=f1e400]:
+          - link "-27% Accessories Forge Desk Setup Kit $159.00 $219.00 52 52% claimed" [ref=f1e401] [cursor=pointer]:
+            - /url: /products/forge-desk-setup-kit
+            - generic [ref=f1e402]: "-27%"
+            - generic [ref=f1e404]:
+              - generic [ref=f1e405]:
+                - paragraph [ref=f1e406]: Accessories
+                - heading "Forge Desk Setup Kit" [level=3] [ref=f1e407]
+              - generic [ref=f1e408]:
+                - generic [ref=f1e409]:
+                  - generic [ref=f1e410]: $159.00
+                  - generic [ref=f1e411]: $219.00
+                - generic [ref=f1e412]:
+                  - progressbar "52% claimed" [ref=f1e413]
+                  - paragraph [ref=f1e415]: 52% claimed
+    - generic [ref=f1e416]:
+      - generic [ref=f1e418]:
+        - generic [ref=f1e419]: Why choose Voltix
+        - heading "Tech shopping without the guesswork" [level=2] [ref=f1e420]
+        - paragraph [ref=f1e421]: We built Voltix to take the risk out of buying electronics online.
+      - list [ref=f1e422]:
+        - listitem [ref=f1e423]:
+          - heading "100% genuine" [level=3] [ref=f1e428]
+          - paragraph [ref=f1e429]: Every item ships sealed from the brand or an authorised distributor, with a full manufacturer warranty.
+        - listitem [ref=f1e430]:
+          - heading "Free next-day delivery" [level=3] [ref=f1e437]
+          - paragraph [ref=f1e438]: Order before 8 pm and it lands tomorrow. Tracked end to end, with no minimum spend.
+        - listitem [ref=f1e439]:
+          - heading "2-year warranty" [level=3] [ref=f1e444]
+          - paragraph [ref=f1e445]: We double the standard cover on everything we sell. If it fails, we fix or replace it.
+        - listitem [ref=f1e446]:
+          - heading "30-day returns" [level=3] [ref=f1e451]
+          - paragraph [ref=f1e452]: Not for you? Send it back within 30 days for a full refund, no awkward questions.
+        - listitem [ref=f1e453]:
+          - heading "Real tech support" [level=3] [ref=f1e458]
+          - paragraph [ref=f1e459]: Talk to people who use the gear. Setup help and troubleshooting, seven days a week.
+        - listitem [ref=f1e460]:
+          - heading "Price match" [level=3] [ref=f1e467]
+          - paragraph [ref=f1e468]: Found it cheaper elsewhere? Show us and we will match it before you check out.
+      - generic [ref=f1e469]:
+        - generic [ref=f1e470]:
+          - term [ref=f1e471]: Happy customers
+          - definition [ref=f1e472]: 250K+
+        - generic [ref=f1e473]:
+          - term [ref=f1e474]: Average rating
+          - definition [ref=f1e475]: 4.8/5
+        - generic [ref=f1e476]:
+          - term [ref=f1e477]: Average dispatch
+          - definition [ref=f1e478]: 24h
+        - generic [ref=f1e479]:
+          - term [ref=f1e480]: Selling electronics
+          - definition [ref=f1e481]: 12 yrs
+    - generic [ref=f1e484]:
+      - generic [ref=f1e485]:
+        - generic [ref=f1e486]: Customer Reviews
+        - heading "Loved by creators, coaches and everyday users" [level=2] [ref=f1e489]
+        - paragraph [ref=f1e490]: Real reviews from people who bought, tried and kept their gear from Voltix.
+      - generic [ref=f1e492]:
+        - generic [ref=f1e493]:
+          - generic [ref=f1e494]: H
+          - generic [ref=f1e495]: Hollow Reed Audio
+        - generic [ref=f1e496]:
+          - generic [ref=f1e497]: "N"
+          - generic [ref=f1e498]: Northlight Studio
+        - generic [ref=f1e499]:
+          - generic [ref=f1e500]: P
+          - generic [ref=f1e501]: Paperplane Labs
+        - generic [ref=f1e502]:
+          - generic [ref=f1e503]: B
+          - generic [ref=f1e504]: Brewline Coffee
+        - generic [ref=f1e505]:
+          - generic [ref=f1e506]: S
+          - generic [ref=f1e507]: Stride Club
+        - generic [ref=f1e508]:
+          - generic [ref=f1e509]: H
+          - generic [ref=f1e510]: Hollow Reed Audio
+        - generic [ref=f1e511]:
+          - generic [ref=f1e512]: "N"
+          - generic [ref=f1e513]: Northlight Studio
+        - generic [ref=f1e514]:
+          - generic [ref=f1e515]: P
+          - generic [ref=f1e516]: Paperplane Labs
+        - generic [ref=f1e517]:
+          - generic [ref=f1e518]: B
+          - generic [ref=f1e519]: Brewline Coffee
+        - generic [ref=f1e520]:
+          - generic [ref=f1e521]: S
+          - generic [ref=f1e522]: Stride Club
+        - generic [ref=f1e523]:
+          - generic [ref=f1e524]: H
+          - generic [ref=f1e525]: Hollow Reed Audio
+        - generic [ref=f1e526]:
+          - generic [ref=f1e527]: "N"
+          - generic [ref=f1e528]: Northlight Studio
+        - generic [ref=f1e529]:
+          - generic [ref=f1e530]: P
+          - generic [ref=f1e531]: Paperplane Labs
+        - generic [ref=f1e532]:
+          - generic [ref=f1e533]: B
+          - generic [ref=f1e534]: Brewline Coffee
+        - generic [ref=f1e535]:
+          - generic [ref=f1e536]: S
+          - generic [ref=f1e537]: Stride Club
+        - generic [ref=f1e538]:
+          - generic [ref=f1e539]: H
+          - generic [ref=f1e540]: Hollow Reed Audio
+        - generic [ref=f1e541]:
+          - generic [ref=f1e542]: "N"
+          - generic [ref=f1e543]: Northlight Studio
+        - generic [ref=f1e544]:
+          - generic [ref=f1e545]: P
+          - generic [ref=f1e546]: Paperplane Labs
+        - generic [ref=f1e547]:
+          - generic [ref=f1e548]: B
+          - generic [ref=f1e549]: Brewline Coffee
+        - generic [ref=f1e550]:
+          - generic [ref=f1e551]: S
+          - generic [ref=f1e552]: Stride Club
+      - generic [ref=f1e553]:
+        - button "Go to slide 1" [ref=f1e554] [cursor=pointer]
+        - button "Go to slide 2" [ref=f1e555] [cursor=pointer]
+        - button "Go to slide 3" [ref=f1e556] [cursor=pointer]
+        - button "Go to slide 4" [ref=f1e557] [cursor=pointer]
+        - button "Go to slide 5" [ref=f1e558] [cursor=pointer]
+      - generic [ref=f1e559]:
+        - generic [ref=f1e561]:
+          - paragraph [ref=f1e562]:
+            - generic [ref=f1e563]:
+              - generic [ref=f1e564]:
+                - generic [ref=f1e565]: "\""
+                - generic [ref=f1e566]: T
+                - generic [ref=f1e567]: h
+                - generic [ref=f1e568]: e
+              - generic [ref=f1e569]:
+                - generic [ref=f1e570]: V
+                - generic [ref=f1e571]: o
+                - generic [ref=f1e572]: l
+                - generic [ref=f1e573]: t
+              - generic [ref=f1e574]:
+                - generic [ref=f1e575]: P
+                - generic [ref=f1e576]: r
+                - generic [ref=f1e577]: o
+              - generic [ref=f1e578]:
+                - generic [ref=f1e579]: X
+                - generic [ref=f1e580]: "1"
+              - generic [ref=f1e581]:
+                - generic [ref=f1e582]: h
+                - generic [ref=f1e583]: e
+                - generic [ref=f1e584]: a
+                - generic [ref=f1e585]: d
+                - generic [ref=f1e586]: p
+                - generic [ref=f1e587]: h
+                - generic [ref=f1e588]: o
+                - generic [ref=f1e589]: "n"
+                - generic [ref=f1e590]: e
+                - generic [ref=f1e591]: s
+              - generic [ref=f1e592]:
+                - generic [ref=f1e593]: a
+                - generic [ref=f1e594]: r
+                - generic [ref=f1e595]: e
+              - generic [ref=f1e596]:
+                - generic [ref=f1e597]: t
+                - generic [ref=f1e598]: h
+                - generic [ref=f1e599]: e
+              - generic [ref=f1e600]:
+                - generic [ref=f1e601]: b
+                - generic [ref=f1e602]: e
+                - generic [ref=f1e603]: s
+                - generic [ref=f1e604]: t
+              - generic [ref=f1e605]:
+                - generic [ref=f1e606]: "n"
+                - generic [ref=f1e607]: o
+                - generic [ref=f1e608]: i
+                - generic [ref=f1e609]: s
+                - generic [ref=f1e610]: e
+              - generic [ref=f1e611]:
+                - generic [ref=f1e612]: c
+                - generic [ref=f1e613]: a
+                - generic [ref=f1e614]: "n"
+                - generic [ref=f1e615]: c
+                - generic [ref=f1e616]: e
+                - generic [ref=f1e617]: l
+                - generic [ref=f1e618]: l
+                - generic [ref=f1e619]: i
+                - generic [ref=f1e620]: "n"
+                - generic [ref=f1e621]: g
+              - generic [ref=f1e622]: I
+              - generic [ref=f1e624]:
+                - generic [ref=f1e625]: h
+                - generic [ref=f1e626]: a
+                - generic [ref=f1e627]: v
+                - generic [ref=f1e628]: e
+              - generic [ref=f1e629]:
+                - generic [ref=f1e630]: u
+                - generic [ref=f1e631]: s
+                - generic [ref=f1e632]: e
+                - generic [ref=f1e633]: d
+              - generic [ref=f1e634]:
+                - generic [ref=f1e635]: o
+                - generic [ref=f1e636]: "n"
+              - generic [ref=f1e637]: a
+              - generic [ref=f1e639]:
+                - generic [ref=f1e640]: t
+                - generic [ref=f1e641]: r
+                - generic [ref=f1e642]: a
+                - generic [ref=f1e643]: i
+                - generic [ref=f1e644]: "n"
+                - generic [ref=f1e645]: .
+              - generic [ref=f1e646]:
+                - generic [ref=f1e647]: T
+                - generic [ref=f1e648]: h
+                - generic [ref=f1e649]: e
+                - generic [ref=f1e650]: "y"
+              - generic [ref=f1e651]:
+                - generic [ref=f1e652]: a
+                - generic [ref=f1e653]: r
+                - generic [ref=f1e654]: r
+                - generic [ref=f1e655]: i
+                - generic [ref=f1e656]: v
+                - generic [ref=f1e657]: e
+                - generic [ref=f1e658]: d
+              - generic [ref=f1e659]:
+                - generic [ref=f1e660]: t
+                - generic [ref=f1e661]: h
+                - generic [ref=f1e662]: e
+              - generic [ref=f1e663]:
+                - generic [ref=f1e664]: "n"
+                - generic [ref=f1e665]: e
+                - generic [ref=f1e666]: x
+                - generic [ref=f1e667]: t
+              - generic [ref=f1e668]:
+                - generic [ref=f1e669]: m
+                - generic [ref=f1e670]: o
+                - generic [ref=f1e671]: r
+                - generic [ref=f1e672]: "n"
+                - generic [ref=f1e673]: i
+                - generic [ref=f1e674]: "n"
+                - generic [ref=f1e675]: g
+              - generic [ref=f1e676]:
+                - generic [ref=f1e677]: a
+                - generic [ref=f1e678]: "n"
+                - generic [ref=f1e679]: d
+              - generic [ref=f1e680]:
+                - generic [ref=f1e681]: t
+                - generic [ref=f1e682]: h
+                - generic [ref=f1e683]: e
+              - generic [ref=f1e684]:
+                - generic [ref=f1e685]: s
+                - generic [ref=f1e686]: o
+                - generic [ref=f1e687]: u
+                - generic [ref=f1e688]: "n"
+                - generic [ref=f1e689]: d
+              - generic [ref=f1e690]:
+                - generic [ref=f1e691]: i
+                - generic [ref=f1e692]: s
+              - generic [ref=f1e693]:
+                - generic [ref=f1e694]: h
+                - generic [ref=f1e695]: o
+                - generic [ref=f1e696]: "n"
+                - generic [ref=f1e697]: e
+                - generic [ref=f1e698]: s
+                - generic [ref=f1e699]: t
+                - generic [ref=f1e700]: l
+                - generic [ref=f1e701]: "y"
+              - generic [ref=f1e702]:
+                - generic [ref=f1e703]: s
+                - generic [ref=f1e704]: t
+                - generic [ref=f1e705]: u
+                - generic [ref=f1e706]: d
+                - generic [ref=f1e707]: i
+                - generic [ref=f1e708]: o
+              - generic [ref=f1e709]:
+                - generic [ref=f1e710]: q
+                - generic [ref=f1e711]: u
+                - generic [ref=f1e712]: a
+                - generic [ref=f1e713]: l
+                - generic [ref=f1e714]: i
+                - generic [ref=f1e715]: t
+                - generic [ref=f1e716]: "y"
+                - generic [ref=f1e717]: .
+                - generic [ref=f1e718]: "\""
+          - generic [ref=f1e719]:
+            - heading "Maya Okafor" [level=3] [ref=f1e720]
+            - paragraph [ref=f1e721]: Podcast producer, Hollow Reed Audio
+        - img "Maya Okafor" [ref=f1e724]
+      - generic [ref=f1e725]:
+        - button "Previous review" [ref=f1e726] [cursor=pointer]
+        - button "Next review" [ref=f1e729] [cursor=pointer]
+  - contentinfo [ref=f1e732]:
+    - generic [ref=f1e733]:
+      - generic [ref=f1e734]:
+        - generic [ref=f1e735]:
+          - generic [ref=f1e736]:
+            - generic [ref=f1e747]:
+              - text: Voltix
+              - generic [ref=f1e748]: UI
+              - generic [ref=f1e749]: v1.0
+            - paragraph [ref=f1e750]: Genuine consumer electronics, fair prices and free next-day delivery.
+          - generic [ref=f1e751]:
+            - link "X" [ref=f1e752] [cursor=pointer]:
+              - /url: "#"
+            - link "Instagram" [ref=f1e755] [cursor=pointer]:
+              - /url: "#"
+            - link "YouTube" [ref=f1e758] [cursor=pointer]:
+              - /url: "#"
+            - link "Facebook" [ref=f1e761] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f1e764]:
+          - generic [ref=f1e765]:
+            - heading "Shop" [level=4] [ref=f1e766]
+            - list [ref=f1e767]:
+              - listitem [ref=f1e768]:
+                - link "Headphones" [ref=f1e769] [cursor=pointer]:
+                  - /url: /products/volt-pro-x1-headphones
+              - listitem [ref=f1e774]:
+                - link "Smartphones" [ref=f1e775] [cursor=pointer]:
+                  - /url: /products/nova-12-5g-smartphone
+              - listitem [ref=f1e780]:
+                - link "Laptops" [ref=f1e781] [cursor=pointer]:
+                  - /url: /products/aero-14-ultrabook
+              - listitem [ref=f1e786]:
+                - link "Wearables" [ref=f1e787] [cursor=pointer]:
+                  - /url: /products/pulse-watch-s2
+          - generic [ref=f1e792]:
+            - heading "Deals" [level=4] [ref=f1e793]
+            - list [ref=f1e794]:
+              - listitem [ref=f1e795]:
+                - link "Flash sale" [ref=f1e796] [cursor=pointer]:
+                  - /url: /#flash-sale
+              - listitem [ref=f1e801]:
+                - link "Featured picks" [ref=f1e802] [cursor=pointer]:
+                  - /url: /#featured
+              - listitem [ref=f1e807]:
+                - link "All categories" [ref=f1e808] [cursor=pointer]:
+                  - /url: /#categories
+              - listitem [ref=f1e813]:
+                - link "Price match" [ref=f1e814] [cursor=pointer]:
+                  - /url: /#why-voltix
+          - generic [ref=f1e819]:
+            - heading "Support" [level=4] [ref=f1e820]
+            - list [ref=f1e821]:
+              - listitem [ref=f1e822]:
+                - link "Delivery & returns" [ref=f1e823] [cursor=pointer]:
+                  - /url: /#why-voltix
+              - listitem [ref=f1e828]:
+                - link "Warranty" [ref=f1e829] [cursor=pointer]:
+                  - /url: /#why-voltix
+              - listitem [ref=f1e834]:
+                - link "Track an order" [ref=f1e835] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f1e840]:
+                - link "Contact us" [ref=f1e841] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f1e846]:
+            - heading "Company" [level=4] [ref=f1e847]
+            - list [ref=f1e848]:
+              - listitem [ref=f1e849]:
+                - link "About Voltix" [ref=f1e850] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f1e855]:
+                - link "Customer reviews" [ref=f1e856] [cursor=pointer]:
+                  - /url: /#reviews
+              - listitem [ref=f1e861]:
+                - link "Careers" [ref=f1e862] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f1e867]:
+                - link "Privacy policy" [ref=f1e868] [cursor=pointer]:
+                  - /url: "#"
+      - generic [ref=f1e873]:
+        - generic [ref=f1e874]: © 2026 Voltix Electronics. All rights reserved.
+        - generic [ref=f1e875]: Free next-day delivery · 2-year warranty
